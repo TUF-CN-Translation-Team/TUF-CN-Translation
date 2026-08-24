@@ -88,8 +88,7 @@
       "playerRequired": "请选择有效玩家",
       "updateFailed": "更新成绩失败",
       "deleteFailed": "删除失败",
-      "restoreFailed": "恢复失败",
-      "commenttest": "这是一个测试"
+      "restoreFailed": "恢复失败"
     }
   },
   "imageSelector": {
