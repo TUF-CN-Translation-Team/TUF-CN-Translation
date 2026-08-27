@@ -89,5 +89,100 @@
     "bodyWithAuto": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
     "reviewInputs": "取消",
     "submitAnyway": "仍然提交"
+  },
+  "calculator": {
+	"title": "分数计算器",
+    "thumbnailInfo": "计算器模式——无需视频",
+    "meta": {
+      "title": "分数计算器"
+    },
+	"modeSubmit": "提交",
+    "modeCalculator": "计算器",
+    "openCalculator": "打开分数计算器",
+    "backToSubmit": "回到提交页面",
+    "calculate": "开始计算",
+    "calculating": "计算中……",
+    "copyLink": "复制链接",
+    "linkCopied": "计算器链接已复制",
+	"hubLink": "分数计算器",
+	"loadPass": {
+		"title": "加载通关记录",
+		"placeholder": "搜索通关记录或输入ID",
+		"import": "导入",
+		"loaded": "通关记录已加载到表单中",
+		"failed": "加载通关记录失败",
+		"fetching": "获取中……",
+		"notFound": "未找到关过记录",
+		"previewEmpty": "通关记录预览会显示在此处",
+		"unknownLevel": "未知关卡",
+		"unknownPlayer": "未知玩家"
+	  },
+	"targetScore": "目标分数（反向）",
+    "compareInputs": {
+      "title": "比较结果",
+      "hint": "在下面填写判定，然后计算。",
+      "importJudgements": "导入判定"
+    },
+    "score": {
+      "needLevelOrSandbox": "输入关卡ID或沙盒中的底分。"
+    },
+    "panels": {
+      "primary": "原始分数",
+      "missBudget": "允许失误次数",
+      "speedGrid": "飙速 × 精准度",
+	  "inverse": "反向（目标分数）",
+      "compare": "比较",
+      "reclear": "重通关检查",
+      "ranked": "排名影响"
+    },
+    "labels": {
+      "score": "分数",
+      "accuracy": "精准度",
+      "base": "底分",
+      "xaccMtp": "X-精准度 ×",
+      "speedMtp": "飙速 ×",
+      "missMtp": "空敲 ×",
+      "noHold": "非默认长按设置",
+      "misses": "空敲数",
+      "speed": "飙速"
+    },
+	"speedGrid": {
+		"legendNonPp": "非完美无瑕",
+		"legendPp": "完美无瑕"
+	},
+	"inverse": {
+		"hint": "在侧边栏设置一个目标分数，然后点击计算。",
+		"unreachable": "目标分数可能高于此设置下的最大分数。"
+	  },
+	  "compare": {
+		"hint": "在侧边栏中输入第二组判定，然后点击计算。",
+		"primary": "当前分数",
+		"secondary": "比较分数",
+		"delta": "差值"
+	  },
+	  "reclear": {
+		"needPlayer": "选择一名玩家并点击计算，以对比其在该关卡的最佳成绩。",
+		"noPrior": "该玩家在此关卡无先前通关记录。",
+		"best": "当前最佳",
+		"status": "状态",
+		"beats": "超过最佳成绩",
+		"equal": "与最佳成绩相等",
+		"worse": "没有超过最佳成绩"
+	  },
+	  "placement": {
+		"needLevel": "选择一个真实关卡（无评分覆盖）并计算。",
+		"customScoring": "使用自定义评分覆盖时无法显示排名。",
+		"rankOf": "#{{rank}} / {{total}}",
+		"tied": "{{count}} 名玩家在此分数并列"
+	  },
+	  "ranked": {
+		"needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/PP分影响。",
+		"before": "先前排位分",
+		"after": "新排位分",
+		"delta": "分数变化",
+		"generalDelta": "全局分变化",
+		"ppDelta": "PP分 变化",
+		"slot": "前20名中的位置"
+	  }
   }
 }
