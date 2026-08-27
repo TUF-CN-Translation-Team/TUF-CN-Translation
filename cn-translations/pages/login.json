@@ -14,7 +14,8 @@
     "buttons": {
       "login": "登录",
       "loggingIn": "登录中……",
-      "discordLogin": "使用Discord账号登录"
+      "discordLogin": "使用Discord账号登录",
+      "googleLogin": "使用 Google 账号登录"
     },
     "divider": "或者",
     "links": {
@@ -51,6 +52,7 @@
     "emailNotVerified": "登录前请验证邮箱。",
     "rateLimit": "请求过多。请稍后重试",
     "discordFailed": "无法启动 Discord 登录。请重试。如果问题仍然存在，请联系管理员。",
+    "googleFailed": "无法启动 Google 登录。请重试。如果问题仍然存在，请联系管理员。",
     "captcha": {
       "notLoaded": "reCAPTCHA 未加载",
       "incomplete": "请完成 reCAPTCHA 验证",

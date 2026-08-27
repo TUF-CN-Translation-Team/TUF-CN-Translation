@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "我的提交",
+    "description": "查看你的通关和谱面提交"
+  },
+  "title": "我的提交",
+  "search": {
+    "placeholder": "按歌曲、艺术家、谱师、通关者或视频链接搜索"
+  },
+  "filters": {
+    "type": "类型",
+    "status": "状态",
+    "sort": "排序"
+  },
+  "types": {
+    "all": "全部类型",
+    "pass": "通关",
+    "level": "谱面"
+  },
+  "status": {
+    "all": "全部状态",
+    "pending": "待审核",
+    "approved": "已通过",
+    "declined": "已拒绝"
+  },
+  "sort": {
+    "dateDesc": "最新优先",
+    "dateAsc": "最早优先",
+    "status": "状态",
+    "type": "类型"
+  },
+  "row": {
+    "openLevel": "打开关卡",
+    "watchVideo": "视频",
+    "score": "分数 {{value}}",
+    "accuracy": "{{value}}",
+    "speed": "{{value}}×",
+    "charter": "谱师 {{name}}",
+    "requestedDiff": "申请难度 {{diff}}"
+  },
+  "pagination": {
+    "prev": "上一页",
+    "next": "下一页",
+    "page": "第 {{page}} / {{totalPages}} 页",
+    "total_one": "{{count}} 条提交",
+    "total_other": "{{count}} 条提交"
+  },
+  "empty": "未找到提交记录。",
+  "loading": "正在加载提交记录…",
+  "error": "无法加载提交记录，请重试。"
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "资料",
+    "description": "TUF 团队整理的实用指南、文档和 Notion 页面"
+  },
+  "title": "资料",
+  "subtitle": "TUF 团队整理的指南、文档和 Notion 页面。",
+  "empty": "目前还没有已发布的资料。",
+  "open": "打开",
+  "ungrouped": "未分组",
+  "errors": {
+    "loadFailed": "无法加载资料，请稍后再试。"
+  },
+  "admin": {
+    "manage": "管理链接",
+    "hidden": "已隐藏"
+  },
+  "tabs": {
+    "links": "链接",
+    "groups": "分组"
+  },
+  "loading": {
+    "reorderingLinks": "正在保存链接顺序…",
+    "reorderingGroups": "正在保存分组顺序…"
+  },
+  "links": {
+    "createButton": "创建链接",
+    "noLinks": "还没有链接。创建第一个链接吧！",
+    "ungrouped": "未分组",
+    "linkCount": "{{count}} 个链接",
+    "fields": {
+      "title": "标题",
+      "url": "网址",
+      "urlPlaceholder": "https://www.notion.so/…",
+      "description": "描述",
+      "published": "在此页面显示",
+      "group": {
+        "label": "分组（可选）",
+        "placeholder": "输入分组名称"
+      }
+    },
+    "create": {
+      "title": "创建链接",
+      "createButton": "创建"
+    },
+    "edit": {
+      "title": "编辑链接",
+      "updateButton": "更新"
+    },
+    "delete": {
+      "title": "删除链接",
+      "message": "确定要删除链接“{{name}}”吗？",
+      "description": "此操作无法撤销。",
+      "deleteButton": "删除"
+    },
+    "notifications": {
+      "created": "已创建链接",
+      "createFailed": "无法创建链接",
+      "updated": "已更新链接",
+      "updateFailed": "无法更新链接",
+      "deleted": "已删除链接",
+      "deleteFailed": "无法删除链接",
+      "reordered": "链接顺序已保存",
+      "reorderFailed": "无法保存链接顺序"
+    }
+  },
+  "groups": {
+    "createButton": "创建分组",
+    "noGroups": "还没有分组。请创建一个，或在创建链接时填写分组名称。",
+    "create": {
+      "title": "创建分组",
+      "name": "名称",
+      "createButton": "创建"
+    },
+    "edit": {
+      "title": "编辑分组",
+      "name": "名称",
+      "updateButton": "更新"
+    },
+    "delete": {
+      "title": "删除分组",
+      "message": "确定要删除分组“{{name}}”吗？",
+      "description": "该分组中的链接将变为未分组。此操作无法撤销。",
+      "deleteButton": "删除"
+    },
+    "notifications": {
+      "reordered": "分组顺序已保存",
+      "reorderFailed": "无法保存分组顺序",
+      "created": "已创建分组",
+      "createFailed": "无法创建分组",
+      "updated": "已更新分组",
+      "updateFailed": "无法更新分组",
+      "deleted": "已删除分组",
+      "deleteFailed": "无法删除分组"
+    }
+  }
+}

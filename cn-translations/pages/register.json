@@ -50,11 +50,15 @@
     "rateLimit": "新账户创建过多。IP 暂时封禁。",
     "timeRemaining": "剩余时间：{{time}}",
     "generic": "注册失败。请重试。",
-    "discordFailed": "连接Discord失败"
+    "discordFailed": "连接Discord失败",
+    "googleFailed": "连接 Google 失败"
   },
   "divider": "或者",
   "discord": {
     "register": "使用Discord账户注册"
+  },
+  "google": {
+    "register": "使用 Google 账户注册"
   },
   "login": {
     "link": "已有账户？登录"

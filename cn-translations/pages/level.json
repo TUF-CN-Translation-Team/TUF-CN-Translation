@@ -50,8 +50,7 @@
     "specialDifficulties": "特殊难度",
     "curationTypes": "精选关卡类型",
     "tags": "标签",
-    "myLikes": "我的收藏",
-    "showDownloadedOnly": "仅显示已下载"
+    "myLikes": "我的收藏"
   },
   "totalResults": "共 {{count}} 个结果",
   "infScroll": {

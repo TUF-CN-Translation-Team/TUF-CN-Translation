@@ -23,9 +23,12 @@
     },
     "fourVote": {
       "label": "4+ 评级"
+    },
+    "rankReady": {
+      "label": "待定级"
     }
   },
-    "sort": {
+  "sort": {
     "byId": "关卡 ID",
     "byRatings": "评级数",
     "byRatingsFull": "按评级数排序",
@@ -52,6 +55,21 @@
     "noRatings": {
       "title": "没有需要评级的关卡",
       "subtitle": "已全部评完！"
+    }
+  },
+  "rankReady": {
+    "view": "查看",
+    "settledWhileEditing": "另一位管理员刚刚结算了该关卡，你可以继续编辑或安全退出。",
+    "columns": {
+      "name": "名称",
+      "managerAvg": "管理员均值",
+      "communityAvg": "社区均值",
+      "mgrCom": "管/社",
+      "autorater": "自动评级"
+    },
+    "empty": {
+      "title": "没有待定级关卡",
+      "subtitle": "没有 2+ 管理员票且 0 通关的关卡。"
     }
   },
   "infiniteScroll": {

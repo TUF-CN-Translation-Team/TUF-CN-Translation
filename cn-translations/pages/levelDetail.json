@@ -24,7 +24,9 @@
   },
   "tooltips": {
     "loginRequired": "登录以收藏此关卡",
-    "editDisabled": "此关卡有超过两个采音师。如果你认为自己应该是所有者，请联系管理员。"
+    "editDisabled": "此关卡有超过两个采音师。如果你认为自己应该是所有者，请联系管理员。",
+    "muteChartClears": "关闭此谱面的通关通知",
+    "unmuteChartClears": "开启此谱面的通关通知"
   },
   "links": {
     "download": "下载关卡",
@@ -70,7 +72,8 @@
     "creator": "创作者",
     "roles": {
       "charter": "采音师",
-      "vfxer": "特效师"
+      "vfxer": "特效师",
+      "specialThanks": "特别感谢"
     },
     "difficulty": "等级",
     "baseScore": "基础分数",
@@ -151,7 +154,18 @@
     "noDetails": "未填写额外信息。"
   },
   "tags": {
-    "header": "关卡标签"
+    "header": "关卡标签",
+    "vote": {
+      "header": "社区标签",
+      "open": "投票",
+      "vote": "为该标签投票",
+      "unvote": "取消投票",
+      "voted": "已为 {{tag}} 投票",
+      "unvoted": "已取消对 {{tag}} 的投票",
+      "failed": "更新投票失败",
+      "loginRequired": "登录后才能为社区标签投票",
+      "banned": "你已被禁止为社区标签投票"
+    }
   },
   "weeklyAppearance": {
     "header": "周常展示",
@@ -168,5 +182,8 @@
   },
   "tournamentAppearance": {
     "header": "赛事收录"
+  },
+  "linkedLevels": {
+    "header": "关联关卡"
   }
 }

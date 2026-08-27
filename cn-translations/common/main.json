@@ -55,6 +55,10 @@
   "confirmations": {
     "unsavedChanges": "您有未保存的更改。确定要离开吗？"
   },
+  "adminReasonPrompt": {
+    "reason": "原因（可选）",
+    "placeholder": "说明此决定…"
+  },
   "promote": "升职",
   "demote": "降职",
   "promoteTo": "升职至 {{role}}",

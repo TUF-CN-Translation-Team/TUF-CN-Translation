@@ -107,6 +107,8 @@
     "providerId": "Discord 用户 ID：{{id}}",
     "providerIdHint": "这是你的 Discord 用户在 Discord 系统中的数字 ID",
     "linkDiscord": "绑定 Discord 账户",
+    "google": "Google",
+    "linkGoogle": "绑定 Google 账户",
     "unlink": "解绑",
     "cannotUnlinkLastProvider": "无法在没有密码的情况下解绑最后一个绑定账户"
   },
