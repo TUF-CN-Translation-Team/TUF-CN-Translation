@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "通知",
+    "description": "你的 TUF 收件箱"
+  },
+  "title": "通知",
+  "subtitle": "你的提交和账户信息的更新。",
+  "empty": "暂无通知。",
+  "nudgeBody": "即使 TUF 在另一标签页也能得到通知。",
+  "nudgeEnable": "开启",
+  "nudgeDismiss": "以后再说",
+  "loading": "加载中……",
+  "markAllRead": "全部标记已读",
+  "seeAll": "查看所有通知",
+  "loadMore": "加载更多",
+  "unread_one": "{{count}} 条未读",
+  "unread_other": "{{count}} 条未读",
+  "bellAria": "通知，{{count}} 条未读",
+  "settingsAria": "通知设置",
+  "menuAria": "操作",
+  "hide": "隐藏此通知",
+  "disableType": "关闭 \"{{title}}\" 通知",
+  "untitledLevel": "关卡ID #{{levelId}}",
+  "unknownArtist": "未知艺术家",
+  "unknown": {
+    "title": "新通知",
+    "body": ""
+  },
+  "visibility": {
+    "public": "公开",
+    "hidden": "隐藏"
+  },
+  "reason": "原因：{{reason}}",
+  "types": {
+    "pass": {
+      "submission": {
+        "submitted": {
+          "title": "通关记录已提交",
+          "body": "你的通关记录 {{artist}} - {{song}} 已提交。"
+        },
+        "approved": {
+          "title": "通关记录已通过",
+          "body": "你的通关记录 {{artist}} - {{song}} 已通过审核。"
+        },
+        "declined": {
+          "title": "通关记录已拒绝",
+          "body": "你的通关记录 {{artist}} - {{song}} 已被拒绝。"
+        }
+      },
+      "modified": {
+        "title": "通关记录已更新",
+        "body": "你的通关记录 {{artist}} - {{song}} 已更新。"
+      },
+      "deleted": {
+        "title": "通关记录已删除",
+        "body": "你的通关记录 {{artist}} - {{song}} 已被删除。"
+      },
+      "restored": {
+        "title": "通关记录已恢复",
+        "body": "你的通关记录 {{artist}} - {{song}} 已恢复。"
+      }
+    },
+    "chart": {
+      "submission": {
+        "submitted": {
+          "title": "关卡已提交",
+          "body": "你的关卡 {{artist}} - {{song}} 已提交。"
+        },
+        "approved": {
+          "title": "关卡已通过",
+          "body": "你的关卡 {{artist}} - {{song}} 已通过审核。"
+        },
+        "declined": {
+          "title": "关卡已拒绝",
+          "body": "你的关卡 {{artist}} - {{song}} 已被拒绝。"
+        }
+      },
+      "deleted": {
+        "title": "关卡已删除",
+        "body": "你的关卡 {{artist}} - {{song}} 已被删除。"
+      },
+      "restored": {
+        "title": "关卡已恢复",
+        "body": "你的关卡 {{artist}} - {{song}} 已恢复。"
+      },
+      "visibility": {
+        "changed": {
+          "title": "关卡可见性更改",
+          "body": "你的关卡 {{artist}} - {{song}} 可见性已被设为 “{{visibility}}”。"
+        }
+      },
+      "modified": {
+        "title": "关卡已更新",
+        "body": "你的关卡 {{artist}} - {{song}} 已更新。"
+      },
+      "curated": {
+        "title": "关卡被精选",
+        "body": "你的关卡 {{artist}} - {{song}} 已被精选。"
+      },
+      "curation": {
+        "removed": {
+          "title": "关卡取消精选",
+          "body": "你的关卡 {{artist}} - {{song}} 已被取消精选。"
+        }
+      },
+      "weekly": {
+        "selected": {
+          "title": "关卡入选每周精选关卡",
+          "body": "你的关卡 {{artist}} - {{song}} 已入选每周精选关卡。"
+        }
+      },
+      "cleared": {
+        "title": "你的关卡已被通过",
+        "body": "{{playerName}} 通过了关卡 {{artist}} - {{song}}。"
+      }
+    },
+    "following": {
+      "player": {
+        "pass": {
+          "title": "新通关记录",
+          "body": "{{playerName}} 通过了关卡 {{artist}} - {{song}}。"
+        }
+      },
+      "creator": {
+        "level": {
+          "title": "新关卡",
+          "body": "{{creatorName}} 上传了关卡 {{artist}} - {{song}}。"
+        }
+      }
+    }
+  }
+}
