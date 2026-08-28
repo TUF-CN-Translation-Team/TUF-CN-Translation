@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "CSS Preview",
+    "description": "Preview and edit custom CSS for curated levels"
+  },
+  "loading": "Loading preview...",
+  "editor": {
+    "title": "CSS Editor",
+    "subtitle": "Edit custom CSS for this curated level",
+    "cssLabel": "Custom CSS",
+    "placeholder": "Enter your custom CSS here...",
+    "help": "Write CSS rules to customize the appearance of this curated level.",
+    "expand": "Expand Editor",
+    "collapse": "Collapse Editor"
+  },
+  "confirmations": {
+    "reset": "Discard all changes and reset to saved CSS?"
+  },
+  "notifications": {
+    "saved": "CSS changes saved successfully",
+    "reset": "Changes reset to saved version"
+  },
+  "errors": {
+    "saveFailed": "Failed to save CSS changes"
+  }
+}

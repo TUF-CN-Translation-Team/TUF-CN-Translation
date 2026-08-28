@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "My Submissions",
+    "description": "Review your pass and chart submissions"
+  },
+  "title": "My Submissions",
+  "search": {
+    "placeholder": "Search by song, artist, charter, passer, or video link"
+  },
+  "filters": {
+    "type": "Type",
+    "status": "Status",
+    "sort": "Sort"
+  },
+  "types": {
+    "all": "All types",
+    "pass": "Pass",
+    "level": "Chart"
+  },
+  "status": {
+    "all": "All statuses",
+    "pending": "Pending",
+    "approved": "Approved",
+    "declined": "Declined"
+  },
+  "sort": {
+    "dateDesc": "Newest first",
+    "dateAsc": "Oldest first",
+    "status": "Status",
+    "type": "Type"
+  },
+  "row": {
+    "openLevel": "Open level",
+    "watchVideo": "Video",
+    "score": "Score {{value}}",
+    "accuracy": "{{value}}",
+    "speed": "{{value}}×",
+    "charter": "Charter {{name}}",
+    "requestedDiff": "Requested {{diff}}"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{page}} of {{totalPages}}",
+    "total_one": "{{count}} submission",
+    "total_other": "{{count}} submissions"
+  },
+  "empty": "No submissions found.",
+  "loading": "Loading submissions…",
+  "error": "Couldn't load your submissions. Try again."
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Pass List",
+    "description": "Browse and discover player achievements"
+  },
+  "loading": {
+    "difficulties": "Loading difficulties..."
+  },
+  "input": {
+    "placeholder": "Search by player name, song, or artist..."
+  },
+  "toolTip": {
+    "filter": "Filter results",
+    "sort": "Sort results",
+    "reset": "Reset all filters",
+    "search": "Learn how to use advanced search",
+    "orderAsc": "Ascending",
+    "orderDesc": "Descending",
+    "stateDisplay": "Display options"
+  },
+  "buttons": {
+    "searchHelp": "Search Help"
+  },
+  "settings": {
+    "filter": {
+      "title": "Filter Settings",
+      "options": {
+        "only12k": "Only 12K",
+        "deletedPasses": "Deleted Passes",
+        "keyFlags": "Key Count",
+        "wfFilter": "WF Filter"
+      }
+    },
+    "sort": {
+      "title": "Sort Settings",
+      "header": "Sort Passes By...",
+      "order": "Sort Order",
+      "options": {
+        "date": "Date",
+        "score": "Score",
+        "accuracy": "Accuracy",
+        "difficulty": "Difficulty",
+        "speed": "Speed",
+        "keyCount": "Key Count",
+        "random": "Random"
+      }
+    },
+    "stateDisplay": {
+      "title": "Display Options"
+    }
+  },
+  "totalResults": "{{count}} Total Results",
+  "infScroll": {
+    "end": "End of list"
+  }
+} 

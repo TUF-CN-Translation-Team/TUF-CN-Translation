@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Leaderboard",
+    "description": "View top players and rankings"
+  },
+  "input": {
+    "placeholder": "Search by player name..."
+  },
+  "tooltips": {
+    "filter": "Filter results",
+    "sort": "Sort results",
+    "reset": "Reset all filters",
+    "recentAsc": "Sort ascending",
+    "recentDesc": "Sort descending"
+  },
+  "settings": {
+    "filter": {
+      "header": "Filter Settings",
+      "country": "Country or Region",
+      "addStatFilters": "Add Stat Filters",
+      "selectStatPlaceholder": "Select stat to filter...",
+      "addFilterButton": "Add Filter",
+      "min": "Min",
+      "max": "Max"
+    },
+    "sort": {
+      "header": "Sort Settings",
+      "sortOrder": "Sort Order",
+      "sortBy": "Sort by"
+    }
+  },
+  "playerFlagFilter": {
+    "fields": {
+      "isBanned": "Banned Players",
+      "isSubmissionsPaused": "Submission Paused",
+      "isRatingBanned": "Rating Banned"
+    }
+  },
+  "sortOptions": {
+    "rankedScore": "Ranked Score",
+    "totalScoreV2": "Total Score",
+    "generalScore": "General Score",
+    "ppScore": "PP Score",
+    "wfScore": "WF Score",
+    "wfPPScore": "WF PP Score",
+    "score12K": "12K Score",
+    "averageXacc": "Average X-acc",
+    "totalPasses": "Total Passes",
+    "universalPassCount": "Universal Passes",
+    "worldsFirstCount": "WF Passes",
+    "worldsFirstPPCount": "WF PP Passes",
+    "topDiff": "Top Difficulty",
+    "top12kDiff": "Top 12K Difficulty"
+  },
+  "infiniteScroll": {
+    "end": "You've reached the end!"
+  },
+  "past": {
+    "button": "See the past",
+    "backToPresent": "Back to present",
+    "title": "Leaderboard history",
+    "metricRanked": "Ranked Score Rank",
+    "metricGeneral": "General Score Rank",
+    "timelineLabel": "History timeline",
+    "noData": "No historical leaderboard data for this date.",
+    "metaTitle": "Leaderboard — {{date}}",
+    "metaDescription": "Leaderboard rankings as of {{date}}",
+    "date": {
+      "year": "Year",
+      "month": "Month",
+      "day": "Day"
+    },
+    "months": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "monthsShort": {
+      "1": "Jan",
+      "2": "Feb",
+      "3": "Mar",
+      "4": "Apr",
+      "5": "May",
+      "6": "Jun",
+      "7": "Jul",
+      "8": "Aug",
+      "9": "Sep",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
+    }
+  }
+} 

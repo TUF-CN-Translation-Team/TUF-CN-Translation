@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Creators",
+    "description": "Browse chart creators, charters, and VFXers"
+  },
+  "input": {
+    "placeholder": "Search by creator name..."
+  },
+  "buttons": {
+    "searchHelp": "Search Help"
+  },
+  "tooltips": {
+    "searchHelp": "Learn how to search creators and filter by curation types",
+    "filter": "Filter results",
+    "sort": "Sort results",
+    "reset": "Reset all filters",
+    "recentAsc": "Sort ascending",
+    "recentDesc": "Sort descending"
+  },
+  "settings": {
+    "filter": {
+      "header": "Filters"
+    },
+    "sort": {
+      "header": "Sort Settings",
+      "sortOrder": "Sort Order",
+      "sortBy": "Sort by"
+    },
+    "verificationFilter": {
+      "label": "Verification status",
+      "all": "All statuses"
+    },
+    "curationTypes": {
+      "label": "Curation Types"
+    }
+  },
+  "sortOptions": {
+    "name": "Name",
+    "chartsTotal": "Total Levels",
+    "chartsCharted": "Levels Charted",
+    "chartsVfxed": "Levels VFX'd",
+    "chartsTeamed": "Levels as a team member",
+    "totalChartClears": "Total Level Clears",
+    "totalChartLikes": "Total Level Likes"
+  },
+  "infiniteScroll": {
+    "end": "You've reached the end!"
+  },
+  "list": {
+    "empty": "No creators found."
+  },
+  "card": {
+    "verified": "Verified",
+    "chartsTotal": "{{count}} levels",
+    "noUser": "No linked account",
+    "curationBadgesAria": "Curation type summary"
+  },
+  "verificationStatus": {
+    "help": {
+      "declined": "The creator has declined to have their charts featured on the forum.",
+      "pending": "Waiting on confirmation from the creator. Default state for newly added creators.",
+      "conditional": "The creator has accepted under specific conditions. Coordinate before any submissions are added.",
+      "allowed": "The creator has agreed to have their charts featured on the forum."
+    }
+  },
+  "profile": {
+    "meta": {
+      "title": "{{name}} - Creator Profile",
+      "description": "Charts and stats for {{name}} — {{count}} levels on The Universal Forums"
+    },
+    "notFound": "Creator not found",
+    "verified": "Verified",
+    "manageButton": "Manage creator",
+    "stats": {
+      "header": "Creator Stats",
+      "chartsCharted": "Levels Charted",
+      "chartsVfxed": "Levels VFX'd",
+      "chartsTeamed": "Levels as a team member",
+      "curatedLevels": "Total curated levels",
+      "chartsTotal": "Total Levels",
+      "totalChartClears": "Total Level Clears",
+      "totalChartLikes": "Total Level Likes"
+    },
+    "bio": {
+      "header": "Bio",
+      "placeholder": "This creator hasn't written a bio yet."
+    },
+    "uploadConditions": {
+      "tooltipAria": "View chart upload conditions"
+    },
+    "curationPanel": {
+      "expandAria": "Show all curation types and level counts",
+      "collapseAria": "Hide curation types list",
+      "dialogLabel": "Curation types on credited levels"
+    },
+    "levels": {
+      "header": "Charts",
+      "empty": "No charts found for this creator yet.",
+      "searchPlaceholder": "Search this creator's charts...",
+      "expand": "Expand levels",
+      "collapse": "Collapse levels",
+      "exportAs": "Export as",
+      "exportDisabled": "No charts match the current filters.",
+      "export": {
+        "title": "Export {{contextName}}",
+        "defaultContextName": "Charts",
+        "description": "Download a spreadsheet of all charts matching the current filters for {{contextName}}.",
+        "export": "Export",
+        "exporting": "Exporting…",
+        "unavailable": "Unavailable",
+        "progress": "Collected {{fetched}} of {{total}}…",
+        "errors": {
+          "exportFailed": "Failed to export charts. Please try again."
+        }
+      }
+    },
+    "sections": {
+      "difficultyBreakdown": {
+        "title": "Levels by difficulty",
+        "expand": "Expand difficulty breakdown",
+        "collapse": "Collapse difficulty breakdown"
+      }
+    },
+    "funFacts": {
+      "expandAria": "Show all statistics",
+      "collapseAria": "Hide detailed statistics",
+      "groups": {
+        "identity": "Identity",
+        "credits": "Credits",
+        "content": "Chart content",
+        "audience": "Audience",
+        "curation": "Curation & rerates",
+        "timeline": "Timeline",
+        "breakdownByType": "Levels by difficulty type"
+      },
+      "identity": {
+        "aliasCount": "Aliases",
+        "teamsJoined": "Teams joined"
+      },
+      "credits": {
+        "levelsAsCharter": "Levels as charter",
+        "levelsAsVfxer": "Levels as VFX"
+      },
+      "content": {
+        "totalTilesMade": "Tiles placed",
+        "totalLevelDurationMs": "Total chart duration",
+        "averageTilecount": "Avg tilecount",
+        "averageLevelLengthMs": "Avg level length",
+        "averageBpm": "Avg BPM",
+        "totalClearsOnLevels": "Total clears on charts",
+        "totalLikesOnLevels": "Total likes on charts",
+        "totalDownloadsOnLevels": "Total downloads on charts"
+      },
+      "audience": {
+        "uniquePlayersCleared": "Unique players who cleared",
+        "worldsFirstsOnLevels": "WF's on charts",
+        "worldsFirstPPsOnLevels": "WF PP's on charts",
+        "totalTilesPlayedOnLevels": "Total tiles hit"
+      },
+      "timeline": {
+        "firstLevelAt": "First chart",
+        "latestLevelAt": "Latest chart"
+      },
+      "difficultyType": {
+        "PLANETARY": "Planetary",
+        "GALACTIC": "Galactic",
+        "UNIVERSAL": "Universal",
+        "SPECIAL": "Special",
+        "PGU": "PGU",
+        "LEGACY": "Legacy",
+        "UNKNOWN": "Other"
+      }
+    }
+  }
+}

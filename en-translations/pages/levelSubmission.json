@@ -1,0 +1,115 @@
+{
+  "title": "Submit a Level",
+  "thumbnailInfo": "Video information will appear here",
+  "submInfo": {
+    "song": "Song",
+    "suffix": "Suffix (optional)",
+    "artist": "Artist",
+    "videoLink": "Video Link",
+    "charter": "Charter",
+    "diff": "Difficulty",
+    "vfxer": "VFX-ers (optional)",
+    "team": "Team Name (optional)",
+    "dlLink": "Download link",
+    "workshop": "Workshop link",
+    "dlLinksOr": "or",
+    "charters": "Charters",
+    "vfxers": "VFX-ers",
+    "specialThanks": "Special Thanks (optional)",
+    "artists": "Artists",
+    "levelZip": "Level Zip",
+    "evidence": "Evidence",
+    "evidenceForSong": "Evidence for Song",
+    "evidenceForArtist": "Evidence for Artist",
+    "notes": "Notes"
+  },
+  "videoInfo": {
+    "title": "Video title",
+    "channel": "Channel name",
+    "timestamp": "Upload Time",
+    "nolink": "No link provided",
+    "resolving": "Resolving video link…",
+    "linkResolved": "Short link resolved to Bilibili URL"
+  },
+  "tooltip": "Unknown difficulty, will submit but please make sure it's readable by the managers. Correct diff ex.: G13; P7~P13; 21.1+; 19~20.0+",
+  "suffixTooltip": "This will be put after the song name, for example, \"<bold>Nerfed</bold>\" here will result in \"Song Name <bold>Nerfed</bold>\"",
+  "buttons": {
+    "addCharter": "Add Charter",
+    "addVfxer": "Add VFX-er",
+    "addSpecialThanks": "Add Special Thanks",
+    "addArtist": "Add Artist",
+    "removeCreator": "Remove",
+    "uploadZip": "Upload Zip",
+    "orDragDrop": "or drag and drop here",
+    "dropHere": "Drop file here!",
+    "uploadEvidence": "Upload Evidence Images",
+    "submit": "Submit",
+    "submitWait": "..."
+  },
+  "alert": {
+    "success": "Level submitted successfully!",
+    "error": "Error: ",
+    "loading": "Submitting...",
+    "login": "Please log in to submit a level",
+    "form": "Please fill in all required fields correctly",
+    "more": "+ {{count}} more",
+    "invalidZip": "Please upload a valid zip file",
+    "invalidZipSize": "Zip file size is too large (max {{maxSize}} MB)",
+    "maxEvidenceFiles": "Maximum 10 evidence images allowed",
+    "evidenceRequired": "Evidence is required for new song/artist requests",
+    "evidenceFileTooLarge": "Each evidence image must be under {{maxMb}} MB"
+  },
+  "fieldShort": {
+    "song": "Song",
+    "artist": "Artist",
+    "diff": "Difficulty",
+    "videoLink": "Video link",
+    "charter": "Charter",
+    "directLink": "Download/Workshop/Zip",
+    "evidence": "Evidence"
+  },
+  "warnings": {
+    "pendingProfiles": "The following profiles will be created:"
+  },
+  "roles": {
+    "charters": "Charters",
+    "vfxers": "VFX-ers",
+    "specialThanks": "Special Thanks",
+    "teams": "Teams"
+  },
+  "badges": {
+    "newProfile": "New Profile"
+  },
+  "validation": {
+    "required": "Required",
+    "invalidDifficulty": "Invalid difficulty format",
+    "needDownloadLink": "Please provide either a download link or workshop link",
+    "needCharter": "At least one charter is required"
+  },
+  "placeholders": {
+    "searchCreator": "Search for a creator...",
+    "searchTeam": "Search for a team...",
+    "newCreator": "Enter new creator name",
+    "newTeam": "Enter new team name",
+    "notes": "Optional notes for managers (chart details, credits, etc.)"
+  },
+  "cdnTos": {
+    "title": "CDN Upload Confirmation",
+    "content": "Before uploading your level to the CDN, please confirm that your zip file meets all requirements specified in our",
+    "tosLink": "CDN Terms of Service",
+    "confirmation": "I confirm that my level zip file:",
+    "terms": {
+      "1": "Contains only original content or content I have permission to use and distribute",
+      "2": "Does not contain any malicious or harmful content"
+    },
+    "dontShowAgain": "Don't show this again",
+    "agree": "I Confirm",
+    "decline": "Cancel"
+  },
+  "chartClearNotify": {
+    "title": "Chart clear notifications",
+    "body": "Would you like to be notified when someone clears your charts?",
+    "enable": "Enable",
+    "dismiss": "Not now"
+  }
+} 

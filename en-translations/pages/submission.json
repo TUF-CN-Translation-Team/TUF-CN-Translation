@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Submit Content",
+    "description": "Submit new levels and passes to the community",
+    "type": "website"
+  },
+  "header": {
+    "headerPass": "Submit Pass",
+    "headerLevel": "Submit Level"
+  },
+  "button": {
+    "buttonPass": "Submit Pass",
+    "buttonLevel": "Submit Level"
+  },
+  "label": {
+    "submit": "Submit",
+    "pass": "Pass",
+    "level": "Level"
+  },
+    "banner": {
+    "submissionSuspended": "Your submissions are currently suspended",
+    "banned": "Your account has been banned",
+    "emailVerification": "You need to verify your email before sending submissions, click the button below to go to the verification page",
+    "addEmail": "You need to add an email address before sending submissions. Click the button below to add one in account settings.",
+    "contact": "Please contact us on discord if you believe this is an error",
+    "verifyEmail": "Verify Email",
+    "addEmailButton": "Add Email"
+  }
+} 

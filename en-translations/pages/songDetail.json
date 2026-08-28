@@ -1,0 +1,20 @@
+{
+  "title": "Song Details",
+  "meta": {
+    "title": "{{name}}",
+    "description": "View song information and levels for {{name}} on The Universal Forums"
+  },
+  "sections": {
+    "aliases": "Aliases",
+    "links": "Links",
+    "artists": "Artists",
+    "extraInfo": "Extra Info",
+    "evidence": "Evidence",
+    "levels": "Levels"
+  },
+  "backToList": "Back to Songs",
+  "errors": {
+    "notFound": "Song not found",
+    "loadFailed": "Failed to load song"
+  }
+}

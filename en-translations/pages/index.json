@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "The Universal Forums",
+    "description": "The Universal Forums (TUF) is a community-driven platform for rhythm game players to share and compete on custom charts."
+  },
+  "header": {
+    "title": "The Universal Forums",
+    "subtitle": "A community-driven platform for rhythm game players"
+  },
+  "sections": {
+    "featured": {
+      "title": "Featured Charts",
+      "empty": "No featured charts available"
+    },
+    "recent": {
+      "title": "Recent Charts",
+      "empty": "No recent charts available"
+    }
+  },
+  "card": {
+    "by": "by {{creator}}"
+  },
+  "loading": {
+    "featured": "Loading featured charts...",
+    "recent": "Loading recent charts..."
+  }
+} 

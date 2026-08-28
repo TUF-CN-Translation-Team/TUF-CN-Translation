@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Admin Dashboard",
+    "description": "Site Administration Dashboard"
+  },
+  "title": "Admin Dashboard",
+  "links": {
+    "rating": "Rating",
+    "ratingDesc": "Rate levels and edit ratings",
+    "submissions": "Submissions",
+    "submissionsDesc": "Review and manage level and pass submissions",
+    "announcements": "Announcements",
+    "announcementsDesc": "Announce new levels, rerates, and passes",
+    "difficulties": "Difficulties",
+    "difficultiesDesc": "Manage difficulty settings and announcement directives",
+    "creators": "Creators",
+    "creatorsDesc": "Assign creators and teams to levels",
+    "backups": "Backups",
+    "backupsDesc": "Manage database backups and system maintenance",
+    "auditLog": "Audit Log",
+    "auditLogDesc": "View audit logs for all admin actions",
+    "curations": "Curation",
+    "curationsDesc": "Assign quality tiers to levels and schedule weeklies",
+    "songs": "Songs",
+    "songsDesc": "Manage songs and related entities",
+    "artists": "Artists",
+    "artistsDesc": "Manage artists and their info",
+    "tournaments": "Tournaments",
+    "tournamentsDesc": "Manage tournament placements, name links, and reward frames",
+    "oauthClients": "OAuth apps",
+    "oauthClientsDesc": "Search, freeze, verify, or delete third-party OAuth apps",
+    "resources": "Resources",
+    "resourcesDesc": "Add, edit, and reorder useful Notion and documentation links"
+  },
+  "oauthClients": {
+    "meta": {
+      "title": "OAuth apps — Admin",
+      "description": "Manage third-party OAuth applications"
+    },
+    "title": "OAuth applications",
+    "subtitle": "Search by app name, client id, row id, or developer username. Freeze abusive apps or delete them permanently.",
+    "back": "Back",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Name, username, client id, or UUID…",
+    "search": "Search",
+    "loading": "Loading…",
+    "resultCount": "Showing {{shown}} of {{total}}",
+    "empty": "No apps matched.",
+    "verified": "Verified",
+    "clientId": "Client ID",
+    "rowId": "ID",
+    "owner": "Developer",
+    "created": "Created",
+    "freeze": "Freeze",
+    "unfreeze": "Unfreeze",
+    "verify": "Verify",
+    "unverify": "Unverify",
+    "delete": "Delete",
+    "deleteConfirm": "Permanently delete \"{{name}}\"? Grants and tokens for this app will be removed.",
+    "deleted": "App deleted",
+    "deleteFail": "Could not delete app",
+    "loadError": "Failed to load OAuth clients",
+    "prev": "Previous",
+    "next": "Next",
+    "pageRange": "{{start}}–{{end}} of {{total}}",
+    "actionOk": {
+      "freeze": "App frozen",
+      "unfreeze": "App unfrozen",
+      "verify": "App verified",
+      "unverify": "Verification removed"
+    },
+    "actionFail": {
+      "freeze": "Freeze failed",
+      "unfreeze": "Unfreeze failed",
+      "verify": "Verify failed",
+      "unverify": "Unverify failed"
+    }
+  }
+}
+ 

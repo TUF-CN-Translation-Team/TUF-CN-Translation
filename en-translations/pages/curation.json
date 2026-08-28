@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Curation Management",
+    "description": "Manage level curations and quality tiers"
+  },
+  "title": "Curation Management",
+  "description": "Assign quality tiers to levels and manage curation schedules",
+  "filters": {
+    "type": "Curation Type",
+    "types": "Curation types",
+    "typesHint": "Show levels that have at least one curation of any selected type. Leave empty to show all levels.",
+    "selectedTypes": "Filter by types",
+    "addTypes": "Add types to filter",
+    "noTypesSelected": "None selected — all types included",
+    "searchTypesPlaceholder": "Search types…",
+    "noTypeResults": "No matching types",
+    "noAvailableTypes": "All types are already selected",
+    "removeType": "Remove from filter",
+    "addType": "Add to filter",
+    "allTypes": "All Types",
+    "search": "Search",
+    "searchPlaceholder": "Search by song, artist, creator, or aliases (#123 for level ID)..."
+  },
+  "loading": "Loading curations...",
+  "empty": "No curations found",
+  "password": {
+    "title": "Super Admin Password Required",
+    "description": "Please enter your super admin password to continue",
+    "placeholder": "Enter password",
+    "submit": "Submit"
+  },
+  "initialPassword": {
+    "title": "Super Admin Access Required",
+    "description": "This page requires super admin privileges. Please enter your password to continue.",
+    "placeholder": "Enter super admin password",
+    "continue": "Continue"
+  },
+  "notifications": {
+    "created": "Curation created successfully",
+    "updated": "Curation updated successfully",
+    "deleted": "Curation deleted successfully",
+    "typeCreated": "Curation type created successfully",
+    "typeUpdated": "Curation type updated successfully",
+    "levelAdded": "Level added to curation successfully",
+    "levelUpdated": "Curation updated successfully",
+    "bulkSuccess": "Bulk curation complete: {{created}} created, {{updated}} updated",
+    "bulkPartialSuccess": "Bulk curation complete for {{affected}} level(s); {{skipped}} skipped",
+    "bulkFailed": "Failed to bulk-create curations"
+  },
+  "actions": {
+    "addLevel": "Add Level",
+    "bulkCreate": "Bulk-Create Curations",
+    "manageTypes": "Manage Types",
+    "manageCurators": "Manage Curators",
+    "manageSchedule": "Manage Schedule",
+    "editLevel": "Edit curations for this level",
+    "editCuration": "Edit Curation",
+    "deleteCuration": "Delete Curation"
+  },
+  "confirmations": {
+    "deleteCuration": "Are you sure you want to delete this curation?"
+  },
+  "pagination": {
+    "pageLabel": "Page ",
+    "pageOf": " of {{total}}"
+  }
+}

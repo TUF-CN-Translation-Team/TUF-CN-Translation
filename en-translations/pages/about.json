@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "About Us",
+    "description": "Learn more about The Universal Forums (TUF) - A community-driven organization for ADOFAI custom levels"
+  },
+  "header": {
+    "title": "About TUF"
+  },
+  "sections": {
+    "whoWeAre": {
+      "title": "Who We Are",
+      "content": "The Universal Forums (TUF) is a community-driven organization dedicated to collecting, rating, and organizing custom levels for A Dance of Fire and Ice (ADOFAI). Our platform serves as a central hub for players to share their achievements, discover new levels, and connect with fellow enthusiasts."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "intro": "We strive to create a comprehensive and accessible platform that:",
+      "points": [
+        "Provides accurate difficulty ratings for custom levels",
+        "Maintains a reliable leaderboard system",
+        "Fosters a supportive community for players",
+        "Preserves and showcases player achievements"
+      ]
+    },
+    "values": {
+      "title": "Community Values",
+      "cards": {
+        "accuracy": {
+          "title": "Accuracy",
+          "content": "We maintain high standards for level ratings and scoring to ensure fair competition."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "content": "Our rating processes and community decisions are open and clear to all members."
+        },
+        "inclusivity": {
+          "title": "Inclusivity",
+          "content": "We welcome players of all skill levels and backgrounds to join our community."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "content": "We continuously improve our platform to better serve the ADOFAI community."
+        }
+      }
+    },
+    "join": {
+      "title": "Join Our Community",
+      "links": {
+        "discord": "Join us on Discord",
+        "github": "Contribute on GitHub"
+      }
+    },
+    "credits": {
+      "title": "Credits",
+      "version": "{{version}} Developed by V0W4N",
+      "categories": {
+        "rating": {
+          "title": "Rating Team",
+          "roles": {
+            "manager": "Manager",
+            "rater": "Rater"
+          }
+        }
+      }
+    }
+  }
+} 

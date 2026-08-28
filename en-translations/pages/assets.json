@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Assets",
+    "description": "Catalog view of all assets (tags, difficulties, curation types), SVG icons, and static files from components/common/icons and src/assets on The Universal Forums."
+  },
+  "header": {
+    "title": "Assets",
+    "lede": "Catalog view of all assets (tags, difficulties, curation types) plus all svg icons and static files from under <code>components/common/icons</code> and <code>src/assets</code>."
+  },
+  "sections": {
+    "tags": {
+      "title": "Level tags",
+      "hint": "Loaded from the difficulties service `/tags` endpoint (same data as the rest of the site)."
+    },
+    "difficulties": {
+      "title": "Difficulty icons",
+      "hint": "All difficulty rows from context, ordered by `sortOrder`. Icons use the `original` CDN size. Use the switch to hide or show rows whose `type` is `LEGACY`."
+    },
+    "curationTypes": {
+      "title": "Curation types",
+      "hint": "Curation type catalog used on level pages and creator profiles."
+    },
+    "jsxIcons": {
+      "title": "JSX Icons",
+      "hint": "Every <code>*.jsx</code> icon file from under <code>src/components/common/icons</code>."
+    },
+    "staticAssets": {
+      "title": "Static assets (`src/assets`)",
+      "hint": "Image and font files discovered by Vite glob. Resolved URLs are suitable for copying into code or docs. Font files show a placeholder tile."
+    }
+  },
+  "filter": {
+    "label": "Filter",
+    "labelDifficultyName": "Difficulty name",
+    "placeholderJsx": "Filter by path or filename…",
+    "placeholderStatic": "Filter by path…",
+    "placeholderTags": "Search by group or tag name…",
+    "placeholderDifficultyName": "Filter by difficulty name…",
+    "noMatches": "No items match the current filters."
+  },
+  "status": {
+    "loading": "Loading…",
+    "empty": "No items returned."
+  },
+  "jsx": {
+    "noComponent": "No component export found"
+  },
+  "static": {
+    "copyUrl": "Copy URL"
+  },
+  "actions": {
+    "open": "Open",
+    "download": "Download",
+    "downloadAll": "Download all",
+    "downloadAllBusy": "Packing…",
+    "downloadAllEmpty": "No images to download",
+    "downloadAllSuccess": "Downloaded {{count}} images",
+    "downloadAllPartial": "Downloaded {{ok}} images ({{failed}} failed)",
+    "downloadAllFailed": "Could not download images",
+    "groupAria": "Asset file actions",
+    "copyColorHex": "Copy color {{color}}",
+    "colorCopied": "Copied {{color}}",
+    "colorCopyFailed": "Could not copy to clipboard"
+  },
+  "difficultiesFilter": {
+    "legacyToggleLabel": "Legacy difficulties"
+  }
+}

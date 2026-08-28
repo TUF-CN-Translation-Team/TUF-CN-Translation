@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Rating Management",
+    "description": "Manage ratings for levels"
+  },
+  "buttons": {
+    "references": "Reference Levels",
+    "manageRaters": "Manage Raters",
+    "help": "Rating Guide",
+    "topRaters": "Top Raters",
+    "zenMode": "Zen Mode",
+    "resumeZenMode": "Resume Zen Mode"
+  },
+  "toggles": {
+    "detailedView": {
+      "label": "Detailed View"
+    },
+    "myRated": {
+      "label": "My Rated"
+    },
+    "lowDiff": {
+      "label": "Low Difficulty"
+    },
+    "fourVote": {
+      "label": "4+ Rated"
+    },
+    "rankReady": {
+      "label": "Rank-ready"
+    }
+  },
+  "sort": {
+    "byId": "Level ID",
+    "byRatings": "Rating Count",
+    "byRatingsFull": "Sort by Number of Ratings",
+    "byDate": "Last Updated"
+  },
+  "search": {
+    "placeholder": "Search by level name, creator, or difficulty"
+  },
+  "labels": {
+    "totalRatings": "{{count}} ratings",
+    "connectedUsers": "{{count}} online",
+    "connectedManagers": "({{count}} managers)",
+    "disconnected": "Disconnected"
+  },
+  "tooltips": {
+    "sortAsc": "Sort ascending",
+    "sortDesc": "Sort descending",
+    "lastUpdated": "Last updated time",
+    "levelId": "Level ID"
+  },
+  "messages": {
+    "loading": "Loading ratings...",
+    "error": "Error loading ratings",
+    "noRatings": {
+      "title": "No ratings available",
+      "subtitle": "All rated!"
+    }
+  },
+  "rankReady": {
+    "view": "View",
+    "settledWhileEditing": "Another manager has just settled this level, you can keep editing or safely exit.",
+    "columns": {
+      "name": "Name",
+      "managerAvg": "Manager avg",
+      "communityAvg": "Community avg",
+      "mgrCom": "Mgr/Com",
+      "autorater": "Autorater"
+    },
+    "empty": {
+      "title": "No rank-ready levels",
+      "subtitle": "Nothing with 2+ manager votes and 0 clears."
+    }
+  },
+  "infiniteScroll": {
+    "end": "You've reached the end!"
+  },
+  "zen": {
+    "meta": {
+      "title": "Rating Zen Mode",
+      "description": "Focused conveyor rating session"
+    },
+    "confirmPeek": "Reveal other raters' ratings and comments? This uses 1 peek.",
+    "reportPrompt": "Report note (optional) — describe the media issue:",
+    "report": "Report media issue",
+    "exit": "Pause session",
+    "noVideo": "No video available",
+    "noPeers": "No ratings yet",
+    "setup": {
+      "title": "Rating Zen Mode",
+      "subtitle": "Rate levels, one at a time.",
+      "resumeHint": "You have a paused Zen session in this tab.",
+      "continue": "Continue session",
+      "discard": "Discard & new",
+      "deckSize": "Deck size",
+      "peekHint": "1 peek per 5 cards",
+      "requestBands": "Hide requested",
+      "requestBandsHint": "Check to leave that request type out of the deck",
+      "sort": "Priority",
+      "sortLeast": "Least rated first",
+      "sortMost": "Most rated first",
+      "sortId": "By level id",
+      "sortRecent": "Recently updated",
+      "randomness": "Mix",
+      "randomnessValue": "{{n}}",
+      "randomnessHint": "Low sticks to priority order; high picks more randomly",
+      "dealing": "Dealing…",
+      "start": "Start session",
+      "back": "Back to queue"
+    },
+    "stats": {
+      "peeks": "Peeks {{n}}",
+      "streak": "Streak {{n}}"
+    },
+    "progress": {
+      "aria": "Session progress: {{done}} of {{total}} cards",
+      "goTo": "Go to card {{n}}",
+      "rated": "Rated",
+      "peeked": "Peeked",
+      "skipped": "Skipped",
+      "current": "Current",
+      "pending": "Pending"
+    },
+    "actions": {
+      "skip": "Skip",
+      "peek": "Peek ({{n}})",
+      "peeked": "Peeked",
+      "peekEmpty": "No peers to peek",
+      "saving": "Saving…",
+      "submit": "Submit →"
+    },
+    "done": {
+      "title": "Session complete",
+      "submitted": "Submitted: {{n}}",
+      "skipped": "Skipped: {{n}}",
+      "peeks": "Peeks used: {{n}} / {{max}}",
+      "again": "Deal again",
+      "queue": "Back to queue"
+    },
+    "messages": {
+      "emptyDeck": "No cards matched the Zen filters",
+      "reportSent": "Report sent"
+    },
+    "errors": {
+      "loginRequired": "Log in to start Zen Mode",
+      "dealFailed": "Failed to deal deck",
+      "reportFailed": "Failed to send report",
+      "ratingRequired": "Enter a rating",
+      "commentRequired": "Comment is required",
+      "submitFailed": "Submit failed"
+    }
+  }
+}

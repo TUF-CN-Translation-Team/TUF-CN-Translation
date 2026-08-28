@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "title": "Tournament Management",
+    "description": "Manage tournament placements, level credits, and avatar frame cosmetics"
+  },
+  "title": "Tournament Management",
+  "subtitle": "Create events, enter placements, sync level credits, and attach avatar frame cosmetics.",
+  "tabs": {
+    "events": "Events",
+    "unresolved": "Unresolved names",
+    "import": "Import",
+    "series": "Series"
+  },
+  "subTabs": {
+    "details": "Details",
+    "tiers": "Tiers",
+    "placements": "Placements",
+    "cosmetics": "Cosmetics"
+  },
+  "searchPlaceholder": "Search tournaments…",
+  "refresh": "Refresh",
+  "newTournament": "New tournament",
+  "editTournament": "Edit tournament",
+  "emptyList": "No tournaments yet. Create one or import a CSV.",
+  "save": "Save",
+  "delete": "Delete",
+  "selectTournamentFirst": "Select a tournament from the Events tab first.",
+  "addRow": "Add row",
+  "savePlacements": "Save placements",
+  "syncCredits": "Sync credits",
+  "withdrew": "Withdrew",
+  "autoLinkExact": "Auto-link exact matches",
+  "noUnresolved": "All placement names are linked.",
+  "addReward": "Add cosmetic",
+  "syncEntitlements": "Sync entitlements",
+  "createSeries": "Create series",
+  "hiddenBadge": "Hidden",
+  "reorder": {
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "dragHandle": "Drag to reorder"
+  },
+  "import": {
+    "dryRun": "Dry run CSV",
+    "importCsv": "Import CSV",
+    "messages": {
+      "dryRunComplete": "Dry run complete",
+      "importComplete": "Import complete"
+    },
+    "errors": {
+      "failed": "Import failed"
+    }
+  },
+  "packImport": {
+    "open": "Pack import",
+    "title": "Import from pack",
+    "subtitle": "Import nominee placements from a pack reference, then review the diff before applying.",
+    "packRef": "Pack reference",
+    "packRefPlaceholder": "e.g. my-pack-slug",
+    "previewDiff": "Preview diff",
+    "apply": "Apply import",
+    "adds": "Proposed adds",
+    "removes": "Proposed removes",
+    "diverged": "Diverged (manual review)",
+    "noAdds": "No additions proposed.",
+    "noRemoves": "No removals proposed.",
+    "noDiverged": "No diverged rows.",
+    "messages": {
+      "imported": "Pack import applied"
+    },
+    "errors": {
+      "packRefRequired": "Pack reference is required.",
+      "diffFailed": "Diff preview failed",
+      "importFailed": "Pack import failed"
+    }
+  },
+  "packCreate": {
+    "open": "Import from pack",
+    "title": "Create tournament from pack",
+    "subtitle": "Creates a level-mode tournament from the pack and opens it for editing.",
+    "packRef": "Pack reference",
+    "create": "Create tournament",
+    "messages": {
+      "created": "Tournament created from pack"
+    },
+    "errors": {
+      "packRefRequired": "Pack reference is required.",
+      "createFailed": "Failed to create tournament from pack"
+    }
+  },
+  "nominees": {
+    "title": "Pick nominees",
+    "allSelected": "All eligible creators selected (empty filter = everyone on sync)",
+    "noneSelected": "No nominees selected",
+    "selectedCount": "{{count}} selected",
+    "empty": "No eligible creators on this level.",
+    "guestBadge": "Guest",
+    "selectAll": "Select all",
+    "clearAll": "Clear all",
+    "save": "Save filter",
+    "errors": {
+      "loadFailed": "Failed to load nominee candidates"
+    }
+  },
+  "help": {
+    "open": "Help",
+    "title": "Tournament placements help",
+    "subtitle": "Modes, expansion, credits, weights, and pack import.",
+    "close": "Close help",
+    "sections": {
+      "modes": {
+        "title": "Placement modes",
+        "intro": "Each row can inherit the tournament default or override it.",
+        "bullets": {
+          "profile": "<b>Profile</b> — links a player or creator; optional level is evidence only.",
+          "level": "<b>Level</b> — expands to creators on the level after Sync.",
+          "inherit": "<b>Inherit</b> — uses the tournament placement mode from Details."
+        }
+      },
+      "evidence": {
+        "title": "Evidence vs expansion",
+        "intro": "Attaching a level on a profile row does not create extra credits.",
+        "bullets": {
+          "profileLevel": "Profile + levelId shows the level as context on the card.",
+          "noExpand": "Only level-mode rows expand to multiple profile credits."
+        }
+      },
+      "nominees": {
+        "title": "Nominees filter",
+        "intro": "Level rows store an optional recipient filter before Sync.",
+        "bullets": {
+          "prefill": "Pick nominees is prefilled from level credits (charter/vfxer by default).",
+          "emptyFilter": "An empty filter at Sync means everyone eligible on the level.",
+          "guests": "Guests can be included; they show a warning badge in the picker."
+        }
+      },
+      "sync": {
+        "title": "Sync credits",
+        "intro": "Saving placements does not materialize level credits.",
+        "bullets": {
+          "dryRun": "Sync runs a dry-run preview of adds/removes before you confirm.",
+          "saveVsSync": "Save stores row metadata; Sync writes tournament_placement_credits."
+        }
+      },
+      "weights": {
+        "title": "Sort weights",
+        "intro": "Series and tournament lists use dense 1..n weights.",
+        "bullets": {
+          "series": "Reorder series on the Series tab with up/down controls.",
+          "tier": "Placements are sorted by tier rank weight in the editor."
+        }
+      },
+      "pack": {
+        "title": "Pack import",
+        "intro": "Import nominee placements from pack tools, then diff-sync.",
+        "bullets": {
+          "import": "New pack entries import as NOM (nominee) placements.",
+          "diff": "Diff sync proposes adds/removes; diverged rows need manual review."
+        }
+      },
+      "cosmetics": {
+        "title": "Cosmetics / avatar frames",
+        "intro": "Rewards grant one entitlement per matching credit.",
+        "bullets": {
+          "perCredit": "Entitlements key off credit IDs, not placement IDs.",
+          "entitlements": "Use Sync entitlements after changing reward rules or credits."
+        }
+      }
+    }
+  },
+  "series": {
+    "slug": "Slug",
+    "name": "Name",
+    "empty": "No series yet. Use the form above to add one.",
+    "deleteConfirm": "Delete \"{{name}}\"? Linked events will be unlinked and series-only rewards will be removed.",
+    "messages": {
+      "created": "Series created",
+      "updated": "Series updated",
+      "deleted": "Series deleted"
+    },
+    "errors": {
+      "required": "Slug and name are required.",
+      "createFailed": "Failed to create series",
+      "updateFailed": "Failed to update series",
+      "deleteFailed": "Failed to delete series"
+    }
+  },
+  "messages": {
+    "tournamentCreated": "Tournament created",
+    "namesLinked": "Linked {{count}} names",
+    "placementLinked": "Linked",
+    "reordered": "Order updated",
+    "deleted": "Tournament deleted"
+  },
+  "deleteConfirm": "Delete \"{{name}}\" and all placements, credits, and rewards?",
+  "errors": {
+    "loadTournamentsFailed": "Failed to load tournaments",
+    "loadUnresolvedFailed": "Failed to load unresolved names",
+    "resolveFailed": "Resolve failed",
+    "linkFailed": "Link failed",
+    "reorderFailed": "Reorder failed",
+    "deleteFailed": "Failed to delete tournament"
+  },
+  "popup": {
+    "title": "Manage tournament",
+    "deleteConfirm": "Delete \"{{name}}\" and all placements, credits, and rewards?",
+    "unsavedConfirm": "You have unsaved changes. Discard them and leave?",
+    "placements": {
+      "tier": "Tier",
+      "rowMode": "Mode",
+      "nameLevel": "Name / Level",
+      "linkedUsers": "Linked user(s)",
+      "linkTypes": {
+        "player": "Player",
+        "creator": "Creator"
+      },
+      "name": "Name",
+      "level": "Level",
+      "link": "Link",
+      "nominees": "Nominees",
+      "team": "Team",
+      "noLevel": "No level",
+      "pickLevel": "Pick level",
+      "changeLevel": "Change",
+      "pickNominees": "Pick nominees",
+      "editNominees": "Edit nominees",
+      "nomineeCount": "{{count}} nominees",
+      "nomineeOverflow": "+{{count}} more",
+      "empty": "No placements yet",
+      "resizeColumn": "Resize column",
+      "rowModes": {
+        "inherit": "Inherit",
+        "profile": "Profile",
+        "level": "Level"
+      }
+    },
+    "credits": {
+      "syncConfirm": "Sync credits? +{{add}} / -{{remove}}"
+    },
+    "rewards": {
+      "label": "Label",
+      "tier": "Tier",
+      "tierAny": "Any (use max weight)",
+      "maxRankWeight": "Max rank weight",
+      "maxRankWeightPlaceholder": "e.g. 3 for top placements",
+      "priority": "Priority",
+      "tierRef": "tier #{{id}}"
+    },
+    "messages": {
+      "saved": "Tournament saved",
+      "deleted": "Tournament deleted",
+      "placementsSaved": "Placements saved",
+      "rewardCreated": "Cosmetic created",
+      "rewardDeleted": "Cosmetic deleted",
+      "syncSuccess": "Synced (+{{granted}} / -{{revoked}})",
+      "creditsSynced": "Credits synced (+{{add}} / -{{remove}})"
+    },
+    "errors": {
+      "loadFailed": "Failed to load tournament",
+      "deleteFailed": "Delete failed",
+      "placementsFailed": "Failed to save placements",
+      "rewardFailed": "Failed to create cosmetic",
+      "rewardDeleteFailed": "Failed to delete cosmetic",
+      "syncFailed": "Sync failed",
+      "creditsSyncFailed": "Credit sync failed"
+    }
+  },
+  "visuals": {
+    "tournamentTitle": "Event visuals",
+    "eventIcon": "Event icon",
+    "defaultCardBg": "Default card background",
+    "tierIcon": "Tier icon",
+    "tierCardBg": "Tier card background",
+    "noImage": "No image",
+    "messages": {
+      "uploadSuccess": "Image uploaded",
+      "removed": "Image removed"
+    },
+    "errors": {
+      "uploadFailed": "Upload failed",
+      "removeFailed": "Failed to remove image"
+    }
+  },
+  "tiers": {
+    "code": "Code",
+    "label": "Label",
+    "kind": "Kind",
+    "rankWeight": "Rank weight",
+    "color": "Color",
+    "addTier": "Add tier",
+    "save": "Save tiers",
+    "saveFirst": "Save tiers before uploading tier images",
+    "empty": "No tiers yet",
+    "preset": {
+      "label": "Add by preset",
+      "show": "Add by preset",
+      "hide": "Hide presets",
+      "hint": "Append tiers from a preset. Existing codes are skipped. Save tiers when done.",
+      "placeholder": "Choose preset…",
+      "apply": "Add tiers",
+      "applied": "Added {{count}} tier(s) from preset",
+      "allExist": "All tiers from this preset already exist"
+    },
+    "kindOptions": {
+      "ordinal": "Ordinal",
+      "bracket": "Bracket",
+      "round": "Round",
+      "stage": "Stage",
+      "qualifier": "Qualifier",
+      "custom": "Custom"
+    },
+    "messages": {
+      "saved": "Tiers saved"
+    },
+    "errors": {
+      "saveFailed": "Failed to save tiers"
+    }
+  },
+  "form": {
+    "fields": {
+      "shortName": "Short name",
+      "fullName": "Full name",
+      "aka": "AKA",
+      "youtubeUrl": "YouTube",
+      "packRef": "Pack ref",
+      "externalUrl": "External URL",
+      "sortYear": "Sort year",
+      "organizers": "Organizers (comma-separated)",
+      "owners": "Visual editors (owners)",
+      "ownersHint": "Users who can upload tournament and tier visuals. Display organizers above stay as free-text credits.",
+      "ownersPlaceholder": "Search users to add as owners…",
+      "ownersRemove": "Remove",
+      "status": "Status",
+      "track": "Tournament track",
+      "placementMode": "Placement mode",
+      "showBestTiersOnly": "Show best tier only on profiles",
+      "series": "Series",
+      "tierTemplate": "Tier template",
+      "hidden": "Hidden",
+      "resultsFinal": "Results final",
+      "notes": "Notes"
+    },
+    "packRefSearchPlaceholder": "Search packs",
+    "packRefNoResults": "No packs found.",
+    "packRefTypeToSearch": "Type to search packs…",
+    "packRefLoading": "Searching packs…",
+    "packRefSearchFailed": "Pack search failed",
+    "packRefNotFound": "Not found",
+    "placementModes": {
+      "profile": "Profile (link players/creators)",
+      "level": "Level (expand to creators)"
+    },
+    "tracks": {
+      "player": "Player tournament",
+      "creator": "Creator tournament"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "seriesNone": "None",
+    "tierTemplateNone": "—",
+    "errors": {
+      "shortNameRequired": "Short name is required.",
+      "shortNameExists": "A tournament with this short name already exists.",
+      "saveFailed": "Save failed"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "{{name}} - Pack",
+    "description": "Level pack {{name}} by {{owner}} — {{count}} levels on The Universal Forums"
+  },
+  "loading": "Loading pack details...",
+  "by": "by",
+  "description": {
+    "label": "Description",
+    "readMore": "Read more",
+    "showLess": "Show less"
+  },
+  "backToPacks": "Back to Packs",
+  "viewMode": {
+    "public": "Public",
+    "linkonly": "Link Only",
+    "private": "Private",
+    "forcedPrivate": "Forced Private"
+  },
+  "stats": {
+    "levels": "Levels",
+    "items": "Items",
+    "created": "Created",
+    "curationPanelDialog": "Curation types in this pack"
+  },
+  "items": {
+    "title": "Items",
+    "dragHint": "Drag items to reorder or move into folders",
+    "empty": "This pack has no items yet.",
+    "dragToReorder": "Drag to reorder"
+  },
+  "actions": {
+    "edit": "Edit Pack",
+    "addFolder": "Add Folder",
+    "addLevel": "Add Level",
+    "collapseAll": "Collapse All",
+    "expandAll": "Expand All",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "downloadPack": "Download Pack",
+    "downloadFolder": "Download Folder",
+    "exportAs": "Export as",
+    "addToFolder": "Add to existing folder…",
+    "moveItem": "Click to move, or drag"
+  },
+  "download": {
+    "estimatedLong": "(estimated: {{count}} missing metadata)",
+    "estimatedShort": "(est., {{count}} missing)"
+  },
+  "folderProgress": {
+    "label": "{{percent}}% ({{cleared}}/{{total}})",
+    "aria": "{{percent}} percent cleared, {{cleared}} of {{total}} levels"
+  },
+  "createFolder": {
+    "prompt": "Enter a name for the new folder",
+    "success": "Folder created successfully",
+    "error": "Failed to create folder"
+  },
+  "addLevel": {
+    "prompt": "Enter a level ID to add",
+    "success": "Level added successfully",
+    "partialSuccess": "Added {{added}} level(s) ({{skipped}} skipped)",
+    "error": "Failed to add level"
+  },
+  "renameFolder": {
+    "prompt": "Enter a new name for the folder",
+    "success": "Folder renamed successfully",
+    "error": "Failed to rename folder"
+  },
+  "deleteItem": {
+    "success": "Item deleted successfully!",
+    "error": "Failed to delete item"
+  },
+  "deleteFolder": {
+    "confirm": "Are you sure you want to delete the folder \"{{name}}\"? This will also delete all items inside it."
+  },
+  "deleteLevel": {
+    "confirm": "Are you sure you want to remove this level from the pack?"
+  },
+  "move": {
+    "cannotMoveIntoSelf": "You cannot move a folder into itself",
+    "success": "Item moved successfully",
+    "error": "Failed to move item"
+  },
+  "edit": {
+    "success": "Pack updated successfully",
+    "error": "Failed to update pack"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "We couldn't load this pack. Please try again.",
+    "retry": "Retry",
+    "notFound": "Pack not found",
+    "accessDenied": "You do not have access to this pack",
+    "loadFailed": "Failed to load pack"
+  }
+}

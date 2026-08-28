@@ -1,0 +1,52 @@
+{
+  "title": "Song Management",
+  "meta": {
+    "title": "Song Management",
+    "description": "Manage songs and their information"
+  },
+  "search": {
+    "placeholder": "Search songs..."
+  },
+  "filter": {
+    "verification": "Verification",
+    "all": "All"
+  },
+  "sort": {
+    "label": "Sort by:",
+    "nameAsc": "Name (A-Z)",
+    "nameDesc": "Name (Z-A)",
+    "idAsc": "ID (Low to High)",
+    "idDesc": "ID (High to Low)"
+  },
+  "aliases": "aliases",
+  "artists": "artists",
+  "buttons": {
+    "add": "Add Song",
+    "loadMore": "Load More",
+    "create": "Create"
+  },
+  "form": {
+    "title": "Create New Song",
+    "name": "Name",
+    "namePlaceholder": "Enter song name",
+    "verificationState": "Verification State",
+    "aliases": "Aliases",
+    "aliasPlaceholder": "Enter alias",
+    "addAlias": "Add Alias"
+  },
+  "messages": {
+    "created": "Song created successfully",
+    "deleted": "Song deleted successfully"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch songs",
+    "nameRequired": "Name is required",
+    "createFailed": "Failed to create song",
+    "deleteFailed": "Failed to delete song"
+  },
+  "infScroll": {
+    "end": "You've reached the end!"
+  },
+  "confirmDelete": "Are you sure you want to delete this song?",
+  "noSongs": "No songs found"
+}

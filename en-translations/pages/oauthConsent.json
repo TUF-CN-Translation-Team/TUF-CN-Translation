@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Authorize application — TUF",
+    "description": "Allow a third-party app to access your TUF profile"
+  },
+  "title": "Authorize application",
+  "needLogin": "Sign in to continue authorizing this application.",
+  "loginLink": "Sign in",
+  "loadError": "No pending authorization request.",
+  "approveError": "Could not complete authorization.",
+  "verified": "Verified app",
+  "publisher": "Publisher",
+  "wantsAccess": "wants to access your TUF account",
+  "signedInAs": "Signed in as",
+  "notYou": "Not you?",
+  "allowDeveloper": "This will allow {{name}} to:",
+  "redirectOutside": "Once you authorize, you will be redirected outside of TUF to:",
+  "privacyWithLink": "The app's privacy policy and terms apply",
+  "privacyLink": "View privacy policy",
+  "privacyNoAppPolicy": "This app did not provide a privacy policy. Learn more in",
+  "tufPrivacyPrefix": "You can also review",
+  "tufPrivacyLink": "TUF's Privacy Policy",
+  "activeSince": "Active since {{date}}",
+  "scopeLimit": "This application can only access the information listed above.",
+  "created": "Registered",
+  "redirect": "Redirects to",
+  "homepage": "Homepage",
+  "scopesTitle": "This app will be able to",
+  "approve": "Authorize",
+  "deny": "Cancel"
+}

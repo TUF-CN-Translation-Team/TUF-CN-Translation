@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Packs",
+    "description": "Browse and discover level packs created by the community",
+    "myPacksTitle": "My Packs",
+    "myPacksDescription": "Manage and view your personal level packs"
+  },
+  "title": {
+    "allPacks": "Level Packs",
+    "myPacks": "My Packs"
+  },
+  "subtitle": {
+    "allPacks": "Discover and explore level packs created by the community",
+    "myPacks": "Manage your personal collection of level packs"
+  },
+  "search": {
+    "placeholder": "Search packs...",
+    "search": "Search"
+  },
+  "filters": {
+    "title": "Filters",
+    "toggle": "Toggle filters",
+    "owner": "Owner",
+    "ownerPlaceholder": "Enter username",
+    "viewMode": "View Mode",
+    "viewModePlaceholder": "Select view mode",
+    "pinnedOnly": "Show Only Pinned"
+  },
+  "sort": {
+    "title": "Sort",
+    "toggle": "Toggle sort options",
+    "header": "Sort by",
+    "by": "Sort by",
+    "placeholder": "Select sort option",
+    "recent": "Recent",
+    "name": "Name",
+    "levels": "Level Count",
+    "favorites": "Favorites",
+    "ascending": "Ascending",
+    "order": "Order",
+    "descending": "Descending",
+    "myLikes": "My Likes"
+  },
+  "viewMode": {
+    "all": "All",
+    "public": "Public",
+    "linkonly": "Link Only",
+    "private": "Private",
+    "forcedPrivate": "Forced Private"
+  },
+  "actions": {
+    "createPack": "Create Pack",
+    "reset": "Reset",
+    "listView": "List View",
+    "gridView": "Grid View",
+    "viewToggleGroup": "Choose how packs are shown"
+  },
+  "buttons": {
+    "searchHelp": "Search Help"
+  },
+  "toolTip": {
+    "search": "Search Help",
+    "filter": "Toggle Filters",
+    "sort": "Toggle Sort Options",
+    "reset": "Reset All Filters"
+  },
+  "create": {
+    "success": "Pack created successfully!",
+    "error": "Failed to create pack"
+  },
+  "loading": {
+    "more": "Loading more packs..."
+  },
+  "error": {
+    "loadFailed": "Failed to load packs",
+    "retry": "Retry"
+  },
+  "endMessage": "No more packs to load"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Artist Details",
+  "meta": {
+    "title": "{{name}}",
+    "description": "View artist information and levels for {{name}} on The Universal Forums"
+  },
+  "sections": {
+    "aliases": "Aliases",
+    "links": "Links",
+    "songs": "Songs",
+    "extraInfo": "Extra Info",
+    "evidence": "Evidence",
+    "levels": "Levels",
+    "relations": "Relations"
+  },
+  "backToList": "Back to Artists",
+  "errors": {
+    "notFound": "Artist not found",
+    "loadFailed": "Failed to load artist"
+  }
+}

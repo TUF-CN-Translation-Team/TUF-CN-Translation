@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Translation Utility",
+    "description": "Download translation files and verify community translations against the English base."
+  },
+  "title": "Translation Utility",
+  "verifier": {
+    "title": "Translation Verifier",
+    "description": "Upload a ZIP file containing translations to verify against the English base translations.",
+    "supportedFormats": "Supported formats: .zip, .7z, .rar, .tar, .gz",
+    "expectedStructure": "Expected structure: Archive containing translation files matching the English structure",
+    "submit": "Verify Translations",
+    "verifying": "Verifying translations...",
+    "loginRequired": "Log in to verify translations",
+    "loginCta": "Log in"
+  },
+  "guide": {
+    "title": "How to Use the Translation Tool",
+    "steps": {
+      "download": {
+        "title": "Download Base Translations",
+        "body": "Select a language below to download its translation files. These will serve as your template."
+      },
+      "extract": {
+        "title": "Extract & Translate",
+        "body": "Extract the archive and locate the JSON files. For each translation entry, replace the text while keeping the keys unchanged.",
+        "basicExampleLabel": "Basic Translation Example:",
+        "basicExample": "\"noLevels\": \"No new levels to announce\" → \"noLevels\": \"Your translated text here\"",
+        "placeholdersLabel": "Dynamic Values (Important!):",
+        "placeholdersBody": "Some translations contain {{open}}value{{close}} placeholders. These must be kept but can be repositioned:",
+        "placeholderExample": "\"welcome\": \"Welcome back, {{open}}username{{close}}!\"\n→ \"welcome\": \"{{open}}username{{close}}, willkommen zurück!\"\n\n\"progress\": \"{{open}}count{{close}} of {{open}}total{{close}} levels completed\"\n→ \"progress\": \"{{open}}count{{close}} von {{open}}total{{close}} Level abgeschlossen\"",
+        "placeholderWarning": "Never translate the placeholders themselves (e.g., {{open}}username{{close}}, {{open}}count{{close}}, etc.)"
+      },
+      "verify": {
+        "title": "Pack & Verify",
+        "body": "Pack your translated files into a new archive (.zip, .7z, .rar, etc.) and use the verifier above to check for any missing or incorrect translations."
+      },
+      "submit": {
+        "title": "Review & Submit",
+        "body": "Check the verification results. If everything is marked as valid, your translation is ready to be submitted!"
+      }
+    }
+  },
+  "languages": {
+    "title": "Available Languages",
+    "download": "Download {{display}} Translations",
+    "preparing": "Preparing download...",
+    "downloadError": "Error downloading translations: {{message}}",
+    "status": {
+      "implemented": "Implemented",
+      "partial": "{{percent}}% Implemented",
+      "pending": "Not Implemented"
+    },
+    "contributors": "Contributors:"
+  },
+  "results": {
+    "valid": "All translations are valid!",
+    "missingFiles": "Missing Files:",
+    "missingKeys": "Missing Keys:",
+    "extraKeys": "Extra Keys:",
+    "error": "Error: {{message}}"
+  }
+}

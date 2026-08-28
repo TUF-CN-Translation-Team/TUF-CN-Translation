@@ -1,0 +1,205 @@
+{
+  "title": "Submit Pass",
+  "thumbnailInfo": "Video information will appear here",
+  "submInfo": {
+    "levelId": "Search for a level or input ID",
+    "altname": "Leaderboard Name",
+    "nohold": "Alt. Hold Option",
+    "speed": "Speed (opt., >=1.0)",
+    "keyCount": "Key Count (opt.)",
+    "feelDiff": "Feeling Rating",
+    "expectedDiff": "Expected Rating (opt.)",
+    "isAdofaiV2": "ADOFAI v2"
+  },
+  "levelInfo": {
+    "song": "Song Name",
+    "artist": "Artist",
+    "charter": "Charter"
+  },
+  "levelFetching": {
+    "input": "Enter ID",
+    "fetching": "Fetching...",
+    "goto": "Go to Level",
+    "notfound": "Not Found"
+  },
+  "videoInfo": {
+    "videoLink": "YouTube or Bilibili video link",
+    "title": "Title",
+    "channel": "Channel",
+    "timestamp": "Upload Time",
+    "nolink": "Enter a valid YouTube or Bilibili video link",
+    "resolving": "Resolving video link…",
+    "linkResolved": "Short link resolved to Bilibili URL"
+  },
+  "judgements": {
+    "ePerfect": "EPerfect",
+    "perfect": "Perfect",
+    "lPerfect": "LPerfect",
+    "tooearly": "Too Early",
+    "early": "Early",
+    "late": "Late"
+  },
+  "acc": "Accuracy: ",
+  "scoreCalc": "Score: ",
+  "holdTooltip": "Check this if a different hold tile behavior was used (no holding required etc.)",
+  "keyCountTooltip": "Number of keys used for this pass. Required for U and UQ.",
+  "feelingTooltip": "How hard it felt for you personally. Valid examples: G1-G5, 17~18+, U1, etc.",
+  "expectedTooltip": "What difficulty the level should be rated as (optional). Same format as feeling rating.",
+  "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
+  "alert": {
+    "success": "Pass submitted successfully!",
+    "error": "Error: ",
+    "login": "Please log in to submit a pass",
+    "form": "Please fill in all required fields correctly",
+    "more": "+ {{count}} more"
+  },
+  "fieldShort": {
+    "levelId": "Level ID",
+    "videoLink": "Video link",
+    "player": "Player",
+    "speed": "Speed",
+    "feelingRating": "Feeling difficulty",
+    "expectedRating": "Expected difficulty",
+    "keyCount": "Key count",
+    "ePerfect": "EPerfect",
+    "perfect": "Perfect",
+    "lPerfect": "LPerfect",
+    "tooEarly": "Too Early",
+    "early": "Early",
+    "late": "Late",
+    "rulesAccepted": "Rules accepted"
+  },
+  "score": {
+    "needId": "Enter level ID",
+    "needJudg": "Enter judgements",
+    "needInfo": "Enter all required info",
+    "noInfo": "No info available"
+  },
+  "warnings": {
+    "pendingProfiles": "This profile will be requested for creation:"
+  },
+  "rules": {
+    "checkbox": "I've read and confirm that I have followed the",
+    "rulesLink": "rules and guidelines"
+  },
+  "tilecountMismatch": {
+    "title": "Judgement total does not match achievable tilecount",
+    "body": "This level's chart has <b>{{tilecount}}</b> achievable tiles. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
+    "bodyWithAuto": "This level's chart has <b>{{rawTilecount}}</b> tiles (<b>{{autoTileCount}}</b> auto), so <b>{{tilecount}}</b> judgements are expected. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
+    "reviewInputs": "Cancel",
+    "submitAnyway": "Submit anyway"
+  },
+  "calculator": {
+    "title": "Pass Score Calculator",
+    "thumbnailInfo": "Calculator mode — no video required",
+    "meta": {
+      "title": "Pass Score Calculator",
+      "description": "Simulate ScoreV2 for passes with optional scoring overrides"
+    },
+    "modeSubmit": "Submit",
+    "modeCalculator": "Calculator",
+    "openCalculator": "Open score calculator",
+    "backToSubmit": "Back to submit",
+    "calculate": "Calculate",
+    "calculating": "Calculating…",
+    "copyLink": "Copy link",
+    "linkCopied": "Calculator link copied",
+    "hubLink": "Score calculator",
+    "overrides": {
+      "title": "Scoring overrides",
+      "baseScore": "Base score",
+      "ppBaseScore": "PP base score",
+      "equalTo": "Equal to {{name}}",
+      "curve": "Score curve",
+      "curveLevel": "Using the level’s curve (or site defaults).",
+      "curveCustom": "Custom curve applied for this calculator only.",
+      "editCurve": "Edit curve",
+      "clearCurve": "Clear curve override",
+      "curvePreviewHint": "Select a level or set base scores to preview the curve.",
+      "reset": "Reset to level",
+      "hint": "Overrides apply only in this calculator. Placement requires unmodified level scoring."
+    },
+    "loadPass": {
+      "title": "Load pass",
+      "placeholder": "Search for a pass or input ID",
+      "import": "Import",
+      "loaded": "Pass loaded into form",
+      "failed": "Failed to load pass",
+      "fetching": "Fetching…",
+      "notFound": "Pass not found",
+      "previewEmpty": "Pass preview will appear here",
+      "unknownLevel": "Unknown level",
+      "unknownPlayer": "Unknown player"
+    },
+    "targetScore": "Target score (inverse)",
+    "compareInputs": {
+      "title": "Compare judgements",
+      "hint": "Fill compare judgements below, then Calculate.",
+      "copyJudgements": "Copy judgements",
+      "copyJudgementsTooltip": "Copies the judgements you inputted in the main calculator to here"
+    },
+    "score": {
+      "needLevelOrSandbox": "Enter level ID or sandbox base scores"
+    },
+    "panels": {
+      "primary": "Primary score",
+      "missBudget": "Miss budget",
+      "inverse": "Inverse (target score)",
+      "speedGrid": "Speed × accuracy",
+      "compare": "Compare",
+      "reclear": "Reclear check",
+      "placement": "Level placement",
+      "ranked": "Ranked impact"
+    },
+    "labels": {
+      "score": "Score",
+      "accuracy": "Accuracy",
+      "base": "Base",
+      "xaccMtp": "Xacc ×",
+      "speedMtp": "Speed ×",
+      "missMtp": "Miss ×",
+      "noHold": "No-hold",
+      "misses": "Misses",
+      "speed": "Speed"
+    },
+    "speedGrid": {
+      "hint": "Zero-miss scores across speeds. Only exact 100% accuracy uses the green PP scale; all other rows use blue scaled to the best non-PP score.",
+      "legendNonPp": "Non-PP",
+      "legendPp": "Pure perfect"
+    },
+    "inverse": {
+      "hint": "Set a target score in the side panel, then Calculate.",
+      "unreachable": "Target may be above the max score for this setup."
+    },
+    "compare": {
+      "hint": "Enter a second judgement set in the side panel, then Calculate.",
+      "primary": "Primary",
+      "secondary": "Compare",
+      "delta": "Delta"
+    },
+    "reclear": {
+      "needPlayer": "Select a player and Calculate to compare against their best on this level.",
+      "noPrior": "No prior clear on this level for this player.",
+      "best": "Current best",
+      "status": "Status",
+      "beats": "Beats best",
+      "equal": "Matches best",
+      "worse": "Does not beat best"
+    },
+    "placement": {
+      "needLevel": "Select a real level (without scoring overrides) and Calculate.",
+      "customScoring": "Placement unavailable while using custom scoring overrides.",
+      "rankOf": "#{{rank}} of {{total}}",
+      "tied": "{{count}} players tied at this score"
+    },
+    "ranked": {
+      "needPlayer": "Select a player and Calculate for ranked / general / PP impact.",
+      "before": "Ranked before",
+      "after": "Ranked after",
+      "delta": "Ranked Δ",
+      "generalDelta": "General Δ",
+      "ppDelta": "PP Δ",
+      "slot": "Top-20 slot"
+    }
+  }
+}

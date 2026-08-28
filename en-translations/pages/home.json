@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Home",
+    "description": "Welcome to The Universal Forums (TUF) - A community-driven organization for ADOFAI custom levels"
+  },
+  "title": {
+    "revamped": "Revamped"
+  },
+  "buttons": {
+    "browseLevels": "Browse Levels",
+    "browsePasses": "Browse Passes",  
+    "browsePacks": "Browse Packs",
+    "leaderboard": "Leaderboard"
+  },
+  "tooltips": {
+    "tufStellarOut": "TUFStellar is out!"
+  },
+  "stats": {
+    "overview": {
+      "title": "Overview",
+      "totalLevels": "Total Levels",
+      "totalPasses": "Total Passes",
+      "totalPlayers": "Total Players",
+      "passesLast30Days": "Passes (30 Days)"
+    },
+    "difficulties": {
+      "title": "Difficulty Statistics",
+      "graphModes": {
+        "passes": "Passes",
+        "levels": "Levels"
+      }
+    },
+    "discord": {
+      "title": "Join our Discord!"
+    },
+    "comingSoon": "More fun stuff coming soon...",
+    "donate": "Support me on Ko-fi!"
+  },
+  "weeklies": {
+    "title": "Weekly Levels",
+    "description": "Featured curations for the current week",
+    "primary": "Legendary",
+    "secondary": "Loved",
+    "error": "Failed to load weeklies",
+    "empty": "No levels scheduled for this week"
+  },
+  "footer": {
+    "about": {
+      "title": "TUF",
+      "description": "The Universal Forums is a community-driven organization focused on collecting and rating difficulties on custom levels of the game ADOFAI."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "browseLevels": "Browse Levels",
+      "browsePasses": "Browse Passes",
+      "browsePacks": "Browse Packs",
+      "leaderboard": "Leaderboard",
+      "scoreCalculator": "Score calculator",
+      "aboutUs": "About Us",
+      "resources": "Resources",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "apiDocs": "API Documentation",
+      "developers": "Developer Portal"
+    },
+    "community": {
+      "title": "Community",
+      "discord": "Discord",
+      "github": "GitHub"
+    },
+    "copyright": {
+      "main": "© {{year}} TUF. Not affiliated with 7th Beat Games.",
+      "credit": "Made with ❤️ by V0W4N"
+    }
+  }
+} 

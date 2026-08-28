@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Backups",
+    "description": "Manage MySQL backups for The Universal Forums (TUF)"
+  },
+  "header": {
+    "title": "Backups",
+    "refresh": "Refresh backups"
+  },
+  "stats": {
+    "totalSize": "Total Size: {{size}}"
+  },
+  "sort": {
+    "newest": "Newest",
+    "oldest": "Oldest"
+  },
+  "buttons": {
+    "create": "Create MySQL Backup",
+    "restore": "Restore",
+    "upload": "Upload",
+    "download": "Download",
+    "verifying": "Verifying..."
+  },
+  "upload": {
+    "dragDropMessage": "Drag and drop a backup file here, or click to select",
+    "errors": {
+      "fileTooBig": "File size exceeds maximum limit of {{size}}",
+      "validationFailed": "Failed to validate upload credentials"
+    }
+  },
+  "noBackups": {
+    "title": "No MySQL backups available",
+    "message": "Create your first backup using the button above"
+  },
+  "timeAgo": {
+    "second": "{{count}} second ago",
+    "seconds": "{{count}} seconds ago",
+    "minute": "{{count}} minute ago",
+    "minutes": "{{count}} minutes ago",
+    "hour": "{{count}} hour ago",
+    "hours": "{{count}} hours ago",
+    "day": "{{count}} day ago",
+    "days": "{{count}} days ago",
+    "month": "{{count}} month ago",
+    "months": "{{count}} months ago",
+    "year": "{{count}} year ago",
+    "years": "{{count}} years ago"
+  },
+  "passwordModal": {
+    "title": "Super Admin Password Required",
+    "initialMessage": "Please enter your super admin password to continue",
+    "placeholder": "Enter password",
+    "errors": {
+      "invalid": "Invalid password",
+      "generic": "An error occurred while performing the action",
+      "validation": "Password validation failed"
+    }
+  },
+  "confirmation": {
+    "title": "Confirm Action",
+    "createMessage": "Are you sure you want to create a new backup?",
+    "deleteMessage": "Are you sure you want to delete this backup? This action cannot be undone.",
+    "restoreMessage": "Are you sure you want to restore this backup? This will overwrite current data."
+  },
+  "notifications": {
+    "backupCreated": "MySQL backup created successfully",
+    "backupRestored": "Backup restored successfully",
+    "backupDeleted": "Backup deleted successfully",
+    "downloadFailed": "Failed to download backup",
+    "loadFailed": "Failed to load backups",
+    "createFailed": "Failed to create backup",
+    "restoreFailed": "Failed to restore backup",
+    "deleteFailed": "Failed to delete backup",
+    "uploadSuccess": "Backup uploaded successfully",
+    "uploadFailed": "Failed to upload backup",
+    "validationFailed": "Password validation failed",
+    "renameSuccess": "Backup renamed successfully",
+    "renameFailed": "Failed to rename backup"
+  },
+  "fileInfo": {
+    "created": "Created: {{date}}",
+    "size": "Size: {{size}}",
+    "newName": "Enter new name"
+  }
+} 

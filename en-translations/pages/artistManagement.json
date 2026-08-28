@@ -1,0 +1,55 @@
+{
+  "title": "Artist Management",
+  "meta": {
+    "title": "Artist Management",
+    "description": "Manage artists and their information"
+  },
+  "search": {
+    "placeholder": "Search artists..."
+  },
+  "filter": {
+    "verification": "Verification",
+    "all": "All"
+  },
+  "sort": {
+    "label": "Sort by:",
+    "nameAsc": "Name (A-Z)",
+    "nameDesc": "Name (Z-A)",
+    "idAsc": "ID (Low to High)",
+    "idDesc": "ID (High to Low)"
+  },
+  "aliases": "aliases",
+  "buttons": {
+    "add": "Add Artist",
+    "loadMore": "Load More",
+    "create": "Create"
+  },
+  "form": {
+    "title": "Create New Artist",
+    "name": "Name",
+    "namePlaceholder": "Enter artist name",
+    "avatarUrl": "Avatar",
+    "avatarUrlPlaceholder": "Enter avatar URL",
+    "selectAvatarFile": "Select Avatar File",
+    "removeAvatar": "Remove",
+    "verificationState": "Verification State",
+    "aliases": "Aliases",
+    "aliasPlaceholder": "Enter alias",
+    "addAlias": "Add Alias"
+  },
+  "messages": {
+    "created": "Artist created successfully",
+    "deleted": "Artist deleted successfully"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch artists",
+    "nameRequired": "Name is required",
+    "createFailed": "Failed to create artist",
+    "deleteFailed": "Failed to delete artist"
+  },
+  "infScroll": {
+    "end": "You've reached the end!"
+  },
+  "confirmDelete": "Are you sure you want to delete this artist?",
+  "noArtists": "No artists found"
+}

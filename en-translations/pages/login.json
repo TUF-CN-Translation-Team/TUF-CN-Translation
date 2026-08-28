@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Login",
+    "description": "Login to The Universal Forums (TUF)"
+  },
+  "header": {
+    "title": "Login"
+  },
+  "form": {
+    "labels": {
+      "emailOrUsername": "Email or Username",
+      "password": "Password"
+    },
+    "buttons": {
+      "login": "Login",
+      "loggingIn": "Logging in...",
+      "discordLogin": "Login with Discord",
+      "googleLogin": "Login with Google"
+    },
+    "divider": "or",
+    "links": {
+      "register": "Don't have an account? Register"
+    }
+  },
+  "mfa": {
+    "title": "Check your email",
+    "codePrompt": "Enter the code we sent to {{email}} to finish signing in.",
+    "yourEmail": "your email",
+    "codeLabel": "Login code",
+    "codeRequired": "Enter the 8-character code from your email",
+    "invalidCode": "Invalid or expired code",
+    "confirm": "Continue",
+    "verifying": "Verifying...",
+    "resend": "Resend code",
+    "resendIn": "Resend in {{seconds}}s",
+    "resendCooldown": "Please wait before requesting another code",
+    "sendFailed": "Failed to send login code",
+    "expired": "Login challenge expired. Please sign in again.",
+    "rememberDevice": "Remember this device for 30 days",
+    "back": "Back to login",
+    "usePasskey": "Use a passkey instead",
+    "passkeyFailed": "Passkey verification failed. Please try again."
+  },
+  "passkey": {
+    "button": "Sign in with a passkey",
+    "failed": "Passkey sign-in failed. Please try again."
+  },
+  "errors": {
+    "generic": "Unspecified error. Please try again later.",
+    "network": "Network connection error. Please try again later.",
+    "discordFailed": "Failed to initiate Discord login. Please try again, if the issue persists, contact the developer.",
+    "googleFailed": "Failed to initiate Google login. Please try again, if the issue persists, contact the developer.",
+    "invalidCredentials": "Invalid email/username or password.",
+    "emailNotVerified": "Please verify your email before signing in.",
+    "rateLimit": "Too many attempts. Please wait and try again.",
+    "captcha": {
+      "notLoaded": "reCAPTCHA not loaded",
+      "incomplete": "Please complete the reCAPTCHA verification",
+      "failed": "Failed to verify reCAPTCHA. Please try again."
+    }
+  }
+}
