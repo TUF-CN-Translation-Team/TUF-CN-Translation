@@ -19,6 +19,4 @@ TUF译文校验器以及如何做翻译工作：https://tuforums.com/translation
 
 具体使用方法可以询问AI
 
-
-
 此说明文件禁止非工作人员更改
