@@ -1,0 +1,13 @@
+{
+  "card": {
+    "labels": {
+      "score": "Score",
+      "accuracy": "Accuracy",
+      "speed": "Speed"
+    },
+    "tooltips": {
+      "watchVideo": "Watch video",
+      "potentialScore": "The cleared level is not accessible, this is a potential score increase if it was."
+    }
+  }
+} 

@@ -1,0 +1,98 @@
+{
+  "button": {
+    "label": "Open References",
+    "text": "References"
+  },
+  "popup": {
+    "title": "{{tab}} Difficulties",
+    "buttons": {
+      "close": "Close",
+      "expandAll": "Expand All",
+      "collapseAll": "Collapse All",
+      "editMode": "Edit Mode",
+      "viewMode": "View Mode",
+      "saveChanges": "Save Changes",
+      "help": "Help",
+      "switchToExtended": "Switch to extended view",
+      "switchToCompact": "Switch to compact view"
+    },
+    "loading": "Loading references...",
+    "errors": {
+      "loadFailed": "Failed to load references",
+      "saveFailed": "Failed to save changes",
+      "invalidType": "Invalid reference type: {{type}}"
+    },
+    "messages": {
+      "saveSuccess": "References saved successfully",
+      "parseError": "Error parsing references: {{error}}"
+    },
+    "levelCount": {
+      "singular": "1 level",
+      "plural": "{{count}} levels"
+    },
+    "noType": "No Type",
+    "help": {
+      "title": "Reference Type System",
+      "description": "The reference system uses a combination of letters to categorize references:",
+      "types": {
+        "title": "Types",
+        "R": "Rolling - Levels where the primary technique in difficult sections is rolling.",
+        "I": "Indexing - Levels that require high speed (>= 190 BPM) indexing and/or long periods of indexing.",
+        "T": "Tech - Levels that require unique or non-traditional methods of hitting patterns, usually as a result of complex polyrhythms, long accelerations / decelerations, or unintuitive rhythms",
+        "K": "Keycount - Levels that contain a significant amount of high keycount (12K and 16K) play. Typically comes in conjunction with another tag.",
+        "K+": "Keycount+ - Levels that contain an extremely high amount of keycount (16K+) play or complex keycount patterns."
+      }
+    },
+    "editMode": {
+      "placeholder": "Enter level IDs separated by commas",
+      "help": {
+        "title": "Reference Type System - Edit Mode",
+        "description": "The reference system uses a combination of letters to categorize references:",
+        "types": {
+          "title": "Types",
+          "R": "Rolling - Levels where the primary technique in difficult sections is rolling.",
+          "I": "Indexing - Levels that require high speed (>= 190 BPM) indexing and/or long periods of indexing.",
+          "T": "Tech - Levels that require unique or non-traditional methods of hitting patterns, usually as a result of complex polyrhythms, long accelerations / decelerations, or unintuitive rhythms",
+          "K": "Keycount - Levels that contain a significant amount of high keycount (12K and 16K) play. Typically comes in conjunction with another tag.",
+          "K+": "Keycount+ - Levels that contain an extremely high amount of keycount (16K+) play or complex keycount patterns."
+        },
+        "format": {
+          "title": "Format",
+          "single": "Single type: R: 123, 456",
+          "multiple": "Multiple types: RI: 789, 101",
+          "noType": "No type: 123, 456"
+        },
+        "rules": {
+          "title": "Rules",
+          "list": [
+            "Each line can have one type prefix",
+            "Types can be combined (e.g., RI, TK)",
+            "Level IDs must be separated by commas",
+            "Empty lines are ignored",
+            "Untyped references go on their own line"
+          ]
+        }
+      }
+    }
+  },
+  "errors": {
+    "loading": "Failed to load difficulties",
+    "saving": "Failed to save difficulties"
+  },
+  "title": "{{tab}} Difficulties",
+  "buttons": {
+    "reset": "Reset",
+    "clear": "Clear",
+    "selectAll": "Select All"
+  },
+  "loading": "Loading difficulties...",
+  "noItems": "No difficulties found",
+  "search": {
+    "placeholder": "Search difficulties..."
+  },
+  "stats": {
+    "selected": "Selected",
+    "total": "Total",
+    "plural": "{{count}} levels"
+  }
+} 

@@ -1,0 +1,57 @@
+{
+  "title": "Select Song",
+  "loading": "Loading...",
+  "currentSong": {
+    "label": "Current Song",
+    "none": "No song selected"
+  },
+  "search": {
+    "placeholder": "Search for a song...",
+    "noResults": "No songs found"
+  },
+  "buttons": {
+    "createNew": "Request New Song",
+    "assign": "Save",
+    "create": "Request New",
+    "creating": "Updating..."
+  },
+  "createForm": {
+    "title": "Request New Song",
+    "name": "Song Name",
+    "namePlaceholder": "Enter song name",
+    "description": "This will create a new song with the artists credited"
+  },
+  "stats": {
+    "title": "Song Statistics",
+    "levels": "Levels",
+    "artists": "Artists"
+  },
+  "status": {
+    "allowed": "Allowed",
+    "ysmodOnly": "YSMod Only",
+    "conditional": "Conditional",
+    "pending": "Pending",
+    "declined": "Declined"
+  },
+  "messages": {
+    "success": {
+      "songAssigned": "Request updated successfully",
+      "songCreated": "Request updated successfully"
+    },
+    "newArtistRestriction": "A new artist request is set. Only new song requests can be added.",
+    "onlyNewSongsAllowed": "Only new song requests are allowed when a new artist is set.",
+    "filteredByArtist": "Showing songs by {{artistName}}",
+    "info": {
+      "requestNote": "Selecting a song updates your submission request. The song will be assigned when your submission is approved."
+    },
+    "error": {
+      "searchFailed": "Failed to search songs",
+      "loadDetailsFailed": "Failed to load song details",
+      "songNotFound": "Song not found",
+      "assignFailed": "Failed to update request",
+      "createFailed": "Failed to update request",
+      "cannotAssignExistingWithNewArtist": "Cannot assign existing songs when a new artist request is set",
+      "songNotByArtist": "This song does not belong to the selected artist"
+    }
+  }
+}

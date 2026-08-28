@@ -1,0 +1,50 @@
+{
+  "title": "Select Artist",
+  "currentArtist": {
+    "label": "Current Artist",
+    "none": "No artist selected"
+  },
+  "search": {
+    "placeholder": "Search for an artist...",
+    "noResults": "No artists found"
+  },
+  "buttons": {
+    "createNew": "Request New",
+    "assign": "Assign Artist",
+    "create": "Request",
+    "creating": "Requesting..."
+  },
+  "createForm": {
+    "title": "Request New Artist",
+    "name": "Artist Name",
+    "namePlaceholder": "Enter artist name",
+    "verificationState": "Verification State"
+  },
+  "stats": {
+    "title": "Artist Statistics",
+    "levels": "Levels",
+    "songs": "Songs"
+  },
+  "status": {
+    "unverified": "Unverified",
+    "pending": "Pending",
+    "declined": "Declined",
+    "mostlyDeclined": "Mostly Declined",
+    "mostlyAllowed": "Mostly Allowed",
+    "allowed": "Allowed",
+    "ysmodOnly": "YSMod Only"
+  },
+  "messages": {
+    "success": {
+      "artistAssigned": "Artist assigned successfully",
+      "artistCreated": "Artist request added successfully"
+    },
+    "error": {
+      "searchFailed": "Failed to search artists",
+      "loadDetailsFailed": "Failed to load artist details",
+      "artistNotFound": "Artist not found",
+      "assignFailed": "Failed to assign artist",
+      "createFailed": "Failed to request artist"
+    }
+  }
+}

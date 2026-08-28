@@ -1,0 +1,13 @@
+{
+  "title": "Some levels cannot be curated",
+  "titleAllInvalid": "No levels can be curated",
+  "message": "{{validCount}} level(s) can proceed. The following cannot:",
+  "messageAllInvalid": "None of the specified levels can be curated:",
+  "invalidHeading": "Cannot proceed ({{count}})",
+  "proceed": "Continue with {{count}} level(s)",
+  "submitting": "Creating…",
+  "reasons": {
+    "notFound": "Level not found",
+    "cannotManage": "You cannot manage this level's curation"
+  }
+}

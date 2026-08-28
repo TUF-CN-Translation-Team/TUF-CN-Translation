@@ -1,0 +1,97 @@
+{
+  "main": {
+    "sections": {
+      "levels": "Levels",
+      "rankings": "Rankings",
+      "creators": "Creators",
+      "tools": "Tools",
+      "help": "Help"
+    },
+    "links": {
+      "home": "Home",
+      "levels": "Levels",
+      "leaderboard": "Leaderboard",
+      "creators": "Creators",
+      "packs": "Packs",
+      "info": "Info",
+      "more": "More",
+      "pass": "Passes",
+      "submission": "Submit",
+      "rating": "Rating",
+      "curations": "Curation",
+      "signIn": "Sign in",
+      "admin": {
+        "rating": "Rating",
+        "submissions": "Submissions",
+        "announcements": "Announcements",
+        "dashboard": "Dashboard",
+        "difficulties": "Difficulties",
+        "backups": "Backups",
+        "back": "Back",
+        "admin": "Admin",
+        "creators": "Creators"
+      }
+    },
+    "dropdowns": {
+      "levels": {
+        "listing": "Level listing"
+      },
+      "creators": {
+        "listing": "Creator listing",
+        "creators": "Creators",
+        "artists": "Artists",
+        "songs": "Songs"
+      },
+      "packs": {
+        "allPacks": "All Packs"
+      },
+      "tools": {
+        "scoreCalculator": "Score calculator"
+      },
+      "more": {
+        "passes": "Passes",
+        "rating": "Rating",
+        "tufHelper": "TUFHelper",
+        "tufHelperLite": "TUFHelperLite",
+        "tufExtension": "TUFExtension",
+        "tos": "ToS",
+        "privacyPolicy": "Privacy Policy",
+        "aboutUs": "About Us",
+        "resources": "Resources",
+        "apiDocs": "API Docs",
+        "assets": "Assets",
+        "developers": "Developer Portal"
+      },
+      "user": {
+        "myProfile": "My Profile",
+        "tufStellar": "TUFStellar",
+        "mySubmissions": "My Submissions",
+        "notifications": "Notifications",
+        "settings": "Settings",
+        "admin": "Admin",
+        "logout": "Log out"
+      },
+      "admin": {
+        "rating": "Rating",
+        "submissions": "Submissions",
+        "announcements": "Announcements",
+        "difficulties": "Difficulties",
+        "creators": "Creators",
+        "tournaments": "Tournaments",
+        "backups": "Backups",
+        "auditLog": "Audit Log",
+        "curations": "Curations",
+        "songs": "Songs",
+        "artists": "Artists",
+        "resources": "Resources"
+      }
+    },
+    "badges": {
+      "underConstruction": "⫻Under Construxion⫻"
+    }
+  },
+  "languages": {
+    "comingSoon": "(Coming Soon)",
+    "helpTranslate": "Help translate"
+  }
+}

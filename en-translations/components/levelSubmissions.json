@@ -1,0 +1,133 @@
+{
+  "title": "Level Submissions",
+  "noSubmissions": "No pending submissions",
+  "loading": "Loading submissions...",
+  "error": "Error loading submissions",
+  "details": {
+    "song": "Song:",
+    "suffix": "Suffix:",
+    "suffixPlaceholder": "Optional suffix (e.g., \"Nerfed\")",
+    "videoLink": "Video link:",
+    "videoLinkPlaceholder": "YouTube or Bilibili URL",
+    "artist": "Artist:",
+    "charter": "Charter:",
+    "difficulty": "Difficulty:",
+    "download": {
+      "label": "Download:",
+      "directLink": "Direct Link",
+      "notAvailable": "Not Available",
+      "cdnLink": "Local CDN Link"
+    },
+    "workshop": {
+      "label": "Workshop:",
+      "link": "Workshop Link"
+    },
+    "team": "Team:",
+    "vfxer": "VFXer:",
+    "specialThanks": "Special Thanks:",
+    "submitter": "Submitter:",
+    "submitterRecordTooltip": "{{accepted}} accepted / {{declined}} declined",
+    "evidence": "Evidence:",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional notes for managers"
+  },
+  "buttons": {
+    "manageCreator": "Manage Creator",
+    "manageTeam": "Manage Team",
+    "manageSong": "Manage Song",
+    "manageArtist": "Manage Artist",
+    "changeSong": "Change Song",
+    "changeArtist": "Change Artist",
+    "addSongRequest": "Request as a New Song",
+    "addArtistRequest": "Add New Artist",
+    "removeArtist": "Remove Artist",
+    "allow": "Allow",
+    "decline": "Decline",
+    "addCharter": "Add Charter",
+    "addVfxer": "Add VFX-er",
+    "addSpecialThanks": "Add Special Thanks",
+    "remove": "Remove",
+    "searchCreator": "Search",
+    "createCreator": "Create New",
+    "assignCreator": "Assign Existing",
+    "addTeam": "Add Team",
+    "addCreator": "Add Creator"
+  },
+  "declinePrompt": {
+    "title": "Decline this chart?",
+    "message": "The submitter will be notified. You can optionally explain why."
+  },
+  "labels": {
+    "levelName": "Level",
+    "creatorName": "Creator",
+    "submittedOn": "Submitted"
+  },
+  "badges": {
+    "newRequest": "New",
+    "unassigned": "Unassigned"
+  },
+  "messages": {
+    "success": {
+      "approved": "Submission approved successfully",
+      "rejected": "Submission rejected successfully",
+      "suffixUpdated": "Suffix updated successfully",
+      "videoLinkUpdated": "Video link updated successfully",
+      "notesUpdated": "Notes updated successfully"
+    },
+    "error": {
+      "generic": "An error occurred",
+      "approve": "Failed to approve submission",
+      "reject": "Failed to reject submission"
+    },
+    "artistLockedToSong": "Artist is fixed to the selected song and cannot be changed",
+    "songUpdated": "Song updated successfully",
+    "artistUpdated": "Artist updated successfully",
+    "songRequestAdded": "Song request added successfully",
+    "artistRequestAdded": "Artist request added successfully",
+    "artistRequestRemoved": "Artist request removed successfully"
+  },
+  "warnings": {
+    "pendingProfiles": "This profile will be requested for creation:",
+    "creatorExists": "A creator with this name already exists",
+    "invalidCreator": "Invalid creator name",
+    "duplicateCreator": "This creator has already been added"
+  },
+  "creators": {
+    "search": {
+      "placeholder": "Search for existing creators...",
+      "noResults": "No creators found",
+      "loading": "Searching..."
+    },
+    "create": {
+      "title": "Create New Creator",
+      "namePlaceholder": "Enter creator name",
+      "success": "Creator created successfully",
+      "error": "Failed to create creator"
+    },
+    "assign": {
+      "title": "Assign Creator",
+      "success": "Creator assigned successfully",
+      "error": "Failed to assign creator"
+    }
+  },
+  "errors": {
+    "profileUpdate": "Failed to update submission with profiles",
+    "addCreatorFailed": "Failed to add creator",
+    "removeCreatorFailed": "Failed to remove creator",
+    "cannotRemoveLastCharter": "Cannot remove the last charter",
+    "needProfiles": "All creator profiles must be assigned before approval",
+    "needSongAndArtist": "Both song and artist must be set before approval",
+    "needArtistForSong": "Artist must be set before managing song",
+    "artistLockedToSong": "Cannot modify artist: it is fixed to the selected song",
+    "suffixUpdateFailed": "Failed to update suffix",
+    "videoLinkUpdateFailed": "Failed to update video link",
+    "notesUpdateFailed": "Failed to update notes",
+    "videoLinkRequired": "Video link cannot be empty",
+    "updateSongFailed": "Failed to update song",
+    "updateArtistFailed": "Failed to update artist",
+    "addSongRequestFailed": "Failed to add song request",
+    "addArtistRequestFailed": "Failed to add artist request",
+    "removeArtistRequestFailed": "Failed to remove artist request",
+    "processing": "Error processing submission"
+  }
+} 

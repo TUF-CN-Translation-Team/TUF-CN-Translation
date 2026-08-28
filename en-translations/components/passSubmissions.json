@@ -1,0 +1,108 @@
+{
+  "noSubmissions": "No pending submissions",
+  "details": {
+    "level": "Level",
+    "player": "Player",
+    "feelingDiff": "Feeling Difficulty",
+    "expectedDiff": "Expected Rating",
+    "speed": "Speed",
+    "judgements": {
+      "label": "Judgements",
+      "tilecountMismatchTooltip": "Sum of judgements <b>{{hitSum}}</b> does not match the achievable tilecount <b>{{tilecount}}</b>.",
+      "tilecountMismatchTooltipWithAuto": "Sum of judgements <b>{{hitSum}}</b> does not match the achievable tilecount <b>{{tilecount}}</b> ({{rawTilecount}} total, {{autoTileCount}} auto).",
+      "fields": {
+        "earlyDouble": "ED",
+        "earlySingle": "ES",
+        "ePerfect": "EP",
+        "perfect": "P",
+        "lPerfect": "LP",
+        "lateSingle": "LS",
+        "lateDouble": "LD"
+      }
+    },
+    "flags": {
+      "label": "Flags",
+      "keyCount": "{{count}}K",
+      "keyCountLabel": "Key Count",
+      "keyCountPlaceholder": "Optional",
+      "types": {
+        "12k": "12K",
+        "nht": "NHT",
+        "16k": "16K",
+        "adofaiV2": "ADOFAI v2"
+      }
+    },
+    "submitter": "Submitter:",
+    "submitterRecordTooltip": "{{accepted}} accepted / {{declined}} declined",
+    "uploadTime": "Upload Time",
+    "videoLink": "Video link:",
+    "videoLinkPlaceholder": "YouTube or Bilibili URL"
+  },
+  "playerAssignment": {
+    "title": "Assign Player",
+    "current": "Currently Assigned Player",
+    "discord": {
+      "assignButton": "Assign Discord"
+    },
+    "newProfile": "New Profile request",
+    "manageProfile": "Manage Player"
+  },
+  "buttons": {
+    "allow": "Allow",
+    "decline": "Decline",
+    "reset": "Reset",
+    "clear": "Clear",
+    "selectAll": "Select All",
+    "autoAllow": "Auto-Allow",
+    "autoReject": "Auto-Reject"
+  },
+  "declinePrompt": {
+    "title": "Decline this pass?",
+    "message": "The submitter will be notified. You can optionally explain why."
+  },
+  "errors": {
+    "noPlayer": "Please assign a player before approving",
+    "playerAssignment": "Failed to assign player",
+    "processing": "Error processing submission",
+    "autoAllow": "Error auto-allowing submissions",
+    "profileUpdate": "Failed to update submission with profile",
+    "needProfileCreation": "Profile needs to be created before approval",
+    "patch": "Failed to update submission",
+    "invalidKeyCount": "Key count must be a positive integer",
+    "videoLinkUpdateFailed": "Failed to update video link",
+    "videoLinkRequired": "Video link cannot be empty"
+  },
+  "success": {
+    "playerAssigned": "Successfully assigned to {{playerName}}",
+    "autoAllow": "Auto-allowed {{count}} submissions",
+    "autoAllowQueued": "Queued {{count}} passes for sequential processing",
+    "playerCreated": "Successfully created and assigned {{playerName}}",
+    "patch": "Submission updated",
+    "videoLinkUpdated": "Video link updated"
+  },
+  "edit": {
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "levelPlaceholder": "Search or enter level ID",
+    "fetchingLevel": "Loading level…",
+    "songPlaceholder": "Song"
+  },
+  "loading": "Loading submissions...",
+  "noItems": "No submissions found",
+  "search": {
+    "placeholder": "Search submissions..."
+  },
+  "stats": {
+    "selected": "Selected",
+    "total": "Total"
+  },
+  "modal": {
+    "title": "Confirm Action",
+    "confirmMessage": "Will assign @{{username}} to {{playerName}}. Proceed?",
+    "tooltip": "{{discordUsername}} ➔ {{playerName}}"
+  },
+  "notifications": {
+    "autoAllow": "Auto-approved {{count}} submissions"
+  }
+} 

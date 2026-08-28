@@ -1,0 +1,246 @@
+{
+  "edit": {
+    "title": "Edit Level Details",
+    "close": "×",
+    "manageAliases": "Manage Aliases",
+    "form": {
+      "labels": {
+        "song": "Song",
+        "suffix": "Suffix",
+        "creator": "Creator",
+        "charter": "Charter",
+        "vfxer": "VFXer",
+        "team": "Team",
+        "baseScore": "Base Score",
+        "ppBaseScore": "PP Base Score",
+        "previousBaseScore": "Previous Base Score",
+        "tags": "Tags",
+        "videoLink": "Video Link",
+        "dlLink": "Download Link",
+        "workshopLink": "Workshop Link",
+        "publicComments": "Public Comments",
+        "notes": "Notes",
+        "isExternallyAvailable": "Is Externally Available",
+        "previousDifficulty": "Previous Difficulty"
+      },
+      "placeholders": {
+        "baseScore": "Base Score",
+        "ppBaseScore": "PP Base Score",
+        "previousBaseScore": "Previous Base Score",
+        "rerateNumber": "Rerate Number",
+        "rerateReason": "Rerate Reason",
+        "selectSong": "Click to select song",
+        "suffix": "Optional suffix (e.g., \"Nerfed\")"
+      },
+      "badges": {
+        "selected": "Selected"
+      },
+      "checkboxes": {
+        "toRate": "To Rate"
+      },
+      "buttons": {
+        "save": {
+          "default": "Save Changes"
+        },
+        "delete": {
+          "default": "Delete",
+          "deleting": "Deleting...",
+          "hide": "Hide",
+          "unhide": "Unhide",
+          "processing": "Processing..."
+        },
+        "restore": {
+          "default": "Restore Level",
+          "restoring": "Restoring..."
+        },
+        "permanentDelete": {
+          "default": "Delete permanently",
+          "deleting": "Deleting..."
+        },
+        "manageTags": "Manage Tags"
+      }
+    },
+    "confirmations": {
+      "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
+      "delete": "Do you want to delete this level? This can be undone later.",
+      "hide": "Do you want to hide this level?",
+      "unhide": "Do you want to unhide this level?",
+      "restore": "Do you want to restore this level?",
+      "permanentDelete": "Permanently delete this level? This cannot be undone. All passes, ratings, and stored files (download and curation images) will be removed."
+    },
+    "reasonPrompt": {
+      "deleteTitle": "Delete this level?",
+      "hideTitle": "Hide this level?"
+    },
+    "errors": {
+      "update": "Failed to update level",
+      "delete": "Soft deletion failed",
+      "toggleHidden": "Failed to toggle hidden status",
+      "restore": "Failed to restore level",
+      "permanentDelete": "Failed to permanently delete level",
+      "cannotCreateSong": "Cannot create new songs from level edit. Please select an existing song."
+    },
+    "xaccCurve": {
+      "title": "Xacc score curve",
+      "sandboxTitle": "Score curve (calculator)",
+      "openButtonTitle": "Edit per-level xacc curve (recalculates passes)",
+      "hint": "Set two interior score pins (95% is fixed at base score). A hyperbola is fitted through all three points; derived E and G are shown below.",
+      "sandboxHint": "Adjust pin accuracy and scores; the graph updates live. Apply uses this curve only in the calculator — the level is not saved.",
+      "constraintHint": "If pins cannot be fit exactly, the last E/G curve is kept and pins may appear off the plotted line.",
+      "fitWarning": "Pins do not lie on a single hyperbola with the last E/G: {{error}}. Markers show your values; adjust pins or scores to fit.",
+      "baseScoreFallback": "Level base score is missing; pin scores use {{base}} for scaling.",
+      "tilecountFallback": "Tile count is missing; preview uses 100 tiles.",
+      "resetDefaults": "Reset to site defaults",
+      "save": "Save",
+      "apply": "Apply",
+      "saving": "Saving…",
+      "cancel": "Cancel",
+      "toastSaved": "Xacc curve saved",
+      "toastSavedWithPasses": "Xacc curve saved. {{count}} pass scores recalculated.",
+      "sliderDisplay": "Slider {{value}}",
+      "inputMode": {
+        "accuracy": "Accuracy & score",
+        "judgements": "Judgements & score",
+        "heading": "Pin input mode",
+        "computedAccuracy": "Accuracy (from judgements)",
+        "passEmpty": "No passes on this level",
+        "passLoading": "Loading passes…",
+        "loadFromPassPin1": "Load a pass into pin 1",
+        "loadFromPassPin2": "Load a pass into pin 2"
+      },
+      "labels": {
+        "pin1": "Pin 1",
+        "pin2": "Pin 2",
+        "pinAccuracy": "Accuracy",
+        "pinScore": "Score",
+        "pole": "Pole offset (E)",
+        "top": "Top multiplier (G)"
+      },
+      "errors": {
+        "save": "Failed to save xacc curve",
+        "fit": "Could not fit a valid hyperbola to these pins"
+      }
+    },
+    "chartStats": {
+      "title": "Chart metadata",
+      "openButtonTitle": "Edit BPM, tile count & length (non-CDN only)",
+      "clearHint": "Leave a field empty and save to clear that value.",
+      "preview": "Preview",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "toastSaved": "Chart metadata saved",
+      "labels": {
+        "bpm": "BPM",
+        "tilecount": "Tile count",
+        "lengthSeconds": "Length (seconds)"
+      },
+      "errors": {
+        "save": "Failed to save chart metadata",
+        "bpm": "BPM must be a number greater than 0",
+        "tilecount": "Tile count must be a non-negative integer",
+        "length": "Length must be a non-negative number (seconds, decimals allowed)"
+      }
+    },
+    "tags": {
+      "title": "Manage Level Tags",
+      "currentTags": "Current Tags",
+      "noTags": "No tags assigned",
+      "removeTag": "Remove tag",
+      "addTags": "Add Tags",
+      "searchPlaceholder": "Search tags...",
+      "loading": "Loading tags...",
+      "noResults": "No tags found matching your search",
+      "noAvailableTags": "No available tags to add",
+      "addTag": "Add tag",
+      "communityTags": "Community tags",
+      "communityTagsHint": "These tags were added by community votes. Saving will not pin them unless you add them above.",
+      "errors": {
+        "fetchTags": "Failed to fetch tags",
+        "saveTags": "Failed to save tags"
+      }
+    }
+  },
+  "payloadSwap": {
+    "openButton": "Swap",
+    "openButtonTitle": "Swap chart details with another level",
+    "title": "Swap level details",
+    "close": "Close",
+    "explanation": "This exchanges chart details between two level ids.",
+    "note": "Passes, ratings, creators, packs, and other linked data move with the chart. Likes stay on each level number.",
+    "thisLevel": "This level",
+    "otherLevel": "Other level",
+    "noTarget": "No level selected",
+    "chooseTarget": "Choose other level",
+    "changeTarget": "Change level",
+    "cancel": "Cancel",
+    "confirm": "Swap details",
+    "swapping": "Swapping…",
+    "toastSuccess": "Level details swapped",
+    "errors": {
+      "sameLevel": "Pick a different level",
+      "swap": "Failed to swap level details"
+    }
+  },
+  "linkedLevels": {
+    "title": "Linked levels",
+    "empty": "No linked levels yet.",
+    "current": "This level",
+    "unknownSong": "Unknown song",
+    "toastAdded": "Linked {{name}}",
+    "toastRemoved": "Level unlinked",
+    "shareChart": "Chart",
+    "shareVfx": "VFX",
+    "errors": {
+      "sameLevel": "Cannot link a level to itself",
+      "alreadyLinked": "That level is already in this group",
+      "add": "Failed to link level",
+      "remove": "Failed to unlink level",
+      "saveShare": "Failed to update sharing"
+    }
+  },
+  "download": {
+    "title": "Download Options",
+    "close": "Close",
+    "closePopup": "Close popup",
+    "oversizedNotice": "This level file is too large to support conversion. Only the original zip is available for download.",
+    "step1": {
+      "prompt": "Choose download format:",
+      "downloadOriginal": "Download Original",
+      "convertDownload": "Convert & Download"
+    },
+    "step2": {
+      "dropEvents": "Drop Events",
+      "keepEvents": "Keep Events",
+      "tooltips": {
+        "dropEvents": "Remove selected events and filters from the level",
+        "keepEvents": "Keep only the selected events and remove filters"
+      },
+      "selectEventsPlaceholder": {
+        "drop": "Select events to drop",
+        "keep": "Select events to keep"
+      },
+      "cameraZoom": "Camera Zoom:",
+      "customBackground": "Use Custom Background Color",
+      "color": "Color:",
+      "opacity": "Opacity:",
+      "removeForegroundFlash": "Remove Foreground Flash",
+      "dropFilters": "Drop Filters:",
+      "dropFiltersPlaceholder": "Select filters to drop",
+      "back": "Back",
+      "downloadConverted": "Download Converted",
+      "downloadV2": "Download v2"
+    },
+    "errors": {
+      "corrupted": "Download Corrupted",
+      "fileMissing": "The file for this level is missing or corrupted on the server.",
+      "reupload": "Please reupload the level in the editing window.",
+      "noBackup": "No backup is available. Please contact an administrator.",
+      "downloadLegacy": "Download Legacy Backup"
+    }
+  },
+  "creditsEdit": {
+    "searchPlaceholder": "Search creators…",
+    "noResults": "No matching creators"
+  }
+} 

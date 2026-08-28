@@ -1,0 +1,86 @@
+{
+  "player": {
+    "title": "Edit Player",
+    "close": "×",
+    "form": {
+      "name": {
+        "label": "Player Name",
+        "placeholder": "Enter player name",
+        "button": "Update"
+      },
+      "country": {
+        "label": "Country or Region",
+        "button": "Update"
+      },
+      "aliases": {
+        "label": "Search aliases",
+        "placeholder": "Add former name for search",
+        "add": "Add",
+        "save": "Save aliases"
+      },
+      "ban": {
+        "label": "Ban Player",
+        "confirm": {
+          "ban": "Are you sure you want to ban this player?",
+          "unban": "Are you sure you want to unban this player?"
+        }
+      },
+      "pause": {
+        "label": "Pause Submissions",
+        "confirm": {
+          "pause": "Are you sure you want to pause submissions for this player?",
+          "resume": "Are you sure you want to resume submissions for this player?"
+        }
+      },
+      "ratingBan": {
+        "label": "Ban from Rating",
+        "confirm": {
+          "ban": "Are you sure you want to ban this player from rating?",
+          "unban": "Are you sure you want to allow this player to rate again?"
+        }
+      },
+      "merge": {
+        "label": "Merge Player",
+        "placeholder": "Enter target player ID",
+        "button": "Merge",
+        "confirm": {
+          "message": "Are you sure you want to merge this player's passes? This action cannot be undone.",
+          "warning": "All passes will be transferred to the target player and this player entry will be deleted.",
+          "buttons": {
+            "understand": "I understand",
+            "confirm": "Confirm Merge"
+          }
+        }
+      },
+      "discord": {
+        "label": "Discord ID",
+        "placeholder": "Enter Discord ID to validate",
+        "buttons": {
+          "validate": "Validate"
+        },
+        "confirm": {
+          "message": "Are you sure you want to update this player's Discord info?"
+        }
+      }
+    },
+    "errors": {
+      "nameUpdate": "Failed to update player name",
+      "countryUpdate": "Failed to update country",
+      "banUpdate": "Failed to update ban status",
+      "pauseUpdate": "Failed to update submission pause status",
+      "ratingBanUpdate": "Failed to update rating ban status",
+      "discordFetch": "Failed to fetch Discord ID",
+      "discordUpdate": "Failed to update Discord info",
+      "discordRemove": "Failed to remove Discord info",
+      "mergePlayer": "Failed to merge player",
+      "invalidTargetId": "Invalid target player ID",
+      "aliasesUpdate": "Failed to update aliases"
+    },
+    "success": {
+      "discordUpdate": "Discord info updated successfully",
+      "discordRemove": "Discord info removed successfully",
+      "mergePlayer": "Player merged successfully",
+      "aliasesUpdated": "Aliases updated successfully"
+    }
+  }
+} 

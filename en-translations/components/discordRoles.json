@@ -1,0 +1,82 @@
+{
+  "title": "Discord Role Sync",
+  "loading": "Loading...",
+  "errors": {
+    "loadGuilds": "Failed to load Discord guilds",
+    "createGuild": "Failed to create guild",
+    "updateGuild": "Failed to update guild",
+    "deleteGuild": "Failed to delete guild",
+    "createRole": "Failed to create role",
+    "updateRole": "Failed to update role",
+    "deleteRole": "Failed to delete role",
+    "reorderRoles": "Failed to reorder roles"
+  },
+  "success": {
+    "guildCreated": "Guild created successfully",
+    "guildUpdated": "Guild updated successfully",
+    "guildDeleted": "Guild deleted successfully",
+    "roleCreated": "Role created successfully",
+    "roleUpdated": "Role updated successfully",
+    "roleDeleted": "Role deleted successfully",
+    "rolesReordered": "Roles reordered successfully"
+  },
+  "empty": {
+    "noGuilds": "No Discord guilds configured yet.",
+    "noGuildsHint": "Add a guild to start configuring role synchronization.",
+    "noRoles": "No roles configured for this {{type}}."
+  },
+  "guild": {
+    "add": "Add Guild",
+    "edit": "Edit Guild",
+    "rolesFor": "Roles for {{type}}",
+    "roleCount": "{{count}} role",
+    "roleCountPlural": "{{count}} roles",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "confirmDelete": "Are you sure you want to delete this guild and all its roles?",
+    "form": {
+      "guildId": "Guild ID (Discord Server ID)",
+      "guildIdPlaceholder": "e.g., 1234567890123456789",
+      "displayName": "Display Name",
+      "displayNamePlaceholder": "e.g., TUForums Official",
+      "botToken": "Bot Token",
+      "botTokenPlaceholder": "Discord bot token",
+      "botTokenPlaceholderEdit": "Leave unchanged or enter new token",
+      "botTokenHint": "The bot must be in this guild with Manage Roles permission.",
+      "active": "Active"
+    }
+  },
+  "role": {
+    "add": "Add Role",
+    "edit": "Edit Role",
+    "group": "Group: {{group}}",
+    "confirmDelete": "Are you sure you want to delete this role?",
+    "form": {
+      "roleId": "Discord Role ID",
+      "roleIdPlaceholder": "e.g., 1234567890123456789",
+      "label": "Label",
+      "labelPlaceholder": "e.g., U10+ Clear",
+      "minimumDifficulty": "Minimum Difficulty",
+      "selectDifficulty": "Select difficulty...",
+      "difficultyHint": "Users with a clear at or above this difficulty will receive this role.",
+      "curationType": "Curation Type",
+      "selectCurationType": "Select curation type...",
+      "curationTypeHint": "Creators credited on levels with this curation type will receive this role.",
+      "conflictGroup": "Conflict Group (optional)",
+      "conflictGroupPlaceholder": "e.g., difficulty-tier",
+      "conflictGroupHint": "Roles in the same conflict group will replace each other (only highest applies).",
+      "active": "Active"
+    }
+  },
+  "types": {
+    "difficulty": "difficulty",
+    "curation": "curation"
+  },
+  "confirmClose": {
+    "title": "Unsaved Changes",
+    "message": "You have unsaved changes. Are you sure you want to close?",
+    "discard": "Discard Changes"
+  }
+}

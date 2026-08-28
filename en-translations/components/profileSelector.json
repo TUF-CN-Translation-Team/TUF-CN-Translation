@@ -1,0 +1,10 @@
+{
+  "placeholder": "Search...",
+  "loading": "Searching...",
+  "noResults": "No profiles found",
+  "noTeamsResults": "No teams found",
+  "requestNew": "Request new profile",
+  "requestNewTeam": "Create new team",
+  "newRequest": "New Profile",
+  "newTeamRequest": "New Team"
+} 

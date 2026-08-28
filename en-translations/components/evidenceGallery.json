@@ -1,0 +1,14 @@
+{
+  "title": "Evidence Gallery",
+  "noEvidence": "No evidence available",
+  "previous": "Previous image",
+  "next": "Next image",
+  "delete": "Delete evidence",
+  "confirmDelete": "Are you sure you want to delete this evidence?",
+  "type": "Type",
+  "resetZoom": "Reset zoom",
+  "reset": "Reset",
+  "externalLinkHint": "Click to open external link",
+  "openInNewTab": "Open in new tab",
+  "extraInfo": "Additional Information"
+}

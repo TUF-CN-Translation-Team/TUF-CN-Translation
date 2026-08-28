@@ -1,0 +1,19 @@
+{
+  "noPasses": "No passes to announce",
+  "errors": {
+    "removePass": "Failed to remove {{playerName}}'s pass. Please try again.",
+    "invalidPass": "Invalid pass data:"
+  },
+  "card": {
+    "title": "{{playerName}}'s clear of {{songName}}",
+    "stats": {
+      "score": "Score: {{score}}",
+      "scoreNA": "Score: N/A",
+      "accuracy": "Accuracy: {{accuracy}}%",
+      "difficulty": " • {{difficultyName}}"
+    }
+  },
+  "buttons": {
+    "remove": "Remove pass"
+  }
+} 

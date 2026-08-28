@@ -1,0 +1,26 @@
+{
+  "noRerates": "No rerates to announce",
+  "facets": {
+    "diff": "Difficulty",
+    "baseScore": "Base score",
+    "ppBaseScore": "PP base score",
+    "curve": "Score curve"
+  },
+  "errors": {
+    "removeLevel": "Failed to remove {{song}}. Please try again."
+  },
+  "card": {
+    "title": "{{song}} - {{artist}}",
+    "subtitle": {
+      "difficulty": "{{oldDifficulty}} ➔ {{newDifficulty}}",
+      "baseScore": "{{oldBaseScore}}PP ➔ {{newBaseScore}}PP",
+      "ppBaseScore": "{{oldPpBaseScore}}PP ➔ {{newPpBaseScore}}PP",
+      "team": " • {{team}}"
+    }
+  },
+  "buttons": {
+    "edit": "Edit level",
+    "remove": "Remove level",
+    "removeTooltip": "Remove without announcing"
+  }
+}

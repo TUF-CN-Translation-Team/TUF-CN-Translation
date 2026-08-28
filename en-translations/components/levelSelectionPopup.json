@@ -1,0 +1,34 @@
+{
+  "title": "Add Level to Curation",
+  "titleAdd": "Select Level to Add",
+  "description": "Select a level to add to the curation list",
+  "descriptionAdd": "Select a level to add to curation with default settings",
+  "filters": {
+    "search": "Search Levels",
+    "searchPlaceholder": "Search by song, artist, or creator..."
+  },
+  "loading": "Loading levels...",
+  "empty": "No levels found",
+  "create": "Create",
+  "selectLevel": "Select this level",
+  "createLevel": "Create curation for this level",
+  "creator": "Creator",
+  "pick": {
+    "title": "Select level",
+    "description": "Search and choose a level for this placement.",
+    "select": "Select",
+    "selectTitle": "Select this level"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of {{total}}"
+  },
+  "zipPicker": {
+    "title": "Choose the chart for this submission",
+    "description": "Your zip contains multiple .adofai charts. Select the one that matches this submission.",
+    "confirm": "Use selected chart",
+    "confirmLoading": "Applying…"
+  }
+}

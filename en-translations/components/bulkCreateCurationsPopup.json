@@ -1,0 +1,17 @@
+{
+  "title": "Bulk-Create Curations",
+  "levelIds": "Level IDs",
+  "levelIdsPlaceholder": "e.g. 1234, 5678 or one per line",
+  "levelIdsParsed": "{{count}} unique level ID(s) parsed",
+  "types": "Curation types",
+  "typesCurrent": "Selected types",
+  "typesAdd": "Add types",
+  "typesSearchPlaceholder": "Search types…",
+  "typesNoneSelected": "No types selected yet.",
+  "typesNoResults": "No types match your search.",
+  "typesNoneAvailable": "No more types you can assign.",
+  "removeType": "Remove type",
+  "addType": "Add type",
+  "submit": "Create for {{count}} level(s)",
+  "submitting": "Creating…"
+}

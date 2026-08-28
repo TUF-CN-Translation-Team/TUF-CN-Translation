@@ -1,0 +1,255 @@
+{
+  "tabs": {
+    "details": "Details",
+    "announcement": "Announcement",
+    "discordRoles": "Discord Roles"
+  },
+  "discordRoles": {
+    "title": "Discord Role Sync"
+  },
+  "modal": {
+    "create": {
+      "title": "Create New Difficulty"
+    },
+    "edit": {
+      "title": "Edit Difficulty"
+    },
+    "close": "Close",
+    "password": {
+      "title": "Super Admin Password Required",
+      "placeholder": "Enter super admin password",
+      "confirm": "Confirm Changes"
+    },
+    "channel": {
+      "editTitle": "Edit Channel",
+      "addTitle": "Add New Channel",
+      "label": "Channel Label",
+      "labelPlaceholder": "Enter channel label",
+      "webhookUrl": "Webhook URL",
+      "webhookUrlPlaceholder": "Enter webhook URL"
+    },
+    "role": {
+      "editTitle": "Edit Role",
+      "addTitle": "Add New Role",
+      "roleId": "Role ID",
+      "roleIdPlaceholder": "Enter role ID",
+      "label": "Role Label",
+      "labelPlaceholder": "Enter role label",
+      "messageFormat": "Message Format",
+      "messageFormatPlaceholder": "e.g., {count} {difficultyName} Clears! {ping}",
+      "messageFormatHint": "Template for grouped message. Use variables: {count}, {difficultyName}, {ping}. Messages will be grouped by role ID AND difficultyName if included."
+    }
+  },
+  "form": {
+    "labels": {
+      "id": "ID",
+      "name": "Name",
+      "type": "Type",
+      "icon": "Icon URL",
+      "legacyIcon": "Legacy Icon URL",
+      "emoji": "Emoji",
+      "legacyEmoji": "Legacy Emoji",
+      "color": "Color",
+      "baseScore": "Base Score",
+      "previousBaseScore": "Previous Base Score",
+      "sortOrder": "Sort Order",
+      "legacy": "Legacy Name"
+    },
+    "optional": "Optional",
+    "placeholders": {
+      "color": "#RRGGBB",
+      "id": "Auto-assign if empty"
+    },
+    "helpText": {
+      "id": "Leave empty to automatically assign the smallest available ID"
+    },
+    "icon": {
+      "change": "Change Icon",
+      "select": "Select Icon",
+      "help": "Upload an icon file (JPEG, PNG, WebP, or SVG, max 5MB)"
+    },
+    "legacyIcon": {
+      "change": "Change Legacy Icon",
+      "select": "Select Legacy Icon",
+      "help": "Upload a legacy icon file (JPEG, PNG, WebP, or SVG, max 5MB) - Optional"
+    }
+  },
+  "difficultyTypes": {
+    "PGU": "PGU",
+    "SPECIAL": "Special",
+    "LEGACY": "Legacy"
+  },
+  "announcements": {
+    "title": "Announcement Directives For {{diffName}}",
+    "firstOfKind": "First of Kind",
+    "mode": {
+      "label": "Directive Mode",
+      "static": "Static",
+      "conditional": "Conditional"
+    },
+    "directive": {
+      "name": "Name",
+      "description": "Description",
+      "add": "Add Directive",
+      "remove": "Remove Directive",
+      "isActive": "Active",
+      "triggerType": "Trigger Type",
+      "copy": "Copy Directive Settings",
+      "paste": "Paste Directive Settings",
+      "copySuccess": "Directive settings copied to clipboard",
+      "copyError": "Failed to copy directive settings",
+      "pasteSuccess": "Directive settings pasted from clipboard",
+      "pasteError": "Invalid directive format. Please paste a valid directive JSON.",
+      "addSuccess": "New directive added",
+      "removeSuccess": "Directive removed",
+      "saveSuccess": "Directives saved successfully",
+      "saveError": "Failed to save directives",
+      "channelAddSuccess": "Channel added successfully",
+      "channelUpdateSuccess": "Channel updated successfully",
+      "channelDeleteSuccess": "Channel deleted successfully",
+      "roleAddSuccess": "Role added successfully",
+      "roleUpdateSuccess": "Role updated successfully",
+      "roleDeleteSuccess": "Role deleted successfully",
+      "messageGroupKey": "Message Group Key",
+      "messageGroupKey.placeholder": "e.g., universal-clears, galactic-clears",
+      "messageGroupKey.hint": "Directives with the same group key will be combined into a single message",
+      "messageFormat": "Message Format Template",
+      "messageFormat.placeholder": "e.g., {count} {difficultyName} Clears! {ping}",
+      "messageFormat.hint": "Template for the grouped message content. Available variables:",
+      "messageFormat.variables": "Available variables:",
+      "messageFormat.variablesList": "{count} - number of passes, {difficultyName} - difficulty name, {ping} - role ping",
+      "optional": "Optional"
+    },
+    "notifications": {
+      "saved": "Directives saved successfully"
+    },
+    "errors": {
+      "saveFailed": "Failed to save directives",
+      "groupKeyFormatRequired": "If Message Group Key is provided, Message Format is required",
+      "formatGroupKeyRequired": "If Message Format is provided, Message Group Key is required",
+      "invalidFormatVariables": "Message format contains invalid variables. Valid variables are: {count}, {difficultyName}, {ping}"
+    },
+    "channel": {
+      "notifications": {
+        "updated": "Channel updated successfully",
+        "created": "Channel created successfully",
+        "deleted": "Channel deleted successfully"
+      },
+      "errors": {
+        "saveFailed": "Failed to save channel",
+        "deleteFailed": "Failed to delete channel"
+      }
+    },
+    "role": {
+      "notifications": {
+        "updated": "Role updated successfully",
+        "created": "Role created successfully",
+        "deleted": "Role deleted successfully"
+      },
+      "errors": {
+        "saveFailed": "Failed to save role",
+        "deleteFailed": "Failed to delete role"
+      }
+    },
+    "triggerType": {
+      "PASS": "Pass Announcement",
+      "LEVEL": "Level Announcement"
+    },
+    "condition": {
+      "type": {
+        "label": "Condition Type",
+        "options": {
+          "ACCURACY": "Accuracy",
+          "WORLDS_FIRST": "World's First",
+          "WORLDS_FIRST_PP": "World's First PP",
+          "BASE_SCORE": "Base Score",
+          "CUSTOM": "Custom"
+        }
+      },
+      "operator": {
+        "label": "Operator",
+        "options": {
+          "EQUAL": "Equal to",
+          "GREATER_THAN": "Greater than",
+          "LESS_THAN": "Less than",
+          "GREATER_THAN_EQUAL": "Greater than or equal to",
+          "LESS_THAN_EQUAL": "Less than or equal to"
+        }
+      },
+      "value": "Value",
+      "customFunction": "Custom Function"
+    },
+    "actions": {
+      "title": "Actions",
+      "add": "Add Action",
+      "remove": "Remove Action",
+      "channel": {
+        "create": "Create Channel",
+        "label": "Channel",
+        "add": "Add Channel",
+        "edit": "Edit Channel",
+        "delete": "Delete Channel"
+      },
+      "pingType": {
+        "label": "Ping Type",
+        "options": {
+          "NONE": "No Ping",
+          "ROLE": "Role Ping",
+          "EVERYONE": "@everyone"
+        }
+      },
+      "role": {
+        "create": "Create Role",
+        "label": "Role",
+        "add": "Add Role",
+        "edit": "Edit Role",
+        "delete": "Delete Role"
+      }
+    }
+  },
+  "channels": {
+    "form": {
+      "id": "Channel ID",
+      "idPlaceholder": "Enter Discord channel ID",
+      "label": "Display Label",
+      "labelPlaceholder": "Enter display name for the channel",
+      "webhookUrl": "Discord Webhook URL",
+      "webhookUrlPlaceholder": "Enter Discord webhook URL"
+    }
+  },
+  "roles": {
+    "form": {
+      "id": "Role ID",
+      "idPlaceholder": "Enter Discord role ID",
+      "name": "Role Name",
+      "namePlaceholder": "Enter role name",
+      "label": "Display Label",
+      "labelPlaceholder": "Enter display name for the role"
+    }
+  },
+  "buttons": {
+    "create": "Create"
+  },
+  "errors": {
+    "passwordRequired": "Super admin password is required",
+    "invalidPassword": "Invalid super admin password",
+    "loadDirectives": "Failed to load directives",
+    "saveDirectives": "Failed to save announcement directives",
+    "channelSaveFailed": "Failed to save channel",
+    "channelDeleteFailed": "Failed to delete channel",
+    "channelEditFailed": "Failed to edit channel",
+    "roleSaveFailed": "Failed to save role",
+    "roleDeleteFailed": "Failed to delete role",
+    "roleEditFailed": "Failed to edit role",
+    "createFailed": "Failed to create difficulty",
+    "updateFailed": "Failed to update difficulty"
+  },
+  "loading": {
+    "directives": "Loading announcement directives..."
+  },
+  "notifications": {
+    "saved": "Directives saved successfully",
+    "updated": "Difficulty updated successfully",
+    "created": "Difficulty created successfully"
+  }
+}

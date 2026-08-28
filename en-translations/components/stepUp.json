@@ -1,0 +1,29 @@
+{
+  "title": "Confirm it's you",
+  "actions": {
+    "emailChange": "change your email",
+    "security": "continue with this security action"
+  },
+  "codePrompt": "Enter the code we sent to {{email}} to {{action}}.",
+  "yourEmail": "your email",
+  "codeLabel": "Confirmation code",
+  "codeRequired": "Enter the 8-character code from your email",
+  "invalidCode": "Invalid or expired code",
+  "confirm": "Confirm",
+  "confirmed": "Identity confirmed",
+  "resend": "Resend code",
+  "resendIn": "Resend in {{seconds}}s",
+  "resendCooldown": "Please wait before requesting another code",
+  "sendFailed": "Failed to send confirmation code",
+  "emailRequired": "A verified email is required",
+  "emailRequiredBody": "Add and verify an email address before you can perform this action.",
+  "addEmail": "Add email",
+  "firstEmailPrompt": "Confirm your identity to {{action}}.",
+  "currentPassword": "Current password",
+  "passwordRequired": "Password is required",
+  "passwordFailed": "Incorrect password",
+  "discordPrompt": "This account uses Discord. Re-authenticate with Discord to continue.",
+  "oauthFailed": "Failed to start Discord re-authentication",
+  "continue": "Continue",
+  "continueDiscord": "Continue with Discord"
+}

@@ -1,0 +1,82 @@
+{
+  "helpPopup": {
+    "title": "Search Help",
+    "closeButton": "Close",
+    "v2": {
+      "subtitle": "Search creators by name or linked username, filter by curation types, or require minimum credited-level counts per curation type.",
+      "examplesTitle": "Examples",
+      "groups": {
+        "basics": {
+          "title": "Name & username search",
+          "intro": "Plain text matches creator names, aliases, and linked account usernames. Use commas for AND inside a group, and | for OR groups.",
+          "examples": {
+            "plainName": "<b><code>Camellia</code></b> finds creators whose name or alias partially matches.",
+            "username": "<b><code>@yoon</code></b> finds the creator linked to that exact username.",
+            "combine": "<b><code>Epic,C3&gt;3</code></b> — combine a name fragment with a curation count in one AND group."
+          }
+        },
+        "curationCounts": {
+          "title": "Curation count constraints",
+          "intro": "Require a minimum (or exact) number of credited levels for a curation type. Use the type's exact name, then a comparison and integer count.",
+          "examples": {
+            "single": "<b><code>C3&gt;3</code></b> — creators with more than 3 credited levels that have curation type <code>C3</code>.",
+            "and": "<b><code>C3&gt;3,C2&gt;=1</code></b> — both conditions must match (AND).",
+            "or": "<b><code>C3&gt;3|C2&gt;5</code></b> — either condition can match (OR).",
+            "withName": "<b><code>Epic,C3&gt;3</code></b> — name search AND curation count in one group."
+          }
+        },
+        "facetFilter": {
+          "title": "Curation type filter (panel)",
+          "intro": "Open Filters and use the Curation Types builder to require creators to have specific curation types on their credited levels (same AND/OR/advanced rules as level search facets).",
+          "examples": {
+            "simple": "Simple mode: pick types and choose whether the creator must have <b>any</b> or <b>all</b> of them.",
+            "advanced": "Advanced mode: group types with ALL/ANY, chain groups with AND/OR, and exclude types."
+          }
+        },
+        "tips": {
+          "title": "Tips",
+          "intro": "Details that help avoid empty or surprising results.",
+          "bullets": {
+            "typeNameExact": "Curation type names must match exactly (e.g. <code>C3</code>, not <code>c3</code>, unless your database uses different casing).",
+            "unknownType": "An unknown type name in a count token returns no results.",
+            "facetAndQuery": "Facet filters and search-box count tokens combine with AND — both must be satisfied."
+          }
+        }
+      },
+      "fields": {
+        "operatorComma": {
+          "title": "AND inside a group",
+          "desc": "Separate terms with commas to require all conditions in the group."
+        },
+        "operatorPipe": {
+          "title": "OR between groups",
+          "desc": "Use | to split your query into OR groups. If any group matches, the creator is included."
+        },
+        "atUsername": {
+          "title": "@username",
+          "desc": "Prefix with @ to find a creator by their linked account username (exact match)."
+        },
+        "opGt": {
+          "title": "Greater than",
+          "desc": "Append <code>&gt;N</code> after the type name (example: <code>C3&gt;3</code>)."
+        },
+        "opGte": {
+          "title": "Greater than or equal",
+          "desc": "Append <code>&gt;=N</code> after the type name."
+        },
+        "opLt": {
+          "title": "Less than",
+          "desc": "Append <code>&lt;N</code> after the type name."
+        },
+        "opLte": {
+          "title": "Less than or equal",
+          "desc": "Append <code>&lt;=N</code> after the type name."
+        },
+        "opEq": {
+          "title": "Exact count",
+          "desc": "Append <code>=N</code> after the type name for an exact credited-level count."
+        }
+      }
+    }
+  }
+}

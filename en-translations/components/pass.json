@@ -1,0 +1,224 @@
+{
+  "helpPopup": {
+    "title": "Search Help",
+    "closeButton": "Close",
+    "v2": {
+      "subtitle": "Advanced pass search uses the same query language as levels. Use field tokens, operators, and ranges to narrow results quickly.",
+      "examplesTitle": "Examples",
+      "groups": {
+        "basics": {
+          "title": "Basics (how queries are parsed)",
+          "intro": "Write conditions as field:value or field=value. Use commas for AND inside a group, and | to create OR groups.",
+          "examples": {
+            "and": "<b><code>player:Name, video:youtube</code></b><br/>Both conditions must match (AND).",
+            "or": "<b><code>player=Exact | player:Partial</code></b><br/>Either group can match (OR).",
+            "not": "<b><code>player:Name, \\!hidden</code></b><br/>Exclude matches containing a term (NOT)."
+          }
+        },
+        "playerAndMedia": {
+          "title": "Player & video fields",
+          "intro": "These fields match pass player names and video metadata. Use : for partial match, = for exact match.",
+          "examples": {
+            "partialVsExact": "<b><code>player:yo</code></b> matches partials, while <b><code>player=yoon</code></b> matches exactly.",
+            "videoAndTitle": "<b><code>video:youtube.com</code></b> matches video links; <b><code>vidtitle:clear</code></b> matches video titles.",
+            "mixFields": "<b><code>player:Name, vidtitle:run</code></b><br/>Combine player and video fields in one group."
+          }
+        },
+        "levelContext": {
+          "title": "Level fields (on the pass)",
+          "intro": "Filter passes by properties of the linked level. Field names use dot notation.",
+          "examples": {
+            "songArtist": "<b><code>level.song:hello, level.artist:cam</code></b> filters by level song and artist.",
+            "dlLink": "<b><code>level.dlLink:drive.google</code></b> matches the level download link text."
+          }
+        },
+        "numeric": {
+          "title": "Pass stats (ranges)",
+          "intro": "Filter by key count, score, xacc (as a percentage), or speed using exact values or comparisons. Use >, <, >=, <= for ranges; combine bounds with commas (AND).",
+          "examples": {
+            "exact": "<b><code>keycount:12</code></b> or <b><code>score=2500</code></b> for exact values.",
+            "range": "<b><code>keycount:>8, keycount:<12</code></b> filters key count between 8 and 12.",
+            "xaccNearPerfect": "<b><code>xacc:>99.9, xacc:<100</code></b> finds clears just shy of 100% (xacc is entered as a percent).",
+            "combine": "<b><code>player:Name, score:>=2000, speed:>1</code></b><br/>Combine pass stats with player or level filters."
+          }
+        },
+        "judgements": {
+          "title": "Judgement counts",
+          "intro": "Filter by individual judgement counts on the pass. Each token matches the stored count for that judgement type.",
+          "examples": {
+            "exactCount": "<b><code>perfect:500</code></b> or <b><code>toolate=0</code></b> for an exact judgement count.",
+            "nearPerfect": "<b><code>xacc:>99.9, toolate:0</code></b> finds near-perfect clears with no late doubles.",
+            "combine": "<b><code>level.song:hello, eperfect:>100, late:0</code></b><br/>Combine judgement filters with level or xacc filters."
+          }
+        },
+        "idsAndShortcuts": {
+          "title": "IDs & shortcuts",
+          "intro": "Jump to a specific pass or filter by numeric player id.",
+          "examples": {
+            "hashtag": "<b><code>#123</code></b> opens pass id 123 directly (search bar shortcut).",
+            "idRange": "<b><code>id:>1000</code></b> filters passes with an id above 1000 (supports exact values and ranges).",
+            "playerId": "<b><code>player.id=456</code></b> filters passes by exact player id."
+          }
+        },
+        "tips": {
+          "title": "Tips",
+          "intro": "A few details that help avoid surprises.",
+          "bullets": {
+            "caseInsensitive": "Search is case-insensitive: 'PLAYER' and 'player' behave the same.",
+            "spacesAllowed": "Spaces are allowed in values: player:Epic player works.",
+            "orderDoesNotMatter": "Order does not matter within a group: player:foo, video:bar is the same as video:bar, player:foo.",
+            "groupingMentalModel": "Think of it as (A AND B) OR (C AND D): commas build AND groups, | splits OR groups.",
+            "plainSearch": "Without a field prefix, plain text searches player names, level song/artist, video links, and more."
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "Partial match",
+          "desc": "Use : to match partial text (example: player:yo)."
+        },
+        "operatorEquals": {
+          "title": "Exact match",
+          "desc": "Use = to match exactly (example: player=yoon)."
+        },
+        "operatorComma": {
+          "title": "AND inside a group",
+          "desc": "Separate terms with commas to require all conditions in the group."
+        },
+        "operatorPipe": {
+          "title": "OR between groups",
+          "desc": "Use | to split your query into OR groups. If any group matches, the pass is included."
+        },
+        "operatorNot": {
+          "title": "NOT (exclude)",
+          "desc": "Prefix a term with \\! to exclude matches containing that term."
+        },
+        "player": {
+          "title": "Player name",
+          "desc": "Filter by player display name or username."
+        },
+        "id": {
+          "title": "Pass id",
+          "desc": "Filter by numeric pass id. Supports exact values and ranges."
+        },
+        "playerId": {
+          "title": "Player id",
+          "desc": "Filter by numeric player id (exact match)."
+        },
+        "video": {
+          "title": "Video link",
+          "desc": "Filter by video URL text."
+        },
+        "vidtitle": {
+          "title": "Video title",
+          "desc": "Filter by the pass video title."
+        },
+        "levelSong": {
+          "title": "Level song",
+          "desc": "Filter by the linked level song name."
+        },
+        "levelArtist": {
+          "title": "Level artist",
+          "desc": "Filter by the linked level artist name."
+        },
+        "levelDlLink": {
+          "title": "Level download link",
+          "desc": "Filter by the linked level download link text."
+        },
+        "keycount": {
+          "title": "Key count",
+          "desc": "Filter by number of keys. Supports exact values and ranges."
+        },
+        "score": {
+          "title": "Score",
+          "desc": "Filter by pass score (scoreV2). Supports exact values and ranges."
+        },
+        "xacc": {
+          "title": "X-acc (accuracy %)",
+          "desc": "Filter by extended accuracy as a percentage (e.g. 99.95, not 0.9995). Supports exact values and ranges."
+        },
+        "speed": {
+          "title": "Speed",
+          "desc": "Filter by gameplay speed multiplier. Supports exact values and ranges."
+        },
+        "eperfect": {
+          "title": "EPerfect count",
+          "desc": "Filter by the number of early-perfect judgements."
+        },
+        "perfect": {
+          "title": "Perfect count",
+          "desc": "Filter by the number of perfect judgements."
+        },
+        "lperfect": {
+          "title": "LPerfect count",
+          "desc": "Filter by the number of late-perfect judgements."
+        },
+        "early": {
+          "title": "Early count",
+          "desc": "Filter by the number of early-single judgements."
+        },
+        "miss": {
+          "title": "Miss count",
+          "desc": "Filter by the number of miss (early-double) judgements."
+        },
+        "late": {
+          "title": "Late count",
+          "desc": "Filter by the number of late-single judgements."
+        },
+        "toolate": {
+          "title": "Too late count",
+          "desc": "Filter by the number of too-late (late-double) judgements."
+        },
+        "hashtag": {
+          "title": "Pass id (shortcut)",
+          "desc": "Typing <code>#123</code> in the search bar loads pass id 123 directly."
+        }
+      }
+    },
+    "sections": {
+      "search": {
+        "title": "Field-Specific Search",
+        "description": "You can search for specific fields using two different operators: colon (:) for partial matches and equals (=) for exact matches.",
+        "examples": {
+          "title": "Field Examples",
+          "playerField": "Use 'player:Name' for partial match or 'player=Name' for exact match",
+          "videoField": "Use 'video:Link' for partial match or 'video=Link' for exact match"
+        }
+      },
+      "operators": {
+        "title": "Search Operators",
+        "description": "You can combine multiple search conditions using operators.",
+        "examples": {
+          "title": "Operator Examples",
+          "and": "Search for passes that match both conditions (AND)",
+          "or": "Search for passes that match either condition (OR)",
+          "complex": "Complex search combining AND and OR conditions"
+        }
+      },
+      "numeric": {
+        "title": "Key Count Filtering",
+        "description": "Filter passes by key count using keycount:. Prefix with >, <, >=, or <= for ranges. Separate multiple conditions with commas (AND) within the same search group.",
+        "examples": {
+          "title": "Key Count Examples",
+          "exact": "Exact key count (also works with keycount=12)",
+          "range": "Key count strictly between 8 and 12 (use >= or <= for inclusive bounds)",
+          "min": "Key count at least 13",
+          "combine": "Combine with player/song filters, e.g. player:Name, keycount:>=13"
+        },
+        "fields": {
+          "keycount": "Number of keys used for the pass"
+        }
+      },
+      "tips": {
+        "title": "Search Tips",
+        "points": {
+          "caseSensitive": "Searches are case-insensitive - 'PLAYER' and 'player' will give the same results",
+          "partial": "Colon (:) allows partial matches - 'player:yo' will match 'yoonsu' and 'yoon'",
+          "exact": "Equals (=) requires exact matches - 'player=yoon' will only match 'yoon'",
+          "spaces": "Spaces are allowed in search terms - 'player:Epic player' works",
+          "order": "The order of conditions doesn't matter within each group"
+        }
+      }
+    }
+  }
+}

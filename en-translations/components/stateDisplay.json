@@ -1,0 +1,26 @@
+{
+  "states": {
+    "hide": "Hide",
+    "show": "Show",
+    "only": "Only",
+    "all": "All",
+    "none": "None",
+    "wf": "WF",
+    "wfpp": "WF PP",
+    "either": "Either",
+    "both": "Both",
+    "12k": "12K",
+    "16k": "16K",
+    "PASS": "Pass",
+    "LEVEL": "New Level",
+    "percent": "%",
+    "pixel": "px",
+    "keyword": "side",
+    "on": "On",
+    "off": "Off"
+  },
+  "accessDenied": {
+    "title": "Access Denied",
+    "message": "You need appropriate privileges to access this page."
+  }
+} 

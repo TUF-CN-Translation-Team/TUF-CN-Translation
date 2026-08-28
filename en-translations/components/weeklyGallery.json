@@ -1,0 +1,8 @@
+{
+  "empty": "No curations available",
+  "navigation": {
+    "previous": "Previous curation",
+    "next": "Next curation",
+    "goTo": "Go to curation {{position}}"
+  }
+}
