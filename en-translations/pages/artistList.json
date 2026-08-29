@@ -1,0 +1,24 @@
+{
+  "title": "Artists",
+  "meta": {
+    "title": "Artists",
+    "description": "Browse all artists"
+  },
+  "search": {
+    "placeholder": "Search artists..."
+  },
+  "filter": {
+    "verificationState": "Verification State"
+  },
+  "sort": {
+    "label": "Sort by:",
+    "nameAsc": "Name (A-Z)",
+    "nameDesc": "Name (Z-A)",
+    "idAsc": "ID (Low to High)",
+    "idDesc": "ID (High to Low)"
+  },
+  "infScroll": {
+    "end": "You've reached the end!"
+  },
+  "noArtists": "No artists found"
+}

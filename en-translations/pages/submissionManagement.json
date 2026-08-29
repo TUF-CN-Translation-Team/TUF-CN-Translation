@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Submission Management",
+    "description": "Manage level and pass submissions for The Universal Forums (TUF)"
+  },
+  "header": {
+    "title": "Submission Management",
+    "refresh": "Refresh submissions"
+  },
+  "tabs": {
+    "levels": "Level Submissions",
+    "passes": "Pass Submissions",
+    "autoAllow": "Auto-Allow Valid Passes"
+  },
+  "jobs": {
+    "title": "Processing",
+    "hide": "Hide queue",
+    "loading": "Loading queue…",
+    "processing": "Processing",
+    "done": "Done",
+    "emptyProcessing": "Nothing in the queue",
+    "emptyDone": "No recent jobs",
+    "emptyItems": "No items",
+    "requestedBy": "{{name}}",
+    "autoAllowBatch": "Auto-allow",
+    "closeAccepted": "Close",
+    "holdToCloseAll": "Hold to close all",
+    "openLevel": "Level #{{id}}",
+    "openPass": "Pass #{{id}}",
+    "status": {
+      "queued": "queued",
+      "processing": "processing",
+      "completed": "completed",
+      "accepted": "accepted",
+      "declined": "declined",
+      "failed": "failed",
+      "skipped": "skipped",
+      "pending": "pending"
+    },
+    "steps": {
+      "validate": "Validate",
+      "resolveEntities": "Resolve entities",
+      "createLevel": "Create level",
+      "notify": "Notify",
+      "chartStats": "Chart stats",
+      "autoTags": "Auto tags",
+      "autorate": "Autorate",
+      "cleanup": "Cleanup",
+      "createPass": "Create pass",
+      "index": "Index",
+      "roleSync": "Role sync"
+    }
+  }
+}

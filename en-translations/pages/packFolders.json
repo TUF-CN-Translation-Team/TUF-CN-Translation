@@ -1,0 +1,40 @@
+{
+  "createFolder": "Create Folder",
+  "rename": "Rename",
+  "confirmDelete": "Are you sure you want to delete the folder \"{{name}}\"? This action cannot be undone.",
+  "moveToFolder": "Move to Folder",
+  "moveToRoot": "Move to Root",
+  "folderName": "Folder Name",
+  "newFolder": "New Folder",
+  "emptyFolder": "This folder is empty",
+  "dragPacksHere": "Drag packs here to organize them",
+  "expandFolder": "Expand folder",
+  "collapseFolder": "Collapse folder",
+  "folders": {
+    "title": "Folders",
+    "create": "Create Folder",
+    "rename": "Rename Folder",
+    "delete": "Delete Folder",
+    "move": "Move Folder"
+  },
+  "packs": {
+    "title": "Packs",
+    "create": "Create Pack",
+    "moveToFolder": "Move to Folder",
+    "moveToRoot": "Move to Root"
+  },
+  "errors": {
+    "createFolder": "Failed to create folder",
+    "renameFolder": "Failed to rename folder", 
+    "deleteFolder": "Failed to delete folder",
+    "movePack": "Failed to move pack",
+    "reorderItems": "Failed to reorder items"
+  },
+  "success": {
+    "createFolder": "Folder created successfully",
+    "renameFolder": "Folder renamed successfully",
+    "deleteFolder": "Folder deleted successfully",
+    "movePack": "Pack moved successfully",
+    "reorderItems": "Items reordered successfully"
+  }
+}

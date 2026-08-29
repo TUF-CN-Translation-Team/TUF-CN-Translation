@@ -1,0 +1,59 @@
+{
+  "title": "Manage Level Upload",
+  "dropToUpload": "Drop to upload",
+  "errors": {
+    "invalidZip": "Invalid archive file. Supported formats: .zip, .rar, .7z, .tar, .tar.gz, .tgz.",
+    "invalidZip": "Invalid zip file",
+    "invalidZipSize": "Zip file size is too large (max {{maxSize}} MB)",
+    "fetchFailed": "Failed to fetch level files",
+    "uploadFailed": "Failed to upload level file",
+    "selectFailed": "Failed to select level file",
+    "deleteFailed": "Failed to delete level file",
+    "missingUrl": "Please enter a URL",
+    "cdnNotAllowed": "That URL points to the site CDN. Use a direct download link instead.",
+    "invalidUrl": "Invalid URL",
+    "importFailed": "Failed to import zip from URL"
+  },
+  "sections": {
+    "levelSelection": {
+      "title": "Select Level File",
+      "originalZip": {
+        "title": "Original Zip: {{name}}",
+        "size": "Size: {{size}} MB"
+      },
+      "songFiles": {
+        "title": "Song Files",
+        "size": "({{size}} MB)"
+      },
+      "currentTarget": "Current Target: {{name}}"
+    }
+  },
+  "buttons": {
+    "select": "Select Level",
+    "currentlySelected": "Currently Selected",
+    "uploadNew": "Upload New Level",
+    "import": "Import",
+    "deleteCurrent": "Delete Current Level",
+    "close": "✖",
+    "cancel": "Cancel Upload"
+  },
+  "upload": {
+    "progress": "Uploading... {{progress}}%",
+    "success": "Level file uploaded successfully",
+    "importSuccess": "Level file imported successfully",
+    "importFromUrl": "Importing from URL…",
+    "urlStageDownload": "Download",
+    "urlStageCdn": "CDN"
+  },
+  "uploadFromUrl": {
+    "title": "Upload from URL",
+    "placeholder": "https://… or Steam Workshop link",
+    "submit": "Import",
+    "closePanelAria": "Close and return to upload options"
+  },
+  "confirmDelete": "Are you sure you want to delete this level file? This action cannot be undone.",
+  "confirmCloseDuringUpload": "Upload in progress. Are you sure you want to cancel?",
+  "select": {
+    "success": "Level file selected"
+  }
+}

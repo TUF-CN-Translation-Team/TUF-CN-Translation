@@ -1,0 +1,70 @@
+{
+  "title": "Manage Curation Types",
+  "description": "View and manage all curation types",
+  "create": {
+    "title": "Create New Curation Type",
+    "description": "Add a new curation type to the system"
+  },
+  "edit": {
+    "title": "Edit Curation Type",
+    "description": "Modify the curation type settings"
+  },
+  "loading": "Loading types...",
+  "empty": "No curation types found",
+  "hasAbilities": "Has customization abilities",
+  "noAbilities": "No customization abilities",
+  "actions": {
+    "create": "Create New Type",
+    "edit": "Edit Type",
+    "delete": "Delete Type"
+  },
+  "confirmations": {
+    "deleteType": "Are you sure you want to delete the curation type \"{{name}}\"? This action cannot be undone."
+  },
+  "notifications": {
+    "created": "Curation type created successfully",
+    "updated": "Curation type updated successfully",
+    "deleted": "Curation type deleted successfully",
+    "reordered": "Curation types reordered successfully",
+    "reorderFailed": "Failed to reorder curation types",
+    "groupsReordered": "Curation type groups reordered successfully",
+    "groupReorderFailed": "Failed to reorder curation type groups"
+  },
+  "tabs": {
+    "types": "Types",
+    "groups": "Groups"
+  },
+  "groups": {
+    "ungrouped": "Ungrouped",
+    "empty": "No groups yet",
+    "typeCount": "{{count}} type(s)"
+  },
+  "form": {
+    "name": "Type Name",
+    "namePlaceholder": "Enter curation type name",
+    "group": "Group",
+    "groupPlaceholder": "Optional — same label groups types together",
+    "color": "Color",
+    "icon": "Icon",
+    "iconHelp": "Upload an icon for this curation type (JPEG, PNG, WebP, SVG, max 1MB)",
+    "selectIcon": "Select Icon",
+    "changeIcon": "Change Icon",
+    "abilities": "Customization Abilities"
+  },
+  "abilities": {
+    "customCSS": "Custom CSS",
+    "curatorAssignable": "Curator Assignable",
+    "raterAssignable": "Rater Assignable",
+    "showAssigner": "Show Assigner",
+    "forceDescription": "Force Description",
+    "frontPageEligible": "Front Page Eligible",
+    "customColorTheme": "Custom Color Theme",
+    "levelListBasicGlow": "Level List Basic Glow",
+    "levelListLegendaryGlow": "Level List Legendary Glow"
+  },
+  "buttons": {
+    "create": "Create Type",
+    "update": "Update Type",
+    "submitting": "Submitting..."
+  }
+}

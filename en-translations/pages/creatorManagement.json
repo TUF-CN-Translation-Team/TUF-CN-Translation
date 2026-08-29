@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Creator Management",
+    "description": "Manage creators and their aliases in the TUF database"
+  },
+  "header": {
+    "title": "Creator Management"
+  },
+  "sort": {
+    "byName": "Sort by Name",
+    "byId": "Sort by ID",
+    "byCharts": "Sort by Charts"
+  },
+  "buttons": {
+    "addCreator": "Add New Creator",
+    "manageCreator": "Manage Creator",
+    "create": "Create Creator"
+  },
+  "form": {
+    "title": "Add New Creator",
+    "labels": {
+      "creatorName": "Creator Name",
+      "aliases": "Aliases"
+    },
+    "placeholders": {
+      "enterName": "Enter creator name",
+      "enterAlias": "Enter alias"
+    },
+    "buttons": {
+      "addAlias": "Add Alias"
+    }
+  },
+  "filters": {
+    "excludeAliases": "Exclude Aliases from Search",
+    "searchPlaceholder": "Search creators by name or alias..."
+  },
+  "creatorInfo": {
+    "id": "ID",
+    "charts": "Charts",
+    "aliases": "Aliases"
+  },
+  "messages": {
+    "noResults": "No creators found",
+    "noResultsSearch": "No creators found matching \"{{query}}\"",
+    "creatorCreated": "Creator created successfully",
+    "nameRequired": "Creator name is required"
+  },
+  "errors": {
+    "createFailed": "Failed to create creator",
+    "generic": "An error occurred"
+  }
+} 

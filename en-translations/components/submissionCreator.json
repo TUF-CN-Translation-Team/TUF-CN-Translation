@@ -1,0 +1,106 @@
+{
+  "title": "Manage Creator/Team",
+  "loading": "Loading...",
+  "modes": {
+    "assign": "Assign Existing",
+    "create": "Create New"
+  },
+  "role": {
+    "label": "Role"
+  },
+  "currentCreator": {
+    "label": "Currently Selected Creator",
+    "none": "No creator selected"
+  },
+  "currentTeam": {
+    "label": "Currently Selected Team",
+    "none": "No team selected"
+  },
+  "search": {
+    "placeholder": "Search for creators...",
+    "noResults": "No creators found",
+    "teamPlaceholder": "Search for teams...",
+    "noTeamsFound": "No teams found"
+  },
+  "createForm": {
+    "title": "Create New Creator",
+    "name": "Creator Name",
+    "namePlaceholder": "Enter creator name",
+    "aliases": "Aliases (Optional)",
+    "aliasesPlaceholder": "Enter aliases separated by commas",
+    "aliasesHelp": "Add multiple aliases separated by commas (e.g. alias1, alias2)"
+  },
+  "teamForm": {
+    "title": "Create New Team",
+    "name": "Team Name",
+    "namePlaceholder": "Enter team name",
+    "aliases": "Team Aliases (Optional)",
+    "aliasesPlaceholder": "Enter team aliases separated by commas",
+    "aliasesHelp": "Add multiple aliases separated by commas (e.g. alias1, alias2)"
+  },
+  "form": {
+    "name": "Creator Name",
+    "namePlaceholder": "Enter creator name",
+    "aliases": "Aliases",
+    "aliasPlaceholder": "Enter alias"
+  },
+  "stats": {
+    "title": "Creator Statistics",
+    "totalLevels": "Total Levels",
+    "charterCount": "Charter Count",
+    "vfxerCount": "VFXer Count",
+    "selectedRole": "Selected Role Count"
+  },
+  "teamStats": {
+    "title": "Team Statistics",
+    "totalLevels": "Total Levels",
+    "memberCount": "Member Count",
+    "members": "members"
+  },
+  "status": {
+    "verified": "✓ Verified Creator"
+  },
+  "badges": {
+    "newRequest": "New Request"
+  },
+  "buttons": {
+    "assign": "Assign Creator",
+    "assignTeam": "Assign Team",
+    "confirm": "Confirm Assignment",
+    "create": "Create Creator",
+    "createTeam": "Create Team",
+    "createNew": "Create New",
+    "addAlias": "Add Alias",
+    "change": "Change",
+    "select": "Select Creator",
+    "selectTeam": "Select Team",
+    "manageTeam": "Manage Team",
+    "manageCreator": "Manage Creator"
+  },
+  "messages": {
+    "success": {
+      "creatorCreated": "Creator created successfully",
+      "creatorAssigned": "Creator assigned successfully",
+      "creatorCreatedAndAssigned": "Creator created and assigned successfully",
+      "teamCreated": "Team created successfully",
+      "teamAssigned": "Team assigned successfully",
+      "teamCreatedAndAssigned": "Team created and assigned successfully",
+      "teamUpdated": "Team updated successfully"
+    },
+    "error": {
+      "createFailed": "Failed to create creator",
+      "assignFailed": "Failed to assign creator",
+      "loadFailed": "Failed to load creators",
+      "loadDetailsFailed": "Failed to load creator details",
+      "searchFailed": "Failed to search creators",
+      "noCreditRequest": "No credit request found for this role",
+      "creatorNotFound": "Creator not found",
+      "teamCreateFailed": "Failed to create team",
+      "teamAssignFailed": "Failed to assign team",
+      "teamLoadFailed": "Failed to load teams",
+      "teamNotFound": "Team not found",
+      "invalidTeamData": "Invalid team data provided",
+      "creditRequestIdMissing": "Credit request ID is missing"
+    }
+  }
+} 

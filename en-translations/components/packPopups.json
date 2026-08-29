@@ -1,0 +1,252 @@
+{
+  "addToPack": {
+    "title": "Add to Pack",
+    "close": "×",
+    "levelInfo": {
+      "adding": "Adding to pack:"
+    },
+    "by": "by",
+    "searchPlaceholder": "Search packs...",
+    "selectPack": "Select Pack",
+    "createNew": "Create New",
+    "noPacks": "You don't have any packs yet.",
+    "noPacksFound": "No packs found matching your search.",
+    "createFirst": "Create Your First Pack",
+    "loginRequired": "Please log in to manage your packs",
+    "levels": "levels",
+    "alreadyInPack": "Already in pack",
+    "packFull": "Pack full",
+    "loading": "Loading packs...",
+    "addToPack": "Add to Pack",
+    "lookupInPacks": "Find in Packs",
+    "adding": "Adding...",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageInfo": "Page {{current}} of {{total}}"
+    },
+    "success": {
+      "added": "Level added to pack successfully!",
+      "packCreated": "Pack created successfully!"
+    },
+    "errors": {
+      "addFailed": "Failed to add level to pack",
+      "fetchPacksFailed": "Failed to fetch your packs",
+      "noPackSelected": "Please select a pack",
+      "alreadyInPack": "This level is already in the selected pack",
+      "packFull": "This pack has reached the maximum number of levels",
+      "createFailed": "Failed to create pack",
+      "generic": "An error occurred while adding the level to the pack"
+    }
+  },
+  "createPack": {
+    "title": "Create New Pack",
+    "close": "×",
+    "name": {
+      "label": "Pack Name",
+      "placeholder": "Enter pack name...",
+      "help": "Choose a descriptive name for your pack"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Optional short description of this pack...",
+      "help": "Optional: Tell others what this pack is about (max 2000 characters)"
+    },
+    "icon": {
+      "label": "Pack Icon",
+      "placeholder": "https://example.com/icon.png",
+      "help": "Optional: Upload an image for your pack icon",
+      "upload": "Upload Icon",
+      "remove": "Remove",
+      "removing": "Removing..."
+    },
+    "theme": {
+      "label": "Theme",
+      "help": "Choose a visual theme for your pack",
+      "default": "Default",
+      "dark": "Dark",
+      "neon": "Neon",
+      "pastel": "Pastel"
+    },
+    "viewMode": {
+      "label": "Visibility",
+      "help": "Control who can see your pack",
+      "public": "Public - Everyone can see",
+      "linkonly": "Link Only - Only with direct link",
+      "private": "Private - Only you can see"
+    },
+    "pinned": {
+      "label": "Pin to top",
+      "help": "Pin this pack to the top of the pack list"
+    },
+    "create": "Create Pack",
+    "success": {
+      "created": "Pack created successfully!",
+      "iconSelected": "Icon selected successfully!",
+      "iconUploaded": "Icon uploaded successfully!"
+    },
+    "errors": {
+      "nameRequired": "Pack name is required",
+      "createFailed": "Failed to create pack",
+      "iconProcessFailed": "Failed to process icon",
+      "iconUploadFailed": "Failed to upload icon"
+    }
+  },
+  "editPack": {
+    "title": "Edit Pack",
+    "close": "×",
+    "name": {
+      "label": "Pack Name",
+      "placeholder": "Enter pack name...",
+      "help": "Choose a descriptive name for your pack"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Optional short description of this pack...",
+      "help": "Optional: Tell others what this pack is about (max 2000 characters)"
+    },
+    "icon": {
+      "label": "Pack Icon",
+      "placeholder": "https://example.com/icon.png",
+      "help": "Optional: Upload an image for your pack icon",
+      "upload": "Upload Icon",
+      "remove": "Remove",
+      "removing": "Removing..."
+    },
+    "theme": {
+      "label": "Theme",
+      "help": "Choose a visual theme for your pack",
+      "default": "Default",
+      "dark": "Dark",
+      "neon": "Neon",
+      "pastel": "Pastel"
+    },
+    "viewMode": {
+      "label": "Visibility",
+      "help": "Control who can see your pack",
+      "forcedPrivateHelp": "This pack is locked to private by an administrator",
+      "public": "Public - Everyone can see",
+      "linkonly": "Link Only - Only with direct link",
+      "private": "Private - Only you can see",
+      "forcedPrivate": "Forced Private - Cannot be changed by the owner"
+    },
+    "pinned": {
+      "label": "Pin to top",
+      "help": "Pin this pack to the top of the pack list"
+    },
+    "save": "Save Changes",
+    "delete": "Delete Pack",
+    "deleting": "Deleting...",
+    "noPermission": "You don't have permission to edit this pack",
+    "deleteConfirm": {
+      "title": "Delete Pack",
+      "message": "Are you sure you want to delete this pack? This action cannot be undone.",
+      "confirm": "Delete Pack"
+    },
+    "transferOwnership": {
+      "label": "Transfer Ownership",
+      "currentOwner": "Current Owner",
+      "placeholder": "Search for user by username or nickname...",
+      "searching": "Searching...",
+      "noResults": "No users found",
+      "selected": "Selected",
+      "transfer": "Transfer Ownership",
+      "transferring": "Transferring...",
+      "help": "Transfer pack ownership to another user."
+    },
+    "success": {
+      "updated": "Pack updated successfully!",
+      "deleted": "Pack deleted successfully!",
+      "iconUploaded": "Icon uploaded successfully!",
+      "iconRemoved": "Icon removed successfully!",
+      "ownershipTransferred": "Pack ownership transferred successfully!"
+    },
+    "errors": {
+      "nameRequired": "Pack name is required",
+      "updateFailed": "Failed to update pack",
+      "deleteFailed": "Failed to delete pack",
+      "iconUploadFailed": "Failed to upload icon",
+      "iconRemoveFailed": "Failed to remove icon",
+      "selectNewOwner": "Please select a new owner",
+      "transferFailed": "Failed to transfer pack ownership"
+    }
+  },
+  "downloadPack": {
+    "title": "Download {{contextName}}",
+    "defaultContextName": "Pack",
+    "description": "This will generate a downloadable archive for <strong>{{contextName}}</strong>.",
+    "descriptionFallback": "This will generate a downloadable archive for this selection.",
+    "estimatedSize": "Estimated size:",
+    "estimatedSuffix": "(estimated: {{count}} missing metadata)",
+    "estimatedMayBeLarger": "Some levels are missing size metadata. The final download may be larger than estimated.",
+    "processing": "Processing... please wait while we prepare the download.",
+    "processingSubtext": "This may take a moment depending on the total size of the pack.",
+    "ready": "Your download is ready! Click the button below to start the download.",
+    "readySubtext": "Link expires at {{expiresAt}}.",
+    "readySubtextFallback": "Link expires at an unknown time.",
+    "sizeExceeded": "Pack download cannot exceed 15GB at once. Select a smaller pack or split into multiple downloads.",
+    "generateDownload": "Generate Download",
+    "close": "Close",
+    "download": "Download",
+    "trimFolderNames": "Shorten folder names for path compatibility",
+    "errors": {
+      "noUrl": "Download link was not returned by the server.",
+      "generateFailed": "Failed to generate download link.",
+      "diskFull": "The server does not have enough temporary disk space for this pack. Try again later or download a smaller selection.",
+      "queueBusy": "The server is preparing other pack downloads. Please wait a few minutes and try again."
+    }
+  },
+  "exportPack": {
+    "title": "Export {{contextName}}",
+    "defaultContextName": "Pack",
+    "description": "Download a spreadsheet of levels in {{contextName}}.",
+    "formatLabel": "Format",
+    "format": {
+      "xlsx": "Excel (.xlsx)",
+      "csv": "CSV (.csv)"
+    },
+    "structureLabel": "Layout",
+    "structure": {
+      "includeFolders": "Include pack folders (section rows)",
+      "flatten": "Flatten list (levels only, same order)"
+    },
+    "export": "Export",
+    "exporting": "Exporting…",
+    "unavailable": "Unavailable",
+    "errors": {
+      "exportFailed": "Failed to export pack. Please try again."
+    }
+  },
+  "placement": {
+    "titleAddFolder": "Add folder",
+    "titleAddLevel": "Add levels",
+    "titleMove": "Move item",
+    "folderName": "Folder name",
+    "folderNamePlaceholder": "Enter folder name",
+    "levelIds": "Level IDs",
+    "levelIdsPlaceholder": "e.g. 1234, 5678 or one per line",
+    "positionLabel": "Position in pack",
+    "root": "Pack root",
+    "insertHere": "Insert at position {{index}} in {{path}}",
+    "insertShort": "#{{index}}",
+    "dividerHint": "Hover a line to select an insertion point",
+    "addFolder": "Add folder",
+    "addLevels": "Add levels",
+    "move": "Move here",
+    "submitting": "Saving…"
+  },
+  "addLevelsConfirm": {
+    "title": "Some levels cannot be added",
+    "titleAllInvalid": "No levels can be added",
+    "message": "{{validCount}} level(s) can be added. The following cannot:",
+    "messageAllInvalid": "None of the specified levels can be added:",
+    "invalidHeading": "Cannot add ({{count}})",
+    "proceed": "Add {{count}} level(s)",
+    "submitting": "Adding…",
+    "reasons": {
+      "notFound": "Level not found",
+      "alreadyInPack": "Already in this location",
+      "quotaExceeded": "Pack item limit reached"
+    }
+  }
+}

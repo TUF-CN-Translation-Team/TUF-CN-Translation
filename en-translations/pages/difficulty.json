@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Manage Difficulties",
+    "description": "Manage difficulty levels for The Universal Forums (TUF)"
+  },
+  "header": {
+    "title": "Manage Difficulties",
+    "refresh": "Refresh difficulties"
+  },
+  "access": {
+    "denied": {
+      "title": "Access Denied",
+      "message": "You need super admin privileges to access this page."
+    }
+  },
+  "buttons": {
+    "create": "Create New Difficulty",
+    "understand": "I understand the risks",
+    "discordRoles": "Discord Role Sync"
+  },
+  "loading": {
+    "difficulties": "Loading difficulties...",
+    "deleting": "Deleting...",
+    "savingDifficulty": "Saving difficulty...",
+    "reorderingDifficulties": "Updating difficulty order...",
+    "savingTag": "Creating tag...",
+    "updatingTag": "Updating tag...",
+    "deletingTag": "Deleting tag...",
+    "reorderingTags": "Updating tag order...",
+    "reorderingGroups": "Updating group order...",
+    "fetchingTags": "Loading tags...",
+    "savingGroup": "Creating group...",
+    "updatingGroup": "Updating group...",
+    "deletingGroup": "Deleting group..."
+  },
+  "noItems": {
+    "message": "No difficulties found."
+  },
+  "difficultyTypes": {
+    "PGU": "PGU",
+    "SPECIAL": "SPECIAL"
+  },
+  "form": {
+    "labels": {
+      "id": "ID:",
+      "name": "Name:",
+      "type": "Type:",
+      "icon": "Icon URL:",
+      "legacyIcon": "Legacy Icon URL:",
+      "emoji": "Emoji:",
+      "legacyEmoji": "Legacy Emoji:",
+      "color": "Color:",
+      "baseScore": "Base Score:",
+      "sortOrder": "Sort Order:",
+      "legacy": "Legacy:",
+      "fallbackId": "Enter Fallback Difficulty ID:",
+      "fallbackDiff": "Fallback Difficulty:"
+    },
+    "placeholders": {
+      "fallbackId": "Enter the ID of the replacement difficulty",
+      "fallbackDiff": "Select the replacement difficulty"
+    },
+    "helpText": {
+      "fallbackId": "All levels using {{name}} will be updated to use this difficulty instead.",
+      "fallbackDiff": "All levels using {{name}} will be updated to use this difficulty instead."
+    }
+  },
+  "modal": {
+    "create": {
+      "title": "Create New Difficulty"
+    },
+    "edit": {
+      "title": "Edit Difficulty"
+    },
+    "delete": {
+      "title": "Delete Difficulty",
+      "warning": {
+        "title": "⚠️ Warning: Destructive Action ⚠️",
+        "message": "You are about to delete the difficulty: {{name}}",
+        "description": "This action:",
+        "points": [
+          "Cannot be undone",
+          "Will affect all levels using this difficulty",
+          "Requires a backup before proceeding"
+        ],
+        "highlight": "Make sure you have created a backup before proceeding!"
+      }
+    }
+  },
+  "passwordModal": {
+    "initialTitle": "Super Admin Password Required",
+    "initialMessage": "Please enter your super admin password to access this page.",
+    "title": "Super Admin Password Required",
+    "message": "Please enter your super admin password to {{action}} the difficulty.",
+    "placeholder": "Enter password",
+    "errors": {
+      "invalid": "Invalid password",
+      "generic": "An error occurred while performing the action"
+    }
+  },
+  "notifications": {
+    "created": "Difficulty created successfully",
+    "updated": "Difficulty updated successfully",
+    "deleted": "Difficulty deleted successfully",
+    "reordered": "Difficulties reordered successfully",
+    "reorderFailed": "Failed to reorder difficulties"
+  },
+  "tabs": {
+    "difficulties": "Difficulties",
+    "tags": "Tags",
+    "groups": "Groups"
+  },
+  "tags": {
+    "createButton": "Create Tag",
+    "noTags": "No tags found. Create your first tag!",
+    "ungrouped": "Ungrouped",
+    "tagCount": "{{count}} tag{{plural}}",
+    "fields": {
+      "description": "Description",
+      "assignmentSection": "Tag assignment",
+      "inherit": "Inherit",
+      "scoringMode": "Scoring mode",
+      "modeWilson": "Wilson (top play + 1)",
+      "modeSkillset": "Skillset (clearers only)",
+      "requireTopPlay": "Top play requirement",
+      "requireTopPlayHint": "When required, voters need a top clear at least this chart's difficulty (top play + 1).",
+      "requireTopPlayOn": "Required",
+      "requireTopPlayOff": "Not required",
+      "wilsonZ": "Wilson Z",
+      "wilsonZHint": "How skeptical scoring is of small vote counts. Higher Z needs more agreeing votes to hit the same thresholds.",
+      "wilsonZWeightHint": "Non-clearer votes count as 0.1x of clearer's",
+      "wilsonZInfoAria": "Vote weight for non-clearers",
+      "scoreOn": "Assign threshold",
+      "scoreOff": "Remove threshold",
+      "reqVotes": "Req. votes: {{count}}",
+      "allowedBands": "Difficulty bands",
+      "allowedBandsHint": "Leave all unchecked to inherit. P / G / U / SPEC restrict community voting to those bands."
+    },
+    "create": {
+      "title": "Create Tag",
+      "name": "Name",
+      "color": "Color",
+      "group": {
+        "label": "Group (Optional)",
+        "placeholder": "Enter group name"
+      },
+      "icon": {
+        "label": "Icon (Optional)",
+        "preview": "Preview",
+        "remove": "Remove Icon"
+      },
+      "createButton": "Create",
+      "cancelButton": "Cancel",
+      "isCommunity": "Community tag (players can vote this onto levels)"
+    },
+    "edit": {
+      "title": "Edit Tag",
+      "name": "Name",
+      "color": "Color",
+      "group": {
+        "label": "Group (Optional)",
+        "placeholder": "Enter group name"
+      },
+      "icon": {
+        "label": "Icon (Optional)",
+        "preview": "Preview",
+        "remove": "Remove Icon"
+      },
+      "updateButton": "Update",
+      "cancelButton": "Cancel",
+      "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
+      "isCommunity": "Community tag (players can vote this onto levels)"
+    },
+    "delete": {
+      "title": "Delete Tag",
+      "message": "Are you sure you want to delete the tag \"{{name}}\"?",
+      "description": "This action cannot be undone. The tag will be removed from all levels.",
+      "deleteButton": "Delete",
+      "cancelButton": "Cancel"
+    },
+    "notifications": {
+      "fetchFailed": "Failed to fetch tags",
+      "created": "Tag created successfully",
+      "createFailed": "Failed to create tag",
+      "updated": "Tag updated successfully",
+      "updateFailed": "Failed to update tag",
+      "deleted": "Tag deleted successfully",
+      "deleteFailed": "Failed to delete tag",
+      "reordered": "Tags reordered successfully",
+      "reorderFailed": "Failed to reorder tags"
+    }
+  },
+  "groups": {
+    "createButton": "Create Group",
+    "noGroups": "No groups found. Create a group or assign a group name when creating a tag.",
+    "create": {
+      "title": "Create Group",
+      "name": "Name",
+      "createButton": "Create"
+    },
+    "edit": {
+      "title": "Edit Group",
+      "name": "Name",
+      "updateButton": "Update"
+    },
+    "delete": {
+      "title": "Delete Group",
+      "message": "Are you sure you want to delete the group \"{{name}}\"?",
+      "description": "Tags in this group will become ungrouped. This cannot be undone.",
+      "deleteButton": "Delete"
+    },
+    "notifications": {
+      "reordered": "Groups reordered successfully",
+      "reorderFailed": "Failed to reorder groups",
+      "created": "Group created successfully",
+      "createFailed": "Failed to create group",
+      "updated": "Group updated successfully",
+      "updateFailed": "Failed to update group",
+      "deleted": "Group deleted successfully",
+      "deleteFailed": "Failed to delete group"
+    }
+  }
+} 

@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "common": "Basic Information",
+    "levelDetails": "Level Details",
+    "passDetails": "Pass Details",
+    "judgements": "Judgements"
+  },
+  "fields": {
+    "videoLink": "Video Link",
+    "song": "Song Name",
+    "artist": "Artist",
+    "charter": "Charter",
+    "vfxer": "VFX Artist",
+    "team": "Team",
+    "diff": "Difficulty",
+    "dlLink": "Download Link",
+    "workshopLink": "Workshop Link",
+    "levelId": "Level ID",
+    "speed": "Speed",
+    "feelingRating": "Feeling Rating",
+    "ePerfect": "EPerfect",
+    "perfect": "Perfect",
+    "lPerfect": "LPerfect",
+    "tooEarly": "Too Early",
+    "early": "Early",
+    "late": "Late",
+    "isNoHold": "No Hold",
+    "is12K": "12K",
+    "is16K": "16K"
+  },
+  "errors": {
+    "required": "This field is required",
+    "requiredEither": "Either Download Link or Workshop Link is required",
+    "pendingProfiles": "Please wait for profile creation",
+    "submitFailed": "Submission failed"
+  },
+  "submit": "Submit",
+  "warnings": {
+    "pendingProfiles": "This profile will be requested for creation:"
+  }
+} 

@@ -1,0 +1,253 @@
+{
+  "close": "Close",
+  "modes": {
+    "update": "Update",
+    "profile": "Profile",
+    "user": "User",
+    "merge": "Merge",
+    "split": "Split",
+    "delete": "Delete"
+  },
+  "update": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter creator name"
+    },
+    "verificationStatus": {
+      "label": "Verification status",
+      "placeholder": "Select status"
+    },
+    "uploadConditions": {
+      "label": "Chart upload conditions",
+      "placeholder": "Optional notes for charters (e.g. when you accept uploads). Max 2000 characters."
+    },
+    "aliases": {
+      "label": "Aliases",
+      "placeholder": "Add alias",
+      "add": "Add"
+    },
+    "updateButton": "Update creator"
+  },
+  "profile": {
+    "intro": "Manage how this creator appears on their public profile header.",
+    "headerBadges": {
+      "title": "Header badges",
+      "hint": "Choose which curation types appear on the profile header (up to five slots). Changes save immediately.",
+      "selectorLabel": "Displayed badge types",
+      "loading": "Loading badge data…",
+      "noPermission": "You do not have permission to edit this creator's profile header badges."
+    }
+  },
+  "user": {
+    "linked": {
+      "label": "Currently linked user",
+      "idLabel": "ID:",
+      "unknownUser": "Linked user account",
+      "unassignButton": "Unassign user",
+      "unassignConfirm": "Remove the link between this user and the creator?",
+      "unassignYes": "Yes, unassign",
+      "unassignCancel": "Cancel"
+    },
+    "search": {
+      "label": "Search players",
+      "placeholder": "Type a player name or handle...",
+      "hint": "Start typing to search for a player to assign to this creator.",
+      "noResults": "No players matched your search.",
+      "alreadyLinked": "Already linked to another creator",
+      "assignButton": "Assign"
+    },
+    "discordFallback": {
+      "label": "Or assign by Discord ID",
+      "placeholder": "Enter Discord user ID",
+      "lookupButton": "Look up"
+    }
+  },
+  "discord": {
+    "currentUser": {
+      "label": "Current user",
+      "avatarAlt": "User avatar",
+      "idLabel": "ID:",
+      "unlinkButton": "Unlink user"
+    },
+    "discordId": {
+      "label": "Discord ID",
+      "placeholder": "Enter Discord ID",
+      "validateButton": "Validate"
+    },
+    "confirm": {
+      "avatarAlt": "Discord avatar",
+      "message": "Is this the correct Discord user?",
+      "confirmButton": "Confirm",
+      "cancelButton": "Cancel"
+    },
+    "unlinkConfirm": {
+      "message": "Are you sure you want to unlink this user?",
+      "yesButton": "Yes, unlink",
+      "cancelButton": "Cancel"
+    }
+  },
+  "merge": {
+    "warning": {
+      "title": "Warning:",
+      "message": "This will delete {{creatorName}} and reassign all credits to the selected creator. This action cannot be undone."
+    },
+    "search": {
+      "label": "Destination creator",
+      "placeholder": "Search by name or paste a creator ID",
+      "hint": "Select a creator from the results. Pasting a numeric ID looks up that profile so you can verify it before merging.",
+      "noResults": "No creators matched your search.",
+      "empty": "Start typing to find the destination creator.",
+      "selectButton": "Select"
+    },
+    "source": {
+      "label": "Will be deleted"
+    },
+    "destination": {
+      "label": "Will keep all credits"
+    },
+    "idLabel": "ID {{id}}",
+    "chartsLabel": "{{count}} charts",
+    "openProfile": "Open profile",
+    "changeDestination": "Change destination",
+    "confirm": {
+      "message": "All credits from {{sourceName}} will move to {{destName}}. {{sourceName}} will be deleted. This cannot be undone.",
+      "confirmButton": "Merge into {{name}}"
+    },
+    "mergeButton": "Merge creators"
+  },
+  "split": {
+    "newNamesAndRoles": {
+      "label": "New creator names and roles",
+      "namePlaceholder": "Enter creator name {{index}}",
+      "rolePlaceholder": "Select role",
+      "addAnother": "+ Add another name"
+    },
+    "splitButton": "Split creator"
+  },
+  "superAdminDanger": {
+    "title": "Danger zone (super admin)",
+    "hint": "Super admin password is required for these actions.",
+    "passwordPlaceholder": "Super admin password",
+    "passwordRequired": "Enter the super admin password.",
+    "purgeButton": "Purge creator profile",
+    "unlinkButton": "Unlink user only",
+    "confirmPurge": "Permanently purge this creator? Solo-credited levels will be removed. Collaboration credits for this creator will be stripped. This cannot be undone.",
+    "confirmUnlink": "Only unlink this creator from their user account? The creator row and chart credits remain.",
+    "successPurge": "Creator profile purged.",
+    "successUnlink": "Creator unlinked from user.",
+    "purgeFailed": "Could not purge creator.",
+    "unlinkFailed": "Could not unlink creator."
+  },
+  "errors": {
+    "loadCreatorsFailed": "Failed to load creators",
+    "updateFailed": "Failed to update creator",
+    "assignFailed": "Failed to assign user",
+    "unassignFailed": "Failed to unassign user",
+    "fetchDiscordFailed": "Failed to fetch Discord user",
+    "updateDiscordFailed": "Failed to update Discord info",
+    "unlinkFailed": "Failed to unlink user",
+    "mergeFailed": "Failed to merge creators",
+    "mergeSelf": "Cannot merge a creator into itself",
+    "splitFailed": "Failed to split creator"
+  },
+  "player": {
+    "titleFallback": "Player",
+    "idLabel": "ID {{id}}",
+    "modes": {
+      "update": "Profile",
+      "moderation": "Moderation",
+      "link": "Creator",
+      "merge": "Merge"
+    },
+    "update": {
+      "name": {
+        "label": "Display name",
+        "placeholder": "Enter player name"
+      },
+      "country": {
+        "label": "Country or region"
+      },
+      "saveButton": "Save changes"
+    },
+    "moderation": {
+      "ban": "Ban player",
+      "pause": "Pause submissions",
+      "ratingBan": "Ban from rating",
+      "tagVoteBan": "Ban from community tag votes",
+      "banConfirm": "Ban this player?",
+      "unbanConfirm": "Unban this player?",
+      "banFor": "for",
+      "banDurationAria": "Ban duration",
+      "banUnitAria": "Ban duration unit",
+      "bannedUntil": "Banned until {{date}}",
+      "bannedPermanently": "Banned permanently",
+      "units": {
+        "hours": "Hours",
+        "days": "Days",
+        "weeks": "Weeks",
+        "months": "Months"
+      },
+      "pauseConfirm": "Pause submissions for this player?",
+      "resumeConfirm": "Resume submissions for this player?",
+      "ratingBanConfirm": "Ban this player from rating?",
+      "ratingUnbanConfirm": "Allow this player to rate again?",
+      "tagVoteBanConfirm": "Ban this player from community tag votes?",
+      "tagVoteUnbanConfirm": "Allow this player to vote on community tags again?"
+    },
+    "link": {
+      "hint": "Assign or remove a creator profile linked to this user account."
+    },
+    "merge": {
+      "warning": {
+        "title": "Warning:",
+        "message": "All passes will move to the target player and {{name}} will be deleted. This cannot be undone."
+      },
+      "search": {
+        "label": "Destination player",
+        "placeholder": "Search by name, @username, #discordId, or pid:123",
+        "hint": "Select a player from the results. Pasting a numeric ID looks up that profile so you can verify it before merging.",
+        "noResults": "No players matched your search.",
+        "empty": "Start typing to find the destination profile.",
+        "selectButton": "Select"
+      },
+      "source": {
+        "label": "Will be deleted"
+      },
+      "destination": {
+        "label": "Will keep all passes"
+      },
+      "idLabel": "ID {{id}}",
+      "openProfile": "Open profile",
+      "changeDestination": "Change destination",
+      "confirm": {
+        "message": "All passes from {{sourceName}} will move to {{destName}}. {{sourceName}} will be deleted. This cannot be undone.",
+        "confirmButton": "Merge into {{name}}"
+      },
+      "mergeButton": "Merge players"
+    },
+    "errors": {
+      "updateFailed": "Failed to update player",
+      "banUpdate": "Failed to update ban status",
+      "banDuration": "Enter a duration from 1 to 999",
+      "pauseUpdate": "Failed to update submission pause",
+      "ratingBanUpdate": "Failed to update rating ban",
+      "tagVoteBanUpdate": "Failed to update community tag vote ban",
+      "mergeFailed": "Failed to merge player",
+      "mergeSelf": "Cannot merge a player into itself"
+    },
+    "success": {
+      "updated": "Player updated successfully",
+      "moderation": "Moderation settings updated",
+      "merge": "Players merged successfully"
+    }
+  },
+  "success": {
+    "updated": "Creator updated successfully",
+    "userAssigned": "User assigned to creator",
+    "userUnassigned": "User unassigned from creator",
+    "discordUpdated": "Discord info updated successfully",
+    "discordUnlinked": "Discord user unlinked successfully",
+    "merged": "Creators merged successfully",
+    "split": "Creator split successfully"
+  }
+}

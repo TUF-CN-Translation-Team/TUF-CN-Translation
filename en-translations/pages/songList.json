@@ -1,0 +1,24 @@
+{
+  "title": "Songs",
+  "meta": {
+    "title": "Songs",
+    "description": "Browse all songs"
+  },
+  "search": {
+    "placeholder": "Search songs..."
+  },
+  "filter": {
+    "verificationState": "Verification State"
+  },
+  "sort": {
+    "label": "Sort by:",
+    "nameAsc": "Name (A-Z)",
+    "nameDesc": "Name (Z-A)",
+    "idAsc": "ID (Low to High)",
+    "idDesc": "ID (High to Low)"
+  },
+  "infScroll": {
+    "end": "You've reached the end!"
+  },
+  "noSongs": "No songs found"
+}

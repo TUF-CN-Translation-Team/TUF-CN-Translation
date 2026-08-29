@@ -4,23 +4,23 @@
     "description": "你的 TUF 收件箱"
   },
   "title": "通知",
-  "subtitle": "关于你的提交和账户的更新。",
+  "subtitle": "你的提交和账户信息的更新。",
   "empty": "暂无通知。",
-  "nudgeBody": "即使 TUF 在其他标签页也能收到提醒。",
+  "nudgeBody": "即使 TUF 在另一标签页也能得到通知。",
   "nudgeEnable": "开启",
   "nudgeDismiss": "以后再说",
-  "loading": "正在加载通知…",
-  "markAllRead": "全部标为已读",
-  "seeAll": "查看全部通知",
+  "loading": "加载中……",
+  "markAllRead": "全部标记已读",
+  "seeAll": "查看所有通知",
   "loadMore": "加载更多",
   "unread_one": "{{count}} 条未读",
   "unread_other": "{{count}} 条未读",
   "bellAria": "通知，{{count}} 条未读",
   "settingsAria": "通知设置",
-  "menuAria": "通知操作",
+  "menuAria": "操作",
   "hide": "隐藏此通知",
-  "disableType": "关闭“{{title}}”通知",
-  "untitledLevel": "关卡 #{{levelId}}",
+  "disableType": "关闭 \"{{title}}\" 通知",
+  "untitledLevel": "关卡ID #{{levelId}}",
   "unknownArtist": "未知艺术家",
   "unknown": {
     "title": "新通知",
@@ -35,96 +35,96 @@
     "pass": {
       "submission": {
         "submitted": {
-          "title": "Pass 已提交",
-          "body": "你对 {{song}} — {{artist}} 的 Pass 已提交。"
+          "title": "通关记录已提交",
+          "body": "你的通关记录 {{artist}} - {{song}} 已提交。"
         },
         "approved": {
-          "title": "Pass 已通过",
-          "body": "{{song}} — {{artist}} 已通过。"
+          "title": "通关记录已通过",
+          "body": "你的通关记录 {{artist}} - {{song}} 已通过审核。"
         },
         "declined": {
-          "title": "Pass 已拒绝",
-          "body": "{{song}} — {{artist}} 已拒绝。"
+          "title": "通关记录已拒绝",
+          "body": "你的通关记录 {{artist}} - {{song}} 已被拒绝。"
         }
       },
       "modified": {
-        "title": "Pass 已更新",
-        "body": "你对 {{song}} — {{artist}} 的 Pass 已更新。"
+        "title": "通关记录已更新",
+        "body": "你的通关记录 {{artist}} - {{song}} 已更新。"
       },
       "deleted": {
-        "title": "Pass 已移除",
-        "body": "你对 {{song}} — {{artist}} 的 Pass 已移除。"
+        "title": "通关记录已删除",
+        "body": "你的通关记录 {{artist}} - {{song}} 已被删除。"
       },
       "restored": {
-        "title": "Pass 已恢复",
-        "body": "你对 {{song}} — {{artist}} 的 Pass 已恢复。"
+        "title": "通关记录已恢复",
+        "body": "你的通关记录 {{artist}} - {{song}} 已恢复。"
       }
     },
     "chart": {
       "submission": {
         "submitted": {
-          "title": "谱面已提交",
-          "body": "{{song}} — {{artist}} 已提交。"
+          "title": "关卡已提交",
+          "body": "你的关卡 {{artist}} - {{song}} 已提交。"
         },
         "approved": {
-          "title": "谱面已通过",
-          "body": "{{song}} — {{artist}} 已通过。"
+          "title": "关卡已通过",
+          "body": "你的关卡 {{artist}} - {{song}} 已通过审核。"
         },
         "declined": {
-          "title": "谱面已拒绝",
-          "body": "{{song}} — {{artist}} 已拒绝。"
+          "title": "关卡已拒绝",
+          "body": "你的关卡 {{artist}} - {{song}} 已被拒绝。"
         }
       },
       "deleted": {
-        "title": "谱面已移除",
-        "body": "{{song}} — {{artist}} 已移除。"
+        "title": "关卡已删除",
+        "body": "你的关卡 {{artist}} - {{song}} 已被删除。"
       },
       "restored": {
-        "title": "谱面已恢复",
-        "body": "{{song}} — {{artist}} 已恢复。"
+        "title": "关卡已恢复",
+        "body": "你的关卡 {{artist}} - {{song}} 已恢复。"
       },
       "visibility": {
         "changed": {
-          "title": "谱面可见性已更改",
-          "body": "{{song}} — {{artist}} 现在为{{visibility}}。"
+          "title": "关卡可见性更改",
+          "body": "你的关卡 {{artist}} - {{song}} 可见性已被设为 “{{visibility}}”。"
         }
       },
       "modified": {
-        "title": "谱面已更新",
-        "body": "{{song}} — {{artist}} 已更新。"
+        "title": "关卡已更新",
+        "body": "你的关卡 {{artist}} - {{song}} 已更新。"
       },
       "curated": {
-        "title": "谱面已精选",
-        "body": "{{song}} — {{artist}} 已加入精选。"
+        "title": "关卡被精选",
+        "body": "你的关卡 {{artist}} - {{song}} 已被精选。"
       },
       "curation": {
         "removed": {
-          "title": "精选已移除",
-          "body": "{{song}} — {{artist}} 已不再精选。"
+          "title": "关卡取消精选",
+          "body": "你的关卡 {{artist}} - {{song}} 已被取消精选。"
         }
       },
       "weekly": {
         "selected": {
-          "title": "入选 Weekly Levels",
-          "body": "{{song}} — {{artist}} 已入选 Weekly Levels。"
+          "title": "关卡入选每周精选关卡",
+          "body": "你的关卡 {{artist}} - {{song}} 已入选每周精选关卡。"
         }
       },
       "cleared": {
-        "title": "你的谱面已被通关",
-        "body": "{{playerName}} 通关了 {{song}} — {{artist}}。"
+        "title": "你的关卡已被通过",
+        "body": "{{playerName}} 通过了关卡 {{artist}} - {{song}}。"
       }
     },
     "following": {
       "player": {
         "pass": {
-          "title": "新通关",
-          "body": "{{playerName}} 通关了 {{song}} — {{artist}}。"
+          "title": "新通关记录",
+          "body": "{{playerName}} 通过了关卡 {{artist}} - {{song}}。"
         }
       },
       "creator": {
         "level": {
-          "title": "新谱面",
-          "body": "{{creatorName}} 发布了 {{song}} — {{artist}}。"
+          "title": "新关卡",
+          "body": "{{creatorName}} 上传了关卡 {{artist}} - {{song}}。"
         }
       }
     }

@@ -1,0 +1,50 @@
+{
+    "title": "Pack Search Help",
+    "closeButton": "Close",
+    "sections": {
+      "search": {
+        "title": "Field-Specific Search",
+        "description": "You can search for specific pack fields using two different operators: colon (:) for partial matches and equals (=) for exact matches.",
+        "examples": {
+          "title": "Available Fields",
+          "nameField": "Search by pack name (e.g., 'name:my pack' or 'name=My Cool Pack')",
+          "ownerField": "Search by pack owner username (e.g., 'owner:v0w4n' or 'owner=v0w4n')",
+          "levelIdField": "Search for packs containing a specific level (e.g., 'levelId:123' or 'levelId=456')",
+          "viewModeField": "Search by pack visibility mode (e.g., 'viewMode:0' for public packs)",
+          "pinnedField": "Search by pinned status (e.g., 'pinned:true' for pinned packs)"
+        }
+      },
+      "operators": {
+        "title": "Search Operators",
+        "description": "You can combine multiple search conditions using operators.",
+        "examples": {
+          "title": "Operator Examples",
+          "and": "Search for packs that match both conditions (AND). This will look for packs named 'my pack' owned by 'v0w4n'",
+          "or": "Search for packs that match either condition (OR). This searches for either exact 'My Pack' or any pack with 'cool pack' in the name",
+          "complex": "Complex search combining AND and OR conditions. This looks for pinned packs by 'teo_72' or any packs by 'v0w4n'",
+          "not": "Usage of '\\!' will exclude results containing the term - this expression will exclude pinned packs with 'cool' in the name"
+        }
+      },
+      "viewModes": {
+        "title": "View Mode Values",
+        "description": "Pack visibility modes control who can see your pack.",
+        "examples": {
+          "title": "View Mode Examples",
+          "public": "Public - Everyone can see and search for this pack",
+          "linkOnly": "Link Only - Only visible with direct link, not in search results",
+          "private": "Private - Only the owner can see this pack",
+          "forcedPrivate": "Forced Private - Admin-locked private pack"
+        }
+      },
+      "tips": {
+        "title": "Search Tips",
+        "points": {
+          "caseSensitive": "Searches are case-insensitive - 'PACK' and 'pack' will give the same results",
+          "partial": "Colon (:) allows partial matches - 'name:cool' will match 'My Cool Pack'",
+          "spaces": "Spaces are allowed in search terms - 'name:my cool pack' works",
+          "order": "The order of conditions doesn't matter within each group",
+          "boolean": "Boolean values like 'pinned:true' or 'pinned:false' work for true/false fields"
+        }
+      }
+    }
+  }

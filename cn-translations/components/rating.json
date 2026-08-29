@@ -48,8 +48,15 @@
       "communityComment": "请提供一个你的评级的理由……"
     },
     "confirmations": {
-      "deleteRating": "你确定删除 {{username}} 的评级吗？"
-    }, 
+      "deleteRating": "你确定删除 {{username}} 的评级吗？",
+      "unsavedDraft": {
+        "title": "未保存评级",
+        "body": "暂存为草稿，可放弃修改或以后继续编辑。",
+        "save": "保存草稿",
+        "discard": "放弃",
+        "cancel": "取消"
+      }
+    },
     "messages": {
       "ratingBanned": "你没有评级权限",
       "autorateSuccess": "自动评级成功"
@@ -75,7 +82,8 @@
       "expandReason": "点击展开",
       "deleteRating": "删除评级",
       "lastUpdated": "上次修改此评级的时间",
-      "copyLink": "复制链接"
+      "copyLink": "复制链接",
+      "savedDraft": "已保存草稿"
     },
     "buttons": {
       "viewDetails": "查看详情",
@@ -149,4 +157,4 @@
       }
     }
   }
-} 
+}

@@ -18,8 +18,7 @@
         "videoLink": "视频链接",
         "dlLink": "下载链接",
         "workshopLink": "创意工坊链接",
-        "publicComments": "公开注释",
-        "notes": "备注",
+        "publicComments": "公开注释（此处填写 Censored 理由）",
         "isExternallyAvailable": "是否外部可用",
         "previousDifficulty": "先前评级"
       },
@@ -81,19 +80,22 @@
       "cannotCreateSong": "无法在编辑关卡时创建新歌曲。请选择现有歌曲。"
     },
     "xaccCurve": {
-      "title": "X精准度-分数曲线",
-      "openButtonTitle": "编辑关卡X精准度-分数曲线（会重算所有通关记录）",
+      "title": "X精准度 - 分数曲线",
+      "sandboxTitle": "分数曲线（计算器）",
+      "openButtonTitle": "编辑关卡X精准度 - 分数曲线（会重算所有通关记录）",
       "hint": "设置两个内部分数锚点（95% 固定为基准分）。三点拟合双曲线；下方显示推导的 E 与 G。",
+      "sandboxHint": "调整每个锚点的精准度和分数；图标实时更新。使用此曲线仅在计算器中 - 关卡不会被保存。",
       "constraintHint": "若锚点无法精确拟合，将保留上一组 E/G，锚点可能显示在曲线外。",
       "fitWarning": "锚点与当前 E/G 双曲线不完全重合：{{error}}。标记显示你设置的值，请调整锚点或分数以拟合。",
       "baseScoreFallback": "缺少关卡基础分数，锚点分数按 {{base}} 缩放。",
       "tilecountFallback": "缺少物量，预览使用 100 物量。",
       "resetDefaults": "恢复站点默认值",
       "save": "保存",
+      "apply": "应用",
       "saving": "保存中……",
       "cancel": "取消",
-      "toastSaved": "X精准度-分数曲线已保存",
-      "toastSavedWithPasses": "X精准度-分数曲线已保存，已重算 {{count}} 个通关记录分数。",
+      "toastSaved": "X精准度 - 分数曲线已保存",
+      "toastSavedWithPasses": "X精准度 - 分数曲线已保存，已重算 {{count}} 个通关记录分数。",
       "sliderDisplay": "滑块 {{value}}",
       "inputMode": {
         "accuracy": "精准度与分数",
@@ -114,7 +116,7 @@
         "top": "顶部倍率 (G)"
       },
       "errors": {
-        "save": "保存X精准度-分数曲线失败",
+        "save": "保存X精准度 - 分数曲线失败",
         "fit": "无法为这些锚点拟合有效双曲线"
       }
     },
@@ -241,4 +243,4 @@
     "searchPlaceholder": "搜索创作者…",
     "noResults": "没有匹配的创作者"
   }
-} 
+}

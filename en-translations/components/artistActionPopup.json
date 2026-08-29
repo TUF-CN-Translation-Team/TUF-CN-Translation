@@ -1,0 +1,112 @@
+{
+  "title": "Manage Artist {{name}}",
+  "tabs": {
+    "update": "Update",
+    "merge": "Merge",
+    "split": "Split",
+    "aliases": "Aliases",
+    "links": "Links",
+    "evidence": "Evidence",
+    "relations": "Relations"
+  },
+  "form": {
+    "name": "Name",
+    "avatarUrl": "Avatar",
+    "avatarUrlPlaceholder": "Enter avatar URL",
+    "avatarCdnInfo": "CDN-hosted avatar can only be changed via upload/delete",
+    "verificationState": "Verification State"
+  },
+  "merge": {
+    "info": "Merge this artist into another. All data will be transferred.",
+    "search": "Search for target artist",
+    "placeholder": "Search by name..."
+  },
+  "split": {
+    "info": "Split this artist into two existing artists. All data (aliases, links, evidences, avatar) and song credits will be duplicated for both target artists.",
+    "entity1": "First Target Artist",
+    "entity2": "Second Target Artist",
+    "entity1Placeholder": "Search and select first target artist...",
+    "entity2Placeholder": "Search and select second target artist...",
+    "deleteOriginal": "Delete original artist after splitting"
+  },
+  "aliases": {
+    "add": "Add Alias",
+    "placeholder": "Enter alias name"
+  },
+  "links": {
+    "add": "Add Link",
+    "placeholder": "Enter URL"
+  },
+  "entityExtraInfo": {
+    "label": "Extra Info",
+    "placeholder": "Additional notes or information about this {{type}}",
+    "empty": "No extra info added"
+  },
+  "evidence": {
+    "add": "Upload Evidence Images",
+    "addLink": "Add External Evidence Link",
+    "linkPlaceholder": "Enter external URL",
+    "extraInfo": "Extra Info",
+    "extraInfoPlaceholder": "Additional notes or information about this evidence",
+    "pendingUpload": "Pending Upload",
+    "uploaded": "Uploaded Evidence",
+    "dropZoneText": "Drag & drop images here or click to select",
+    "dropZoneHint": "Select multiple image files",
+    "existing": "Existing Evidence",
+    "deleteConfirm": "Are you sure you want to delete this evidence?"
+  },
+  "relations": {
+    "search": "Search for Artist",
+    "placeholder": "Search by name...",
+    "existing": "Existing Relations",
+    "none": "No relations found",
+    "treeView": "Tree View",
+    "addRelation": "Add Relation",
+    "typeToSearch": "Type to search artists...",
+    "noResults": "No artists found"
+  },
+  "buttons": {
+    "merge": "Merge",
+    "merging": "Merging...",
+    "split": "Split",
+    "splitting": "Splitting...",
+    "checking": "Checking...",
+    "proceed": "Proceed",
+    "deleteAvatar": "Delete Avatar",
+    "selectAvatar": "Select Avatar File",
+    "addRelation": "Add Relation",
+    "removeRelation": "Remove Relation"
+  },
+  "messages": {
+    "updated": "Artist updated successfully",
+    "merged": "Artists merged successfully",
+    "split": "Artist split into '{{name1}}' and '{{name2}}'",
+    "splitSuccess": "Artist split successfully",
+    "avatarUploaded": "Avatar uploaded successfully",
+    "avatarDeleted": "Avatar deleted successfully",
+    "evidenceAdded": "Evidence added successfully",
+    "evidenceUpdated": "Evidence updated successfully",
+    "evidenceDeleted": "Evidence deleted successfully",
+    "entityExtraInfoUpdated": "Extra info updated successfully",
+    "relationAdded": "Relation added successfully",
+    "relationRemoved": "Relation removed successfully"
+  },
+  "errors": {
+    "updateFailed": "Failed to update artist",
+    "mergeFailed": "Failed to merge artists",
+    "splitFailed": "Failed to split artist",
+    "selectTarget": "Please select a target artist",
+    "bothNamesRequired": "Both artist names are required",
+    "namesMustBeDifferent": "Artist names must be different",
+    "bothEntitiesRequired": "Please select both target artists",
+    "entitiesMustBeDifferent": "Target artists must be different",
+    "checkFailed": "Failed to check existing artists",
+    "loadArtistsFailed": "Failed to load artists",
+    "noFile": "Please select a file",
+    "uploadFailed": "Failed to upload avatar",
+    "deleteFailed": "Failed to delete",
+    "evidenceFailed": "Failed to add evidence",
+    "invalidFileType": "Please select image files only",
+    "invalidLink": "Please enter a valid link"
+  }
+}

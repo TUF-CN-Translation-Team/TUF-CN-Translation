@@ -1,0 +1,41 @@
+{
+  "title": "Select Curation",
+  "description": "Choose a curation to add to the weekly schedule",
+  "descriptionMulti": "Filter by level curation types, then pick one or more curations",
+  "filters": {
+    "facetBuilderTitle": "Filter by curation types",
+    "search": "Search",
+    "searchPlaceholder": "Search by song, artist, or creator...",
+    "type": "Curation Type",
+    "allTypes": "All Types",
+    "mustInclude": "Levels must include (all of)",
+    "mustIncludeHint": "Only levels that have every selected type (as curations) are shown.",
+    "excludeTypes": "Exclude levels with (any of)",
+    "excludeTypesHint": "Hide any level that has at least one curation of these types.",
+    "searchTypes": "Search types…",
+    "noneSelected": "No types required — all levels match",
+    "noneExcluded": "Nothing excluded",
+    "remove": "Remove"
+  },
+  "multiSelectHint": "Click rows to toggle selection. Use the button below to apply.",
+  "loading": "Loading curations...",
+  "empty": "No curations found",
+  "creator": "Creator",
+  "appearances": {
+    "featured": "Featured {{times}}× in weeklies",
+    "never": "Not featured yet"
+  },
+  "actions": {
+    "select": "Select",
+    "applySelected": "Apply {{count}} selected"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {{current}} of {{total}}"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch curations",
+    "noneSelected": "Select at least one curation"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Submission Rules and Guidelines",
+  "close": "×",
+  "strictOnly": {
+    "title": "ONLY STRICT CLEARS ARE ACCEPTED",
+    "note": "If you're playing workshop levels, use the level editor in it in order to switch to strict"
+  },
+  "noMobile": {
+    "title": "NO MOBILE CLEARS ALLOWED"
+  },
+  "clearRules": {
+    "title": "Clear Submission Rules",
+    "intro": "To ensure fairness, integrity, and equal competition in clear submissions, the following rules apply:"
+  },
+  "rules": {
+    "rule1": {
+      "title": "Rule 1 – Modified Keycaps (Multi-switch Presses)",
+      "offenses": {
+        "first": "1st Offense:",
+        "second": "2nd Offense:",
+        "third": "3rd Offense:"
+      },
+      "penalties": {
+        "first": "Warning and deletion of clear",
+        "second": "1-month ban",
+        "third": "6-month ban"
+      },
+      "explanation": "Using modified keycaps that allow multiple switches to be pressed at once provides an unfair mechanical advantage. Bottom row keys are allowed (e.g. using shift keycap to press ctrl and windows key at the same time); for foot keys, any physical pedals are allowed"
+    },
+    "rule2": {
+      "title": "Rule 2 – Untruthful Edited Judgements (Accuracy Manipulation)",
+      "offenses": {
+        "first": "1st Offense:",
+        "second": "2nd Offense:",
+        "third": "3rd Offense:"
+      },
+      "penalties": {
+        "first": "Warning and adjustment of clear judgements",
+        "second": "1-month ban",
+        "third": "6-month ban"
+      },
+      "explanation": "Editing judgment data, especially to artificially improve accuracy, undermines leaderboard integrity."
+    },
+    "rule3": {
+      "title": "Rule 3 – Edited Starting BPM (Overload Mechanic Abuse)",
+      "offenses": {
+        "first": "1st Offense:",
+        "second": "2nd Offense:"
+      },
+      "penalties": {
+        "first": "Deletion of clear and 3-month ban",
+        "second": "6-month ban"
+      },
+      "explanation": "Altering the starting BPM to bypass intended difficulty (e.g., manipulating overload mechanics) is prohibited."
+    },
+    "rule4": {
+      "title": "Rule 4 – Spliced Clears",
+      "offenses": {
+        "first": "1st Offense:"
+      },
+      "penalties": {
+        "first": "6-month ban"
+      },
+      "explanation": "Combining partial playthroughs into one \"clear\" video or replay misrepresents actual performance."
+    },
+    "rule5": {
+      "title": "Rule 5 – Timescale Abuse",
+      "offenses": {
+        "first": "1st Offense:"
+      },
+      "penalties": {
+        "first": "6-month ban"
+      },
+      "explanation": "Intentionally altering game speed to gain an advantage invalidates score legitimacy."
+    },
+    "rule6": {
+      "title": "Rule 6 – Keep Audio Buffer at least 256 when using FMOD",
+      "required": {
+        "label": "Required Setting:",
+        "text": "Audio buffer must be set to 256 or higher when using FMOD."
+      },
+      "explanation": "Ensures timing consistency across all players and prevents desync-related advantages due to audio engine replacement."
+    },
+    "rule7": {
+      "title": "Rule 7 – Chart Modification Restrictions",
+      "allowed": "Allowed:",
+      "allowedText": "Removal of visual effects (e.g., via Enhanced Effect Remover or direct download conversion).",
+      "notAllowed": "Not Allowed:",
+      "notAllowedText": "Any gameplay-affecting edits.",
+      "specialCase": "Special Case:",
+      "specialCaseText": "If fixing a chart resolves an off-sync issue, contact staff before submitting the clear.",
+      "explanation": "Prevents gameplay changes that could alter difficulty, while allowing harmless visual adjustments.",
+      "note": "In levels with decoration-based gimmicks that directly affect gameplay the converter cannot be used, you should instead opt for specialized mods."
+    },
+    "rule8": {
+      "title": "Rule 8 – General Misconduct",
+      "caseByCase": {
+        "label": "Case-by-case basis:",
+        "text": "Harassment or toxicity in server chats may result in server timeouts. Extreme cases (doxxing, threats of harm, etc.) can result in server and leaderboard bans."
+      },
+      "explanation": "Maintaining a respectful and safe community environment is essential. Be nice."
+    }
+  },
+  "footer": {
+    "note": "Additional rules may be added when necessary to maintain fairness and uphold competition standards."
+  }
+}

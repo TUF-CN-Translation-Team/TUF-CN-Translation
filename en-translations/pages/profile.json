@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "{{name}}",
+    "description": "Check out {{name}}'s profile, clears, and achievements on The Universal Forums",
+    "defaultTitle": "Profile"
+  },
+  "notFound": "Player not found",
+  "notLoggedIn": "You are not logged in",
+  "emailVerification": "Please verify your email address to access all features",
+  "emailMissing": "Add an email address to access all features",
+  "banned": "Your account has been banned",
+  "bannedUntil": "Your account has been banned until {{date}}",
+  "accountScheduledDeletion": "Your account is scheduled for deletion on {{date}}. You can cancel from Edit profile until then.",
+  "accountScheduledDeletionWithCreator": "Your account is scheduled for deletion on {{date}}, including your creator profile (credits removed, solo charts soft-deleted). You can cancel from Edit profile until then.",
+  "submissionSuspended": "Your submissions have been suspended",
+  "searchForOther": "Can't display your profile, search for another player",
+  "valueLabels": {
+    "rankedScore": "Ranked Score",
+    "generalScore": "General Score",
+    "ppScore": "PP Score",
+    "wfScore": "WF Score",
+    "wfPPScore": "WF PP Score",
+    "score12K": "12K Score",
+    "averageXacc": "Average X-Accuracy",
+    "totalPasses": "Total Passes",
+    "universalPassCount": "Universal Passes",
+    "worldsFirstCount": "World's First Passes",
+    "worldsFirstPPCount": "World's First PP Passes",
+    "topDiff": "Top Difficulty",
+    "top12kDiff": "Top 12K Difficulty",
+    "totalScoreV2": "Total Score",
+    "totalUniquePasses": "Total Unique Passes",
+    "topAccClearNum": "Top Acc Clear Num",
+    "tilesPressed": "Tiles Pressed"
+  },
+  "editProfile": "Edit profile",
+  "adminEdit": "Admin edit",
+  "viewUserPacks": "View user's packs",
+  "linkToCreator": "View creator profile",
+  "follow": "Follow",
+  "following": "Following",
+  "followLogin": "Please log in to follow",
+  "followError": "Could not update follow",
+  "followNotifyAll": "All notifications",
+  "followNotifyNone": "No notifications",
+  "unfollow": "Unfollow",
+  "followMenuAria": "Follow options",
+  "followerCount_one": "{{formatted}} follower",
+  "followerCount_other": "{{formatted}} followers",
+  "followersPopup": {
+    "title": "Followers",
+    "loading": "Loading followers…",
+    "empty": "No public followers yet",
+    "error": "Could not load followers",
+    "unknown": "Unknown user",
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {{current}} of {{total}}"
+  },
+  "hiddenFollowers_one": "{{formatted}} Hidden follower",
+  "hiddenFollowers_other": "{{formatted}} Hidden followers",
+  "stellarSubscriberIconTooltip": "TUFStellar Subscriber",
+  "header": {
+    "aka": "a.k.a."
+  },
+  "bio": {
+    "header": "Bio",
+    "placeholder": "This player hasn't written a bio yet.",
+    "expand": "Expand bio",
+    "collapse": "Collapse bio"
+  },
+  "sections": {
+    "scores": {
+      "title": "Scores",
+      "expand": "Expand scores",
+      "collapse": "Collapse scores",
+      "hideReclears": "Hide reclears",
+      "lowestImpactScore": "Get at least <pp>{{score}}</pp> to gain Ranked Score"
+    },
+    "tournaments": {
+      "title": "Tournaments",
+      "expand": "Expand tournaments",
+      "collapse": "Collapse tournaments",
+      "withdrew": "Withdrew",
+      "unseriesed": "Other tournaments",
+      "unknownTournament": "Tournament",
+      "openPack": "Open pack",
+      "othersCount": "+{{count}} others"
+    },
+    "scoreBreakdown": {
+      "title": "Score breakdown",
+      "expand": "Expand score breakdown",
+      "collapse": "Collapse score breakdown",
+
+      "tooltips": {
+        "rankedScore": {
+          "aria": "Explain Ranked Score",
+          "description": "Decaying sum of 20 best clears (excluding reclears)"
+        },
+        "totalScoreV2": {
+          "aria": "Explain Total Score",
+          "description": "Sum of all clears without reclears"
+        },
+        "generalScore": {
+          "aria": "Explain General Score",
+          "description": "Sum of all clears including reclears"
+        },
+        "ppScore": {
+          "aria": "Explain PP Score",
+          "description": "Ranked Score, but all clears must also be pure perfects"
+        },
+        "wfScore": {
+          "aria": "Explain WF Score",
+          "description": "Sum of all level base scores from world's first passes"
+        },
+        "wfPPScore": {
+          "aria": "Explain WF PP Score",
+          "description": "Sum of all level base scores from world's first pure perfect passes"
+        },
+        "score12K": {
+          "aria": "Explain 12K Score",
+          "description": "Ranked Score, but all clears must be 12k"
+        },
+        "averageXacc": {
+          "aria": "Explain Average X-Accuracy",
+          "description": "Average accuracy of top 20 passes"
+        }
+      }
+    },
+    "difficultyBreakdown": {
+      "title": "Clears by difficulty",
+      "includeDupes": "Include duplicates",
+      "expand": "Expand difficulty breakdown",
+      "collapse": "Collapse difficulty breakdown"
+    },
+    "rankHistory": {
+      "title": "Rank over time",
+      "expand": "Expand rank history",
+      "collapse": "Collapse rank history",
+      "metricLabel": "Rank type",
+      "rangeLabel": "Time range",
+      "loading": "Loading rank history…",
+      "empty": "No rank history stored yet.",
+      "error": "Could not load rank history.",
+      "range30": "Last 30 days",
+      "range90": "Last 90 days",
+      "range365": "Last year",
+      "rangeAll": "All time",
+      "metricRanked": "Ranked score rank",
+      "metricGeneral": "General score rank",
+      "yAxisRank": "Rank",
+      "tooltipToday": "Today",
+      "tooltipOneDayAgo": "1 day ago",
+      "tooltipDaysAgo": "{{count}} days ago"
+    }
+  },
+  "sort": {
+    "byScore": "By Score",
+    "byImpact": "By Impact",
+    "byDate": "By Date",
+    "byXacc": "By X-Accuracy",
+    "byDifficulty": "By Difficulty",
+    "bySpeed": "By Speed"
+  },
+  "search": {
+    "placeholder": "Search passes..."
+  },
+  "labels": {
+    "totalPasses": "{{count}} passes"
+  },
+  "showHiddenPasses": "Show hidden passes",
+  "hideHiddenPasses": "Hide hidden passes",
+  "infiniteScroll": {
+    "end": "You've reached the end!"
+  },
+  "funFacts": {
+    "expandAria": "Show all statistics",
+    "collapseAria": "Hide detailed statistics",
+    "difficultyHeaderGridCellTooltip": "{{name}} · {{count}} clears",
+    "clearsByTypeTooltip": "{{count}} unique levels cleared",
+    "clearsByTypeTooltipWithReclears": "{{unique}} unique levels cleared ({{total}} total passes)",
+    "groups": {
+      "scores": "Scores",
+      "counts": "Pass counts",
+      "judgements": "Judgements",
+      "levelsCleared": "Levels cleared",
+      "extremes": "Records",
+      "activity": "Activity",
+      "breakdownByType": "Clears by difficulty type"
+    },
+    "counts": {
+      "totalPasses": "Total passes",
+      "uniqueLevelsCleared": "Unique levels cleared",
+      "worldsFirstCount": "World's first clears",
+      "worldsFirstPPCount": "World's first PP clears",
+      "clears12K": "12K clears",
+      "clears16K": "16K clears",
+      "clearsNoHoldTap": "No-hold tap clears",
+      "totalPurePerfectClears": "Total pure perfects",
+      "duplicatePasses": "Reclears",
+      "hiddenPasses": "Hidden passes (visible to you)"
+    },
+    "judgements": {
+      "totalTilesHit": "Total tiles hit",
+      "earlyDouble": "Early double",
+      "earlySingle": "Early single",
+      "ePerfect": "EPerfect",
+      "perfect": "Perfect",
+      "lPerfect": "LPerfect",
+      "lateSingle": "Late single",
+      "totalXacc": "General accuracy",
+      "earlyVsLateBias": "Early vs late bias"
+    },
+    "levelsCleared": {
+      "totalTilecountCleared": "Total tilecount cleared",
+      "totalPlaytimeMs": "Estimated playtime",
+      "averageBpm": "Avg BPM (cleared levels)",
+      "totalRawScoreV2": "Raw sum of all pass scores"
+    },
+    "scores": {
+      "rankedScore": "Ranked Score",
+      "generalScore": "General Score",
+      "totalScoreV2": "Total Score",
+      "ppScore": "PP Score",
+      "wfScore": "WF Score",
+      "wfPPScore": "WF PP Score",
+      "score12K": "12K Score",
+      "averageXacc": "Average X-Accuracy",
+      "worldsFirstCount": "World's First Passes",
+      "worldsFirstPPCount": "World's First PP Passes"
+    },
+    "extremes": {
+      "firstPassAt": "First pass",
+      "latestPassAt": "Latest pass",
+      "bestAccuracy": "Best accuracy",
+      "worstAccuracy": "Worst accuracy",
+      "topSpeed": "Top speed",
+      "highestTilecountCleared": "Highest tilecount",
+      "longestLevelMs": "Longest level",
+      "highestBpmCleared": "Highest BPM cleared",
+      "viewPass": "View pass"
+    },
+    "activity": {
+      "accountAgeDays": "Account age (days)",
+      "passesLast30Days": "Passes (last 30 days)",
+      "uniqueLevelsLiked": "Levels liked",
+      "packsOwned": "Packs owned",
+      "packsFavorited": "Packs favorited"
+    },
+    "difficultyType": {
+      "PLANETARY": "Planetary",
+      "GALACTIC": "Galactic",
+      "UNIVERSAL": "Universal",
+      "SPECIAL": "Special"
+    }
+  },
+  "discordRoleSync": {
+    "buttonTitle": {
+      "own": "Refresh your Discord roles",
+      "other": "Refresh Discord roles for this user"
+    },
+    "success": {
+      "own": "Your Discord roles have been refreshed successfully",
+      "other": "Discord roles have been refreshed successfully"
+    },
+    "errors": {
+      "noUser": "Unable to determine user ID",
+      "generic": "Failed to refresh Discord roles",
+      "tooManyRequests": "Too many requests. Please try again later. ({{retryAfter}})"
+    }
+  }
+} 

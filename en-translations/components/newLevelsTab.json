@@ -1,0 +1,13 @@
+{
+  "noLevels": "No new levels to announce",
+  "errors": {
+    "removeLevel": "Failed to remove {{song}}. Please try again."
+  },
+  "card": {
+    "team": " • {{team}}"
+  },
+  "buttons": {
+    "edit": "Edit level",
+    "remove": "Remove level"
+  }
+} 

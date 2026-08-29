@@ -1,0 +1,106 @@
+{
+  "header": {
+    "headerPass": "I want to submit a pass",
+    "headerLevel": "I want my level to be rated"
+  },
+  "button": {
+    "buttonPass": "Submit a pass",
+    "buttonLevel": "Submit a level"
+  },
+  "RulesAGuide": "View rules and guidelines",
+  "level": {
+    "alert": {
+      "login": "You must be logged in",
+      "form": "Incomplete form",
+      "success": "Form submitted successfully!",
+      "error": "Error: ",
+      "loading": "Submitting..."
+    },
+    "thumbnailInfo": "Video not found",
+    "title": "Submit a Level",
+    "videoInfo": {
+      "title": "Video title",
+      "channel": "Channel name",
+      "timestamp": "Timestamp",
+      "nolink": "No link provided"
+    },
+    "tooltip": "Unknown difficulty, will submit but please make sure it's readable by the managers. Correct diff ex.: G13; P7~P13; 21.1+; 19~20.0+",
+    "submInfo": {
+      "song": "Song",
+      "artist": "Artist",
+      "videoLink": "Video Link",
+      "charter": "Charter",
+      "diff": "Difficulty",
+      "vfxer": "VFX-ers (opt.)",
+      "team": "Team Name (opt.)",
+      "dlLink": "Download link",
+      "workshop": "Workshop link",
+      "dlLinksOr": "or"
+    },
+    "submit": "Submit",
+    "submitWait": " please wait..."
+  },
+  "pass": {
+    "alert": {
+      "login": "You must be logged in",
+      "form": "Incomplete form",
+      "success": "Form submitted successfully!",
+      "error": "Error: ",
+      "loading": "Submitting..."
+    },
+    "score": {
+      "needId": "Level ID is required",
+      "needJudg": "Not all judgements are filled",
+      "needInfo": "Not enough pass info",
+      "noInfo": "Insufficient data to calculate score"
+    },
+    "thumbnailInfo": "Video not found",
+    "title": "Submit a Pass",
+    "videoInfo": {
+      "videoLink": "Video link",
+      "title": "Video title",
+      "channel": "Channel name",
+      "timestamp": "Timestamp",
+      "nolink": "No link provided"
+    },
+    "levelInfo": {
+      "song": "Song name",
+      "charter": "Charter",
+      "artist": "Artist"
+    },
+    "holdTooltip": "Tick if you have used hold option other than \"Normal hold\" (0.9x score)",
+    "12kTooltip": "Tick if you have cleared the level with 12 keys or less",
+    "16kTooltip": "Tick if you have cleared the level with 16 keys or more",
+    "tooltip": "Unknown difficulty, will submit but please make sure it's readable by the managers. Correct diff ex.: G13; P7~P13; 21.1+; 19~20.0+",
+    "levelFetching": {
+      "input": "Input Level ID",
+      "fetching": "Fetching",
+      "goto": "Go to level",
+      "notfound": "Level not found"
+    },
+    "submInfo": {
+      "levelId": "Level Id",
+      "altname": "Alt leaderboard name",
+      "nohold": "Used alternate holds",
+      "speed": "Speed (opt; ex: 1.2)",
+      "feelDiff": "Feeling rating (ex. G12)",
+      "team": "Team Name (opt.)",
+      "dlLink": "Download link",
+      "workshop": "Workshop link",
+      "is16K": "16K+ clear",
+      "is12K": "12K clear"
+    },
+    "judgements": {
+      "tooearly": "Too Early",
+      "early": "Early",
+      "ePerfect": "EPerfect",
+      "perfect": "Perfect",
+      "lPerfect": "LPerfect",
+      "late": "Late"
+    },
+    "acc": "Accuracy: ",
+    "scoreCalc": "Score: ",
+    "submit": "Submit",
+    "submitWait": " please wait..."
+  }
+} 

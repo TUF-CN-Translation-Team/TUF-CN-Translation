@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Announcements",
+    "description": "Manage and announce new levels, rerates, and passes for The Universal Forums (TUF)"
+  },
+  "header": {
+    "title": "Announcements"
+  },
+  "tabs": {
+    "newLevels": "New Levels",
+    "rerates": "Rerates",
+    "passes": "Passes"
+  },
+  "buttons": {
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "announce": "Announce Selected",
+    "announcing": "Announcing..."
+  },
+  "success": {
+    "queued": "Announcement queued. Track progress in the side panel."
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch items. Please try again.",
+    "announceFailed": "Failed to announce items. Please try again.",
+    "invalidIds": "Some selected items have invalid IDs",
+    "discordBlocked": "Discord webhooks are temporarily blocked. Try again in {{time}}."
+  },
+  "gate": {
+    "banner": "Discord delivery is blocked. Retry in {{time}}."
+  },
+  "panel": {
+    "title": "Delivery progress",
+    "inProgress": "In progress",
+    "recent": "Recent",
+    "emptyInProgress": "No active announcements",
+    "emptyRecent": "No recent announcements",
+    "noAnnouncements": "No announcements",
+    "loading": "Loading delivery progress…",
+    "mergedNote": "Includes items already in flight",
+    "status": {
+      "queued": "queued",
+      "sending": "sending",
+      "blocked": "blocked",
+      "completed": "completed",
+      "failed": "failed",
+      "pending": "pending",
+      "delivered": "delivered",
+      "skipped": "skipped",
+      "sent": "sent"
+    }
+  }
+}

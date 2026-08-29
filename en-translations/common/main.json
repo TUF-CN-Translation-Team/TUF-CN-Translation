@@ -1,0 +1,101 @@
+{
+  "validation": {
+    "required": "This field is required",
+    "min_length": "Must be at least {{length}} characters",
+    "max_length": "Must be at most {{length}} characters",
+    "email": "Must be a valid email address",
+    "password": {
+      "match": "Passwords must match",
+      "requirements": "Password must contain at least 8 characters"
+    }
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "validation": "Please check your input and try again."
+  },
+  "loading": {
+    "generic": "Loading...",
+    "submitting": "Submitting...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "restoring": "Restoring...",
+    "creating": "Creating...",
+    "creatingWithName": "Creating {{name}}...",
+    "updating": "Updating...",
+    "uploading": "Uploading...",
+    "searching": "Searching..."
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "restore": "Restore",
+    "edit": "Edit",
+    "done": "Done",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "add": "Add",
+    "remove": "Remove",
+    "update": "Update",
+    "upload": "Upload",
+    "return": "Return",
+    "reset": "Reset",
+    "create": "Create",
+    "createNew": "Create New"
+  },
+  "confirmations": {
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
+  },
+  "adminReasonPrompt": {
+    "reason": "Reason (optional)",
+    "placeholder": "Explain this decision…"
+  },
+  "promote": "Promote",
+  "demote": "Demote",
+  "promoteTo": "Promote to {{role}}",
+  "demoteTo": "Demote to {{role}}",
+  "currentRole": "Current Role",
+  "totalResults": "{{count}} Total Results",
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {{page}} of {{total}}",
+    "showing": "Showing {{start}}-{{end}} of {{total}} items"
+  },
+  "verification": {
+    "verificationState": "Verification State",
+    "all": "All",
+    "unverified": "Unverified",
+    "pending": "Pending",
+    "declined": "Declined",
+    "mostly_declined": "Mostly Declined",
+    "mostly_allowed": "Mostly Allowed",
+    "conditional": "Conditional",
+    "ysmod_only": "YSMod Only",
+    "allowed": "Allowed",
+    "tuf_verified": "TUF Verified"
+  },
+  "pass": {
+    "updated": "Pass updated",
+    "deleted": "Pass deleted",
+    "restored": "Pass restored",
+    "errors": {
+      "playerRequired": "Please select a valid player",
+      "updateFailed": "Failed to update pass",
+      "deleteFailed": "Soft deletion failed",
+      "restoreFailed": "Restoration failed"
+    }
+  },
+  "imageSelector": {
+    "rotationHintTooltip": "<p><strong>Mouse wheel</strong><br />Hold <kbd>Shift</kbd> and scroll <em>anywhere</em> on this dialog to rotate (the crop area is optional). Hold <kbd>Shift</kbd> + <kbd>Ctrl</kbd> for <em>finer</em> wheel steps.</p><p><strong>Arrow keys</strong><br /><kbd>←</kbd> / <kbd>➔</kbd>: 1° per tap; with <kbd>Shift</kbd>: 10°; with <kbd>Shift</kbd> + <kbd>Ctrl</kbd>: 1°.</p>"
+  }
+} 

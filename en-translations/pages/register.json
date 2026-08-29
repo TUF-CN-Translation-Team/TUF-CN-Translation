@@ -1,0 +1,66 @@
+{
+  "title": "Create Account",
+  "form": {
+    "email": {
+      "label": "Email",
+      "error": "Invalid email format"
+    },
+    "username": {
+      "label": "Username",
+      "error": {
+        "length": "Username must be between 2 and 32 characters",
+        "characters": "Username can only contain letters, numbers, underscores (_) and periods (.)",
+        "consecutivePeriods": "Username cannot contain two consecutive periods (..)"
+      },
+      "tooltip": {
+        "default": "Discord-style: letters, numbers, _ and . (2–32 characters). If your username collides with another player's name, a suffix may be added.",
+        "length": "Username must be between 2 and 32 characters. Your username is currently {{length}} characters.",
+        "characters": "Invalid character \"{{char}}\" at position {{position}}. Use letters, numbers, underscores (_) and periods (.) only.",
+        "consecutivePeriods": "Two periods in a row (..) are not allowed."
+      }
+    },
+    "password": {
+      "label": "Password",
+      "confirmLabel": "Confirm Password",
+      "error": {
+        "length": "Password must be at least 8 characters long",
+        "mismatch": "Passwords do not match"
+      }
+    },
+    "terms": {
+      "label": "I have read and agree with the",
+      "privacyPolicy": "Privacy Policy",
+      "and": "and",
+      "termsOfService": "Terms of Service"
+    },
+    "captcha": {
+      "error": "Captcha is required"
+    },
+    "submit": {
+      "default": "Create Account"
+    }
+  },
+  "success": {
+    "title": "Registration Successful!",
+    "message": "Please check your email to verify your account. You can go to your profile now.",
+    "usernameModified": "Your username was modified to {{username}} because the original username was already taken.",
+    "goToProfile": "Go to Profile"
+  },
+  "errors": {
+    "rateLimit": "Too many new accounts created. IP temporarily blocked.",
+    "timeRemaining": "Time remaining: {{time}}",
+    "generic": "Registration failed. Please try again.",
+    "discordFailed": "Failed to connect with Discord",
+    "googleFailed": "Failed to connect with Google"
+  },
+  "divider": "or",
+  "discord": {
+    "register": "Register with Discord"
+  },
+  "google": {
+    "register": "Register with Google"
+  },
+  "login": {
+    "link": "Already have an account? Log in"
+  }
+} 

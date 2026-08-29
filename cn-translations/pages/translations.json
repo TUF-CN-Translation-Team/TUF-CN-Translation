@@ -28,7 +28,7 @@
         "basicExample": "\"noLevels\": \"No new levels to announce\" → \"noLevels\": \"你的目标文本\"",
         "placeholdersLabel": "变量值（很重要！）：",
         "placeholdersBody": "一些文本包含 {{open}}value{{close}} （变量）占位符。他们必须被保留，但可以调整顺序：",
-        "placeholderExample": "\"welcome\": \"Welcome back, {{open}}username{{close}}!\"\n→ \"welcome\": \"{{open}}username{{close}}, willkommen zurück!\"\n\n\"progress\": \"{{open}}count{{close}} of {{open}}total{{close}} levels completed\"\n→ \"progress\": \"{{open}}count{{close}} von {{open}}total{{close}} Level abgeschlossen\"",
+        "placeholderExample": "\"welcome\": \"Welcome back, {{open}}username{{close}}!\"\n→ \"welcome\": \"欢迎回来，{{open}}username{{close}}！\"\n\n\"progress\": \"{{open}}count{{close}} of {{open}}total{{close}} levels completed\"\n→ \"progress\": \"已完成 {{open}}total{{close}} 个关卡中的 {{open}}count{{close}} 个关卡\"",
         "placeholderWarning": "不要翻译占位符本身（例如，{{open}}username{{close}}, {{open}}count{{close}}，等等）"
       },
       "verify": {
@@ -36,7 +36,7 @@
         "body": "将你的翻译文件压缩为一个新的压缩文件（格式为.zip，.7z，.rar，.tar 或 .gz）并使用上方的校验器检查缺少的或错误的翻译文件。"
       },
       "submit": {
-        "title": "复合并提交",
+        "title": "复核并提交",
         "body": "检查翻译文本。如果所有事项都已完成，可即刻提交翻译文件！"
       }
     }

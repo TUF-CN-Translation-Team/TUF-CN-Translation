@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "资料",
-    "description": "TUF 团队整理的实用指南、文档和 Notion 页面"
+    "description": "有用的指南、文档和 TUF团队编写的 Notion 文章"
   },
   "title": "资料",
-  "subtitle": "TUF 团队整理的指南、文档和 Notion 页面。",
-  "empty": "目前还没有已发布的资料。",
+  "subtitle": "指南、文档和 TUF团队收集的 Notion 文章。",
+  "empty": "无已公开资料。",
   "open": "打开",
   "ungrouped": "未分组",
   "errors": {
-    "loadFailed": "无法加载资料，请稍后再试。"
+    "loadFailed": "无法加载资料。请稍后再试。"
   },
   "admin": {
     "manage": "管理链接",
@@ -20,27 +20,27 @@
     "groups": "分组"
   },
   "loading": {
-    "reorderingLinks": "正在保存链接顺序…",
-    "reorderingGroups": "正在保存分组顺序…"
+    "reorderingLinks": "保存链接排序中……",
+    "reorderingGroups": "保存分组顺序中……"
   },
   "links": {
-    "createButton": "创建链接",
-    "noLinks": "还没有链接。创建第一个链接吧！",
+    "createButton": "新建链接",
+    "noLinks": "未找到链接。创建你的第一个链接！",
     "ungrouped": "未分组",
     "linkCount": "{{count}} 个链接",
     "fields": {
       "title": "标题",
-      "url": "网址",
-      "urlPlaceholder": "https://www.notion.so/…",
+      "url": "链接",
+      "urlPlaceholder": "https://www.notion.so/……",
       "description": "描述",
-      "published": "在此页面显示",
+      "published": "本页面中可见",
       "group": {
         "label": "分组（可选）",
         "placeholder": "输入分组名称"
       }
     },
     "create": {
-      "title": "创建链接",
+      "title": "新建链接",
       "createButton": "创建"
     },
     "edit": {
@@ -49,24 +49,24 @@
     },
     "delete": {
       "title": "删除链接",
-      "message": "确定要删除链接“{{name}}”吗？",
-      "description": "此操作无法撤销。",
+      "message": "你确定删除链接 \"{{name}}\" ？",
+      "description": "此操作不可撤销。",
       "deleteButton": "删除"
     },
     "notifications": {
-      "created": "已创建链接",
-      "createFailed": "无法创建链接",
-      "updated": "已更新链接",
-      "updateFailed": "无法更新链接",
-      "deleted": "已删除链接",
-      "deleteFailed": "无法删除链接",
-      "reordered": "链接顺序已保存",
-      "reorderFailed": "无法保存链接顺序"
+      "created": "链接创建成功",
+      "createFailed": "链接创建失败",
+      "updated": "链接更新成功",
+      "updateFailed": "链接更新失败",
+      "deleted": "链接删除成功",
+      "deleteFailed": "链接删除失败",
+      "reordered": "链接重排序成功",
+      "reorderFailed": "链接重排序失败"
     }
   },
   "groups": {
     "createButton": "创建分组",
-    "noGroups": "还没有分组。请创建一个，或在创建链接时填写分组名称。",
+    "noGroups": "未找到分组。创建分组或创建链接时输入分组名。",
     "create": {
       "title": "创建分组",
       "name": "名称",
@@ -79,19 +79,19 @@
     },
     "delete": {
       "title": "删除分组",
-      "message": "确定要删除分组“{{name}}”吗？",
-      "description": "该分组中的链接将变为未分组。此操作无法撤销。",
+      "message": "你确定删除分组 \"{{name}}\" ？",
+      "description": "此分组内所有链接将解除分组。此操作不可撤销。",
       "deleteButton": "删除"
     },
     "notifications": {
-      "reordered": "分组顺序已保存",
-      "reorderFailed": "无法保存分组顺序",
-      "created": "已创建分组",
-      "createFailed": "无法创建分组",
-      "updated": "已更新分组",
-      "updateFailed": "无法更新分组",
-      "deleted": "已删除分组",
-      "deleteFailed": "无法删除分组"
+      "reordered": "分组重排序成功",
+      "reorderFailed": "分组重排序失败",
+      "created": "分组创建成功",
+      "createFailed": "分组创建失败",
+      "updated": "分组更新成功",
+      "updateFailed": "分组更新失败",
+      "deleted": "分组删除成功",
+      "deleteFailed": "分组删除失败"
     }
   }
 }

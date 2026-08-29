@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Notifications",
+    "description": "Your TUF inbox"
+  },
+  "title": "Notifications",
+  "subtitle": "Updates about your submissions and account.",
+  "empty": "No notifications yet.",
+  "nudgeBody": "Get alerts even when TUF is in another tab.",
+  "nudgeEnable": "Enable",
+  "nudgeDismiss": "Not now",
+  "loading": "Loading notifications…",
+  "markAllRead": "Mark all as read",
+  "seeAll": "See all notifications",
+  "loadMore": "Load more",
+  "unread_one": "{{count}} unread",
+  "unread_other": "{{count}} unread",
+  "bellAria": "Notifications, {{count}} unread",
+  "settingsAria": "Notification settings",
+  "menuAria": "Notification actions",
+  "hide": "Hide this notification",
+  "disableType": "Turn off \"{{title}}\" notifications",
+  "untitledLevel": "Level #{{levelId}}",
+  "unknownArtist": "Unknown artist",
+  "unknown": {
+    "title": "New notification",
+    "body": ""
+  },
+  "visibility": {
+    "public": "public",
+    "hidden": "hidden"
+  },
+  "reason": "Reason: {{reason}}",
+  "types": {
+    "pass": {
+      "submission": {
+        "submitted": {
+          "title": "Pass submitted",
+          "body": "Your pass of {{song}} by {{artist}} was submitted."
+        },
+        "approved": {
+          "title": "Pass approved",
+          "body": "{{song}} by {{artist}} was approved."
+        },
+        "declined": {
+          "title": "Pass declined",
+          "body": "{{song}} by {{artist}} was declined."
+        }
+      },
+      "modified": {
+        "title": "Pass updated",
+        "body": "Your pass of {{song}} by {{artist}} was updated."
+      },
+      "deleted": {
+        "title": "Pass removed",
+        "body": "Your pass of {{song}} by {{artist}} was removed."
+      },
+      "restored": {
+        "title": "Pass restored",
+        "body": "Your pass of {{song}} by {{artist}} was restored."
+      }
+    },
+    "chart": {
+      "submission": {
+        "submitted": {
+          "title": "Chart submitted",
+          "body": "{{song}} by {{artist}} was submitted."
+        },
+        "approved": {
+          "title": "Chart accepted",
+          "body": "{{song}} by {{artist}} was accepted."
+        },
+        "declined": {
+          "title": "Chart declined",
+          "body": "{{song}} by {{artist}} was declined."
+        }
+      },
+      "deleted": {
+        "title": "Chart removed",
+        "body": "{{song}} by {{artist}} was removed."
+      },
+      "restored": {
+        "title": "Chart restored",
+        "body": "{{song}} by {{artist}} was restored."
+      },
+      "visibility": {
+        "changed": {
+          "title": "Chart visibility changed",
+          "body": "{{song}} by {{artist}} is now {{visibility}}."
+        }
+      },
+      "modified": {
+        "title": "Chart updated",
+        "body": "{{song}} by {{artist}} was updated."
+      },
+      "curated": {
+        "title": "Chart curated",
+        "body": "{{song}} by {{artist}} was curated."
+      },
+      "curation": {
+        "removed": {
+          "title": "Curation removed",
+          "body": "{{song}} by {{artist}} is no longer curated."
+        }
+      },
+      "weekly": {
+        "selected": {
+          "title": "Selected for Weekly Levels",
+          "body": "{{song}} by {{artist}} was selected for Weekly Levels."
+        }
+      },
+      "cleared": {
+        "title": "Your chart has been cleared",
+        "body": "{{playerName}} cleared {{song}} by {{artist}}."
+      }
+    },
+    "following": {
+      "player": {
+        "pass": {
+          "title": "New clear",
+          "body": "{{playerName}} cleared {{song}} by {{artist}}."
+        }
+      },
+      "creator": {
+        "level": {
+          "title": "New chart",
+          "body": "{{creatorName}} published {{song}} by {{artist}}."
+        }
+      }
+    }
+  }
+}

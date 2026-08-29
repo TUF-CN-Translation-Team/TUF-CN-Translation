@@ -1,0 +1,53 @@
+{
+  "title": "System Health Status",
+  "metaDescription": "High-level view of whether TUF services are responding.",
+  "lastUpdated": "Last updated: {{time}}",
+  "loadError": "Status could not be loaded. Please try again later.",
+  "overall": {
+    "online": "Online",
+    "degraded": "Degraded",
+    "offline": "Service unavailable"
+  },
+  "serviceState": {
+    "ok": "OK",
+    "down": "Unavailable"
+  },
+  "serviceChecks": {
+    "database": "Database",
+    "mainServer": "Main server",
+    "cdnService": "CDN",
+    "nginxService": "Nginx",
+    "skipped": "Not monitored"
+  },
+  "responseTime": {
+    "ms": "{{ms}} ms",
+    "skipped": "—",
+    "unavailable": "—",
+    "ariaLabel": "Latest check response time"
+  },
+  "refresh": {
+    "ariaLabel": "Refresh status"
+  },
+  "latency": {
+    "title": "Response times",
+    "yAxisLabel": "Milliseconds",
+    "loadError": "Could not load response time data.",
+    "empty": "No samples in this range yet.",
+    "windowLabel": "Time range",
+    "series": {
+      "database": "Database",
+      "mainServer": "Main server",
+      "cdn": "CDN"
+    },
+    "windows": {
+      "1h": "Last hour",
+      "3h": "Last 3 hours",
+      "6h": "Last 6 hours",
+      "12h": "Last 12 hours",
+      "24h": "Last 24 hours",
+      "3d": "Last 3 days",
+      "7d": "Last 7 days",
+      "14d": "Last 14 days"
+    }
+  }
+}

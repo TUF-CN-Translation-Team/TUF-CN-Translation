@@ -1,0 +1,161 @@
+{
+  "detailPopup": {
+    "closeButton": "Close popup",
+    "labels": {
+      "creator": "Creator:",
+      "currentDifficulty": "Current Difficulty:",
+      "averageRating": "Manager Rating:",
+      "communityRating": "Community Rating:",
+      "clearedCount": "Clears: {{count}}",
+      "rerateNum": "Requested rating:",
+      "rerateReason": "Rerate Reason:",
+      "notes": "Notes:",
+      "yourRating": "Your Rating:",
+      "yourComment": "Your Comment:",
+      "savedDraft": "Saved draft",
+      "otherRatings": "Other Ratings:",
+      "noRatings": "No ratings yet",
+      "adminRatings": "Manager Ratings",
+      "communityRatings": "Community Ratings",
+      "noAdminRatings": "No manager ratings yet",
+      "noCommunityRatings": "No community ratings yet"
+    },
+    "zenModeChip": "Zen Mode",
+    "viewedFor": "Viewed for {{duration}}",
+    "viewedForSeconds_one": "Viewed for {{count}} second",
+    "viewedForSeconds_other": "Viewed for {{count}} seconds",
+    "buttons": {
+      "saveChanges": "Save Changes",
+      "removeRating": "Remove Rating",
+      "viewAdminRatings": "View Manager Ratings",
+      "viewCommunityRatings": "View Community Ratings"
+    },
+    "errors": {
+      "commentLength": "Comment must be less than 1000 characters",
+      "commentRequired": "Comment is required for -2 ratings",
+      "saveFailed": "Failed to save changes",
+      "updateFailed": "Failed to update rating",
+      "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
+      "deleteFailed": "Failed to delete rating",
+      "autorateFailed": "Failed to autorate rating"
+    },
+    "tooltips": {
+      "lastUpdated": "Last updated time",
+      "requiredComment": "A comment is required when rating -2"
+    },
+    "placeholders": {
+      "requiredComment": "Please explain why you're rating this -2...",
+      "difficultyInput": "Enter difficulty...",
+      "communityComment": "Please provide a reason for your rating..."
+    },
+    "confirmations": {
+      "deleteRating": "Are you sure you want to delete this rating from {{username}}?",
+      "unsavedDraft": {
+        "title": "Unsaved rating",
+        "body": "Save a draft for later, discard your changes, or stay and keep editing.",
+        "save": "Save draft",
+        "discard": "Discard",
+        "cancel": "Cancel"
+      }
+    },
+    "messages": {
+      "ratingBanned": "You are not allowed to rate",
+      "autorateSuccess": "Rating autorated successfully"
+    }
+  },
+  "ratingCard": {
+    "labels": {
+      "yourRating": "Your Rating",
+      "managerAverage": "Manager Average",
+      "clearedCount": "Clears: {{count}}",
+      "managerRatings": "Manager Ratings",
+      "communityAverage": "Community Average",
+      "communityRatings": "Community Ratings",
+      "allRatings": "All Ratings",
+      "average": "Average",
+      "rerateNumber": "Rerate Number",
+      "requestedRating": "Requested Rating",
+      "rerateMessage": "Rerate Message",
+      "lastUpdated": "Last updated",
+      "updatedAt": "Updated: "
+    },
+    "tooltips": {
+      "expandReason": "Click to expand",
+      "deleteRating": "Delete rating",
+      "lastUpdated": "Last time this rating was modified",
+      "copyLink": "Copy Link",
+      "savedDraft": "Saved draft"
+    },
+    "buttons": {
+      "viewDetails": "View Details",
+      "editLevel": "Edit Level",
+      "copied": "Copied!",
+      "copyLink": "Copy link"
+    }
+  },
+  "helpPopup": {
+    "title": "Rating System Guide",
+    "closeButton": "Close guide",
+    "sections": {
+      "rating": {
+        "title": "Rating Format",
+        "description": "Ratings can be entered in various formats, including single ratings, ranges, and special cases.",
+        "examples": {
+          "title": "Examples",
+          "simple": "Simple rating",
+          "range": "Range with full notation",
+          "shortRange": "The same (P prefix is implied for both)",
+          "special": "Rating with special case",
+          "negative": "Rating with negative special case"
+        }
+      },
+      "extras": {
+        "title": "Extra Rating Features",
+        "features": [
+          {
+            "title": "ID Link in comments",
+            "description": "In comment section you can include an ID direction to a level like \"#1527\". This will automatically convert it to idPrefixDontChange:1527"
+          },
+          {
+            "title": "Hide vote ratings",
+            "description": "You can hide levels undergoing voting by appending \"-vote\" to the your search query."
+          }
+        ]
+      },
+      "averaging": {
+        "title": "Rating Averaging",
+        "description": "The system uses a weighted average calculation that takes into account several factors:",
+        "points": {
+          "special": "Special ratings (Censored, Impossible, etc.) override the average if they receive 4 or more votes",
+          "ranges": "Ranges (like U12~U14) are averaged before contributing to the final rating",
+          "order": "PGU ratings are averaged based on their difficulty order, not their numerical values"
+        }
+      },
+      "filters": {
+        "title": "Available Filters",
+        "myRated": "My Rated",
+        "myRatedDesc": "Show, hide, or show only levels you have already rated",
+        "lowDiff": "Low Difficulty",
+        "lowDiffDesc": "Filter levels marked as low difficulty",
+        "fourVote": "4+ Rated",
+        "fourVoteDesc": "Filter levels that have 4 or more ratings"
+      },
+      "requirements": {
+        "title": "Requirements",
+        "points": {
+          "comment": "A comment is required when rating a level as -2",
+          "format": "Ratings must follow the PGU format (P1-P20, G1-G20, U1-U20) or be a valid special rating",
+          "special": "Special ratings are predefined and cannot be customized"
+        }
+      },
+      "shortcuts": {
+        "title": "Shortcuts",
+        "points": {
+          "submit": "Save your rating",
+          "reset": "Force-refresh ratings",
+          "close": "Close currently open popup"
+        }
+      }
+    }
+  }
+} 

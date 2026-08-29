@@ -1,0 +1,315 @@
+{
+  "helpPopup": {
+    "title": "Search Help",
+    "closeButton": "Close",
+    "v2": {
+      "subtitle": "Advanced search is a small query language. Use field tokens, operators, and ranges to narrow results quickly.",
+      "examplesTitle": "Examples",
+      "groups": {
+        "basics": {
+          "title": "Basics (how queries are parsed)",
+          "intro": "Write conditions as field:value or field=value. Use commas for AND inside a group, and | to create OR groups.",
+          "examples": {
+            "and": "<b><code>song:hello, artist:camellia</code></b><br/>Both conditions must match (AND).",
+            "or": "<b><code>song=goTe | song:xnor</code></b><br/>Either group can match (OR).",
+            "not": "<b><code>song:onus, \\!nerfed</code></b><br/>Exclude matches containing a term (NOT)."
+          }
+        },
+        "text": {
+          "title": "Text fields (names & roles)",
+          "intro": "These fields match text and are case-insensitive. Use : for partial match, = for exact match.",
+          "examples": {
+            "partialVsExact": "<b><code>song:go</code></b> matches partials, while <b><code>song=goTe</code></b> matches exactly.",
+            "multiWord": "<b><code>artist:Camellia (feat. Nanahira)</code></b> works — spaces are allowed.",
+            "mixTextAndNumeric": "<b><code>song:hello, bpm:>150</code></b><br/>Mix text + numeric constraints in one group."
+          }
+        },
+        "numeric": {
+          "title": "Numeric fields (ranges & duration)",
+          "intro": "Numeric fields support exact values and comparisons. Use >, <, >=, <= for ranges.",
+          "examples": {
+            "bpmRange": "<b><code>bpm:>100, bpm:<200</code></b> filters BPM between 100 and 200.",
+            "tilesMin": "<b><code>tilecount:>=1000</code></b> filters levels with at least 1000 tiles.",
+            "timeUnits": "<b><code>time:>10m15s</code></b> or <b><code>time:<50s</code></b><br/>Use h/m/s/ms units for chart length.",
+            "timeMsPlain": "<b><code>time:>130000</code></b><br/>Plain numbers are interpreted as milliseconds.",
+            "likesRange": "<b><code>likes:>10</code></b> filters levels with more than 10 likes (supports exact values and ranges).",
+            "clearsRange": "<b><code>clears:>=100</code></b> filters levels with at least 100 clears (supports exact values and ranges)."
+          }
+        },
+        "idsAndLinks": {
+          "title": "IDs & links",
+          "intro": "Filter by internal identifiers or link text.",
+          "examples": {
+            "idExact": "<b><code>id=1234</code></b> filters a specific level by numeric id.",
+            "idRange": "<b><code>id:>1000</code></b> filters levels with an id above 1000 (supports ranges).",
+            "linkMatch": "<b><code>dlLink:drive.google</code></b> matches download links by partial text. <b><code>workshopLink:steamcommunity</code></b> matches Steam Workshop URLs the same way."
+          }
+        },
+        "tips": {
+          "title": "Tips",
+          "intro": "A few details that help avoid surprises.",
+          "bullets": {
+            "caseInsensitive": "Search is case-insensitive: 'SONG' and 'song' behave the same.",
+            "spacesAllowed": "Spaces are allowed in values: song:Example Song works.",
+            "orderDoesNotMatter": "Order does not matter within a group: artist:foo, song:bar is the same as song:bar, artist:foo.",
+            "aliasesMayMatch": "Song/artist names may match known aliases, not just the primary display name.",
+            "groupingMentalModel": "Think of it as (A AND B) OR (C AND D): commas build AND groups, | splits OR groups."
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "Partial match",
+          "desc": "Use : to match partial text (example: song:go)."
+        },
+        "operatorEquals": {
+          "title": "Exact match",
+          "desc": "Use = to match exactly (example: song=goTe)."
+        },
+        "operatorComma": {
+          "title": "AND inside a group",
+          "desc": "Separate terms with commas to require all conditions in the group."
+        },
+        "operatorPipe": {
+          "title": "OR between groups",
+          "desc": "Use | to split your query into OR groups. If any group matches, the level is included."
+        },
+        "operatorNot": {
+          "title": "NOT (exclude)",
+          "desc": "Prefix a term with \\! to exclude matches containing that term."
+        },
+        "song": {
+          "title": "Song name",
+          "desc": "Filter by song name (supports aliases)."
+        },
+        "artist": {
+          "title": "Artist name",
+          "desc": "Filter by artist name (supports aliases and credited artists)."
+        },
+        "creator": {
+          "title": "Creator (any role)",
+          "desc": "Search across all creator roles (charter, vfx, etc.)."
+        },
+        "charter": {
+          "title": "Charter",
+          "desc": "Filter by charter name (creator role)."
+        },
+        "vfxer": {
+          "title": "VFXer",
+          "desc": "Filter by VFXer name (creator role)."
+        },
+        "team": {
+          "title": "Team",
+          "desc": "Filter by team name (supports aliases)."
+        },
+        "comment": {
+          "title": "Public comments",
+          "desc": "Filter by public comment text (e.g. rerate or gimmick notes)."
+        },
+        "bpm": {
+          "title": "BPM",
+          "desc": "Filter by BPM. Supports exact values and ranges."
+        },
+        "tilecount": {
+          "title": "Tile count",
+          "desc": "Filter by total tiles. Supports exact values and ranges."
+        },
+        "time": {
+          "title": "Chart length",
+          "desc": "Filter by chart length. Use h/m/s/ms units or plain milliseconds."
+        },
+        "likes": {
+          "title": "Likes",
+          "desc": "Filter by like count. Supports exact values and ranges."
+        },
+        "clears": {
+          "title": "Clears",
+          "desc": "Filter by clear count. Supports exact values and ranges."
+        },
+        "id": {
+          "title": "Level id",
+          "desc": "Filter by numeric level id. Supports exact values and ranges."
+        },
+        "hashtag": {
+          "title": "Level id (alt)",
+          "desc": "Using <code>#123</code> is the same as <code>id=123</code>."
+        },
+        "dlLink": {
+          "title": "Download link",
+          "desc": "Filter by download link text."
+        },
+        "workshopLink": {
+          "title": "Workshop link",
+          "desc": "Filter by Steam Workshop (or other workshop) URL text, same wildcard rules as dlLink."
+        },
+        "legacyDllink": {
+          "title": "Legacy download link",
+          "desc": "Filter by legacy download link text (older entries)."
+        },
+        "videolink": {
+          "title": "Video link",
+          "desc": "Filter by video link text."
+        }
+      }
+    },
+    "sections": {
+      "search": {
+        "title": "Field-Specific Search",
+        "description": "You can search for specific fields using two different operators: colon (:) for partial matches and equals (=) for exact matches.",
+        "examples": {
+          "title": "Available Fields",
+          "songField": "Search by song name (e.g., 'song:go' or 'song=goTe')",
+          "artistField": "Search by artist name (e.g., 'artist:cam' or 'artist=Camellia')",
+          "charterField": "Search by charter name (e.g., 'charter:zag' or 'charter=Zagon')",
+          "vfxerField": "Search by VFXer name (e.g., 'vfxer:Asa' or 'vfxer=Asansis')",
+          "creatorField": "Search by creator name across all roles (e.g., 'creator:Nep' or 'creator=Nephrolepis')"
+        }
+      },
+      "numeric": {
+        "title": "BPM, tile count, and chart length",
+        "description": "Filter by BPM (bpm:), tile count (tilecount:), or chart length in milliseconds (time:). For time:, use h, m, s, or ms units (e.g. 10m15s, 50s), or a plain number as milliseconds. Prefix with >, <, >=, or <= for ranges. Separate multiple conditions with commas (AND) within the same search group.",
+        "examples": {
+          "title": "Numeric examples",
+          "bpmExact": "Exact BPM (also works with bpm=180)",
+          "tilesExact": "Exact tile count",
+          "bpmRange": "BPM strictly between 100 and 200 (use >= or <= if you want inclusive bounds)",
+          "tilesMin": "At least 1000 tiles",
+          "timeComposite": "Levels longer than 10 minutes 15 seconds (chart length)",
+          "timeMin": "Levels shorter than 50 seconds",
+          "timeMsPlain": "Levels longer than 130000 ms (plain number = milliseconds)",
+          "combine": "Combine with song/artist filters, e.g. song:hello, bpm:>150"
+        }
+      },
+      "operators": {
+        "title": "Search Operators",
+        "description": "You can combine multiple search conditions using operators.",
+        "examples": {
+          "title": "Operator Examples",
+          "and": "Search for levels that match both conditions (AND). This will look for charts of 'hello' by 'camellia'",
+          "or": "Search for levels that match either condition (OR). This searches for either goTe charts (without EX) or any XNOR charts",
+          "complex": "Complex search combining AND and OR conditions. This looks for 'onus' charts by 'gazizi' or any charts with song by 'ludicin'",
+          "not": "Usage of '\\!' will exclude results containing the term - this expression will exclude 'nerfed' onus charts"
+        }
+      },
+      "tips": {
+        "title": "Search Tips",
+        "points": {
+          "caseSensitive": "Searches are case-insensitive - 'SONG' and 'song' will give the same results",
+          "partial": "Colon (:) allows partial matches - 'song:Ex' will match 'Example'",
+          "exact": "Equals (=) requires exact matches - 'song=Example' will only match 'Example'",
+          "spaces": "Spaces are allowed in search terms - 'song:Example Song' works",
+          "order": "The order of conditions doesn't matter within each group",
+          "roles": "Use 'creator' to search across all roles, or 'charter'/'vfxer' for specific roles"
+        }
+      }
+    }
+  },
+  "tufHelperLiteBanner": {
+    "title": "Open TUF levels directly in ADOFAI",
+    "description": "Use the TUFHelperLite mod to open TUF levels directly in ADOFAI with a single click. Your browser may ask for local device access.",
+    "connect": "Connect",
+    "connecting": "Connecting...",
+    "openWith": "Open with TUFHelperLite",
+    "learnMore": "Download mod",
+    "neverShow": "Don't show again",
+    "dismiss": "Dismiss TUFHelperLite for this session",
+    "unavailableTitle": "TUFHelperLite wasn't found",
+    "unavailableDescription": "Make sure AdofaiIpc and TUFHelperLite are installed and ADOFAI is running, then try again.",
+    "ipcUpdateTitle": "AdofaiIpc needs to be updated",
+    "ipcUpdateDescription": "Close the game, reinstall the latest AdofaiIpc release, and then restart ADOFAI.",
+    "downloadIpc": "Download AdofaiIpc",
+    "clientUpdateTitle": "Website update required",
+    "clientUpdateDescription": "AdofaiIpc is newer than the cached website client. Refresh the page to load the latest version.",
+    "refreshPage": "Refresh page",
+    "initializingTitle": "TUFHelperLite is still starting",
+    "initializingDescription": "Wait for the mod to finish initializing in the game, then try again.",
+    "initializationFailedTitle": "TUFHelperLite failed to start",
+    "initializationFailedDescription": "Check the TUFHelperLite error in the in-game UnityModManager log.",
+    "outdatedToast": "TUFHelperLite {{version}} is no longer supported. Update to 0.1.4 or newer to use the website integration.",
+    "unknownVersion": "an unknown version",
+    "retry": "Retry"
+  },
+  "tufHelperLiteDownloadManager": {
+    "open": "Manage downloads",
+    "close": "Close download manager",
+    "title": "Download manager",
+    "subtitle": "Manage TUFHelperLite downloads and local storage.",
+    "libraryTitle": "Downloaded levels",
+    "checkAll": "Check all",
+    "checkingAll": "Checking {{processed}} / {{total}}",
+    "updatesFound_one": "{{count}} update found",
+    "updatesFound_other": "{{count}} updates found",
+    "batchWarning": "Some levels downloaded with an earlier version of TUFHelperLite may download the latest file once for comparison.",
+    "startCheckAll": "Check all levels",
+    "batchFailed": "The downloaded level check could not be completed.",
+    "libraryCount_one": "{{count}} level",
+    "libraryCount_other": "{{count}} levels",
+    "emptyTitle": "No downloaded levels",
+    "emptyDescription": "Levels downloaded with TUFHelperLite will appear here.",
+    "creator": "Creator",
+    "size": "Size",
+    "checkForUpdate": "Check for update",
+    "checkingForUpdate": "Checking...",
+    "downloadingToCompare": "Downloading to compare...",
+    "upToDate": "Up to date",
+    "updateAvailable": "Update available",
+    "updatingLevel": "Updating...",
+    "updateRetry": "Retry update",
+    "updateErrors": {
+        "downloaded_level_in_use": "Close the level currently open in the game before updating."
+    },
+    "updateRequiredShort": "Update TUFHelperLite",
+    "calculatingSummary": "Calculating library size…",
+    "summaryFailed": "Library size unavailable",
+    "loadingLevels": "Loading downloaded levels…",
+    "loadLevelsFailed": "Downloaded levels could not be loaded.",
+    "loadMoreFailed": "More downloaded levels could not be loaded.",
+    "libraryUpdateRequired": "Update TUFHelperLite to browse downloaded levels.",
+    "storageTitle": "Storage location",
+    "currentFolder": "Current folder",
+    "newFolder": "New folder",
+    "chooseFolder": "Choose folder",
+    "choosing": "Choosing...",
+    "startMigration": "Move downloads",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "restoreDefault": "Use default folder",
+    "updateRequired": "Update TUFHelperLite to change the download storage location.",
+    "warning": "All downloaded levels will be moved. This may take a long time. Keep ADOFAI open and do not modify either folder until it finishes; downloads are paused during the move.",
+    "reconnectWarning": "This existing TUFHelperLite library will be merged with the current downloads. Duplicate levels are checked against the latest official file before either folder is changed.",
+    "startReconnect": "Merge and reconnect",
+    "folderErrors": {
+      "selection_token_invalid": "Choose the folder again; the previous selection expired.",
+      "folder_picker_busy": "Another folder picker is already open.",
+      "folder_picker_not_found": "The folder selection could not be found. Choose the folder again.",
+      "folder_picker_failed": "The folder picker could not be opened.",
+      "storage_target_required": "Choose an empty download folder.",
+      "storage_target_invalid": "The selected folder path is invalid.",
+      "storage_target_is_root": "A drive root cannot be used as the download folder.",
+      "storage_target_unchanged": "The selected folder is already in use.",
+      "storage_target_overlaps_source": "The new folder cannot contain or be inside the current folder.",
+      "storage_target_missing": "The selected folder no longer exists.",
+      "storage_target_not_empty": "The selected folder must be empty.",
+      "storage_target_not_writable": "The selected folder is not writable.",
+      "storage_target_unrecognized_content": "The selected folder is not a valid TUFHelperLite download library."
+    },
+    "states": {
+      "idle": "Ready",
+      "copying": "Copying",
+      "verifying": "Verifying",
+      "switching": "Switching folders",
+      "cleaning": "Cleaning up",
+      "cleanup_pending": "Cleanup required",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "failed": "Action required"
+    },
+    "errors": {
+      "unavailable": "Storage information is unavailable.",
+      "pickFailed": "The folder picker failed.",
+      "startFailed": "The move could not be started.",
+      "retryFailed": "The move could not be retried.",
+      "cancelFailed": "The storage change could not be cancelled."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Select Level File",
+  "description": "Multiple level files were found in the zip. Please select the main level file:",
+  "buttons": {
+    "submit": "Submit"
+  },
+  "fileInfo": {
+    "song": "Song: {{song}}",
+    "size": "Size: {{size}}",
+    "youtube": "Has YouTube Stream"
+  }
+} 

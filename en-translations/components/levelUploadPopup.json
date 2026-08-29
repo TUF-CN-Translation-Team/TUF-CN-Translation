@@ -1,0 +1,13 @@
+{
+  "title": "Uploading Level",
+  "close": "Close",
+  "uploading": "Uploading",
+  "uploadingSubtext": "Please wait while your file is being uploaded to the server.",
+  "processing": "Processing",
+  "processingSubtext": "Please wait while we process your level files.",
+  "caching": "Caching",
+  "cachingSubtext": "Populating cache for your uploaded level.",
+  "completed": "Upload Complete",
+  "completedSubtext": "Your level has been successfully uploaded and processed.",
+  "error": "Upload Failed"
+}

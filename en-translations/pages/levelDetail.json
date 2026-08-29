@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "title": "{{song}} - {{artist}}",
+    "description": "{{song}} by {{artist}} — charted by {{creator}} on The Universal Forums",
+    "fallbackName": "Level"
+  },
+  "banners": {
+    "deleted": "This level has been deleted",
+    "hidden": "This level is currently hidden",
+    "notFound": "Level not found"
+  },
+  "song": {
+    "clickToViewDetails": "Click to view details"
+  },
+  "buttons": {
+    "edit": "Edit Level",
+    "close": "Close",
+    "viewRating": "View Previous Ratings",
+    "like": "Like",
+    "unlike": "Unlike",
+    "update": "Update Level",
+    "saveRating": "Save Rating",
+    "addToPack": "Add to Pack"
+  },
+  "tooltips": {
+    "loginRequired": "Login to like this level",
+    "editDisabled": "This level has more than 2 charters assigned. Contact admins if you believe that you should be the owner.",
+    "muteChartClears": "Mute clear notifications for this chart",
+    "unmuteChartClears": "Unmute clear notifications for this chart"
+  },
+  "links": {
+    "download": "Download Level",
+    "workshop": "Steam Workshop",
+    "thumbnailNotFound": {
+      "text": "Video thumbnail not found",
+      "goToVideo": "Go to video"
+    }
+  },
+  "aliases": {
+    "header": "Alternative Names"
+  },
+  "artists": {
+    "more": "{{count}} more"
+  },
+  "stats": {
+    "firstClear": {
+      "label": "First Clear",
+      "value": "{{player}} | {{date}}"
+    },
+    "highestScore": {
+      "label": "Highest Score",
+      "value": "{{player}} | {{score}}"
+    },
+    "highestSpeed": {
+      "label": "Highest Speed",
+      "value": "{{player}} | {{speed}}x"
+    },
+    "highestAccuracy": {
+      "label": "Highest Accuracy",
+      "value": "{{player}} | {{accuracy}}%"
+    },
+    "totalClears": {
+      "label": "Total Clears",
+      "value": "{{count}}",
+      "tooltip": "{{total}} total clears, {{unique}} unique"
+    },
+    "waiting": "Loading..."
+  },
+  "info": {
+    "title": "Level Information",
+    "team": "Team",
+    "creator": "Creator",
+    "roles": {
+      "charter": "Charter(s)",
+      "vfxer": "VFXer(s)",
+      "specialThanks": "Special Thanks"
+    },
+    "difficulty": "Difficulty",
+    "baseScore": "Base Score",
+    "ppBaseScore": "PP Base Score",
+    "aliases": "Aliases",
+    "comments": "Comments",
+    "createdAt": "Created at"
+  },
+  "leaderboard": {
+    "header": "Leaderboard",
+    "refresh": "Refresh Leaderboard",
+    "refreshed": "Leaderboard refreshed!",
+    "notBeaten": "This level hasn't been beaten yet!",
+    "noClearsYet": "No clears yet!",
+    "challenge": "Maybe you will be the one to take on this challenge?",
+    "tooltips": {
+      "time": "Sort by clear date",
+      "accuracy": "Sort by accuracy",
+      "score": "Sort by score",
+      "speed": "Sort by speed"
+    },
+    "dedupe": {
+      "label": "Hide Reclears"
+    }
+  },
+  "dialog": {
+    "fullInfo": "Full Info"
+  },
+  "components": {
+    "clearCard": {
+      "feeling": "Feeling:"
+    }
+  },
+  "errors": {
+    "loginRequired": "You need to be logged in to like this level",
+    "likeFailed": "Failed to update like status"
+  },
+  "messages": {
+    "liked": "Liked!",
+    "unliked": "Unliked"
+  },
+  "rerateHistory": {
+    "header": "Rerate History",
+    "open": "Show rerate history",
+    "close": "Close rerate history",
+    "noHistory": "No rerate history available",
+    "previous": "Previous",
+    "current": "Current",
+    "baseScore": "Base Score",
+    "date": "Date",
+    "user": "User"
+  },
+  "scoreGraph": {
+    "header": "Score vs accuracy",
+    "open": "Show score vs accuracy chart",
+    "close": "Close score chart",
+    "missesLabel": "Misses",
+    "missesAria": "Miss count",
+    "noTilecount": "Tilecount is required to plot this chart.",
+    "emptyCurve": "No score curve data for this level.",
+    "tooltipScore": "Score",
+    "tooltipMisses": "Misses",
+    "tooltipEPerfect": "E/L perfect",
+    "tooltipEarly": "Early/Late",
+    "disablePP": "Disable PP",
+    "judgementsAria": "Judgement breakdown",
+    "judgementMiss": "MISS",
+    "judgementEarly": "EARLY",
+    "judgementEPerfect": "EP",
+    "judgementPerfect": "P",
+    "judgementLPerfect": "LP",
+    "judgementLate": "LATE"
+  },
+  "toRatePending": {
+    "header": "Pending rerate",
+    "rerateNumber": "Requested rating",
+    "rerateMessage": "Rerate message",
+    "noDetails": "No rerate details were provided."
+  },
+  "tags": {
+    "header": "Level Tags",
+    "vote": {
+      "header": "Community tags",
+      "open": "Vote",
+      "vote": "Vote for this tag",
+      "upvote": "Upvote this tag",
+      "downvote": "Downvote this tag",
+      "unvote": "Remove your vote",
+      "voted": "Voted for {{tag}}",
+      "upvoted": "Upvoted {{tag}}",
+      "downvoted": "Downvoted {{tag}}",
+      "unvoted": "Removed vote from {{tag}}",
+      "failed": "Failed to update vote",
+      "loginRequired": "Log in to vote on community tags",
+      "banned": "You are not allowed to vote on community tags",
+      "topPlay": "Your top play is not high enough to vote on this chart",
+      "mustClear": "You must clear this chart to vote on this tag",
+      "uncleared": "Community tags are available after this chart has a clear",
+      "band": "This tag is not available for this difficulty",
+      "deleted": "Cannot vote on a deleted level"
+    }
+  },
+  "weeklyAppearance": {
+    "header": "Weekly Appearances",
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "position": "Position {{position}}"
+  },
+  "packAppearance": {
+    "header": "Pack Appearances",
+    "by": "by {{owner}}",
+    "levels": "levels",
+    "loading": "Loading packs…",
+    "unknownOwner": "Unknown"
+  },
+  "tournamentAppearance": {
+    "header": "Tournament Appearances"
+  },
+  "linkedLevels": {
+    "header": "Linked levels"
+  }
+} 

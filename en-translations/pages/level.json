@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Levels",
+    "description": "Browse and search through TUF levels"
+  },
+  "buttons": {
+    "searchHelp": "Search Help"
+  },
+  "input": {
+    "placeholder": "Search levels..."
+  },
+  "toolTip": {
+    "search": "Learn how to use advanced search",
+    "filter": "Filter levels",
+    "sort": "Sort levels",
+    "reset": "Reset all filters",
+    "normalView": "Normal View",
+    "compactView": "Compact View",
+    "toggleQSlider": "Toggle Q Difficulty Slider",
+    "orderAsc": "Ascending",
+    "orderDesc": "Descending",
+    "stateDisplay": "Display options"
+  },
+  "settings": {
+    "sort": {
+      "header": "Sort Levels By...",
+      "recent": "ID",
+      "difficulty": "Difficulty",
+      "clears": "Clears",
+      "totalClears": "Total Clears",
+      "likes": "Likes",
+      "baseScore": "Base Score",
+      "bpm": "BPM",
+      "tiles": "Tiles",
+      "time": "Time",
+      "random": "Random"
+    }
+  },
+
+  "settingExp": {
+    "headerFilter": "Filter Settings",
+    "headerSort": "Sort Settings",
+    "filterDiffs": "Sort by Difficulty",
+    "sortOrder": "Sort Order",
+    "viewMode": "View Mode",
+    "clearedLevels": "Cleared Levels",
+    "deletedLevels": "Deleted Levels",
+    "myHiddenLevels": "My Hidden Levels",
+    "availableDl": "Downloadable",
+    "specialDifficulties": "Special Difficulties",
+    "curationTypes": "Curation Types",
+    "tags": "Tags",
+    "myLikes": "My Likes"
+  },
+  "totalResults": "{{count}} Total Results",
+  "infScroll": {
+    "end": "No more levels to load"
+  },
+  "loading": {
+    "difficulties": "Loading difficulties..."
+  }
+}

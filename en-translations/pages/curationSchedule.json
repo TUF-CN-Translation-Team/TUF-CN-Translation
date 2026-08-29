@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "Curation Schedule Management",
+    "description": "Manage weekly curation schedules and hall of fame lists"
+  },
+  "title": "Weekly Hall of Fame Schedule",
+  "description": "Curate the weekly hall of fame with primary and secondary curation lists",
+  "previousWeek": "Previous Week",
+  "nextWeek": "Next Week",
+  "loading": "Loading schedules...",
+  "empty": "No schedules found for this week",
+  "primaryHall": {
+    "title": "Primary Hall of Fame",
+    "description": "Main featured curations for the week"
+  },
+  "secondaryHall": {
+    "title": "Secondary Hall of Fame", 
+    "description": "Additional quality curations for the week"
+  },
+  "actions": {
+    "backToCuration": "Back to Curation",
+    "addCuration": "Add Curation",
+    "remove": "Remove",
+    "edit": "Edit Position"
+  },
+  "fill": {
+    "title": "Auto-fill this week",
+    "description": "Refill the schedule with random tier-biased picks not featured recently. Appends to empty slots only.",
+    "legendary": "Fill Legendary",
+    "loved": "Fill Loved",
+    "both": "Fill Both",
+    "notifications": {
+      "filled": "Added {{added}} curation(s) to the schedule",
+      "none": "No new curations added (halls already full or pool exhausted)",
+      "failed": "Failed to auto-fill schedule"
+    }
+  },
+  "notifications": {
+    "added": "Curation added to schedule successfully",
+    "removed": "Curation removed from schedule successfully",
+    "updated": "Schedule updated successfully"
+  }
+}

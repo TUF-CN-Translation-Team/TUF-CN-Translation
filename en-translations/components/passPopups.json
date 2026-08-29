@@ -1,0 +1,67 @@
+{
+  "edit": {
+    "title": "Edit Pass",
+    "close": "×",
+    "thumbnailInfo": "Video information will appear here",
+    "form": {
+      "submInfo": {
+        "levelId": "Level ID",
+        "videoLink": "Video Link",
+        "speed": "Speed",
+        "keyCount": "Key Count (opt.)",
+        "feelDiff": "Feeling Rating",
+        "expectedDiff": "Expected Rating (opt.)",
+        "nohold": "No Hold",
+        "isAdofaiV2": "ADOFAI v2"
+      },
+      "levelInfo": {
+        "song": "Song Name",
+        "artist": "Artist",
+        "charter": "Charter"
+      },
+      "levelFetching": {
+        "input": "Enter Level ID",
+        "fetching": "Fetching...",
+        "goto": "Go to Level",
+        "notfound": "Not Found"
+      },
+      "videoInfo": {
+        "videoLink": "Video Link",
+        "title": "Title",
+        "channel": "Channel",
+        "timestamp": "Upload Date",
+        "nolink": "No video link provided",
+        "resolving": "Resolving video link…",
+        "linkResolved": "Short link resolved to Bilibili URL"
+      },
+      "judgements": {
+        "ePerfect": "EPerfect",
+        "perfect": "Perfect",
+        "lPerfect": "LPerfect",
+        "tooearly": "Too Early",
+        "early": "Early",
+        "late": "Late"
+      }
+    },
+    "acc": "Accuracy: ",
+    "scoreCalc": "Score: ",
+    "holdTooltip": "Check this if a different hold tile behavior was used (no holding required etc.)",
+    "keyCountTooltip": "Number of keys used for this pass.",
+    "feelingTooltip": "How hard it felt for you personally. Valid examples: G1-G5, 17~18+, U1, etc.",
+    "expectedTooltip": "What difficulty the level should be rated as (optional). Same format as feeling rating.",
+    "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
+    "alert": {
+      "success": "Pass updated successfully!",
+      "error": "Error: ",
+      "login": "Please log in to submit a pass",
+      "form": "Please fill in all required fields correctly"
+    },
+    "confirmations": {
+      "delete": "Do you want to delete this pass? This can be undone later.",
+      "restore": "Do you want to restore this pass?"
+    },
+    "reasonPrompt": {
+      "deleteTitle": "Delete this pass?"
+    }
+  }
+} 

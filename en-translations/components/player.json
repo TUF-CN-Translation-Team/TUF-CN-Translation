@@ -1,0 +1,28 @@
+{
+  "countrySelect": {
+    "placeholder": "Select Country or Region",
+    "search": {
+      "placeholder": "Search countries or regions..."
+    }
+  },
+  "playerInput": {
+    "placeholder": "Search player...",
+    "loading": "Loading...",
+    "minChars": "Type at least 1 characters to search",
+    "noResults": "No players found",
+    "creation": {
+      "button": "Create new player \"{{name}}\"",
+      "error": "Failed to create player"
+    }
+  },
+  "errors": {
+    "loading": "Failed to load player data",
+    "saving": "Failed to save player data",
+    "notFound": "Player not found",
+    "duplicate": "Player already exists",
+    "invalid": "Invalid player data"
+  },
+  "buttons": {
+    "create": "Create new player \"{{name}}\""
+  }
+} 

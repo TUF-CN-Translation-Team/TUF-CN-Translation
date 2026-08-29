@@ -1,0 +1,135 @@
+{
+  "title": "Edit Profile",
+  "error": {
+    "newPasswordsDoNotMatch": "New passwords do not match",
+    "failedToChangePassword": "Failed to change password",
+    "failedToLinkAccount": "Failed to link {provider} account",
+    "failedToUnlinkAccount": "Failed to unlink {provider} account",
+    "failedToUpdateProfile": "Failed to update profile",
+    "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, WebP, GIF, or SVG image.",
+    "failedToUploadAvatar": "Failed to upload avatar",
+    "failedToRemoveAvatar": "Failed to remove avatar",
+    "usernameAlphanumeric": "Username can only contain letters, numbers, underscores (_) and periods (.)",
+    "usernameLength": "Username must be between 2 and 32 characters",
+    "usernameConsecutivePeriods": "Username cannot contain two consecutive periods (..)",
+    "usernameChangeRateLimited": "You can only change your username once per day. Please try again later."
+  },
+  "success": {
+    "passwordChanged": "Password changed successfully!",
+    "accountLinked": "{provider} account linked successfully!",
+    "accountUnlinked": "{provider} account unlinked successfully!",
+    "profileUpdated": "Profile updated successfully",
+    "avatarUploaded": "Avatar uploaded successfully",
+    "avatarRemoved": "Avatar removed successfully"
+  },
+  "avatar": {
+    "dragDropOrClick": "Drag & drop or click to upload",
+    "removeAvatar": "Remove Avatar",
+    "removing": "Removing...",
+    "confirmRemove": "Are you sure you want to remove your avatar? This action cannot be undone."
+  },
+  "nicknameMoved": {
+    "hint": "Nickname is edited under Settings ➔ Player profile."
+  },
+  "form": {
+    "labels": {
+      "username": "Username",
+      "nickname": "Nickname",
+      "email": "Email",
+      "country": "Country or Region"
+    },
+    "emailVerification": {
+      "message": "You need to verify your email",
+      "arrow": "➔"
+    },
+    "emailMissing": {
+      "message": "Add an email to verify your account"
+    },
+    "buttons": {
+      "saveChanges": "Save Changes",
+      "saving": "Saving..."
+    }
+  },
+  "emailChange": {
+    "title": "Change email",
+    "setTitle": "Set email",
+    "editTitle": "Change email",
+    "setEditTitle": "Set email",
+    "current": "Current email",
+    "noEmailOnFile": "No email on file",
+    "new": "New email",
+    "confirm": "Confirm new email",
+    "submit": "Update email",
+    "setSubmit": "Add email",
+    "updating": "Updating...",
+    "success": "Email updated. Check your inbox to verify your new address.",
+    "setSuccess": "Email added. Check your inbox to verify your address.",
+    "empty": "Enter a new email address.",
+    "invalidFormat": "Please enter a valid email address.",
+    "mismatch": "New email addresses do not match.",
+    "unchanged": "Enter a different email than your current one.",
+    "rateLimited": "Too many email change attempts. Please try again later.",
+    "failed": "Could not update email. Please try again."
+  },
+  "password": {
+    "title": "Password",
+    "addPassword": "Add Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "currentPassword": "Current Password",
+    "confirmNewPassword": "Confirm New Password",
+    "createPassword": "Create Password",
+    "changePassword": "Change Password",
+    "updatePassword": "Update Password"
+  },
+  "passkeys": {
+    "title": "Passkeys",
+    "subtitle": "Sign in with your device fingerprint, face unlock, or a security key.",
+    "add": "Add a passkey",
+    "empty": "No passkeys yet.",
+    "added": "Added",
+    "lastUsed": "Last used",
+    "never": "Never",
+    "synced": "Synced",
+    "rename": "Rename",
+    "renamePrompt": "Passkey name",
+    "delete": "Remove",
+    "deleteConfirm": "Remove passkey \"{{name}}\"?",
+    "addSuccess": "Passkey added",
+    "addError": "Could not add passkey",
+    "deleteSuccess": "Passkey removed",
+    "deleteError": "Could not remove passkey",
+    "unsupported": "Passkeys are not supported in this browser."
+  },
+  "linkedAccounts": {
+    "title": "Linked Accounts",
+    "discord": "Discord",
+    "providerId": "Discord user ID: {{id}}",
+    "providerIdHint": "This is your Discord account’s numeric ID on Discord’s systems",
+    "linkDiscord": "Link Discord Account",
+    "google": "Google",
+    "linkGoogle": "Link Google Account",
+    "unlink": "Unlink",
+    "cannotUnlinkLastProvider": "Cannot unlink last provider without a password"
+  },
+  "dangerZone": {
+    "title": "Delete account",
+    "description": "Permanently remove your account and user-bound data. You have 3 days to cancel. During that time your profile is hidden from the leaderboard.",
+    "deleteButton": "Delete my account",
+    "scheduling": "Scheduling…",
+    "confirmDelete": "Schedule account deletion? Your profile will be hidden from the leaderboard for 3 days, then your account will be permanently deleted. You can cancel anytime before then.",
+    "pendingTitle": "Deletion scheduled",
+    "scheduledAt": "Requested: {{date}}",
+    "executesAt": "Permanent deletion: {{date}}",
+    "cancelButton": "Cancel deletion",
+    "canceling": "Canceling…",
+    "confirmCancel": "Cancel scheduled account deletion and restore your account?",
+    "successScheduled": "Account deletion scheduled.",
+    "successCanceled": "Account deletion canceled.",
+    "errorSchedule": "Could not schedule account deletion.",
+    "errorCancel": "Could not cancel account deletion.",
+    "includeCreatorCheckbox": "Also remove my creator profile and chart credits. Solo levels will be hidden (soft-deleted) and show no credited creator; collaborations only drop my credit.",
+    "pendingIncludesCreator": "When deletion runs, your creator profile will be removed, your credits stripped (unknown creator), and solo levels soft-deleted to keep chart files."
+  }
+}
+

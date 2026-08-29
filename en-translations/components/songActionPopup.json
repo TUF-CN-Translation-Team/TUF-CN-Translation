@@ -1,0 +1,97 @@
+{
+  "title": "Manage Song {{name}}",
+  "tabs": {
+    "update": "Update",
+    "merge": "Merge",
+    "aliases": "Aliases",
+    "links": "Links",
+    "credits": "Credits",
+    "evidence": "Evidence",
+    "levelSuffix": "Level Suffix"
+  },
+  "form": {
+    "name": "Name",
+    "verificationState": "Verification State"
+  },
+  "merge": {
+    "info": "Merge this song into another. All data will be transferred.",
+    "search": "Search for target song",
+    "placeholder": "Search by name..."
+  },
+  "aliases": {
+    "add": "Add Alias",
+    "placeholder": "Enter alias name"
+  },
+  "links": {
+    "add": "Add Link",
+    "placeholder": "Enter URL"
+  },
+  "credits": {
+    "search": "Search for Artist",
+    "placeholder": "Search by name...",
+    "role": "Role (optional)",
+    "rolePlaceholder": "e.g., Producer, Composer",
+    "existing": "Existing Credits",
+    "add": "Add Credit"
+  },
+  "entityExtraInfo": {
+    "label": "Extra Info",
+    "placeholder": "Additional notes or information about this {{type}}",
+    "empty": "No extra info added"
+  },
+  "evidence": {
+    "add": "Upload Evidence Images",
+    "addLink": "Add External Evidence Link",
+    "linkPlaceholder": "Enter external URL",
+    "extraInfo": "Extra Info",
+    "extraInfoPlaceholder": "Additional notes or information about this evidence",
+    "pendingUpload": "Pending Upload",
+    "uploaded": "Uploaded Evidence",
+    "existing": "Existing Evidence",
+    "dropZoneText": "Drop images here or click to select",
+    "dropZoneHint": "Supports multiple image files",
+    "deleteConfirm": "Are you sure you want to delete this evidence?"
+  },
+  "buttons": {
+    "merge": "Merge",
+    "merging": "Merging...",
+    "addCredit": "Add Credit"
+  },
+  "messages": {
+    "updated": "Song updated successfully",
+    "merged": "Songs merged successfully",
+    "creditAdded": "Credit added successfully",
+    "creditRemoved": "Credit removed successfully",
+    "evidenceAdded": "Evidence added successfully",
+    "evidenceUpdated": "Evidence updated successfully",
+    "evidenceDeleted": "Evidence deleted successfully",
+    "suffixUpdated": "Level suffix updated successfully",
+    "entityExtraInfoUpdated": "Extra info updated successfully"
+  },
+  "levelSuffix": {
+    "description": "Update the level suffix for all levels with this song.",
+    "currentSuffix": "Current Suffix",
+    "newSuffix": "New Suffix",
+    "placeholder": "Enter the new suffix",
+    "clearSuffix": "Clear Suffix",
+    "applyToAll": "Apply to All",
+    "levelsAffected": "{{count}} levels will be affected",
+    "noLevels": "No levels found for this song",
+    "differentSuffixes": "Different suffixes found for different levels",
+    "suffixUpdated": "Level suffix updated successfully"
+  },
+  "errors": {
+    "updateFailed": "Failed to update song",
+    "mergeFailed": "Failed to merge songs",
+    "selectTarget": "Please select a target song",
+    "selectArtist": "Please select an artist",
+    "loadSongsFailed": "Failed to load songs",
+    "deleteFailed": "Failed to delete",
+    "creditFailed": "Failed to add credit",
+    "evidenceFailed": "Failed to add evidence",
+    "noFile": "Please select a file",
+    "invalidFileType": "Please select image files only",
+    "invalidLink": "Please enter a valid link",
+    "suffixUpdateFailed": "Failed to update level suffix"
+  }
+}

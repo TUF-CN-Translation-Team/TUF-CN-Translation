@@ -1,0 +1,58 @@
+{
+  "title": "Edit level curations",
+  "description": "Customize the curation settings for this level",
+  "descriptionLevel": "Choose curation types (tags), then edit description, CSS, and color for this level. One curation record per level holds all shared content.",
+  "emptyHint": "No curations yet. Add a row below, or save now to clear all curations for this level.",
+  "rowTitle": "Curation {{n}}",
+  "form": {
+    "types": "Curation types",
+    "typesCurrent": "Selected types",
+    "typesAdd": "Add types",
+    "typesSearchPlaceholder": "Search types…",
+    "typesNoneSelected": "No types selected yet.",
+    "typesNoResults": "No types match your search.",
+    "typesNoneAvailable": "No more types you can assign.",
+    "removeType": "Remove type",
+    "addType": "Add type",
+    "type": "Curation Type",
+    "selectType": "Select a curation type",
+    "shortDescription": "Short Description",
+    "shortDescriptionPlaceholder": "Brief description (max 255 characters)...",
+    "shortDescriptionHelp": "A brief description that will be displayed in gallery views and previews",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter a description for this curation...",
+    "descriptionRequired": "Description is required for this curation type",
+    "descriptionRequiredType": "Description is required for type \"{{name}}\"",
+    "descriptionRequiredPlaceholder": "Description is required...",
+    "customColor": "Custom Color",
+    "customCSS": "Custom CSS",
+    "previewCSS": "Preview CSS",
+    "customCSSPlaceholder": "/* Enter custom CSS for this level's detail page */\n.curation-custom {\n  /* Your custom styles here */\n}",
+    "customCSSHelp": "This CSS will be applied to the level's detail page. Use this to customize the appearance and layout.",
+    "thumbnail": "Level Thumbnail",
+    "isDuplicate": "Is Duplicate",
+    "isDuplicateHelp": "Exclude this curation from creator earned-type totals and Discord RoleSync. It still appears on the level."
+  },
+  "actions": {
+    "save": "Save Changes",
+    "addCuration": "Add curation",
+    "removeCuration": "Remove this curation",
+    "saveAll": "Save all"
+  },
+  "warnings": {
+    "cssUnsupported": "None of the selected types support custom CSS."
+  },
+  "notifications": {
+    "updated": "Curations saved successfully",
+    "thumbnailUpdated": "Thumbnail updated successfully",
+    "thumbnailRemoved": "Thumbnail removed successfully"
+  },
+  "errors": {
+    "cannotManageCuration": "You cannot edit this curation with its current types for your role.",
+    "loadFailed": "Failed to load curations for this level",
+    "typeRequired": "Select a type for each curation row, or remove empty rows",
+    "updateFailed": "Failed to save curations",
+    "thumbnailUpdateFailed": "Failed to update thumbnail",
+    "thumbnailRemoveFailed": "Failed to remove thumbnail"
+  }
+}

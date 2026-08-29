@@ -1,0 +1,14 @@
+{
+  "special": {
+    "title": "Special Difficulties",
+    "buttons": {
+      "selectAll": "Select All",
+      "deselectAll": "Deselect All"
+    },
+    "groups": {
+      "Quantum": "Quantum",
+      "Extra": "Extra",
+      "Hidden": "Hidden"
+    }
+  }
+} 

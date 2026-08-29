@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "{{playerName}}'s clear of {{song}} - {{artist}}",
+    "description": "{{playerName}} cleared {{song}} by {{artist}} — {{difficulty}} · Score {{score}}"
+  },
+  "banners": {
+    "deleted": "This pass has been deleted",
+    "hidden": "This pass is hidden from the leaderboard"
+  },
+  "level": {
+    "baseScore": "{{score}}PP",
+    "credits": {
+      "team": "{{team}}",
+      "charter": "Chart by {{charter}}",
+      "vfxer": "VFX by {{vfxer}}"
+    }
+  },
+  "player": {
+    "rank": "#{{rank}}",
+    "score": {
+      "current": "{{score}}",
+      "difference": {
+        "positive": "+{{score}}"
+      },
+      "previous": "{{score}}"
+    },
+    "clearDate": "Cleared on {{date}}"
+  },
+  "stats": {
+    "score": {
+      "label": "Score",
+      "value": "{{score}}"
+    },
+    "accuracy": {
+      "label": "Accuracy",
+      "value": "{{accuracy}}%"
+    },
+    "speed": {
+      "label": "Speed",
+      "value": "{{speed}}x"
+    },
+    "feelingRating": {
+      "label": "Feeling Rating",
+      "value": "{{rating}}",
+      "none": "None"
+    },
+    "expectedRating": {
+      "label": "Expected Rating",
+      "value": "{{rating}}",
+      "none": "None"
+    }
+  },
+  "flags": {
+    "worldsFirst": "WF",
+    "worldsFirstPP": "WF PP",
+    "keyCount": "{{count}}K",
+    "12k": "12K",
+    "16k": "16K",
+    "noHoldTap": "Alt. Hold Option",
+    "adofaiV2": "<adofaiicon></adofaiicon> v2",
+    "adofaiV2Note": "Recorded on ADOFAI v2"
+  },
+  "judgements": {
+    "title": "Judgements",
+    "types": {
+      "earlyPerfect": {
+        "label": "EPerfect",
+        "value": "{{count}}"
+      },
+      "perfect": {
+        "label": "Perfect",
+        "value": "{{count}}"
+      },
+      "latePerfect": {
+        "label": "LPerfect",
+        "value": "{{count}}"
+      },
+      "tooEarly": {
+        "label": "Too Early",
+        "value": "{{count}}"
+      },
+      "early": {
+        "label": "Early",
+        "value": "{{count}}"
+      },
+      "late": {
+        "label": "Late",
+        "value": "{{count}}"
+      },
+      "tooLate": {
+        "label": "Too Late",
+        "value": "{{count}}"
+      }
+    }
+  },
+  "video": {
+    "notAvailable": {
+      "text": "Video not available",
+      "watchOnYoutube": "Watch on YouTube"
+    }
+  },
+  "buttons": {
+    "edit": "Edit pass details"
+  },
+  "actions": {
+    "hide": "Hide from leaderboard",
+    "unhide": "Show on leaderboard"
+  },
+  "confirm": {
+    "hide": {
+      "title": "Hide Pass",
+      "message": "Are you sure you want to hide this pass from the leaderboard? It will only be visible to you.",
+      "confirm": "Hide Pass",
+      "processing": "Hiding..."
+    },
+    "unhide": {
+      "title": "Show Pass",
+      "message": "Are you sure you want to show this pass on the leaderboard? It will be visible to everyone.",
+      "confirm": "Show Pass",
+      "processing": "Showing..."
+    }
+  },
+  "feelingRating": {
+    "title": "Edit Feeling Rating",
+    "placeholder": "e.g. U15, G18~G20",
+    "saving": "Saving..."
+  },
+  "errors": {
+    "toggleHidden": "Failed to toggle pass visibility",
+    "updateFeelingRating": "Failed to update feeling rating",
+    "feelingRatingRequired": "Feeling rating is required"
+  }
+} 

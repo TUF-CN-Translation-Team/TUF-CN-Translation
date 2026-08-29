@@ -1,0 +1,102 @@
+{
+  "featured": {
+    "by": "Level by {{creator}}",
+    "button": "Check Level"
+  },
+  "level": {
+    "creator": "Creator",
+    "clears": "Clears",
+    "totalClears": "Total clears",
+    "addToPack": "Add to Pack",
+    "buttons": {
+      "addToPack": "Add to Pack"
+    },
+    "like": {
+      "like": "Like",
+      "unlike": "Unlike",
+      "liked": "Level liked",
+      "unliked": "Level unliked",
+      "failed": "Failed to update like",
+      "loginRequired": "You must be logged in to like levels"
+    },
+    "links": {
+      "workshop": "Workshop Link",
+      "download": "Download Link",
+      "unavailable": "No links available"
+    }
+  },
+  "pass": {
+    "stats": {
+      "xAccuracy": "XAccuracy",
+      "score": "Score",
+      "speed": "Speed"
+    },
+    "flags": {
+      "worldsFirst": "WF",
+      "worldsFirstPP": "WF PP",
+      "worldsFirstClearTooltip": "World's First Clear!",
+      "worldsFirstPurePerfectTooltip": "World's First Pure Perfect!",
+      "keyCount": "{{count}}K",
+      "twelveKey": "12K",
+      "sixteenKey": "16K",
+      "noHoldTap": "NHT",
+      "adofaiV2": "<adofaiicon></adofaiicon> v2"
+    },
+    "links": {
+      "video": "Watch video"
+    }
+  },
+  "player": {
+    "title": "Player",
+    "listPosition": "List position {{position}}",
+    "stats": {
+      "rankedScore": "Ranked Score",
+      "totalScoreV2": "Total Score",
+      "generalScore": "General Score",
+      "ppScore": "PP Score",
+      "wfScore": "WF Score",
+      "wfPPScore": "WF PP Score",
+      "score12K": "12k Score",
+      "averageXacc": "Average X-acc",
+      "totalPasses": "Total Passes",
+      "universalPassCount": "Universal Passes",
+      "worldsFirstCount": "WF Passes",
+      "worldsFirstPPCount": "WF PP Passes",
+      "topDiff": "Top Difficulty",
+      "top12kDiff": "Top 12k Difficulty"
+    }
+  },
+  "clear": {
+    "score": {
+      "ranked": "Ranked Score",
+      "general": "General Score",
+      "pp": "PP Score",
+      "wf": "WF Score",
+      "12k": "12k Score"
+    },
+    "stats": {
+      "averageXacc": "Average XAcc",
+      "totalPasses": "Total Passes",
+      "universalPassCount": "Universal Passes",
+      "worldsFirstCount": "WF Passes",
+      "topDiff": "Top Difficulty",
+      "top12kDiff": "Top 12k Difficulty"
+    }
+  },
+  "pack": {
+    "more": "more",
+    "clickToView": "Click to view",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "edit": "Edit",
+    "viewMode": {
+      "public": "Public",
+      "linkonly": "Link Only",
+      "private": "Private",
+      "forcedPrivate": "Private (Locked)"
+    },
+    "stats": {
+      "levels": "level(s)"
+    }
+  }
+} 
