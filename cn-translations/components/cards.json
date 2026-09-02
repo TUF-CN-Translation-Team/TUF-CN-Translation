@@ -48,6 +48,7 @@
   },
   "player": {
     "title": "玩家",
+    "listPosition": "列表位置 {{position}}",
     "stats": {
       "rankedScore": "排位分数",
       "totalScoreV2": "总分",
