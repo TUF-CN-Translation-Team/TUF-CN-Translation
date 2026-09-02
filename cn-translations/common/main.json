@@ -57,7 +57,7 @@
   },
   "adminReasonPrompt": {
     "reason": "原因（可选）",
-    "placeholder": "说明此决定…"
+    "placeholder": "说明此决定……"
   },
   "promote": "升职",
   "demote": "降职",
