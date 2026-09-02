@@ -52,10 +52,11 @@
       "pending": "尚未开工"
     },
     "contributors": "贡献者："
+    "tl_comment": "贡献者的名单是硬编码的"
   },
   "results": {
     "valid": "翻译已完成！",
-    "missingFiles": "缺少的文件",
+    "missingFiles": "缺少的文件：",
     "missingKeys": "缺少的键值：",
     "extraKeys": "多余的键值：",
     "error": "发生错误：{{message}}"
