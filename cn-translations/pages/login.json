@@ -14,7 +14,7 @@
     "buttons": {
       "login": "登录",
       "loggingIn": "登录中……",
-      "discordLogin": "使用Discord账号登录",
+      "discordLogin": "使用 Discord 账号登录",
       "googleLogin": "使用 Google 账号登录"
     },
     "divider": "或者",
