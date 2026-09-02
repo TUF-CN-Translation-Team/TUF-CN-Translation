@@ -46,7 +46,7 @@
   "keyCountTooltip": "本次通关使用的按键数目。对于U和UQ级谱面该项为必填项。",
   "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
   "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
-  "adofaiV2Tooltip": "如果本次通关使用的是v2版本的ADOFAI，请勾选此项。",
+  "adofaiV2Tooltip": "如果本次通关是在v3更新前的游戏上完成的，请勾选此项。",
   "alert": {
     "success": "通关记录提交成功！",
     "error": "错误：",
@@ -112,7 +112,7 @@
 		"loaded": "通关记录已加载到表单中",
 		"failed": "加载通关记录失败",
 		"fetching": "获取中……",
-		"notFound": "未找到关过记录",
+		"notFound": "未找到通关记录",
 		"previewEmpty": "通关记录预览会显示在此处",
 		"unknownLevel": "未知关卡",
 		"unknownPlayer": "未知玩家"
@@ -120,7 +120,7 @@
 	"targetScore": "目标分数（反向）",
     "compareInputs": {
       "title": "比较结果",
-      "hint": "在下面填写判定，然后计算。",
+      "hint": "在下面填写判定信息，然后计算。",
       "importJudgements": "导入判定"
     },
     "score": {
@@ -132,7 +132,7 @@
       "speedGrid": "飙速 × 精准度",
 	  "inverse": "反向（目标分数）",
       "compare": "比较",
-      "reclear": "重通关检查",
+      "reclear": "重击破检查",
       "ranked": "排名影响"
     },
     "labels": {
@@ -181,7 +181,7 @@
 		"after": "新排位分",
 		"delta": "分数变化",
 		"generalDelta": "全局分变化",
-		"ppDelta": "PP分 变化",
+		"ppDelta": "完美无瑕分变化",
 		"slot": "前20名中的位置"
 	  }
   }
