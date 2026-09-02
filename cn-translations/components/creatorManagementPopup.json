@@ -91,13 +91,29 @@
       "title": "警告：",
       "message": "这将删除 {{creatorName}}，并将所有署名贡献重新分配给选中的创作者。此操作无法撤销。"
     },
-    "selectTarget": {
+    "search": {
       "label": "选择目标创作者",
       "placeholder": "搜索并选择目标创作者……",
-      "noOptions": "无搜索结果"
+      "hint": "从结果中选择一位创作者。粘贴数字ID即可查找该个人资料，以便在合并前进行核实",
+      "noResults": "无搜索结果",
+      "empty": "开始输入以查找目标创作者",
+      "selectButton": "选择"
     },
-    "mergeButton": "合并创作者",
-    "creatorLabel": "{{name}}（ID：{{id}}，关卡数：{{count}}）{{aliases}}"
+    "source": {
+      "label": "将被删除"
+    },
+    "destination": {
+      "label": "将保留所有制作人员名单"
+    },
+    "idLabel": "ID {{id}}",
+    "chartsLabel": "{{count}} 谱面数",
+    "openProfile": "打开个人资料",
+    "changeDestination": "修改目标",
+    "confirm": {
+      "message": "来自 {{sourceName}} 的所有制作人员将转移至 {{destName}}。{{sourceName}} 将被删除。此操作无法撤销。",
+      "confirmButton": "合并到 {{name}}"
+    },
+    "mergeButton": "合并创作者"
   },
   "split": {
     "newNamesAndRoles": {
@@ -131,6 +147,7 @@
     "updateDiscordFailed": "更新 Discord 信息失败",
     "unlinkFailed": "解除用户绑定失败",
     "mergeFailed": "合并创作者失败",
+    "mergeSelf": "无法将创作者与其自身合并",
     "splitFailed": "拆分创作者失败"
   },
   "player": {
@@ -156,12 +173,26 @@
       "ban": "封禁玩家",
       "pause": "暂停提交",
       "ratingBan": "禁止评级",
+      "tagVoteBan": "禁止参与社区标签投票",
       "banConfirm": "确定封禁该玩家？",
       "unbanConfirm": "确定解封该玩家？",
-      "pauseConfirm": "确定暂停该玩家的提交申请？",
-      "resumeConfirm": "确定恢复该玩家的提交申请？",
-      "ratingBanConfirm": "确定禁止该玩家评级？",
-      "ratingUnbanConfirm": "确定允许该玩家评级？"
+      "banFor": "原因",
+      "banDurationAria": "封禁时长",
+      "banUnitAria": "封禁时长单位",
+      "bannedUntil": "封禁至 {{date}}",
+      "bannedPermanently": "永久封禁",
+      "units": {
+        "hours": "小时",
+        "days": "天数",
+        "weeks": "周",
+        "months": "月份"
+      },
+      "pauseConfirm": "暂停此玩家的提交？",
+      "resumeConfirm": "恢复此玩家的提交？",
+      "ratingBanConfirm": "禁止该玩家参与评分？",
+      "ratingUnbanConfirm": "允许该玩家再次评分？",
+      "tagVoteBanConfirm": "禁止该玩家参与社区标签投票？",
+      "tagVoteUnbanConfirm": "允许该玩家再次对社区标签进行投票？"
     },
     "link": {
       "hint": "为该用户账号分配或移除关联的创作者资料。"
@@ -169,21 +200,40 @@
     "merge": {
       "warning": {
         "title": "警告：",
-        "message": "所有通关记录将转移至目标玩家，{{name}} 将被删除。此操作无法撤销。"
+        "message": "所有通关记录将转移至目标玩家，{{name}}将被删除。此操作无法撤销。"
       },
-      "understandButton": "我了解 — 继续",
-      "targetId": {
-        "label": "目标玩家 ID",
-        "placeholder": "输入目标玩家 ID"
+      "search": {
+        "label": "目标玩家",
+        "placeholder": "按姓名、@用户名、#Discord ID或pid:123搜索",
+        "hint": "从结果中选择一名玩家。粘贴数字 ID 将查询该资料，以便在合并前进行核实。",
+        "noResults": "没有玩家符合您的搜索条件。",
+        "empty": "开始输入以查找目标配置文件。",
+        "selectButton": "选择"
+      },
+      "source": {
+        "label": "将被删除"
+      },
+      "destination": {
+        "label": "将保留所有通关记录"
+      },
+      "idLabel": "ID {{id}}",
+      "openProfile": "打开个人资料",
+      "changeDestination": "更改目标位置",
+      "confirm": {
+        "message": "来自{{sourceName}}的所有通关记录将移至{{destName}}。{{sourceName}}将被删除。此操作不可撤销。",
+        "confirmButton": "合并到 {{name}}"
       },
       "mergeButton": "合并玩家"
     },
     "errors": {
       "updateFailed": "更新玩家失败",
       "banUpdate": "更新封禁状态失败",
+      "banDuration": "输入 1 至 999 之间的持续时间",
       "pauseUpdate": "更新暂停提交状态失败",
       "ratingBanUpdate": "更新禁止评级状态失败",
+      "tagVoteBanUpdate": "更新社区标签投票封禁失败",
       "mergeFailed": "合并玩家失败"
+      "mergeSelf": "不能将一个玩家合并到其自身"
     },
     "success": {
       "updated": "玩家更新成功",
