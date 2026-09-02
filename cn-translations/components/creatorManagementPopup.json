@@ -189,8 +189,8 @@
       },
       "pauseConfirm": "暂停此玩家的提交？",
       "resumeConfirm": "恢复此玩家的提交？",
-      "ratingBanConfirm": "禁止该玩家参与评分？",
-      "ratingUnbanConfirm": "允许该玩家再次评分？",
+      "ratingBanConfirm": "禁止该玩家参与评级？",
+      "ratingUnbanConfirm": "允许该玩家再次评级？",
       "tagVoteBanConfirm": "禁止该玩家参与社区标签投票？",
       "tagVoteUnbanConfirm": "允许该玩家再次对社区标签进行投票？"
     },
@@ -204,7 +204,7 @@
       },
       "search": {
         "label": "目标玩家",
-        "placeholder": "按姓名、@用户名、#Discord ID或pid:123搜索",
+        "placeholder": "按名称、用户名、Discord ID 或 pid:123 搜索",
         "hint": "从结果中选择一名玩家。粘贴数字 ID 将查询该资料，以便在合并前进行核实。",
         "noResults": "没有玩家符合您的搜索条件。",
         "empty": "开始输入以查找目标配置文件。",
@@ -233,7 +233,7 @@
       "ratingBanUpdate": "更新禁止评级状态失败",
       "tagVoteBanUpdate": "更新社区标签投票封禁失败",
       "mergeFailed": "合并玩家失败"
-      "mergeSelf": "不能将一个玩家合并到其自身"
+      "mergeSelf": "不能将一个玩家与其自己合并"
     },
     "success": {
       "updated": "玩家更新成功",
