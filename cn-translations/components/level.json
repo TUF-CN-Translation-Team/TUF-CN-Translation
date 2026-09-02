@@ -226,6 +226,7 @@
     "initializationFailedTitle": "TUFHelperLite 启动失败",
     "initializationFailedDescription": "在UMM日志中检查 TUFHelperLite 错误。",
     "outdatedToast": "TUFHelperLite 版本 {{version}} 已不再支持。更新至0.1.4或更新版本以使用该功能。",
+    "unavailableDescription": "请确认已安装 AdofaiIpc 和 TUFHelperLite，并且 ADOFAI 正在运行，然后重试。",
     "unknownVersion": "未知版本",
     "retry": "重试"
   },

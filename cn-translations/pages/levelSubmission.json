@@ -15,11 +15,13 @@
     "dlLinksOr": "或",
     "charters": "采音师",
     "vfxers": "特效师",
+    "specialThanks": "特别感谢（选填）",
     "artists": "曲师",
     "levelZip": "关卡压缩文件",
     "evidence": "凭证",
     "evidenceForSong": "歌曲凭证",
-    "evidenceForArtist": "曲师凭证"
+    "evidenceForArtist": "曲师凭证",
+    "notes": "备注"
   },
   "videoInfo": {
     "title": "视频标题",
@@ -34,6 +36,7 @@
   "buttons": {
     "addCharter": "添加采音师",
     "addVfxer": "添加特效师",
+    "addSpecialThanks": "添加特别感谢",
     "addArtist": "添加曲师",
     "removeCreator": "删除",
     "uploadZip": "上传压缩文件",
@@ -71,6 +74,7 @@
   "roles": {
     "charters": "采音师",
     "vfxers": "特效师",
+    "specialThanks": "特别感谢",
     "teams": "团队"
   },
   "badges": {
@@ -86,7 +90,8 @@
     "searchCreator": "搜索创作者……",
     "searchTeam": "搜索团队……",
     "newCreator": "输入新创作者名称",
-    "newTeam": "输入新团队名称"
+    "newTeam": "输入新团队名称",
+    "notes": "可选备注（谱面细节、署名等，供管理员查看）"
   },
   "cdnTos": {
     "title": "CDN 上传确认",
@@ -100,5 +105,11 @@
     "dontShowAgain": "不再显示",
     "agree": "同意",
     "decline": "不同意并取消"
+  },
+  "chartClearNotify": {
+    "title": "谱面通关通知",
+    "body": "有人通关你的谱面时，要接收通知吗？",
+    "enable": "开启",
+    "dismiss": "暂不"
   }
 } 

@@ -50,7 +50,8 @@
       "implemented": "已完成",
       "partial": "已完成 {{percent}}%",
       "pending": "尚未开工"
-    }
+    },
+    "contributors": "贡献者："
   },
   "results": {
     "valid": "翻译已完成！",

@@ -28,7 +28,10 @@
     "deletingTag": "标签删除中……",
     "reorderingTags": "标签排序更新中……",
     "reorderingGroups": "分组排序更新中……",
-    "fetchingTags": "正在加载标签……"
+    "fetchingTags": "正在加载标签……",
+    "savingGroup": "分组创建中……",
+    "updatingGroup": "分组更新中……",
+    "deletingGroup": "分组删除中……"
   },
   "noItems": {
     "message": "未找到等级"
@@ -126,7 +129,8 @@
         "remove": "移除图标"
       },
       "createButton": "创建",
-      "cancelButton": "取消"
+      "cancelButton": "取消",
+      "isCommunity": "社区标签（玩家可以投票把它加到关卡上）"
     },
     "edit": {
       "title": "编辑标签",
@@ -143,7 +147,8 @@
       },
       "updateButton": "更新",
       "cancelButton": "取消",
-      "unsavedChanges": "你有未保存的更改，确定要退出吗？"
+      "unsavedChanges": "你有未保存的更改，确定要退出吗？",
+      "isCommunity": "社区标签（玩家可以投票把它加到关卡上）"
     },
     "delete": {
       "title": "删除标签",
@@ -165,10 +170,33 @@
     }
   },
   "groups": {
-    "noGroups": "未找到分组。先创建带标签的分组！",
+    "createButton": "创建分组",
+    "noGroups": "未找到分组。请先创建分组，或在创建标签时填写分组名。",
+    "create": {
+      "title": "创建分组",
+      "name": "名称",
+      "createButton": "创建"
+    },
+    "edit": {
+      "title": "编辑分组",
+      "name": "名称",
+      "updateButton": "更新"
+    },
+    "delete": {
+      "title": "删除分组",
+      "message": "确定要删除分组“{{name}}”吗？",
+      "description": "该分组下的标签将变为未分组。此操作无法撤销。",
+      "deleteButton": "删除"
+    },
     "notifications": {
       "reordered": "分组重排成功",
-      "reorderFailed": "分组重排失败"
+      "reorderFailed": "分组重排失败",
+      "created": "分组创建成功",
+      "createFailed": "分组创建失败",
+      "updated": "分组更新成功",
+      "updateFailed": "分组更新失败",
+      "deleted": "分组删除成功",
+      "deleteFailed": "分组删除失败"
     }
   }
 } 

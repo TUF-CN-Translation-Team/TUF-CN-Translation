@@ -9,6 +9,7 @@
       "clearedCount": "通关数：{{count}}",
       "rerateNum": "申请等级：",
       "rerateReason": "重评级原因：",
+      "notes": "备注：",
       "yourRating": "你的评级：",
       "yourComment": "你的理由：",
       "otherRatings": "其他评级：",

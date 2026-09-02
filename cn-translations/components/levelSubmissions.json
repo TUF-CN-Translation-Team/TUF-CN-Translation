@@ -24,8 +24,12 @@
     },
     "team": "团队：",
     "vfxer": "特效师：",
+    "specialThanks": "特别感谢：",
     "submitter": "提交者：",
-    "evidence": "凭证："
+    "submitterRecordTooltip": "{{accepted}} 已通过 / {{declined}} 已拒绝",
+    "evidence": "凭证：",
+    "notes": "备注",
+    "notesPlaceholder": "可选管理员备注"
   },
   "buttons": {
     "manageCreator": "管理创作者",
@@ -41,12 +45,17 @@
     "decline": "拒绝",
     "addCharter": "添加采音师",
     "addVfxer": "添加特效师",
+    "addSpecialThanks": "添加特别感谢",
     "remove": "删除",
     "searchCreator": "搜索",
     "createCreator": "新建",
     "assignCreator": "分配现有",
     "addTeam": "添加团队",
     "addCreator": "添加创作者"
+  },
+  "declinePrompt": {
+    "title": "拒绝此谱面？",
+    "message": "提交者会收到通知。你可以选择说明原因。"
   },
   "labels": {
     "levelName": "关卡",
@@ -62,7 +71,8 @@
       "approved": "提交批准成功",
       "rejected": "提交拒绝成功",
       "suffixUpdated": "后缀更新成功",
-      "videoLinkUpdated": "视频链接更新成功"
+      "videoLinkUpdated": "视频链接更新成功",
+      "notesUpdated": "备注更新成功"
     },
     "error": {
       "generic": "发生错误",
@@ -111,11 +121,13 @@
     "artistLockedToSong": "无法修改曲师信息：曲师信息已固定为所选歌曲的信息",
     "suffixUpdateFailed": "后缀更新失败",
     "videoLinkUpdateFailed": "视频链接更新失败",
+    "notesUpdateFailed": "备注更新失败",
     "videoLinkRequired": "视频链接不能为空",
     "updateSongFailed": "歌曲更新失败",
     "updateArtistFailed": "艺术家更新失败",
     "addSongRequestFailed": "歌曲请求添加失败",
     "addArtistRequestFailed": "曲师请求添加失败",
-    "removeArtistRequestFailed": "曲师请求移除失败"
+    "removeArtistRequestFailed": "曲师请求移除失败",
+    "processing": "提交项目处理失败"
   }
 } 

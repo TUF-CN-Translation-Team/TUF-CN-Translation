@@ -67,6 +67,10 @@
       "restore": "确认恢复本关卡？",
       "permanentDelete": "确认永久删除本关卡？此操作无法撤销。所有通关记录、评级及现有文件（下载与精选预览图等）都将被删除。"
     },
+    "reasonPrompt": {
+      "deleteTitle": "删除此关卡？",
+      "hideTitle": "隐藏此关卡？"
+    },
     "errors": {
       "update": "更新关卡失败",
       "delete": "软删除失败",
@@ -148,6 +152,8 @@
       "noResults": "无匹配结果",
       "noAvailableTags": "无可用标签",
       "addTag": "添加标签",
+      "communityTags": "社区标签",
+      "communityTagsHint": "这些标签由社区投票产生。保存时不会固定它们，除非你把它们加到上方。",
       "errors": {
         "fetchTags": "标签获取失败",
         "saveTags": "标签保存失败"
@@ -173,6 +179,24 @@
     "errors": {
       "sameLevel": "选择不同的关卡",
       "swap": "关卡信息互换失败"
+    }
+  },
+  "linkedLevels": {
+    "title": "关联关卡",
+    "description": "将仅有细微改动的同一谱面分组显示。",
+    "empty": "暂无关联关卡。",
+    "current": "当前关卡",
+    "unknownSong": "未知曲目",
+    "toastAdded": "已关联 {{name}}",
+    "toastRemoved": "已取消关联",
+    "shareChart": "谱面",
+    "shareVfx": "特效",
+    "errors": {
+      "sameLevel": "不能将关卡关联到自身",
+      "alreadyLinked": "该关卡已在此组中",
+      "add": "关联关卡失败",
+      "remove": "取消关联失败",
+      "saveShare": "更新共享设置失败"
     }
   },
   "download": {

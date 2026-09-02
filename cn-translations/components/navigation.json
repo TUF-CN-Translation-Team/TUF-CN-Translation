@@ -1,5 +1,12 @@
 {
   "main": {
+    "sections": {
+      "levels": "关卡",
+      "rankings": "排行",
+      "creators": "创作者",
+      "tools": "工具",
+      "help": "帮助"
+    },
     "links": {
       "home": "主页",
       "levels": "关卡列表",
@@ -26,13 +33,20 @@
       }
     },
     "dropdowns": {
+      "levels": {
+        "listing": "关卡列表"
+      },
       "creators": {
+        "listing": "创作者列表",
         "creators": "创作者",
         "artists": "艺术家",
         "songs": "歌曲"
       },
       "packs": {
         "allPacks": "所有地图包"
+      },
+      "tools": {
+        "scoreCalculator": "分数计算器"
       },
       "more": {
         "passes": "通关列表",
@@ -43,6 +57,7 @@
         "tos": "服务条款",
         "privacyPolicy": "隐私政策",
         "aboutUs": "关于我们",
+        "resources": "资料",
         "apiDocs": "API 文档",
         "assets": "资源",
         "developers": "开发者门户"
@@ -67,7 +82,8 @@
         "auditLog": "审核日志",
         "curations": "精选关卡",
         "songs": "歌曲",
-        "artists": "艺术家"
+        "artists": "艺术家",
+        "resources": "资料"
       }
     },
     "badges": {

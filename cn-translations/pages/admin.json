@@ -28,7 +28,9 @@
     "tournaments": "赛事",
     "tournamentsDesc": "管理各类赛事名次、名称关联与头像框奖励",
     "oauthClients": "OAuth 应用",
-    "oauthClientsDesc": "搜索、冻结、认证或删除第三方 OAuth 应用"
+    "oauthClientsDesc": "搜索、冻结、认证或删除第三方 OAuth 应用",
+    "resources": "资料",
+    "resourcesDesc": "添加、编辑并调整实用 Notion 与文档链接的顺序"
   },
   "oauthClients": {
     "meta": {

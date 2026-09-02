@@ -15,6 +15,7 @@
     "player": "玩家信息",
     "creator": "创作者信息",
     "billing": "订阅与账单",
+    "notifications": "通知",
     "preferences": "偏好设置",
     "short": {
       "account": "账户",
@@ -23,9 +24,33 @@
       "creator": "创作者",
       "billing": "账单",
       "security": "安全",
-      "preferences": "偏好设置"
+      "preferences": "偏好设置",
+      "notifications": "通知"
     },
     "security": "安全"
+  },
+  "notifications": {
+    "meta": {
+      "title": "通知设置",
+      "description": "选择哪些事件会出现在收件箱中"
+    },
+    "title": "通知",
+    "subtitle": "选择哪些事件会出现在收件箱中。浏览器通知沿用这些收件箱设置。",
+    "loading": "正在加载通知设置…",
+    "loadError": "无法加载通知设置",
+    "saveError": "无法保存该设置",
+    "inApp": "显示在收件箱",
+    "muteCategory": "静音此分类",
+    "pushTitle": "浏览器通知",
+    "pushHint": "使用与收件箱相同的类型和分类开关。",
+    "pushDenied": "此网站的通知已被阻止。请在浏览器设置中允许通知。",
+    "pushUnsupported": "此浏览器不支持通知。",
+    "categories": {
+      "submissions": "提交",
+      "chart": "谱面",
+      "clears": "通关",
+      "following": "关注"
+    }
   },
   "preferences": {
     "title": "偏好设置",
@@ -42,6 +67,14 @@
       "disableMascots": {
         "label": "隐藏吉祥物",
         "description": "在提交页面隐藏吉祥物图案，改为显示adofai / 创作者图标。"
+      }
+    },
+    "privacy": {
+      "title": "隐私",
+      "publicFollows": {
+        "label": "在他人的关注者列表中显示我",
+        "description": "切换是否在关注者列表中显示你。关闭后，你会和其他选择此选项的人一起显示为“隐藏关注者”。",
+        "error": "无法更新关注者列表可见性"
       }
     }
   },
@@ -106,6 +139,9 @@
     "nicknameSuccess": "昵称已更新",
     "nicknameError": "无法更新昵称",
     "nicknameLength": "昵称必须在3至60个字符之间。",
+    "showFollowerCountLabel": "显示关注者数量",
+    "showFollowerCountHint": "开启后，访客可以看到有多少人关注你。",
+    "showFollowerCountError": "无法更新关注者数量显示",
     "bioLabel": "个人简介",
     "bioPlaceholder": "向别人介绍你自己（最多2000个字符）",
     "bioTooLong": "个人简介最多2000个字符。",
@@ -374,6 +410,9 @@
     "displayNameError": "无法更新名称",
     "displayNameTooShort": "名称最少2个字符。",
     "displayNameTooLong": "名称最多100个字符。",
+    "showFollowerCountLabel": "显示关注者数量",
+    "showFollowerCountHint": "开启后，访客可以看到有多少人关注此资料。",
+    "showFollowerCountError": "无法更新关注者数量显示",
     "bioLabel": "个人简介",
     "bioPlaceholder": "向别人介绍你的制谱生涯（最多2000个字符）",
     "bioTooLong": "个人简介最多2000个字符。",

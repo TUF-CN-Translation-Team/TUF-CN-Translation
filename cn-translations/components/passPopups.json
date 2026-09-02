@@ -60,6 +60,9 @@
     "confirmations": {
       "delete": "确认删除该通关记录？删除后可恢复。",
       "restore": "确认恢复该通关记录？"
+    },
+    "reasonPrompt": {
+      "deleteTitle": "删除此通关记录？"
     }
   }
 }

@@ -11,5 +11,44 @@
     "levels": "关卡提交列表",
     "passes": "通关记录提交列表",
     "autoAllow": "自动通过有效通关记录"
+  },
+  "jobs": {
+    "title": "处理队列",
+    "hide": "隐藏队列",
+    "loading": "正在加载队列…",
+    "processing": "处理中",
+    "done": "已完成",
+    "emptyProcessing": "队列为空",
+    "emptyDone": "暂无最近任务",
+    "emptyItems": "没有项目",
+    "requestedBy": "{{name}}",
+    "autoAllowBatch": "自动通过",
+    "closeAccepted": "关闭",
+    "holdToCloseAll": "长按关闭全部",
+    "openLevel": "关卡 #{{id}}",
+    "openPass": "通关记录 #{{id}}",
+    "status": {
+      "queued": "排队中",
+      "processing": "处理中",
+      "completed": "已完成",
+      "accepted": "已通过",
+      "declined": "已拒绝",
+      "failed": "失败",
+      "skipped": "已跳过",
+      "pending": "等待中"
+    },
+    "steps": {
+      "validate": "校验",
+      "resolveEntities": "解析实体",
+      "createLevel": "创建关卡",
+      "notify": "通知",
+      "chartStats": "谱面统计",
+      "autoTags": "自动标签",
+      "autorate": "自动评分",
+      "cleanup": "清理",
+      "createPass": "创建通关记录",
+      "index": "索引",
+      "roleSync": "角色同步"
+    }
   }
-} 
+}

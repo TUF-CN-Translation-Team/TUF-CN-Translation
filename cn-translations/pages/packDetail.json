@@ -20,7 +20,8 @@
   "stats": {
     "levels": "关卡",
     "items": "项目",
-    "created": "创建日期"
+    "created": "创建日期",
+    "curationPanelDialog": "此地图包中的精选类型"
   },
   "items": {
     "title": "地图包内容",
