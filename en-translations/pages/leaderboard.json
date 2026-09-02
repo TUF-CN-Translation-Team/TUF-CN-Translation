@@ -16,6 +16,7 @@
   "settings": {
     "filter": {
       "header": "Filter Settings",
+      "following": "Following",
       "country": "Country or Region",
       "addStatFilters": "Add Stat Filters",
       "selectStatPlaceholder": "Select stat to filter...",
@@ -54,6 +55,9 @@
   },
   "infiniteScroll": {
     "end": "You've reached the end!"
+  },
+  "list": {
+    "emptyFollowing": "You're not following anyone yet."
   },
   "past": {
     "button": "See the past",

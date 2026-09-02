@@ -11,6 +11,7 @@
       "home": "Home",
       "levels": "Levels",
       "leaderboard": "Leaderboard",
+      "tournaments": "Tournaments",
       "creators": "Creators",
       "packs": "Packs",
       "info": "Info",
@@ -58,6 +59,7 @@
         "privacyPolicy": "Privacy Policy",
         "aboutUs": "About Us",
         "resources": "Resources",
+        "mods": "Mods",
         "apiDocs": "API Docs",
         "assets": "Assets",
         "developers": "Developer Portal"

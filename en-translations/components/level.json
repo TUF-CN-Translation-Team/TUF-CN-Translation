@@ -87,8 +87,8 @@
           "desc": "Filter by artist name (supports aliases and credited artists)."
         },
         "creator": {
-          "title": "Creator (any role)",
-          "desc": "Search across all creator roles (charter, vfx, etc.)."
+          "title": "Creator (charter or VFXer)",
+          "desc": "Search charter and VFXer credits. Special thanks is not searched."
         },
         "charter": {
           "title": "Charter",
@@ -240,8 +240,14 @@
     "updatesFound_one": "{{count}} update found",
     "updatesFound_other": "{{count}} updates found",
     "batchWarning": "Some levels downloaded with an earlier version of TUFHelperLite may download the latest file once for comparison.",
+    "batchConfirmationTitle": "Confirm batch action",
     "startCheckAll": "Check all levels",
     "batchFailed": "The downloaded level check could not be completed.",
+    "updatingAll": "Updating {{processed}} / {{total}}",
+    "updateAllWarning": "{{count}} updates will be installed one at a time. Keep ADOFAI open. A level currently open in the game cannot be updated, but the remaining levels will continue.",
+    "startUpdateAll": "Update all",
+    "updateAllRequired": "Update TUFHelperLite to update all downloaded levels at once.",
+    "updateAllFailed": "The downloaded levels could not be updated.",
     "libraryCount_one": "{{count}} level",
     "libraryCount_other": "{{count}} levels",
     "emptyTitle": "No downloaded levels",

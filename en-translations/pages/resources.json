@@ -2,125 +2,49 @@
   "meta": {
     "title": "Resources",
     "description": "Useful guides, docs, and Notion pages from the TUF team",
-    "myTitle": "My resource clusters",
-    "myDescription": "Resource clusters you created"
+    "editTitle": "Edit resources"
   },
   "title": "Resources",
-  "subtitle": "Collections of guides, docs, and links curated by the community and TUF team.",
-  "titleMy": "My clusters",
-  "subtitleMy": "Private and link-only clusters you own. Public clusters are frozen until an admin unpublishes them.",
-  "empty": "No resource clusters have been published yet.",
-  "emptySearch": "No clusters match that search.",
-  "emptyMine": "You have not created any clusters yet.",
-  "open": "Open",
-  "unavailable": "This link is no longer available.",
+  "subtitle": "Guides, docs, and links from the TUF team.",
+  "editTitle": "Edit resources",
+  "editSubtitle": "Create groups, drag links between them, and edit translations.",
+  "empty": "No resources yet.",
+  "emptySearch": "No links match that search.",
   "ungrouped": "Ungrouped",
-  "searchPlaceholder": "Search by name, owner, tags, links, or language",
-  "loadMore": "Load more",
-  "itemCount": "{{count}} link{{plural}}",
-  "myClusters": "My clusters",
-  "allClusters": "All clusters",
-  "createCluster": "Create cluster",
-  "manageCatalog": "Manage catalog",
-  "frozenNotice": "This cluster is public and frozen. Only administrators can edit it.",
-  "shareCopied": "Share link copied",
-  "copyShare": "Copy share link",
-  "copyFailed": "Could not copy the share link",
+  "searchPlaceholder": "Search titles, descriptions, and URLs",
+  "backToResources": "Back to resources",
   "errors": {
-    "loadFailed": "Could not load resources. Please try again later.",
-    "clusterNotFound": "This cluster is private or does not exist.",
-    "quota": "Cluster quota reached."
-  },
-  "sort": {
-    "recent": "Recent",
-    "name": "Name"
-  },
-  "viewMode": {
-    "all": "All visibilities",
-    "public": "Public",
-    "linkonly": "Link only",
-    "private": "Private"
-  },
-  "badges": {
-    "official": "Official",
-    "pinned": "Pinned",
-    "hidden": "Hidden",
-    "custom": "Custom",
-    "catalog": "Catalog",
-    "defaultFor": "Default for {{code}}"
+    "loadFailed": "Could not load resources. Please try again later."
   },
   "language": {
     "label": "Language",
     "emptySlice": "No links are available in this language."
   },
-  "admin": {
-    "manage": "Manage catalog",
-    "hidden": "Hidden",
-    "publish": "Publish",
-    "unpublishPrivate": "Unpublish to private",
-    "unpublishLinkonly": "Unpublish to link-only",
-    "pin": "Pin",
-    "unpin": "Unpin",
-    "official": "Official",
-    "notOfficial": "Not official"
-  },
-  "tabs": {
-    "links": "Catalog links",
-    "tags": "Tags",
-    "tagGroups": "Tag groups"
-  },
-  "loading": {
-    "reorderingLinks": "Saving link order...",
-    "reorderingTags": "Saving tag order...",
-    "reorderingGroups": "Saving group order...",
-    "reorderingItems": "Saving item order..."
-  },
-  "picker": {
-    "current": "Selected tags",
-    "add": "Add tags",
-    "search": "Search tags",
-    "emptySelected": "No tags selected",
-    "emptyPool": "No tags available",
-    "noResults": "No matching tags",
-    "remove": "Remove tag",
-    "addItem": "Add tag"
-  },
-  "itemPicker": {
-    "current": "Selected links",
-    "add": "Catalog links",
-    "search": "Search catalog",
-    "emptySelected": "No links selected",
-    "emptyPool": "No catalog links available",
-    "noResults": "No matching catalog links",
-    "remove": "Remove link",
-    "addItem": "Add link"
-  },
   "links": {
-    "createButton": "Create catalog link",
-    "noLinks": "No catalog links found. Create your first link!",
+    "createButton": "Create link",
+    "noLinks": "No links yet. Create your first link.",
     "linkCount": "{{count}} link",
     "linkCount_plural": "{{count}} links",
-    "manageLanguages": "Manage languages",
     "fields": {
       "title": "Title",
       "url": "URL",
       "urlPlaceholder": "https://www.notion.so/…",
-      "description": "Description",
-      "published": "Visible in the catalog picker",
-      "tags": "Tags"
+      "shorthand": "Shorthand",
+      "shorthandPlaceholder": "TUF Notion",
+      "description": "Description"
     },
     "create": {
-      "title": "Create catalog link",
+      "title": "Create link",
       "createButton": "Create"
     },
     "edit": {
-      "title": "Edit catalog link",
+      "title": "Edit link",
       "updateButton": "Update"
     },
     "delete": {
-      "title": "Delete catalog link",
+      "title": "Delete link",
       "message": "Are you sure you want to delete the link \"{{name}}\"?",
-      "description": "Existing cluster items that point to this link will stay as unavailable placeholders.",
+      "description": "This cannot be undone.",
       "deleteButton": "Delete"
     },
     "notifications": {
@@ -138,57 +62,23 @@
       "localeRemoveFailed": "Failed to remove language"
     }
   },
-  "tags": {
-    "createButton": "Create tag",
-    "noTags": "No tags yet. Create tags for the catalog and custom links.",
-    "fields": {
-      "name": "Name",
-      "color": "Color",
-      "group": "Tag group",
-      "ungrouped": "Ungrouped"
-    },
-    "create": {
-      "title": "Create tag",
-      "createButton": "Create"
-    },
-    "edit": {
-      "title": "Edit tag",
-      "updateButton": "Update"
-    },
-    "delete": {
-      "title": "Delete tag",
-      "message": "Are you sure you want to delete the tag \"{{name}}\"?",
-      "description": "It will be removed from every link that uses it.",
-      "deleteButton": "Delete"
-    },
-    "notifications": {
-      "created": "Tag created successfully",
-      "createFailed": "Failed to create tag",
-      "updated": "Tag updated successfully",
-      "updateFailed": "Failed to update tag",
-      "deleted": "Tag deleted successfully",
-      "deleteFailed": "Failed to delete tag",
-      "reordered": "Tags reordered successfully",
-      "reorderFailed": "Failed to reorder tags"
-    }
-  },
   "groups": {
-    "createButton": "Create tag group",
-    "noGroups": "No tag groups yet. Groups only organize the tag picker.",
+    "createButton": "Create group",
+    "noGroups": "No groups yet. Create a group to organize links.",
     "create": {
-      "title": "Create tag group",
+      "title": "Create group",
       "name": "Name",
       "createButton": "Create"
     },
     "edit": {
-      "title": "Edit tag group",
+      "title": "Edit group",
       "name": "Name",
       "updateButton": "Update"
     },
     "delete": {
-      "title": "Delete tag group",
+      "title": "Delete group",
       "message": "Are you sure you want to delete the group \"{{name}}\"?",
-      "description": "Tags in this group will become ungrouped. This cannot be undone.",
+      "description": "Links in this group will move to the first remaining group, or become ungrouped if none remain.",
       "deleteButton": "Delete"
     },
     "notifications": {
@@ -200,7 +90,8 @@
       "updateFailed": "Failed to update group",
       "deleted": "Group deleted successfully",
       "deleteFailed": "Failed to delete group"
-    }
+    },
+    "removeLocaleConfirm": "Remove the {{name}} translation from this group?"
   },
   "languages": {
     "title": "Manage languages",
@@ -210,70 +101,5 @@
     "enLocked": "English cannot be removed",
     "emptyAdd": "Every available language is already attached",
     "removeConfirm": "Remove the {{name}} translation from this link?"
-  },
-  "clusters": {
-    "create": {
-      "title": "Create cluster",
-      "name": "Name",
-      "description": "Description",
-      "viewMode": "Visibility",
-      "createButton": "Create",
-      "nameRequired": "Name is required",
-      "created": "Cluster created",
-      "createFailed": "Failed to create cluster"
-    },
-    "edit": {
-      "title": "Edit cluster",
-      "updateButton": "Update",
-      "updated": "Cluster updated",
-      "updateFailed": "Failed to update cluster",
-      "deleted": "Cluster deleted",
-      "deleteFailed": "Failed to delete cluster",
-      "deleteTitle": "Delete cluster",
-      "deleteMessage": "Are you sure you want to delete \"{{name}}\"?",
-      "deleteDescription": "This cannot be undone.",
-      "pin": "Pin this cluster",
-      "official": "Mark as official"
-    },
-    "icon": {
-      "label": "Icon",
-      "help": "Optional square image (JPEG, PNG, WebP, or GIF, max 5MB).",
-      "upload": "Upload icon",
-      "uploading": "Uploading…",
-      "removing": "Removing…",
-      "remove": "Remove icon",
-      "selected": "Icon selected",
-      "uploaded": "Icon uploaded",
-      "removed": "Icon removed",
-      "uploadFailed": "Failed to upload icon",
-      "removeFailed": "Failed to remove icon"
-    },
-    "items": {
-      "add": "Add link",
-      "addCatalog": "From catalog",
-      "addCustom": "Custom URL",
-      "empty": "No links in this language.",
-      "emptyEditor": "No links in this cluster yet.",
-      "added": "Link added",
-      "addFailed": "Failed to add link",
-      "removed": "Link removed",
-      "removeFailed": "Failed to remove link",
-      "removeConfirm": "Remove \"{{name}}\" from this cluster?",
-      "reordered": "Order saved",
-      "reorderFailed": "Failed to save order",
-      "updated": "Link updated",
-      "updateFailed": "Failed to update link",
-      "remove": "Remove from cluster",
-      "editCustom": "Edit link"
-    },
-    "defaults": {
-      "title": "Locale defaults",
-      "help": "When two or more links share a language, pick which one appears first. This is required before publishing.",
-      "auto": "Set automatically because only one link has this language.",
-      "required": "Required for publish",
-      "saved": "Default saved",
-      "saveFailed": "Failed to save default",
-      "setDefault": "Set as default for {{code}}"
-    }
   }
 }

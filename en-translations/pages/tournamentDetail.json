@@ -1,0 +1,38 @@
+{
+  "title": "Tournament",
+  "meta": {
+    "title": "{{name}}",
+    "fallbackTitle": "Tournament",
+    "description": "Standings, notes, and rewards for {{name}} on The Universal Forums"
+  },
+  "backToList": "Back to Tournaments",
+  "sections": {
+    "organizers": "Organizers",
+    "notes": "Notes",
+    "rewards": "Rewards",
+    "standings": "Standings"
+  },
+  "links": {
+    "pack": "Open pack",
+    "youtube": "YouTube",
+    "external": "External link"
+  },
+  "statuses": {
+    "ongoing": "Ongoing",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "draft": "Draft"
+  },
+  "badges": {
+    "pending": "Pending",
+    "withdrew": "Withdrew",
+    "unlisted": "Unlisted"
+  },
+  "unofficialBanner": "Results are not final.",
+  "emptyStandings": "No standings yet.",
+  "untiered": "Other",
+  "errors": {
+    "notFound": "Tournament not found",
+    "loadFailed": "Failed to load tournament"
+  }
+}

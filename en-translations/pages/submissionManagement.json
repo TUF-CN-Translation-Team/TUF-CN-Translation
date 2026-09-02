@@ -50,5 +50,11 @@
       "index": "Index",
       "roleSync": "Role sync"
     }
+  },
+  "lock": {
+    "lock": "Lock submission",
+    "unlock": "Unlock submission",
+    "lockedHint": "Locked — cannot allow or decline",
+    "failed": "Failed to update submission lock"
   }
 }

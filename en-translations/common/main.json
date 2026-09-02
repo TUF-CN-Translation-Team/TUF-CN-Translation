@@ -52,6 +52,14 @@
     "create": "Create",
     "createNew": "Create New"
   },
+  "like": {
+    "like": "Like",
+    "unlike": "Unlike",
+    "liked": "Liked",
+    "unliked": "Unliked",
+    "failed": "Failed to update like",
+    "loginRequired": "You must be logged in to like this"
+  },
   "confirmations": {
     "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
   },

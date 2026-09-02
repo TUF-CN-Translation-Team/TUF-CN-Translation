@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Mods",
+    "description": "Admin-curated ADOFAI mods, searchable by name and creator.",
+    "editTitle": "Edit mods",
+    "tagsTitle": "Mod tags"
+  },
+  "title": "Mods",
+  "startGuideCta": {
+    "title": "New to modding?",
+    "subtitle": "View our guide here!",
+    "dontShowAgain": "Don't show again",
+    "iconAlt": "TUF start icon"
+  },
+  "editTitle": "Edit mods",
+  "editSubtitle": "Create, edit, hide, or delete catalog entries.",
+  "empty": "No mods yet.",
+  "emptySearch": "No mods match that search.",
+  "infScroll": {
+    "end": "You've reached the end!"
+  },
+  "searchPlaceholder": "Search by name or creator",
+  "sort": {
+    "label": "Sort by",
+    "nameAsc": "Name (A–Z)",
+    "nameDesc": "Name (Z–A)",
+    "dateNewest": "Date (newest)",
+    "dateOldest": "Date (oldest)",
+    "creatorAsc": "Creator (A–Z)",
+    "creatorDesc": "Creator (Z–A)"
+  },
+  "backToMods": "Back to mods",
+  "download": "Download",
+  "details": "Details",
+  "project": "Project",
+  "pinned": "Pinned",
+  "deprecatedAfterLabel": "Deprecated after {{version}}",
+  "readme": "About",
+  "downloadsCount": "{{count}} downloads",
+  "hiddenBadge": "Hidden",
+  "createButton": "Create mod",
+  "noMods": "No mods yet. Create your first mod.",
+  "errors": {
+    "loadFailed": "Could not load mods. Please try again later.",
+    "notFound": "This mod could not be found."
+  },
+  "like": {
+    "label": "Like",
+    "loginRequired": "You must be logged in to like mods",
+    "failed": "Could not update like"
+  },
+  "report": {
+    "label": "Report",
+    "title": "Report {{name}}",
+    "reason": "Reason",
+    "submit": "Send report",
+    "loginRequired": "You must be logged in to report mods",
+    "sent": "Report sent",
+    "failed": "Could not send report",
+    "reasons": {
+      "deprecated": "Deprecated",
+      "abuse": "Abuse",
+      "duplicate": "Duplicate"
+    },
+    "version": "Version",
+    "brokenEffect": "What happens on the broken version",
+    "note": "Reason",
+    "targetUrl": "Main mod link",
+    "mergeWhy": "Why it needs to be merged"
+  },
+  "copy": {
+    "latest": "Copy latest link",
+    "permalink": "Copy permalink",
+    "copied": "Link copied",
+    "failed": "Could not copy link"
+  },
+  "releases": {
+    "title": "Releases",
+    "empty": "No releases yet.",
+    "latest": "Latest",
+    "add": "Add release",
+    "addTitle": "Add release",
+    "editTitle": "Edit release",
+    "save": "Save release",
+    "created": "Release added",
+    "createFailed": "Failed to add release",
+    "updated": "Release updated",
+    "updateFailed": "Failed to update release",
+    "deleted": "Release deleted",
+    "deleteFailed": "Failed to delete release",
+    "deleteConfirm": "Delete release {{version}}?",
+    "source": "Source",
+    "githubUrl": "GitHub URL",
+    "zip": "Zip file",
+    "zipHint": "Upload a .zip up to 100 MiB.",
+    "zipTooLarge": "Zip must be at most 100 MiB",
+    "hostedZipHint": "This zip is read-only, it can only be deleted and cannot be changed",
+    "downloadZip": "Download {{name}}",
+    "downloadZipFallback": "Download zip",
+    "releasedAt": "Released",
+    "sources": {
+      "hosted": "Hosted",
+      "github": "GitHub",
+      "external": "External",
+      "zip": "Hosted zip"
+    }
+  },
+  "tags": {
+    "title": "Tags",
+    "filter": "Tags",
+    "pageTitle": "Mod tags",
+    "pageSubtitle": "Create and edit tags used on catalog mods.",
+    "manage": "Manage tags",
+    "backToEdit": "Back to edit mods",
+    "empty": "No tags yet.",
+    "created": "Tag created",
+    "createFailed": "Failed to create tag",
+    "updated": "Tag updated",
+    "updateFailed": "Failed to update tag",
+    "deleted": "Tag deleted",
+    "deleteFailed": "Failed to delete tag",
+    "assignFailed": "Failed to update tags",
+    "loadFailed": "Could not load tags.",
+    "createButton": "Create tag",
+    "create": {
+      "title": "Create tag",
+      "name": "Name",
+      "color": "Color",
+      "createButton": "Create"
+    },
+    "edit": {
+      "title": "Edit tag",
+      "updateButton": "Update"
+    },
+    "delete": {
+      "title": "Delete tag",
+      "message": "Are you sure you want to delete the tag \"{{name}}\"?",
+      "description": "Mods using this tag will no longer have it assigned.",
+      "deleteButton": "Delete"
+    }
+  },
+  "merge": {
+    "title": "Merge another mod into this one",
+    "placeholder": "Select a mod to merge",
+    "button": "Merge",
+    "confirm": "Merge the selected mod into \"{{name}}\"? Release history will be combined.",
+    "done": "Mods merged",
+    "failed": "Failed to merge mods"
+  },
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "creatorUsername": "Creator username",
+    "creatorDiscordId": "Creator Discord ID",
+    "version": "Version",
+    "description": "Description",
+    "downloadUrl": "Download URL",
+    "projectUrl": "Project link",
+    "sourceUploadedAt": "Uploaded",
+    "notes": "Release notes",
+    "hidden": "Hide from public catalog",
+    "isPinned": "Pin to top of catalog",
+    "deprecatedAfter": "Deprecated after (game version)",
+    "color": "Color"
+  },
+  "create": {
+    "title": "Create mod",
+    "createButton": "Create"
+  },
+  "edit": {
+    "title": "Edit mod",
+    "updateButton": "Update"
+  },
+  "delete": {
+    "title": "Delete mod",
+    "message": "Are you sure you want to delete the mod \"{{name}}\"?",
+    "description": "This cannot be undone.",
+    "deleteButton": "Delete"
+  },
+  "postedBy": "Posted by",
+  "alsoAssigned": "Also",
+  "assign": {
+    "title": "Assigned users",
+    "empty": "No users assigned.",
+    "placeholder": "Search player to assign",
+    "applySameCreator": "Also assign to other mods with this creator Discord ID",
+    "addButton": "Assign user",
+    "assigned": "User assigned",
+    "assignedMany": "User assigned to {{count}} mods",
+    "failed": "Failed to assign user",
+    "removed": "User unassigned",
+    "removeFailed": "Failed to unassign user",
+    "remove": "Unassign {{name}}",
+    "confirmTitle": "Assign to other mods?",
+    "confirmMessage": "This will assign this user to {{count}} other mods, proceed?",
+    "confirmButton": "Assign"
+  },
+  "notifications": {
+    "created": "Mod created successfully",
+    "createFailed": "Failed to create mod",
+    "updated": "Mod updated successfully",
+    "updateFailed": "Failed to update mod",
+    "deleted": "Mod deleted successfully",
+    "deleteFailed": "Failed to delete mod"
+  },
+  "icon": {
+    "change": "Change icon",
+    "remove": "Remove icon",
+    "uploaded": "Icon uploaded",
+    "uploadFailed": "Failed to upload icon",
+    "removed": "Icon removed",
+    "removeFailed": "Failed to remove icon"
+  }
+}

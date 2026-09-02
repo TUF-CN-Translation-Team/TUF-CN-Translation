@@ -19,7 +19,8 @@
     "toggleQSlider": "Toggle Q Difficulty Slider",
     "orderAsc": "Ascending",
     "orderDesc": "Descending",
-    "stateDisplay": "Display options"
+    "stateDisplay": "Display options",
+    "hideCardTags": "Choose which tags to hide on cards"
   },
   "settings": {
     "sort": {

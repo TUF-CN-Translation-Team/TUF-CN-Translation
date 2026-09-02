@@ -123,7 +123,8 @@
       "modeWilson": "Wilson (top play + 1)",
       "modeSkillset": "Skillset (clearers only)",
       "requireTopPlay": "Top play requirement",
-      "requireTopPlayHint": "When required, voters need a top clear at least this chart's difficulty (top play + 1).",
+      "requireTopPlayHint": "Inherit uses the group's setting. Required or Not required overrides it. When required, voters need a top clear at least this chart's difficulty (top play + 1).",
+      "requireTopPlayGroupHint": "Applies to tags in this group that are set to Inherit. When required, voters need a top clear at least this chart's difficulty (top play + 1).",
       "requireTopPlayOn": "Required",
       "requireTopPlayOff": "Not required",
       "wilsonZ": "Wilson Z",
@@ -151,7 +152,8 @@
       },
       "createButton": "Create",
       "cancelButton": "Cancel",
-      "isCommunity": "Community tag (players can vote this onto levels)"
+      "isCommunity": "Community tag (players can vote this onto levels)",
+      "passWarningEnabled": "Warn on pass submit when this tag is present"
     },
     "edit": {
       "title": "Edit Tag",
@@ -169,7 +171,8 @@
       "updateButton": "Update",
       "cancelButton": "Cancel",
       "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
-      "isCommunity": "Community tag (players can vote this onto levels)"
+      "isCommunity": "Community tag (players can vote this onto levels)",
+      "passWarningEnabled": "Warn on pass submit when this tag is present"
     },
     "delete": {
       "title": "Delete Tag",

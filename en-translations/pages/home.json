@@ -15,6 +15,12 @@
   "tooltips": {
     "tufStellarOut": "TUFStellar is out!"
   },
+  "resourcesCta": {
+    "title": "New to the Forums?",
+    "subtitle": "Get started here!",
+    "dontShowAgain": "Don't show again",
+    "iconAlt": "TUF start icon"
+  },
   "stats": {
     "overview": {
       "title": "Overview",
@@ -58,6 +64,7 @@
       "scoreCalculator": "Score calculator",
       "aboutUs": "About Us",
       "resources": "Resources",
+      "mods": "Mods",
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service",
       "apiDocs": "API Documentation",
