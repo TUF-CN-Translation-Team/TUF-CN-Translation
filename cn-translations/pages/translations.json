@@ -51,7 +51,7 @@
       "partial": "已完成 {{percent}}%",
       "pending": "尚未开工"
     },
-    "contributors": "贡献者："
+    "contributors": "贡献者：",
     "tl_comment": "贡献者的名单是硬编码的"
   },
   "results": {

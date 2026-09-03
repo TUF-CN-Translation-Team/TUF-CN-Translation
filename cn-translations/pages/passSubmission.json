@@ -26,7 +26,6 @@
     "videoLink": "YouTube 或哔哩哔哩视频链接",
     "title": "标题",
     "channel": "UP主名称",
-    "tl_comment": "上边那一条别动",
     "timestamp": "上传时间",
     "nolink": "请输入有效的 YouTube 或哔哩哔哩视频链接",
     "resolving": "正在解析视频链接……",
@@ -90,11 +89,38 @@
     "reviewInputs": "取消",
     "submitAnyway": "仍然提交"
   },
+  "tagWarnings": {
+    "title": "请确认这些关卡要求",
+    "continue": "继续",
+    "keyLimit": "此关卡要求最多使用 {{count}} 个按键。",
+    "overlapAllowed": "此关卡允许叠键。请确认您在允许的范围内。",
+    "twoHandPseudos": "此关卡限制使用双手伪键。请确认您遵循了允许的按键使用方式。",
+    "onhandOffhandLimit": "此关卡有主手/副手限制。请确认您遵循了允许的按键使用方式。",
+    "variableKeyLimit": "此关卡有可变按键限制。请确认您在每个部分都遵循了按键限制。",
+    "noLargeKeys": "此关卡不允许使用大按键。",
+    "feetOnly": "此关卡要求只能用脚操作。",
+    "fourKeyBaseLimit": "此关卡有4键基础限制。请确认您遵循了允许的按键使用方式。",
+    "twoKeyBaseLimit": "此关卡有2键基础限制。请确认您遵循了允许的按键使用方式。",
+    "freeRoam": "此关卡包含自由漫游。请按预期完成。",
+    "multiTrack": "此关卡有多轨道 gimmick。请播放预期的轨道。",
+    "math": "此关卡有数学 gimmick。请按预期完成。",
+    "rpg": "此关卡有 RPG gimmick。请按预期游玩。",
+    "memorization": "此关卡有记忆 gimmick。应该在完整 VFX 下完成。",
+    "unorthodoxReading": "此关卡有非传统读取方式。请使用预期的视觉效果进行游戏。",
+    "arrowKey": "本关卡建议使用方向键进行游戏。",
+    "cameraRequired": "此关卡需要摄像头。应该使用预期的摄像头/VFX 进行游戏。",
+    "autoTile": "此关卡包含自动砖块。提交前请小心并重新检查判定。",
+    "judgementLimit": "此关卡有判定限制。确认所需的判定设置与您的回放匹配。",
+    "hpBar": "此关卡使用 HP 条。确认您使用了所需的 HP 条设置。",
+    "detailedJudgement": "此关卡需要详细的判定。确认判定显示与要求匹配。",
+    "timingWindowScale": "此关卡使用的时间窗口。确认您使用了所需的判定窗口。"
+  },
   "calculator": {
 	"title": "分数计算器",
     "thumbnailInfo": "计算器模式——无需视频",
     "meta": {
-      "title": "分数计算器"
+      "title": "分数计算器",
+      "description": "Simulate ScoreV2 for passes with optional scoring overrides"
     },
 	"modeSubmit": "提交",
     "modeCalculator": "计算器",
@@ -105,23 +131,38 @@
     "copyLink": "复制链接",
     "linkCopied": "计算器链接已复制",
 	"hubLink": "分数计算器",
+  "overrides": {
+      "title": "Scoring overrides",
+      "baseScore": "Base score",
+      "ppBaseScore": "PP base score",
+      "equalTo": "Equal to {{name}}",
+      "curve": "Score curve",
+      "curveLevel": "Using the level’s curve (or site defaults).",
+      "curveCustom": "Custom curve applied for this calculator only.",
+      "editCurve": "Edit curve",
+      "clearCurve": "Clear curve override",
+      "curvePreviewHint": "Select a level or set base scores to preview the curve.",
+      "reset": "Reset to level",
+      "hint": "Overrides apply only in this calculator. Placement requires unmodified level scoring."
+    },
 	"loadPass": {
-		"title": "加载通关记录",
-		"placeholder": "搜索通关记录或输入ID",
-		"import": "导入",
-		"loaded": "通关记录已加载到表单中",
-		"failed": "加载通关记录失败",
-		"fetching": "获取中……",
-		"notFound": "未找到通关记录",
-		"previewEmpty": "通关记录预览会显示在此处",
-		"unknownLevel": "未知关卡",
-		"unknownPlayer": "未知玩家"
+		  "title": "加载通关记录",
+		  "placeholder": "搜索通关记录或输入ID",
+		  "import": "导入",
+		  "loaded": "通关记录已加载到表单中",
+		  "failed": "加载通关记录失败",
+		  "fetching": "获取中……",
+		  "notFound": "未找到通关记录",
+		  "previewEmpty": "通关记录预览会显示在此处",
+		  "unknownLevel": "未知关卡",
+		  "unknownPlayer": "未知玩家"
 	  },
-	"targetScore": "目标分数（反向）",
+	  "targetScore": "目标分数（反向）",
     "compareInputs": {
       "title": "比较结果",
       "hint": "在下面填写判定信息，然后计算。",
-      "importJudgements": "导入判定"
+      "copyJudgements": "复制判定",
+      "copyJudgementsTooltip": "将你在主计算器中输入的评判复制到这里"
     },
     "score": {
       "needLevelOrSandbox": "输入关卡ID或沙盒中的底分。"
@@ -130,9 +171,10 @@
       "primary": "原始分数",
       "missBudget": "允许失误次数",
       "speedGrid": "飙速 × 精准度",
-	  "inverse": "反向（目标分数）",
+	    "inverse": "反向（目标分数）",
       "compare": "比较",
       "reclear": "重击破检查",
+      "placement": "Level placement",
       "ranked": "排名影响"
     },
     "labels": {
@@ -146,43 +188,44 @@
       "misses": "空敲数",
       "speed": "飙速"
     },
-	"speedGrid": {
-		"legendNonPp": "非完美无瑕",
-		"legendPp": "完美无瑕"
-	},
-	"inverse": {
-		"hint": "在侧边栏设置一个目标分数，然后点击计算。",
-		"unreachable": "目标分数可能高于此设置下的最大分数。"
+	  "speedGrid": {
+      "hint": "Zero-miss scores across speeds. Only exact 100% accuracy uses the green PP scale; all other rows use blue scaled to the best non-PP score.",
+		  "legendNonPp": "非完美无瑕",
+		  "legendPp": "完美无瑕"
+	  },
+	  "inverse": {
+		  "hint": "在侧边栏设置一个目标分数，然后点击计算。",
+		  "unreachable": "目标分数可能高于此设置下的最大分数。"
 	  },
 	  "compare": {
-		"hint": "在侧边栏中输入第二组判定，然后点击计算。",
-		"primary": "当前分数",
-		"secondary": "比较分数",
-		"delta": "差值"
+		  "hint": "在侧边栏中输入第二组判定，然后点击计算。",
+		  "primary": "当前分数",
+		  "secondary": "比较分数",
+		  "delta": "差值"
 	  },
 	  "reclear": {
-		"needPlayer": "选择一名玩家并点击计算，以对比其在该关卡的最佳成绩。",
-		"noPrior": "该玩家在此关卡无先前通关记录。",
-		"best": "当前最佳",
-		"status": "状态",
-		"beats": "超过最佳成绩",
-		"equal": "与最佳成绩相等",
-		"worse": "没有超过最佳成绩"
+		  "needPlayer": "选择一名玩家并点击计算，以对比其在该关卡的最佳成绩。",
+		  "noPrior": "该玩家在此关卡无先前通关记录。",
+		  "best": "当前最佳",
+		  "status": "状态",
+		  "beats": "超过最佳成绩",
+		  "equal": "与最佳成绩相等",
+		  "worse": "没有超过最佳成绩"
 	  },
 	  "placement": {
-		"needLevel": "选择一个真实关卡（无评分覆盖）并计算。",
-		"customScoring": "使用自定义评分覆盖时无法显示排名。",
-		"rankOf": "#{{rank}} / {{total}}",
-		"tied": "{{count}} 名玩家在此分数并列"
+		  "needLevel": "选择一个真实关卡（无评分覆盖）并计算。",
+		  "customScoring": "使用自定义评分覆盖时无法显示排名。",
+		  "rankOf": "#{{rank}} / {{total}}",
+		  "tied": "{{count}} 名玩家在此分数并列"
 	  },
 	  "ranked": {
-		"needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/PP分影响。",
-		"before": "先前排位分",
-		"after": "新排位分",
-		"delta": "分数变化",
-		"generalDelta": "全局分变化",
-		"ppDelta": "完美无瑕分变化",
-		"slot": "前20名中的位置"
+		  "needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/PP分影响。",
+		  "before": "先前排位分",
+		  "after": "新排位分",
+		  "delta": "分数变化",
+		  "generalDelta": "全局分变化",
+		  "ppDelta": "完美无瑕分变化",
+		  "slot": "前20名中的位置"
 	  }
   }
 }
