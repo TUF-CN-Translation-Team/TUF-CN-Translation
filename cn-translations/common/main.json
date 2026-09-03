@@ -57,11 +57,11 @@
     "unlike": "取消收藏",
     "liked": "已收藏",
     "unliked": "已取消收藏",
-    "failed": "更新收藏状态失败",
-    "loginRequired": "您必须登录才能收藏此内容"
+    "failed": "收藏状态更新失败",
+    "loginRequired": "你必须登录才能收藏此内容"
   },
   "confirmations": {
-    "unsavedChanges": "您有未保存的更改。确定要离开吗？"
+    "unsavedChanges": "你有未保存的更改。确定要离开吗？"
   },
   "adminReasonPrompt": {
     "reason": "原因（可选）",
@@ -93,12 +93,12 @@
     "tuf_verified": "已经过 TUF 认证"
   },
   "pass": {
-    "updated": "成绩已更新",
-    "deleted": "成绩已删除",
-    "restored": "成绩已恢复",
+    "updated": "通关记录已更新",
+    "deleted": "通关记录已删除",
+    "restored": "通关记录已恢复",
     "errors": {
       "playerRequired": "请选择有效玩家",
-      "updateFailed": "更新成绩失败",
+      "updateFailed": "更新通关记录失败",
       "deleteFailed": "删除失败",
       "restoreFailed": "恢复失败"
     }
