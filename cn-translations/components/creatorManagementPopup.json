@@ -178,7 +178,7 @@
       "unbanConfirm": "确定解封该玩家？",
       "banFor": "时长",
       "banDurationAria": "封禁时长",
-      "banUnitAria": "封禁时长单位",
+      "banUnitAria": "单位",
       "bannedUntil": "封禁至 {{date}}",
       "bannedPermanently": "永久封禁",
       "units": {
@@ -195,7 +195,7 @@
       "tagVoteUnbanConfirm": "允许该玩家再次为社区标签投票？"
     },
     "link": {
-      "hint": "为该用户账号分配或移除关联的创作者资料。"
+      "hint": "为该用户分配或移除关联的创作者资料。"
     },
     "merge": {
       "warning": {
@@ -204,10 +204,10 @@
       },
       "search": {
         "label": "目标玩家",
-        "placeholder": "按名称、@用户名、#Discord ID 或 pid:123 搜索",
+        "placeholder": "按名称、用户名、Discord ID 或 pid:123 搜索",
         "hint": "从结果中选择玩家。粘贴数字 ID 会查找该资料，以便合并前核对。",
         "noResults": "没有匹配的玩家。",
-        "empty": "开始输入以查找目标资料。",
+        "empty": "输入以查找目标资料。",
         "selectButton": "选择"
       },
       "source": {
@@ -226,14 +226,14 @@
       "mergeButton": "合并玩家"
     },
     "errors": {
-      "updateFailed": "更新玩家失败",
-      "banUpdate": "更新封禁状态失败",
+      "updateFailed": "玩家更新失败",
+      "banUpdate": "封禁状态更新失败",
       "banDuration": "请输入 1 到 999 的时长",
-      "pauseUpdate": "更新暂停提交状态失败",
-      "ratingBanUpdate": "更新禁止评级状态失败",
-      "tagVoteBanUpdate": "更新社区标签投票禁令失败",
-      "mergeFailed": "合并玩家失败",
-      "mergeSelf": "不能将玩家合并到自身"
+      "pauseUpdate": "暂停提交状态更新失败",
+      "ratingBanUpdate": "禁止评级状态更新失败",
+      "tagVoteBanUpdate": "禁止社区标签投票状态更新失败",
+      "mergeFailed": "玩家失合并败",
+      "mergeSelf": "不能将玩家与自己合并"
     },
     "success": {
       "updated": "玩家更新成功",

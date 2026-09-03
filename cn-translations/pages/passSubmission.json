@@ -93,27 +93,27 @@
     "title": "请确认这些关卡要求",
     "continue": "继续",
     "keyLimit": "此关卡要求最多使用 {{count}} 个按键。",
-    "overlapAllowed": "此关卡允许叠键。请确认您在允许的范围内。",
-    "twoHandPseudos": "此关卡限制使用双手伪键。请确认您遵循了允许的按键使用方式。",
-    "onhandOffhandLimit": "此关卡有主手/副手限制。请确认您遵循了允许的按键使用方式。",
-    "variableKeyLimit": "此关卡有可变按键限制。请确认您在每个部分都遵循了按键限制。",
+    "overlapAllowed": "此关卡允许叠键。请确认你在允许的范围内。",
+    "twoHandPseudos": "此关卡必须使用双手同步多押。请确认你遵守了要求。",
+    "onhandOffhandLimit": "此关卡有主副手限制。请确认你遵守了要求。",
+    "variableKeyLimit": "此关卡存在不同按键限制。请确认你在每个段落都遵守了要求。",
     "noLargeKeys": "此关卡不允许使用大按键。",
-    "feetOnly": "此关卡要求只能用脚操作。",
-    "fourKeyBaseLimit": "此关卡有4键基础限制。请确认您遵循了允许的按键使用方式。",
-    "twoKeyBaseLimit": "此关卡有2键基础限制。请确认您遵循了允许的按键使用方式。",
-    "freeRoam": "此关卡包含自由漫游。请按预期完成。",
-    "multiTrack": "此关卡有多轨道 gimmick。请播放预期的轨道。",
-    "math": "此关卡有数学 gimmick。请按预期完成。",
-    "rpg": "此关卡有 RPG gimmick。请按预期游玩。",
-    "memorization": "此关卡有记忆 gimmick。应该在完整 VFX 下完成。",
-    "unorthodoxReading": "此关卡有非传统读取方式。请使用预期的视觉效果进行游戏。",
-    "arrowKey": "本关卡建议使用方向键进行游戏。",
-    "cameraRequired": "此关卡需要摄像头。应该使用预期的摄像头/VFX 进行游戏。",
-    "autoTile": "此关卡包含自动砖块。提交前请小心并重新检查判定。",
-    "judgementLimit": "此关卡有判定限制。确认所需的判定设置与您的回放匹配。",
-    "hpBar": "此关卡使用 HP 条。确认您使用了所需的 HP 条设置。",
-    "detailedJudgement": "此关卡需要详细的判定。确认判定显示与要求匹配。",
-    "timingWindowScale": "此关卡使用的时间窗口。确认您使用了所需的判定窗口。"
+    "feetOnly": "此关卡只能用脚键击破。",
+    "fourKeyBaseLimit": "此关卡有轮指限制。请确认你遵遵守了要求。",
+    "twoKeyBaseLimit": "此关卡有硬抗限制。请确认你遵守了要求。",
+    "freeRoam": "此关卡包含自由移动段落。请按预期完成。",
+    "multiTrack": "此关卡有多轨。请游玩预期的轨道。",
+    "math": "此关卡有关于数学的玩法。请按预期完成。",
+    "rpg": "此关卡有 RPG 类玩法。请按预期游玩。",
+    "memorization": "此关卡有记忆类玩法。请在完整特效下通关。",
+    "unorthodoxReading": "此关卡有创新读谱方式。请使用预期的特效进行游戏。",
+    "arrowKey": "本关卡需使用方向键进行游戏。",
+    "cameraRequired": "此关卡需要手元。应该使用预期的摄像头/VFX 进行游戏。",
+    "autoTile": "此关卡包含自动砖块。提交前请注意并检查判定结果。",
+    "judgementLimit": "此关卡有判定限制。请确认所需的判定设置与你的游玩相符。",
+    "hpBar": "此关卡有血条机制。请确认你使用了所需的血条设置。",
+    "detailedJudgement": "此关卡需要详细判定结果。请确认判定显示与要求匹配。",
+    "timingWindowScale": "此关卡使用了判定区间。请确认你使用了所需的判定区间。"
   },
   "calculator": {
 	"title": "分数计算器",
@@ -132,18 +132,18 @@
     "linkCopied": "计算器链接已复制",
 	"hubLink": "分数计算器",
   "overrides": {
-      "title": "Scoring overrides",
-      "baseScore": "Base score",
-      "ppBaseScore": "PP base score",
-      "equalTo": "Equal to {{name}}",
-      "curve": "Score curve",
-      "curveLevel": "Using the level’s curve (or site defaults).",
-      "curveCustom": "Custom curve applied for this calculator only.",
-      "editCurve": "Edit curve",
-      "clearCurve": "Clear curve override",
-      "curvePreviewHint": "Select a level or set base scores to preview the curve.",
-      "reset": "Reset to level",
-      "hint": "Overrides apply only in this calculator. Placement requires unmodified level scoring."
+      "title": "分数覆写",
+      "baseScore": "基础分",
+      "ppBaseScore": "完美无瑕基础分",
+      "equalTo": "等同于 {{name}}",
+      "curve": "分数曲线",
+      "curveLevel": "使用该关卡的分数曲线（或站点默认设置）。",
+      "curveCustom": "自定义分数曲线仅应用于该计算器。",
+      "editCurve": "编辑曲线",
+      "clearCurve": "清空曲线覆写",
+      "curvePreviewHint": "选择关卡或输入基础分以预览分数曲线。",
+      "reset": "重置",
+      "hint": "覆写仅应用于该计算器。通关位置需要未修改的分数曲线。"
     },
 	"loadPass": {
 		  "title": "加载通关记录",
@@ -162,7 +162,7 @@
       "title": "比较结果",
       "hint": "在下面填写判定信息，然后计算。",
       "copyJudgements": "复制判定",
-      "copyJudgementsTooltip": "将你在主计算器中输入的评判复制到这里"
+      "copyJudgementsTooltip": "将你在主计算器中输入的判定结果复制到这里"
     },
     "score": {
       "needLevelOrSandbox": "输入关卡ID或沙盒中的底分。"
@@ -174,7 +174,7 @@
 	    "inverse": "反向（目标分数）",
       "compare": "比较",
       "reclear": "重击破检查",
-      "placement": "Level placement",
+      "placement": "通关位置",
       "ranked": "排名影响"
     },
     "labels": {
@@ -189,7 +189,7 @@
       "speed": "飙速"
     },
 	  "speedGrid": {
-      "hint": "Zero-miss scores across speeds. Only exact 100% accuracy uses the green PP scale; all other rows use blue scaled to the best non-PP score.",
+      "hint": "各飙速速度下无空得分。只有真正的100%精准度使用绿色的无瑕刻度，其他所有准度均使用蓝色刻度。以最佳非无瑕分数为准。",
 		  "legendNonPp": "非完美无瑕",
 		  "legendPp": "完美无瑕"
 	  },
@@ -219,7 +219,7 @@
 		  "tied": "{{count}} 名玩家在此分数并列"
 	  },
 	  "ranked": {
-		  "needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/PP分影响。",
+		  "needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/无瑕分影响。",
 		  "before": "先前排位分",
 		  "after": "新排位分",
 		  "delta": "分数变化",

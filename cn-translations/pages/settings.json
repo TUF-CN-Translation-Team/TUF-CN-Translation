@@ -321,7 +321,7 @@
     },
     "displayTree": {
       "hint": "将名次组织到自定义分组中。隐藏的节点在编辑器中仍可见，但不会显示在公开资料上。",
-      "defaultHint": "名次会按赛事系列和赛事分组显示在您的资料上。",
+      "defaultHint": "名次会按赛事系列和赛事分组显示在你的资料上。",
       "addGroup": "添加分组",
       "addGroupTitle": "添加分组",
       "groupName": "分组名称",
@@ -381,7 +381,7 @@
   },
   "profileSync": {
     "linkedIndicator": "已与另一资料关联",
-    "linkedHint": "此部分与您的另一资料共享。取消关联前，编辑会同时生效。",
+    "linkedHint": "此部分与你的另一资料共享。取消关联前，编辑会同时生效。",
     "link": "关联",
     "unlink": "取消关联",
     "linkSuccess": "已关联此部分",

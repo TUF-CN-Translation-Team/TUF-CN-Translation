@@ -48,7 +48,7 @@
     "thumbnailRemoved": "缩略图删除成功"
   },
   "errors": {
-    "cannotManageCuration": "以当前类型组合，您的角色无法编辑此精选。",
+    "cannotManageCuration": "以当前类型组合，你的身份无法编辑此精选。",
     "loadFailed": "加载本关卡精选失败",
     "typeRequired": "请为每一行选择类型，或删除空行",
     "updateFailed": "保存失败",
