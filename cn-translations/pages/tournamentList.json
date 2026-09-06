@@ -1,0 +1,22 @@
+{
+  "title": "Tournaments",
+  "meta": {
+    "title": "Tournaments",
+    "description": "Browse public tournaments, series, and standings on The Universal Forums"
+  },
+  "search": {
+    "placeholder": "Search tournaments…"
+  },
+  "filter": {
+    "status": "Status",
+    "allStatuses": "All statuses"
+  },
+  "statuses": {
+    "ongoing": "Ongoing",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "draft": "Draft"
+  },
+  "unseriesed": "No series",
+  "empty": "No tournaments found"
+}

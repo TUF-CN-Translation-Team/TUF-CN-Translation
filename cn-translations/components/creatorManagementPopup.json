@@ -211,10 +211,10 @@
         "selectButton": "选择"
       },
       "source": {
-        "label": "将被删除"
+        "label": "此个人资料将被删除："
       },
       "destination": {
-        "label": "将保留所有通关记录"
+        "label": "此个人资料将保留所有通关记录："
       },
       "idLabel": "ID {{id}}",
       "openProfile": "打开资料",

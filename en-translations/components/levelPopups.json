@@ -185,7 +185,7 @@
   "linkedLevels": {
     "title": "Linked levels",
     "empty": "No linked levels yet.",
-    "current": "This level",
+    "youAreHere": "You're here",
     "unknownSong": "Unknown song",
     "toastAdded": "Linked {{name}}",
     "toastRemoved": "Level unlinked",

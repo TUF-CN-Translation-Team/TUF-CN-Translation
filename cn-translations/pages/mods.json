@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "模组",
+    "description": "管理精选的模组，可通过名称或作者搜索。",
+    "editTitle": "编辑模组",
+    "tagsTitle": "模组标签"
+  },
+  "title": "模组",
+  "startGuideCta": {
+    "title": "新人上路？",
+    "subtitle": "在此处查看我们的教程！",
+    "dontShowAgain": "不要再次显示",
+    "iconAlt": "TUF 入门图标"
+  },
+  "editTitle": "编辑模组",
+  "editSubtitle": "创建，编辑，隐藏，或删除目录条目。",
+  "empty": "无模组。",
+  "emptySearch": "无匹配结果。",
+  "infScroll": {
+    "end": "已到达底部！"
+  },
+  "searchPlaceholder": "按名称或作者搜索",
+  "sort": {
+    "label": "排序顺序",
+    "nameAsc": "名称（A–Z）",
+    "nameDesc": "名称（Z–A）",
+    "dateNewest": "日期（最新优先）",
+    "dateOldest": "日期（最老优先）",
+    "creatorAsc": "作者（A–Z）",
+    "creatorDesc": "作者（Z–A）"
+  },
+  "backToMods": "返回模组列表",
+  "download": "下载",
+  "details": "详细信息",
+  "project": "项目",
+  "pinned": "已置顶",
+  "deprecatedAfterLabel": "已停更，最后版本为 {{version}}",
+  "readme": "关于",
+  "downloadsCount": "{{count}} 次下载",
+  "hiddenBadge": "已隐藏",
+  "createButton": "创建模组",
+  "noMods": "无模组。创建你的第一个模组。",
+  "errors": {
+    "loadFailed": "无法加载模组。请稍后重试。",
+    "notFound": "无法搜索此模组。"
+  },
+  "like": {
+    "label": "收藏",
+    "loginRequired": "你必须登录以收藏模组",
+    "failed": "无法更新收藏状态"
+  },
+  "report": {
+    "label": "反馈",
+    "title": "对 {{name}} 发送反馈",
+    "reason": "原因",
+    "submit": "发送反馈",
+    "loginRequired": "你必须登录以反馈模组",
+    "sent": "反馈已发送",
+    "failed": "无法发送反馈",
+    "reasons": {
+      "deprecated": "已停更",
+      "abuse": "滥用",
+      "duplicate": "重复"
+    },
+    "version": "版本",
+    "brokenEffect": "损坏的版本会发生什么",
+    "note": "原因",
+    "targetUrl": "主模组链接",
+    "mergeWhy": "为什么它需要被合并"
+  },
+  "copy": {
+    "latest": "复制最新链接",
+    "permalink": "复制永久链接",
+    "copied": "链接已复制",
+    "failed": "无法复制链接"
+  },
+  "releases": {
+    "title": "版本",
+    "empty": "无版本。",
+    "latest": "最新",
+    "add": "添加版本",
+    "addTitle": "添加版本",
+    "editTitle": "编辑版本",
+    "save": "保存",
+    "created": "版本已添加",
+    "createFailed": "版本添加失败",
+    "updated": "版本已更新",
+    "updateFailed": "版本更新失败",
+    "deleted": "版本已删除",
+    "deleteFailed": "版本删除失败",
+    "deleteConfirm": "删除版本{{version}}？",
+    "source": "来源",
+    "githubUrl": "GitHub链接",
+    "zip": "压缩文件",
+    "zipHint": "上传压缩文件，最大 100MB。",
+    "zipTooLarge": "压缩文件最大 100MB",
+    "hostedZipHint": "此压缩文件为只读，只可被删除且无法更改",
+    "downloadZip": "下载 {{name}}",
+    "downloadZipFallback": "下载压缩文件",
+    "releasedAt": "已发布",
+    "sources": {
+      "hosted": "已托管",
+      "github": "GitHub",
+      "external": "外部链接",
+      "zip": "已托管压缩文件"
+    }
+  },
+  "tags": {
+    "title": "标签",
+    "filter": "标签",
+    "pageTitle": "模组标签",
+    "pageSubtitle": "创建和编辑目录模组中使用的标签。",
+    "manage": "管理标签",
+    "backToEdit": "返回",
+    "empty": "无标签。",
+    "created": "标签已创建",
+    "createFailed": "标签创建失败",
+    "updated": "标签已更新",
+    "updateFailed": "标签更新失败",
+    "deleted": "标签已删除",
+    "deleteFailed": "标签删除失败",
+    "assignFailed": "标签更新失败",
+    "loadFailed": "无法加载标签。",
+    "createButton": "创建标签",
+    "create": {
+      "name": "名称",
+      "color": "颜色",
+      "createButton": "创建"
+    },
+    "edit": {
+      "title": "编辑标签",
+      "updateButton": "更新"
+    },
+    "delete": {
+      "title": "删除标签",
+      "message": "你确定删除标签  \"{{name}}\" 吗？",
+      "description": "使用此标签的模组将不再被分配此标签。",
+      "deleteButton": "删除"
+    }
+  },
+  "merge": {
+    "title": "将另一模组与此模组合并",
+    "placeholder": "选择待合并模组",
+    "button": "合并",
+    "confirm": "将选中模组合并到 \"{{name}}\" 中？版本记录将被一同合并。",
+    "done": "模组已合并",
+    "failed": "模组合并失败"
+  },
+  "fields": {
+    "name": "名称",
+    "slug": "Slug",
+    "creatorUsername": "创作者用户名",
+    "creatorDiscordId": "创作者 Discord ID",
+    "version": "版本",
+    "description": "描述",
+    "downloadUrl": "Download URL",
+    "projectUrl": "Project link",
+    "sourceUploadedAt": "Uploaded",
+    "notes": "Release notes",
+    "hidden": "Hide from public catalog",
+    "isPinned": "Pin to top of catalog",
+    "deprecatedAfter": "Deprecated after (game version)",
+    "color": "颜色"
+  },
+  "create": {
+    "title": "创建模组",
+    "createButton": "创建"
+  },
+  "edit": {
+    "title": "编辑模组",
+    "updateButton": "更新"
+  },
+  "delete": {
+    "title": "删除模组",
+    "message": "你确定删除模组 \"{{name}}\" 吗？",
+    "description": "此操作无法撤销。",
+    "deleteButton": "删除"
+  },
+  "postedBy": "发布者：",
+  "alsoAssigned": "Also",
+  "assign": {
+    "title": "Assigned users",
+    "empty": "No users assigned.",
+    "placeholder": "Search player to assign",
+    "applySameCreator": "Also assign to other mods with this creator Discord ID",
+    "addButton": "Assign user",
+    "assigned": "User assigned",
+    "assignedMany": "User assigned to {{count}} mods",
+    "failed": "Failed to assign user",
+    "removed": "User unassigned",
+    "removeFailed": "Failed to unassign user",
+    "remove": "Unassign {{name}}",
+    "confirmTitle": "Assign to other mods?",
+    "confirmMessage": "This will assign this user to {{count}} other mods, proceed?",
+    "confirmButton": "Assign"
+  },
+  "notifications": {
+    "created": "Mod created successfully",
+    "createFailed": "Failed to create mod",
+    "updated": "Mod updated successfully",
+    "updateFailed": "Failed to update mod",
+    "deleted": "Mod deleted successfully",
+    "deleteFailed": "Failed to delete mod"
+  },
+  "icon": {
+    "change": "Change icon",
+    "remove": "Remove icon",
+    "uploaded": "Icon uploaded",
+    "uploadFailed": "Failed to upload icon",
+    "removed": "Icon removed",
+    "removeFailed": "Failed to remove icon"
+  }
+}

@@ -61,7 +61,10 @@
   "hiddenFollowers_other": "{{formatted}} Hidden followers",
   "stellarSubscriberIconTooltip": "TUFStellar Subscriber",
   "header": {
-    "aka": "a.k.a."
+    "aka": "a.k.a.",
+    "highestRank": "Highest rank: #{{rank}}",
+    "highestRankAt": "at {{date}}",
+    "highestRankNow": "At highest rank right now!"
   },
   "bio": {
     "header": "Bio",
@@ -82,6 +85,7 @@
       "expand": "Expand tournaments",
       "collapse": "Collapse tournaments",
       "withdrew": "Withdrew",
+      "disqualified": "Disqualified",
       "unseriesed": "Other tournaments",
       "unknownTournament": "Tournament",
       "openPack": "Open pack",
