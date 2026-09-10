@@ -1,39 +1,39 @@
 {
-  "title": "Tournament",
+  "title": "赛事",
   "meta": {
     "title": "{{name}}",
-    "fallbackTitle": "Tournament",
-    "description": "Standings, notes, and rewards for {{name}} on The Universal Forums"
+    "fallbackTitle": "赛事",
+    "description": "{{name}}在TUF上的排名、说明与奖励"
   },
-  "backToList": "Back to Tournaments",
+  "backToList": "返回赛事",
   "sections": {
-    "organizers": "Organizers",
-    "notes": "Notes",
-    "rewards": "Rewards",
-    "standings": "Standings"
+    "organizers": "组织者",
+    "notes": "说明",
+    "rewards": "奖励",
+    "standings": "排名"
   },
   "links": {
-    "pack": "Open pack",
+    "pack": "打开地图包",
     "youtube": "YouTube",
-    "external": "External link"
+    "external": "外部链接"
   },
   "statuses": {
-    "ongoing": "Ongoing",
-    "completed": "Completed",
-    "cancelled": "Cancelled",
-    "draft": "Draft"
+    "ongoing": "进行中",
+    "completed": "已结束",
+    "cancelled": "已取消",
+    "draft": "拟定中"
   },
   "badges": {
-    "pending": "Pending",
-    "withdrew": "Withdrew",
-    "disqualified": "Disqualified",
-    "unlisted": "Unlisted"
+    "pending": "待办中",
+    "withdrew": "已退出",
+    "disqualified": "被取消资格",
+    "unlisted": "未列出"
   },
-  "unofficialBanner": "Results are not final.",
-  "emptyStandings": "No standings yet.",
-  "untiered": "Other",
+  "unofficialBanner": "非最终结果。",
+  "emptyStandings": "无排名。",
+  "untiered": "其他",
   "errors": {
-    "notFound": "Tournament not found",
-    "loadFailed": "Failed to load tournament"
+    "notFound": "未找到赛事",
+    "loadFailed": "赛事加载失败"
   }
 }

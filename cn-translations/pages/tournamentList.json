@@ -1,22 +1,22 @@
 {
-  "title": "Tournaments",
+  "title": "赛事",
   "meta": {
-    "title": "Tournaments",
-    "description": "Browse public tournaments, series, and standings on The Universal Forums"
+    "title": "赛事",
+    "description": "浏览TUF上的公开赛事、系列和排名。"
   },
   "search": {
-    "placeholder": "Search tournaments…"
+    "placeholder": "搜索赛事……"
   },
   "filter": {
-    "status": "Status",
-    "allStatuses": "All statuses"
+    "status": "状态",
+    "allStatuses": "所有状态"
   },
   "statuses": {
-    "ongoing": "Ongoing",
-    "completed": "Completed",
-    "cancelled": "Cancelled",
-    "draft": "Draft"
+    "ongoing": "进行中",
+    "completed": "已结束",
+    "cancelled": "已取消",
+    "draft": "拟定中"
   },
-  "unseriesed": "No series",
-  "empty": "No tournaments found"
+  "unseriesed": "无系列",
+  "empty": "未找到赛事"
 }
