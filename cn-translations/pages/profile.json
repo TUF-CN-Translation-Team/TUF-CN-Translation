@@ -72,8 +72,8 @@
   "sections": {
     "tournaments": {
       "title": "赛事",
-      "expand": "展开赛事",
-      "collapse": "收起赛事",
+      "expand": "展开",
+      "collapse": "收起",
       "withdrew": "退赛",
       "unseriesed": "其他赛事",
       "unknownTournament": "赛事",
@@ -254,6 +254,34 @@
       "UNIVERSAL": "U级谱面",
       "SPECIAL": "特殊"
     }
+  },
+  "modules": {
+    "missing": "此模块无可展示项目。",
+    "types": {
+      "bio": "个人简介",
+      "tournaments": "赛事",
+      "scoreBreakdown": "分数信息",
+      "difficulty": "难度",
+      "rankHistory": "排名历史",
+      "scores": "分数",
+      "charts": "关卡",
+      "favorite": "收藏",
+      "player": {
+        "difficulty": "通关记录统计列表"
+      },
+      "creator": {
+        "difficulty": "关卡统计列表",
+        "charts": "关卡"
+      }
+    },
+    "favoriteKinds": {
+      "pass": "通关记录",
+      "level": "关卡",
+      "pack": "地图包",
+      "player": "晚间"
+    },
+    "expandFavorite": "展开",
+    "collapseFavorite": "收起"
   },
   "discordRoleSync": {
     "buttonTitle": {

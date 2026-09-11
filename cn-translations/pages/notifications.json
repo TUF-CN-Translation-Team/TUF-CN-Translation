@@ -93,6 +93,10 @@
         "title": "关卡已更新",
         "body": "你的关卡 {{artist}} - {{song}} 已更新。"
       },
+      "rated": {
+        "title": "关卡已评级",
+        "body": "你的关卡 {{artist}} - {{song}} 已被评级为{{difficultyName}}。"
+      },
       "curated": {
         "title": "关卡被精选",
         "body": "你的关卡 {{artist}} - {{song}} 已被精选。"

@@ -25,10 +25,10 @@
     "created": "精选关卡类型创建成功",
     "updated": "精选关卡类型更新成功",
     "deleted": "精选关卡类型删除成功",
-    "reordered": "精选关卡类型重排序成功",
-    "reorderFailed": "精选关卡类型重排序失败",
-    "groupsReordered": "精选关卡类型分组重排序成功",
-    "groupReorderFailed": "精选关卡类型分组重排序失败"
+    "reordered": "精选关卡类型重排成功",
+    "reorderFailed": "精选关卡类型重排失败",
+    "groupsReordered": "精选关卡类型分组重排成功",
+    "groupReorderFailed": "精选关卡类型分组重排失败"
   },
   "tabs": {
     "types": "类型",

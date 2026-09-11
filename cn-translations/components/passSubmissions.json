@@ -33,10 +33,12 @@
       }
     },
     "submitter": "提交者：",
-    "submitterRecordTooltip": "{{accepted}} 已通过 / {{declined}} 已拒绝",
+    "submitterRecordTooltip": "已通过 {{accepted}} 个，已拒绝 {{declined}} 个",
     "uploadTime": "上传时间",
     "videoLink": "视频链接：",
-    "videoLinkPlaceholder": "YouTube 或 Bilibili 链接"
+    "videoLinkPlaceholder": "YouTube 或 Bilibili 链接",
+    "videoFromOwnChannel": "来自用户自己的频道的视频",
+    "videoFromPasserChannel": "通关者主页"
   },
   "playerAssignment": {
     "title": "分配玩家",
@@ -82,8 +84,6 @@
   },
   "edit": {
     "edit": "编辑",
-    "save": "保存",
-    "cancel": "取消",
     "levelPlaceholder": "搜索或输入关卡 ID",
     "fetchingLevel": "加载关卡中…",
     "songPlaceholder": "曲名"

@@ -60,8 +60,8 @@
       "updateFailed": "链接更新失败",
       "deleted": "链接删除成功",
       "deleteFailed": "链接删除失败",
-      "reordered": "链接重排序成功",
-      "reorderFailed": "链接重排序失败"
+      "reordered": "链接重排成功",
+      "reorderFailed": "链接重排失败"
     }
   },
   "groups": {
@@ -84,8 +84,8 @@
       "deleteButton": "删除"
     },
     "notifications": {
-      "reordered": "分组重排序成功",
-      "reorderFailed": "分组重排序失败",
+      "reordered": "分组重排成功",
+      "reorderFailed": "分组重排失败",
       "created": "分组创建成功",
       "createFailed": "分组创建失败",
       "updated": "分组更新成功",

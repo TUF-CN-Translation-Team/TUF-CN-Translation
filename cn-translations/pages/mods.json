@@ -9,7 +9,7 @@
   "startGuideCta": {
     "title": "新人上路？",
     "subtitle": "在此处查看我们的教程！",
-    "dontShowAgain": "不要再次显示",
+    "dontShowAgain": "不再显示",
     "iconAlt": "TUF 入门图标"
   },
   "editTitle": "编辑模组",
@@ -123,6 +123,7 @@
     "loadFailed": "无法加载标签。",
     "createButton": "创建标签",
     "create": {
+      "title": "创建标签",
       "name": "名称",
       "color": "颜色",
       "createButton": "创建"
@@ -148,7 +149,7 @@
   },
   "fields": {
     "name": "名称",
-    "slug": "Slug",
+    "slug": "标识符",
     "creatorUsername": "创作者用户名",
     "creatorDiscordId": "创作者 Discord ID",
     "version": "版本",

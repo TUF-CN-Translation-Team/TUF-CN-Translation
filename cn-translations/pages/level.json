@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "关卡列表",
-    "description": "探索并发掘《冰与火之舞》的自制关卡"
+    "description": "探索并发掘TUF上的自制关卡"
   },
   "buttons": {
     "searchHelp": "搜索帮助"
@@ -14,16 +14,17 @@
     "filter": "筛选关卡",
     "sort": "排序关卡",
     "reset": "重置筛选条件",
-    "normalView": "标准",
+    "normalView": "正常",
     "compactView": "简略",
     "toggleQSlider": "切换Q等级滑块",
     "orderAsc": "升序",
     "orderDesc": "降序",
-    "stateDisplay": "显示设置"
+    "stateDisplay": "显示设置",
+    "hideCardTags": "选择要隐藏的标签"
   },
   "settings": {
     "sort": {
-      "header": "按……排列关卡",
+      "header": "排序依据：",
       "recent": "ID",
       "difficulty": "等级",
       "clears": "通关记录",
@@ -36,7 +37,6 @@
       "random": "随机"
     }
   },
-
   "settingExp": {
     "headerFilter": "筛选设置",
     "headerSort": "排序设置",

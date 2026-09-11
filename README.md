@@ -5,7 +5,7 @@ TUF译文校验器以及如何做翻译工作：https://tuforums.com/translation
 
 校验：把当前的译文下载并打包，然后放到校验器里校验，根据校验器返回信息进行校正
 
-通常我（desktop）会在某段时间之后检查一下，然后在我的本地仓库打包发到往translation submission里
+通常我（desktop）会在某段时间之后检查一下，然后在我的本地仓库压缩发到往translation submission里
 
 我也会过一段时间把英文原文下下来放到en-translations里方便对比
 
@@ -17,8 +17,9 @@ TUF译文校验器以及如何做翻译工作：https://tuforums.com/translation
 
 ### 非翻译人员想参与翻译贡献：
 
-使用 github 的 Fork + Pull Request 方法
+请使用 github 的 Issue 功能
 
-具体使用方法可以询问AI
+我会过段时间处理一下
 
+# 注意：
 此说明文件禁止非工作人员更改

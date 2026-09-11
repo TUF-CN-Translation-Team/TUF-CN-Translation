@@ -34,7 +34,7 @@
     "deletingGroup": "分组删除中……"
   },
   "noItems": {
-    "message": "未找到等级"
+    "message": "未找到等级。"
   },
   "difficultyTypes": {
     "PGU": "PGU",
@@ -115,6 +115,28 @@
     "noTags": "未找到标签。创建你的第一个标签！",
     "ungrouped": "未分组",
     "tagCount": "{{count}} 个标签{{plural}}",
+    "fields": {
+      "description": "描述",
+      "assignmentSection": "标签分配",
+      "inherit": "继承",
+      "scoringMode": "计分模式",
+      "modeWilson": "Wilson (top play + 1)",
+      "modeSkillset": "Skillset (clearers only)",
+      "requireTopPlay": "Top play requirement",
+      "requireTopPlayHint": "Inherit uses the group's setting. Required or Not required overrides it. When required, voters need a top clear at least this chart's difficulty (top play + 1).",
+      "requireTopPlayGroupHint": "Applies to tags in this group that are set to Inherit. When required, voters need a top clear at least this chart's difficulty (top play + 1).",
+      "requireTopPlayOn": "必须",
+      "requireTopPlayOff": "非必须",
+      "wilsonZ": "Wilson Z",
+      "wilsonZHint": "How skeptical scoring is of small vote counts. Higher Z needs more agreeing votes to hit the same thresholds.",
+      "wilsonZWeightHint": "非通关者的投票按0.1倍通关者投票计入",
+      "wilsonZInfoAria": "非通关者投票权重",
+      "scoreOn": "分配阈值",
+      "scoreOff": "删除阈值",
+      "reqVotes": "Req. votes: {{count}}",
+      "allowedBands": "难度区间",
+      "allowedBandsHint": "Leave all unchecked to inherit. P / G / U / SPEC restrict community voting to those bands."
+    },
     "create": {
       "title": "创建标签",
       "name": "名称",

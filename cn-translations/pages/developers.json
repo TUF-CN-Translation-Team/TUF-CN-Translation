@@ -8,6 +8,7 @@
   "navAria": "开发者门户",
   "nav": {
     "apps": "我的应用",
+    "mods": "模组",
     "admin": "管理员界面"
   },
   "hubTitle": "你的应用",
@@ -31,7 +32,6 @@
   "deleteConfirm": "删除此应用？现有授权将在许可过期或撤销后失效。",
   "delete": "删除应用",
   "save": "保存更改",
-  "saving": "保存中……",
   "clientId": "客户端ID",
   "clientSecret": "私密客户端",
   "copy": "复制",
@@ -83,5 +83,19 @@
     "danger": "危险区"
   },
   "dangerTitle": "删除此应用",
-  "dangerBody": "这将永久删除此客户端。现有授权用户将保留令牌，至许可过期或撤销后失效。"
+  "dangerBody": "这将永久删除此客户端。现有授权用户将保留令牌，至许可过期或撤销后失效。",
+  "mods": {
+    "title": "模组",
+    "emptyTitle": "未分配模组",
+    "emptyBody": "没有模组被分配的你的账户上。",
+    "loadError": "无法加载模组",
+    "notFound": "未找到模组",
+    "back": "所有模组",
+    "editTitle": "编辑模组",
+    "preview": "预览",
+    "saved": "模组已保存",
+    "saveError": "无法保存模组",
+    "save": "保存更改",
+    "viewPublic": "查看公开界面"
+  }
 }

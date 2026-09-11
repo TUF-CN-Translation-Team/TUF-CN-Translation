@@ -13,7 +13,7 @@
     "clickToViewDetails": "点击查看详细信息"
   },
   "buttons": {
-    "edit": "编辑关卡信息",
+    "edit": "编辑关卡",
     "close": "关闭",
     "viewRating": "浏览先前评级",
     "like": "收藏",
@@ -159,12 +159,25 @@
       "header": "社区标签",
       "open": "投票",
       "vote": "为该标签投票",
+      "upvote": "赞成此标签",
+      "downvote": "反对此标签",
       "unvote": "取消投票",
-      "voted": "已为 {{tag}} 投票",
+      "voted": "已投给 {{tag}}",
+      "upvoted": "已赞成 {{tag}}",
+      "downvoted": "已反对 {{tag}}",
       "unvoted": "已取消对 {{tag}} 的投票",
-      "failed": "更新投票失败",
+      "failed": "投票更新失败",
       "loginRequired": "登录后才能为社区标签投票",
-      "banned": "你已被禁止为社区标签投票"
+      "banned": "你已被禁止为社区标签投票",
+      "topPlay": "你的最高通关难度不足以为此关卡投票",
+      "mustClear": "你必须通关以为此标签投票",
+      "uncleared": "此关卡被通关后社区标签方可用",
+      "inert": "此投票已保存，当你够格时计入。",
+      "inertUncleared": "投票结果已保存，关卡被通关后开始计算。",
+      "inertMustClear": "已保存，当你通关后按完整权重计入。",
+      "inertTopPlay": "已保存，当你最高通关难度足够时按完整权重计入。",
+      "band": "此标签对此难度不可用",
+      "deleted": "无法为已删除关卡投票"
     }
   },
   "weeklyAppearance": {

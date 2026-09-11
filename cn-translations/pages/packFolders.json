@@ -28,13 +28,13 @@
     "renameFolder": "重命名文件夹失败", 
     "deleteFolder": "删除文件夹失败",
     "movePack": "移动地图包失败",
-    "reorderItems": "项目重排序失败"
+    "reorderItems": "项目重排失败"
   },
   "success": {
     "createFolder": "文件夹创建成功",
     "renameFolder": "文件夹重命名成功",
     "deleteFolder": "文件夹删除成功",
     "movePack": "地图包移动成功",
-    "reorderItems": "项目重排序成功"
+    "reorderItems": "项目重排成功"
   }
 }

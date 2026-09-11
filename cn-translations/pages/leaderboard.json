@@ -16,6 +16,7 @@
   "settings": {
     "filter": {
       "header": "筛选设置",
+      "following": "已关注",
       "country": "国家或地区",
       "addStatFilters": "添加统计数据筛选条件",
       "selectStatPlaceholder": "选择统计数据以筛选……",
@@ -53,7 +54,10 @@
     "top12kDiff": "最高12键通关难度"
   },
   "infiniteScroll": {
-    "end": "已经到底啦！"
+    "end": "你已到达底部！"
+  },
+  "list": {
+    "emptyFollowing": "你没关注任何人。"
   },
   "past": {
     "button": "查看历史",

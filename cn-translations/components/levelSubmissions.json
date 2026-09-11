@@ -9,6 +9,7 @@
     "suffixPlaceholder": "可选后缀（例如，\"Nerfed\"）",
     "videoLink": "视频链接：",
     "videoLinkPlaceholder": "YouTube 或 Bilibili 链接",
+    "videoFromOwnChannel": "来自用户自己的频道的视频",
     "artist": "曲师：",
     "charter": "采音师：",
     "difficulty": "申请难度：",
@@ -26,7 +27,7 @@
     "vfxer": "特效师：",
     "specialThanks": "特别感谢：",
     "submitter": "提交者：",
-    "submitterRecordTooltip": "{{accepted}} 已通过 / {{declined}} 已拒绝",
+    "submitterRecordTooltip": "已通过 {{accepted}} 个，已拒绝 {{declined}} 个",
     "evidence": "凭证：",
     "notes": "备注",
     "notesPlaceholder": "可选管理员备注"
@@ -127,7 +128,7 @@
     "updateArtistFailed": "艺术家更新失败",
     "addSongRequestFailed": "歌曲请求添加失败",
     "addArtistRequestFailed": "曲师请求添加失败",
-    "removeArtistRequestFailed": "曲师请求移除失败",
+    "removeArtistRequestFailed": "曲师请求删除失败",
     "processing": "提交项目处理失败"
   }
 } 

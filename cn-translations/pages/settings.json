@@ -66,7 +66,7 @@
       "title": "显示设置",
       "disableMascots": {
         "label": "隐藏吉祥物",
-        "description": "在提交页面隐藏吉祥物图案，改为显示adofai / 创作者图标。"
+        "description": "在提交页面隐藏吉祥物图案，改为显示adofai或创作者图标。"
       }
     },
     "privacy": {
@@ -170,8 +170,8 @@
   "exitAria": "退出预览模式并显示所有设置"
 },
   "bioCanvas": {
-    "sectionExpandAria": "展开个人简介画布预览",
-    "sectionCollapseAria": "收起个人简介画布预览",
+    "sectionExpandAria": "展开",
+    "sectionCollapseAria": "收起",
     "linkConfirm": {
       "title": "离开TUF？",
       "lead": "你即将前往外部网站。若不信任此域名请勿继续。",
@@ -183,8 +183,8 @@
   },
 "headerSurface": {
   "sectionTitle": "个人资料卡片背景",
-  "sectionExpandAria": "展开卡片背景选项",
-  "sectionCollapseAria": "收起卡片背景选项",
+  "sectionExpandAria": "展开",
+  "sectionCollapseAria": "收起",
   "openEditor": "编辑卡片背景",
   "editorTitle": "编辑卡片背景",
   "drawerToggle": "图层",

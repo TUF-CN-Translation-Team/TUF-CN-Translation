@@ -15,6 +15,12 @@
   "tooltips": {
     "tufStellarOut": "TUFStellar 已上线！"
   },
+  "resourcesCta": {
+    "title": "第一次上论坛？",
+    "subtitle": "从此处入门！",
+    "dontShowAgain": "不再显示",
+    "iconAlt": "TUF 入门图标"
+  },
   "stats": {
     "overview": {
       "title": "总览",
@@ -53,11 +59,13 @@
       "title": "其他页面",
       "browseLevels": "浏览关卡",
       "browsePasses": "浏览通关记录",
-      "browsePacks": "浏览包",
+      "browsePacks": "浏览地图包",
       "leaderboard": "排行榜",
       "scoreCalculator": "分数计算器",
       "aboutUs": "关于我们",
+      "levels": "关卡",
       "resources": "资料",
+      "mods": "模组",
       "privacyPolicy": "隐私政策",
       "termsOfService": "服务条款",
       "apiDocs": "API 文档",

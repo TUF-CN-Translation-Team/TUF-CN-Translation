@@ -110,7 +110,21 @@
     "google": "Google",
     "linkGoogle": "绑定 Google 账户",
     "unlink": "解绑",
-    "cannotUnlinkLastProvider": "无法在没有密码的情况下解绑最后一个绑定账户"
+    "cannotUnlinkLastProvider": "无法在没有密码的情况下解绑最后一个绑定账户",
+    "youtube": "YouTube",
+    "youtubeSubtitle": "已验证频道显示在你的资料上。基本频道是页眉按钮。",
+    "linkYoutube": "绑定YouTube频道",
+    "linkAnotherYoutube": "绑定另一个YouTube频道",
+    "youtubePrimary": "基本频道",
+    "youtubeUnlink": "解绑频道",
+    "youtubeLinked": "YouTube频道已绑定",
+    "youtubeUnlinked": "YouTube频道已解绑",
+    "youtubePrimarySet": "基本YouTube频道已更新",
+    "youtubeLinkFailed": "无法绑定YouTube频道",
+    "youtubeUnlinkFailed": "无法解绑YouTube频道",
+    "youtubePrimaryFailed": "无法更新基本YouTube频道",
+    "youtubeHandle": "@{{handle}}",
+    "youtubeChannelId": "频道 ID：{{id}}"
   },
   "dangerZone": {
     "title": "注销账户",

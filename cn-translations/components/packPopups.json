@@ -15,6 +15,7 @@
     "loginRequired": "请登录以管理你的地图包",
     "levels": "关卡",
     "alreadyInPack": "已在包中",
+    "packFull": "地图包已满",
     "loading": "正在加载地图包……",
     "addToPack": "添加至地图包",
     "lookupInPacks": "在包中查找",
@@ -75,8 +76,8 @@
       "private": "私密 - 仅自己可见"
     },
     "pinned": {
-      "label": "固定在顶部",
-      "help": "把此包固定在你的地图包列表顶端"
+      "label": "置顶",
+      "help": "把此包在你的地图包列表中置顶"
     },
     "create": "创建地图包",
     "success": {
@@ -135,22 +136,19 @@
     },
     "save": "保存更改",
     "delete": "删除此包",
-    "deleting": "删除中……",
     "noPermission": "你无权限编辑此包",
     "deleteConfirm": {
       "title": "删除此包",
-      "message": "你确定你要删除此包吗？此操作不可撤销。",
-      "confirm": "删除此包"
+      "message": "你确定你要删除此包吗？此操作不可撤销。"
     },
     "transferOwnership": {
       "label": "更改所有者",
       "currentOwner": "当前所有者",
       "placeholder": "按用户名或昵称搜索……",
-      "searching": "搜索中……",
       "noResults": "未找到用户",
       "selected": "已选中",
       "transfer": "更改所有者",
-      "transferring": "更改中",
+      "transferring": "更改中……",
       "help": "将地图包所有者更改为另一个用户。"
     },
     "success": {
@@ -243,7 +241,7 @@
     "proceed": "添加 {{count}} 个关卡",
     "submitting": "添加中……",
     "reasons": {
-      "notFound": "关卡不存在",
+      "notFound": "未找到关卡",
       "alreadyInPack": "已在此位置",
       "quotaExceeded": "已达地图包项目数量上限"
     }

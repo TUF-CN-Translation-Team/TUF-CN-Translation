@@ -19,6 +19,7 @@
         "dlLink": "下载链接",
         "workshopLink": "创意工坊链接",
         "publicComments": "公开注释（此处填写 Censored 理由）",
+        "notes": "备注",
         "isExternallyAvailable": "是否外部可用",
         "previousDifficulty": "先前评级"
       },
@@ -90,10 +91,7 @@
       "baseScoreFallback": "缺少关卡基础分数，锚点分数按 {{base}} 缩放。",
       "tilecountFallback": "缺少物量，预览使用 100 物量。",
       "resetDefaults": "恢复站点默认值",
-      "save": "保存",
       "apply": "应用",
-      "saving": "保存中……",
-      "cancel": "取消",
       "toastSaved": "X精准度 - 分数曲线已保存",
       "toastSavedWithPasses": "X精准度 - 分数曲线已保存，已重算 {{count}} 个通关记录分数。",
       "sliderDisplay": "滑块 {{value}}",
@@ -112,11 +110,11 @@
         "pin2": "基准点2",
         "pinAccuracy": "精度",
         "pinScore": "分数",
-        "pole": "极点偏移 (E)",
-        "top": "顶部倍率 (G)"
+        "pole": "极点偏移（E）",
+        "top": "顶部倍率（G）"
       },
       "errors": {
-        "save": "保存X精准度 - 分数曲线失败",
+        "save": "曲线保存失败",
         "fit": "无法为这些锚点拟合有效双曲线"
       }
     },
@@ -185,18 +183,18 @@
     "title": "关联关卡",
     "description": "将仅有细微改动的同一谱面分组显示。",
     "empty": "暂无关联关卡。",
-    "current": "当前关卡",
-    "unknownSong": "未知曲目",
+    "youAreHere": "当前关卡",
+    "unknownSong": "未知歌曲",
     "toastAdded": "已关联 {{name}}",
     "toastRemoved": "已取消关联",
-    "shareChart": "谱面",
+    "shareChart": "采音",
     "shareVfx": "特效",
     "errors": {
-      "sameLevel": "不能将关卡关联到自身",
+      "sameLevel": "不能将关卡与自己相关联",
       "alreadyLinked": "该关卡已在此组中",
-      "add": "关联关卡失败",
-      "remove": "取消关联失败",
-      "saveShare": "更新共享设置失败"
+      "add": "关卡关联失败",
+      "remove": "关联取消失败",
+      "saveShare": "共享设置更新失败"
     }
   },
   "download": {

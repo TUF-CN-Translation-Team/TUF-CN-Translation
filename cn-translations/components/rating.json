@@ -12,6 +12,7 @@
       "notes": "备注：",
       "yourRating": "你的评级：",
       "yourComment": "你的理由：",
+      "savedDraft": "已存草稿：",
       "otherRatings": "其他评级：",
       "noRatings": "没有评级",
       "adminRatings": "评级员评级",
@@ -21,7 +22,7 @@
     },
     "zenModeChip": "沉浸模式",
     "viewedFor": "评级时长 {{duration}}",
-    "viewedForSeconds_one": "评级时长{{count}}秒",
+    "viewedForSeconds_one": "评级时长 {{count}}秒",
     "viewedForSeconds_other": "评级时长 {{count}}秒",
     "buttons": {
       "saveChanges": "保存更改",
@@ -40,10 +41,10 @@
     },
     "tooltips": {
       "lastUpdated": "上次更新时间",
-      "requiredComment": "为 Censored 等级评级时需要理由"
+      "requiredComment": "评为 Censored 时需要理由"
     },
     "placeholders": {
-      "requiredComment": "请解释为什么你给这个关卡评 Censored ……",
+      "requiredComment": "请解释为什么你给这个关卡评Censored……",
       "difficultyInput": "输入难度……",
       "communityComment": "请提供一个你的评级的理由……"
     },
@@ -53,8 +54,7 @@
         "title": "未保存评级",
         "body": "暂存为草稿，可放弃修改或以后继续编辑。",
         "save": "保存草稿",
-        "discard": "放弃",
-        "cancel": "取消"
+        "discard": "放弃"
       }
     },
     "messages": {
@@ -83,7 +83,7 @@
       "deleteRating": "删除评级",
       "lastUpdated": "上次修改此评级的时间",
       "copyLink": "复制链接",
-      "savedDraft": "已保存草稿"
+      "savedDraft": "已存草稿"
     },
     "buttons": {
       "viewDetails": "查看详情",
@@ -132,8 +132,8 @@
       },
       "filters": {
         "title": "可用筛选条件",
-        "hideRated": "隐藏已评级",
-        "hideRatedDesc": "隐藏你已评级的关卡",
+        "myRated": "我苹果的",
+        "myRatedDesc": "显示，隐藏，或仅显示你评过的关卡",
         "lowDiff": "低难度",
         "lowDiffDesc": "筛选被标记为低难度的关卡",
         "fourVote": "4+ 评级",
