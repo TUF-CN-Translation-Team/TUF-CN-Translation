@@ -64,7 +64,9 @@
     "aka": "a.k.a.",
     "highestRank": "Highest rank: #{{rank}}",
     "highestRankAt": "at {{date}}",
-    "highestRankNow": "At highest rank right now!"
+    "highestRankNow": "At highest rank right now!",
+    "youtubeChannel": "YouTube: {{name}}",
+    "youtubeMore": "More YouTube channels"
   },
   "bio": {
     "header": "Bio",
@@ -257,6 +259,34 @@
       "UNIVERSAL": "Universal",
       "SPECIAL": "Special"
     }
+  },
+  "modules": {
+    "missing": "This module has nothing to show yet.",
+    "types": {
+      "bio": "Bio",
+      "tournaments": "Tournaments",
+      "scoreBreakdown": "Score breakdown",
+      "difficulty": "Difficulty",
+      "rankHistory": "Rank history",
+      "scores": "Scores",
+      "charts": "Levels",
+      "favorite": "Favorite",
+      "player": {
+        "difficulty": "Clears by difficulty"
+      },
+      "creator": {
+        "difficulty": "Levels by difficulty",
+        "charts": "Levels"
+      }
+    },
+    "favoriteKinds": {
+      "pass": "Clear",
+      "level": "Chart",
+      "pack": "Pack",
+      "player": "Player"
+    },
+    "expandFavorite": "Expand favorite",
+    "collapseFavorite": "Collapse favorite"
   },
   "discordRoleSync": {
     "buttonTitle": {

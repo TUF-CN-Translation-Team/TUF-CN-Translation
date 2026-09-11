@@ -32,7 +32,6 @@
   "deleteConfirm": "Delete this app? Existing authorizations will stop working after grants expire or are revoked.",
   "delete": "Delete app",
   "save": "Save changes",
-  "saving": "Saving…",
   "clientId": "Client ID",
   "clientSecret": "Client secret",
   "copy": "Copy",

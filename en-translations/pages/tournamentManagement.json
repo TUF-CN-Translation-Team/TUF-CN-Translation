@@ -22,7 +22,6 @@
   "newTournament": "New tournament",
   "editTournament": "Edit tournament",
   "emptyList": "No tournaments yet. Create one or import a CSV.",
-  "save": "Save",
   "delete": "Delete",
   "selectTournamentFirst": "Select a tournament from the Events tab first.",
   "addRow": "Add row",

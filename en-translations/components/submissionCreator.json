@@ -100,7 +100,9 @@
       "teamLoadFailed": "Failed to load teams",
       "teamNotFound": "Team not found",
       "invalidTeamData": "Invalid team data provided",
-      "creditRequestIdMissing": "Credit request ID is missing"
+      "creditRequestIdMissing": "Credit request ID is missing",
+      "nameExists": "A creator with this name already exists. Use search to assign them instead.",
+      "teamNameExists": "A team with this name already exists. Use search to assign them instead."
     }
   }
 } 

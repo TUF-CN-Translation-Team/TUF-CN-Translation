@@ -172,6 +172,10 @@
       "topPlay": "Your top play is not high enough to vote on this chart",
       "mustClear": "You must clear this chart to vote on this tag",
       "uncleared": "Community tags are available after this chart has a clear",
+      "inert": "This vote is stored and will count when you are eligible",
+      "inertUncleared": "Votes are stored now and start counting after this chart has a clear",
+      "inertMustClear": "Stored now; counts at full weight when you clear this chart",
+      "inertTopPlay": "Stored now; counts when your top play is high enough",
       "band": "This tag is not available for this difficulty",
       "deleted": "Cannot vote on a deleted level"
     }

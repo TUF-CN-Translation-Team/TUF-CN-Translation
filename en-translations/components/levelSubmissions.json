@@ -9,6 +9,7 @@
     "suffixPlaceholder": "Optional suffix (e.g., \"Nerfed\")",
     "videoLink": "Video link:",
     "videoLinkPlaceholder": "YouTube or Bilibili URL",
+    "videoFromOwnChannel": "Video from user's own channel",
     "artist": "Artist:",
     "charter": "Charter:",
     "difficulty": "Difficulty:",

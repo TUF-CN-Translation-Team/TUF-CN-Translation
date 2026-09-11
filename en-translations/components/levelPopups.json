@@ -91,10 +91,7 @@
       "baseScoreFallback": "Level base score is missing; pin scores use {{base}} for scaling.",
       "tilecountFallback": "Tile count is missing; preview uses 100 tiles.",
       "resetDefaults": "Reset to site defaults",
-      "save": "Save",
       "apply": "Apply",
-      "saving": "Saving…",
-      "cancel": "Cancel",
       "toastSaved": "Xacc curve saved",
       "toastSavedWithPasses": "Xacc curve saved. {{count}} pass scores recalculated.",
       "sliderDisplay": "Slider {{value}}",
@@ -126,9 +123,6 @@
       "openButtonTitle": "Edit BPM, tile count & length (non-CDN only)",
       "clearHint": "Leave a field empty and save to clear that value.",
       "preview": "Preview",
-      "save": "Save",
-      "saving": "Saving...",
-      "cancel": "Cancel",
       "toastSaved": "Chart metadata saved",
       "labels": {
         "bpm": "BPM",
@@ -173,7 +167,6 @@
     "noTarget": "No level selected",
     "chooseTarget": "Choose other level",
     "changeTarget": "Change level",
-    "cancel": "Cancel",
     "confirm": "Swap details",
     "swapping": "Swapping…",
     "toastSuccess": "Level details swapped",
@@ -243,4 +236,4 @@
     "searchPlaceholder": "Search creators…",
     "noResults": "No matching creators"
   }
-} 
+}

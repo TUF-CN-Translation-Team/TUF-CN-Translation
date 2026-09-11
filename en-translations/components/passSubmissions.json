@@ -36,7 +36,9 @@
     "submitterRecordTooltip": "{{accepted}} accepted / {{declined}} declined",
     "uploadTime": "Upload Time",
     "videoLink": "Video link:",
-    "videoLinkPlaceholder": "YouTube or Bilibili URL"
+    "videoLinkPlaceholder": "YouTube or Bilibili URL",
+    "videoFromOwnChannel": "Video from user's own channel",
+    "videoFromPasserChannel": "Passer's channel"
   },
   "playerAssignment": {
     "title": "Assign Player",
@@ -82,8 +84,6 @@
   },
   "edit": {
     "edit": "Edit",
-    "save": "Save",
-    "cancel": "Cancel",
     "levelPlaceholder": "Search or enter level ID",
     "fetchingLevel": "Loading level…",
     "songPlaceholder": "Song"
@@ -105,4 +105,4 @@
   "notifications": {
     "autoAllow": "Auto-approved {{count}} submissions"
   }
-} 
+}

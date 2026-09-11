@@ -54,8 +54,7 @@
         "title": "Unsaved rating",
         "body": "Save a draft for later, discard your changes, or stay and keep editing.",
         "save": "Save draft",
-        "discard": "Discard",
-        "cancel": "Cancel"
+        "discard": "Discard"
       }
     },
     "messages": {
@@ -158,4 +157,4 @@
       }
     }
   }
-} 
+}

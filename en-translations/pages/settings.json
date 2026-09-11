@@ -45,6 +45,8 @@
     "pushHint": "Uses the same type and category switches as your inbox.",
     "pushDenied": "Notifications are blocked for this site. Allow them in your browser settings to receive alerts.",
     "pushUnsupported": "This browser does not support notifications.",
+    "hideOwnActivityTitle": "Hide my own activity",
+    "hideOwnActivityHint": "When on, actions you take will not appear in your inbox. Leave this off if you want a confirmation that a submission or edit went through.",
     "categories": {
       "submissions": "Submissions",
       "chart": "Charts",
@@ -208,7 +210,6 @@
     "previewWidthLabel": "Preview width",
     "previewResizeAria": "Drag to change preview width",
     "closeConfirm": "You have unsaved changes. Discard them and close?",
-    "cancel": "Cancel",
     "title": "Card background",
     "hint": "Stack gradients and an optional background image. Reorder layers to blend; save to upload images.",
     "lockedHint": "TUFStellar subscribers can customize the profile card background.",
@@ -347,7 +348,6 @@
       "insertShort": "Insert at {{index}}"
     },
     "save": "Save changes",
-    "cancel": "Cancel",
     "revertDraft": "Revert changes",
     "unsavedConfirm": "You have unsaved changes. Discard them and close?",
     "saveSuccess": "Tournament cosmetics updated",
@@ -480,5 +480,24 @@
   },
   "security": {
     "title": "Security"
+  },
+  "modules": {
+    "label": "Profile modules",
+    "counter": "{{used}}/{{cap}} enabled",
+    "reset": "Reset to default",
+    "resetConfirm": "Reset modules to the default layout? Favorite will be removed. You still need to save.",
+    "discard": "Discard",
+    "saveSuccess": "Profile modules saved",
+    "saveError": "Could not save profile modules",
+    "sessionExpired": "Your session expired. Please sign in again and retry.",
+    "capReached": "You have used all module slots.",
+    "capReachedFree": "Free profiles can enable {{freeCap}} modules. TUFStellar raises this to {{stellarCap}}.",
+    "addPlaceholder": "Add module",
+    "required": "Required",
+    "dragAria": "Drag to reorder",
+    "favoriteCount": "{{used}}/{{max}} items",
+    "searchPlayer": "Search players",
+    "searchEntity": "Search to add",
+    "searchNoResults": "No results"
   }
 }

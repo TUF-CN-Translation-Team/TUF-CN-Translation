@@ -96,7 +96,7 @@
       "dialogLabel": "Curation types on credited levels"
     },
     "levels": {
-      "header": "Charts",
+      "header": "Levels",
       "empty": "No charts found for this creator yet.",
       "searchPlaceholder": "Search this creator's charts...",
       "expand": "Expand levels",

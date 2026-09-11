@@ -136,18 +136,15 @@
     },
     "save": "Save Changes",
     "delete": "Delete Pack",
-    "deleting": "Deleting...",
     "noPermission": "You don't have permission to edit this pack",
     "deleteConfirm": {
       "title": "Delete Pack",
-      "message": "Are you sure you want to delete this pack? This action cannot be undone.",
-      "confirm": "Delete Pack"
+      "message": "Are you sure you want to delete this pack? This action cannot be undone."
     },
     "transferOwnership": {
       "label": "Transfer Ownership",
       "currentOwner": "Current Owner",
       "placeholder": "Search for user by username or nickname...",
-      "searching": "Searching...",
       "noResults": "No users found",
       "selected": "Selected",
       "transfer": "Transfer Ownership",

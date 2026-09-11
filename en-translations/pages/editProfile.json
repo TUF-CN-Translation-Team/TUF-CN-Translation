@@ -110,7 +110,21 @@
     "google": "Google",
     "linkGoogle": "Link Google Account",
     "unlink": "Unlink",
-    "cannotUnlinkLastProvider": "Cannot unlink last provider without a password"
+    "cannotUnlinkLastProvider": "Cannot unlink last provider without a password",
+    "youtube": "YouTube",
+    "youtubeSubtitle": "Verified channels shown on your profile. The primary channel is the header button.",
+    "linkYoutube": "Link YouTube channel",
+    "linkAnotherYoutube": "Link another YouTube channel",
+    "youtubePrimary": "Primary channel",
+    "youtubeUnlink": "Unlink channel",
+    "youtubeLinked": "YouTube channel linked",
+    "youtubeUnlinked": "YouTube channel unlinked",
+    "youtubePrimarySet": "Primary YouTube channel updated",
+    "youtubeLinkFailed": "Could not link YouTube channel",
+    "youtubeUnlinkFailed": "Could not unlink YouTube channel",
+    "youtubePrimaryFailed": "Could not update primary YouTube channel",
+    "youtubeHandle": "@{{handle}}",
+    "youtubeChannelId": "Channel ID: {{id}}"
   },
   "dangerZone": {
     "title": "Delete account",

@@ -122,12 +122,11 @@
   },
   "feelingRating": {
     "title": "Edit Feeling Rating",
-    "placeholder": "e.g. U15, G18~G20",
-    "saving": "Saving..."
+    "placeholder": "e.g. U15, G18~G20"
   },
   "errors": {
     "toggleHidden": "Failed to toggle pass visibility",
     "updateFeelingRating": "Failed to update feeling rating",
     "feelingRatingRequired": "Feeling rating is required"
   }
-} 
+}
