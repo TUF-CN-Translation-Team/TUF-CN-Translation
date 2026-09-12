@@ -1,27 +1,24 @@
 {
   "meta": {
     "title": "资料",
-    "description": "有用的指南、文档和 TUF团队编写的 Notion 文章"
+    "description": "有用的指南、文档和 TUF团队编写的 Notion 文章",
+    "editTitle": "编辑资料"
   },
   "title": "资料",
   "subtitle": "指南、文档和 TUF团队收集的 Notion 文章。",
+  "editTitle": "编辑资料",
+  "editSubtitle": "创建分组，在链接之间拖动它们，并编辑翻译。",
   "empty": "无已公开资料。",
-  "open": "打开",
+  "emptySearch": "无匹配结果。",
   "ungrouped": "未分组",
+  "searchPlaceholder": "按标题、描述和链接搜索",
+  "backToResources": "返回资料",
   "errors": {
     "loadFailed": "无法加载资料。请稍后再试。"
   },
-  "admin": {
-    "manage": "管理链接",
-    "hidden": "已隐藏"
-  },
-  "tabs": {
-    "links": "链接",
-    "groups": "分组"
-  },
-  "loading": {
-    "reorderingLinks": "保存链接排序中……",
-    "reorderingGroups": "保存分组顺序中……"
+  "language": {
+    "label": "语言",
+    "emptySlice": "没有链接在该语言中可用。"
   },
   "links": {
     "createButton": "新建链接",
@@ -32,12 +29,9 @@
       "title": "标题",
       "url": "链接",
       "urlPlaceholder": "https://www.notion.so/……",
+      "shorthand": "简称",
       "description": "描述",
-      "published": "本页面中可见",
-      "group": {
-        "label": "分组（可选）",
-        "placeholder": "输入分组名称"
-      }
+      "published": "本页面中可见"
     },
     "create": {
       "title": "新建链接",
@@ -61,7 +55,11 @@
       "deleted": "链接删除成功",
       "deleteFailed": "链接删除失败",
       "reordered": "链接重排成功",
-      "reorderFailed": "链接重排失败"
+      "reorderFailed": "链接重排失败",
+      "localeSaved": "语言保存成功",
+      "localeSaveFailed": "语言保存失败",
+      "localeRemoved": "语言已删除",
+      "localeRemoveFailed": "语言删除失败"
     }
   },
   "groups": {
@@ -92,6 +90,16 @@
       "updateFailed": "分组更新失败",
       "deleted": "分组删除成功",
       "deleteFailed": "分组删除失败"
-    }
+    },
+    "removeLocaleConfirm": "从分组中删除{{name}}的翻译？"
+  },
+  "languages": {
+    "title": "管理语言",
+    "add": "添加语言",
+    "addPlaceholder": "选择语言",
+    "remove": "删除语言",
+    "enLocked": "不能删除英语",
+    "emptyAdd": "已添加所有语言",
+    "removeConfirm": "从此链接中删除{{name}}的翻译？"
   }
 }

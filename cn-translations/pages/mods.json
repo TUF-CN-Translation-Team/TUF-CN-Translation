@@ -17,7 +17,7 @@
   "empty": "无模组。",
   "emptySearch": "无匹配结果。",
   "infScroll": {
-    "end": "已到达底部！"
+    "end": "你已到达底部！"
   },
   "searchPlaceholder": "按名称或作者搜索",
   "sort": {

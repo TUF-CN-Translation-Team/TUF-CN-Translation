@@ -55,13 +55,18 @@
     "unknown": "未知用户",
     "previous": "上一页",
     "next": "下一页",
-    "pageInfo": "第 {{current}} / {{total}} 页"
+    "pageInfo": "第 {{current}} 页，共 {{total}} 页"
   },
   "hiddenFollowers_one": "{{formatted}} 位隐藏关注者",
   "hiddenFollowers_other": "{{formatted}} 位隐藏关注者",
   "stellarSubscriberIconTooltip": "TUFStellar 订阅用户",
   "header": {
-    "aka": "又名"
+    "aka": "又名",
+    "highestRank": "最高排名：#{{rank}}",
+    "highestRankAt": "于 {{date}}",
+    "highestRankNow": "当前为最高排名！",
+    "youtubeChannel": "YouTube频道名：{{name}}",
+    "youtubeMore": "更多YouTube频道"
   },
   "bio": {
     "header": "个人简介",
@@ -70,6 +75,14 @@
     "collapse": "收起"
   },
   "sections": {
+    "scores": {
+      "title": "通关记录列表",
+      "expand": "展开",
+      "collapse": "收起",
+      "hideReclears": "隐藏重击破",
+      "lowestImpactScore": "排位分加分下限：<pp>{{score}}</pp>",
+      "tl_comment": "别动这个 ↑"
+    },
     "tournaments": {
       "title": "赛事",
       "expand": "展开",
@@ -79,14 +92,6 @@
       "unknownTournament": "赛事",
       "openPack": "打开地图包",
       "othersCount": "+{{count}} 其他人"
-    },
-    "scores": {
-      "title": "通关记录列表",
-      "expand": "展开",
-      "collapse": "收起",
-      "hideReclears": "隐藏重复通关",
-      "lowestImpactScore": "排位分加分下限：<pp>{{score}}</pp>",
-      "tl_comment": "别动这个 ↑"
     },
     "scoreBreakdown": {
       "title": "分数信息",

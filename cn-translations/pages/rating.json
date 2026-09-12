@@ -15,8 +15,8 @@
     "detailedView": {
       "label": "详细视图"
     },
-    "hideRated": {
-      "label": "隐藏已评级关卡"
+    "myRated": {
+      "label": "我已评级"
     },
     "lowDiff": {
       "label": "低难度"
@@ -59,21 +59,21 @@
   },
   "rankReady": {
     "view": "查看",
-    "settledWhileEditing": "另一位管理员刚刚结算了该关卡，你可以继续编辑或安全退出。",
+    "settledWhileEditing": "另一位管理员刚刚完成了该关卡的评级，你可以继续编辑或安全退出。",
     "columns": {
       "name": "名称",
       "managerAvg": "管理员均值",
-      "communityAvg": "社区均值",
-      "mgrCom": "管/社",
+      "communityAvg": "玩家均值",
+      "mgrCom": "管/玩",
       "autorater": "自动评级"
     },
     "empty": {
       "title": "没有待定级关卡",
-      "subtitle": "没有 2+ 管理员票且 0 通关的关卡。"
+      "subtitle": "没有拥有超过两个管理员评级且未被通关的关卡。"
     }
   },
   "infiniteScroll": {
-    "end": "已到底部！"
+    "end": "你已到达底部！"
   },
   "zen": {
     "meta": {
@@ -94,8 +94,8 @@
       "discard": "放弃并重新开始",
       "deckSize": "本次评级关卡数量",
       "peekHint": "每 5 个关卡有 1 次查看机会",
-      "onlyLowDiff": "仅P级关卡",
-      "excludeUniversals": "不看U级关卡",
+      "requestBands": "隐藏特定等级范围",
+      "requestBandsHint": "勾选以忽略特定的申请等级范围",
       "sort": "优先级",
       "sortLeast": "最新评级优先",
       "sortMost": "最多评级优先",
@@ -126,7 +126,6 @@
       "peek": "查看他人评级（{{n}}）",
       "peeked": "已查看",
       "peekEmpty": "无剩余查看机会",
-      "saving": "保存中……",
       "submit": "提交 →"
     },
     "done": {

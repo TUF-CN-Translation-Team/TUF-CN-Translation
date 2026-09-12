@@ -45,7 +45,7 @@
     "deleteFailed": "歌曲删除失败"
   },
   "infScroll": {
-    "end": "已到达底部！"
+    "end": "你已到达底部！"
   },
   "confirmDelete": "你确定删除此歌曲吗？",
   "noSongs": "未找到歌曲"

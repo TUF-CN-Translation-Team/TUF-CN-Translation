@@ -44,11 +44,17 @@
       "notify": "通知",
       "chartStats": "谱面统计",
       "autoTags": "自动标签",
-      "autorate": "自动评分",
+      "autorate": "自动评级",
       "cleanup": "清理",
       "createPass": "创建通关记录",
       "index": "索引",
-      "roleSync": "角色同步"
+      "roleSync": "同步身份组"
     }
+  },
+  "lock": {
+    "lock": "锁定提交项目",
+    "unlock": "解锁提交项目",
+    "lockedHint": "已锁定——无法通过或拒绝",
+    "failed": "更新锁定状态失败"
   }
 }

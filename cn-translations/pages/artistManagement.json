@@ -48,7 +48,7 @@
     "deleteFailed": "艺术家删除成功"
   },
   "infScroll": {
-    "end": "已到达底部！"
+    "end": "你已到达底部！"
   },
   "confirmDelete": "你确定删除此艺术家吗？",
   "noArtists": "未找到艺术家"

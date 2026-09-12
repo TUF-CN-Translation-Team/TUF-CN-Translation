@@ -18,7 +18,7 @@
     "idDesc": "ID（由高到低）"
   },
   "infScroll": {
-    "end": "已到达底部！"
+    "end": "你已到达底部！"
   },
   "noArtists": "未找到艺术家"
 }

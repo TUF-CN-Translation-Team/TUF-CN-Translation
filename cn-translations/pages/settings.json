@@ -69,6 +69,20 @@
         "description": "在提交页面隐藏吉祥物图案，改为显示adofai或创作者图标。"
       }
     },
+    "navigation": {
+      "title": "导航",
+      "dropdownClickMode": {
+        "legend": "导航栏分组点击行为",
+        "cycle": {
+          "label": "循环打开链接（默认）",
+          "description": "点击导航栏分组会进入该组的第一个页面，之后每次点击进入下一个。下拉菜单会保持打开以便看到当前页面。5 秒后关闭，若移开指针则会更快关闭；再次点击会从第一个页面重新开始。"
+        },
+        "pin": {
+          "label": "固定打开菜单",
+          "description": "点击导航栏分组会固定打开下拉菜单，而不会立即跳转。从菜单中选择页面。"
+        }
+      }
+    },
     "privacy": {
       "title": "隐私",
       "publicFollows": {
@@ -466,5 +480,24 @@
   },
   "security": {
     "title": "安全"
+  },
+  "modules": {
+    "label": "个人资料模块",
+    "counter": "已使用{{used}}个，共{{cap}}个",
+    "reset": "恢复默认",
+    "resetConfirm": "将模块恢复至预设？收藏将被移除。你仍然需要保存。",
+    "discard": "放弃更改",
+    "saveSuccess": "个人资料模块已保存",
+    "saveError": "无法保存个人资料模块",
+    "sessionExpired": "你的会话已过期。请登录并重试。",
+    "capReached": "你已使用所有模块。",
+    "capReachedFree": "免费用户可使用 {{freeCap}} 个模块。TUFStellar用户增加至 {{stellarCap}} 个。",
+    "addPlaceholder": "添加模块",
+    "required": "必备",
+    "dragAria": "拖拽以重拍",
+    "favoriteCount": "已使用 {{used}} 项，最多 {{max}} 项",
+    "searchPlayer": "搜索玩家",
+    "searchEntity": "搜索以添加",
+    "searchNoResults": "无结果"
   }
 }

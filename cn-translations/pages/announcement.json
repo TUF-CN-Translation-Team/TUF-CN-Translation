@@ -46,7 +46,7 @@
       "blocked": "被封锁",
       "completed": "已完成",
       "failed": "失败",
-      "pending": "待办",
+      "pending": "等待中",
       "delivered": "已发送",
       "skipped": "已跳过",
       "sent": "已发送"
