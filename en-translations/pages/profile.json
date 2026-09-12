@@ -97,6 +97,7 @@
       "title": "Score breakdown",
       "expand": "Expand score breakdown",
       "collapse": "Collapse score breakdown",
+
       "tooltips": {
         "rankedScore": {
           "aria": "Explain Ranked Score",
