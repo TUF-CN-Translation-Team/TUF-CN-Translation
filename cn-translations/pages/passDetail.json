@@ -122,8 +122,7 @@
   },
   "feelingRating": {
     "title": "编辑体感难度",
-    "placeholder": "例如 U15、G18~G20",
-    "saving": "保存中……"
+    "placeholder": "例如 U15、G18~G20"
   },
   "errors": {
     "toggleHidden": "可见性更改失败",

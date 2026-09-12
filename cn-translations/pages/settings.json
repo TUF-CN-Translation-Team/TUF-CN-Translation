@@ -45,6 +45,8 @@
     "pushHint": "使用与收件箱相同的类型和分类开关。",
     "pushDenied": "此网站的通知已被阻止。请在浏览器设置中允许通知。",
     "pushUnsupported": "此浏览器不支持通知。",
+    "hideOwnActivityTitle": "隐藏我的动态",
+    "hideOwnActivityHint": "开启时你进行的操作将不会显示在通知中。如果你希望看到你的提交记录或编辑记录的确认信息，请保持关闭。",
     "categories": {
       "submissions": "提交",
       "chart": "谱面",
@@ -208,7 +210,6 @@
   "previewWidthLabel": "预览宽度",
   "previewResizeAria": "拖动以调整预览宽度",
   "closeConfirm": "你有未保存的更改。确定要放弃并关闭吗？",
-  "cancel": "取消",
   "title": "卡片背景",
   "hint": "叠加渐变和可选背景图片。调整图层顺序以混合效果；保存后上传图片。",
   "lockedHint": "TUFStellar 订阅用户可以自定义个人资料卡片背景。",
@@ -347,7 +348,6 @@
       "insertShort": "插入到第 {{index}} 位"
     },
     "save": "保存更改",
-    "cancel": "取消",
     "revertDraft": "撤销更改",
     "unsavedConfirm": "有未保存的更改。确定要关闭吗？",
     "saveSuccess": "赛事外观已更新",

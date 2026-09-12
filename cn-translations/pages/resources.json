@@ -23,15 +23,15 @@
   "links": {
     "createButton": "新建链接",
     "noLinks": "未找到链接。创建你的第一个链接！",
-    "ungrouped": "未分组",
     "linkCount": "{{count}} 个链接",
+    "linkCount_plural": "{{count}} 个链接",
     "fields": {
       "title": "标题",
       "url": "链接",
       "urlPlaceholder": "https://www.notion.so/……",
       "shorthand": "简称",
-      "description": "描述",
-      "published": "本页面中可见"
+      "shorthandPlaceholder": "TUF Notion",
+      "description": "描述"
     },
     "create": {
       "title": "新建链接",

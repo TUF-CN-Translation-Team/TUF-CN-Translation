@@ -123,9 +123,6 @@
       "openButtonTitle": "编辑 BPM、物量与时长信息",
       "clearHint": "留空可隐藏对应条目。",
       "preview": "预览",
-      "save": "保存",
-      "saving": "保存中……",
-      "cancel": "取消",
       "toastSaved": "谱面数据已保存",
       "labels": {
         "bpm": "BPM",
@@ -170,7 +167,6 @@
     "noTarget": "未选择关卡",
     "chooseTarget": "选择",
     "changeTarget": "修改",
-    "cancel": "取消",
     "confirm": "互换信息",
     "swapping": "互换中……",
     "toastSuccess": "关卡信息已互换",
@@ -181,7 +177,6 @@
   },
   "linkedLevels": {
     "title": "关联关卡",
-    "description": "将仅有细微改动的同一谱面分组显示。",
     "empty": "暂无关联关卡。",
     "youAreHere": "当前关卡",
     "unknownSong": "未知歌曲",

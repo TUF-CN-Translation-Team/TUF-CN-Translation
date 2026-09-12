@@ -152,7 +152,8 @@
       },
       "createButton": "创建",
       "cancelButton": "取消",
-      "isCommunity": "社区标签（玩家可以投票把它加到关卡上）"
+      "isCommunity": "社区标签（玩家可以投票把它加到关卡上）",
+      "passWarningEnabled": "此标签存在时提交通关记录时提醒"
     },
     "edit": {
       "title": "编辑标签",
@@ -170,7 +171,8 @@
       "updateButton": "更新",
       "cancelButton": "取消",
       "unsavedChanges": "你有未保存的更改，确定要退出吗？",
-      "isCommunity": "社区标签（玩家可以投票把它加到关卡上）"
+      "isCommunity": "社区标签（玩家可以投票把它加到关卡上）",
+      "passWarningEnabled": "此标签存在时提交通关记录时提醒"
     },
     "delete": {
       "title": "删除标签",
