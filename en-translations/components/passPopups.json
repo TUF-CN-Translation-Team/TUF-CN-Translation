@@ -12,7 +12,9 @@
         "feelDiff": "Feeling Rating",
         "expectedDiff": "Expected Rating (opt.)",
         "nohold": "No Hold",
-        "isAdofaiV2": "ADOFAI v2"
+        "isAdofaiV2": "ADOFAI v2",
+        "adofaiVersion": "ADOFAI version",
+        "isXPerfectMode": "X-Perfect"
       },
       "levelInfo": {
         "song": "Song Name",
@@ -36,11 +38,18 @@
       },
       "judgements": {
         "ePerfect": "EPerfect",
+        "perfectMinus": "Perfect−",
         "perfect": "Perfect",
+        "perfectPlus": "Perfect+",
         "lPerfect": "LPerfect",
         "tooearly": "Too Early",
         "early": "Early",
         "late": "Late"
+      },
+      "adofaiVersion": {
+        "latest": "Latest",
+        "pre340": "<3.4.0",
+        "v2": "v2"
       }
     },
     "acc": "Accuracy: ",
@@ -50,6 +59,14 @@
     "feelingTooltip": "How hard it felt for you personally. Valid examples: G1-G5, 17~18+, U1, etc.",
     "expectedTooltip": "What difficulty the level should be rated as (optional). Same format as feeling rating.",
     "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
+    "adofaiVersionTooltip": "Game version used for this clear. Latest is 3.4.0+.",
+    "xPerfectTooltip": "Record Perfect− and Perfect+ counts from X-Perfect mode (3.4.0+ only).",
+    "midspinWarning": {
+      "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you save.",
+      "alreadyApplied": "Midspin Perfects have already been removed from this pass.",
+      "missing": "This level has no midspin count yet, so Perfect will not be adjusted.",
+      "perfectLt": "Perfect is lower than the midspin count, so Perfect will not be adjusted."
+    },
     "alert": {
       "success": "Pass updated successfully!",
       "error": "Error: ",

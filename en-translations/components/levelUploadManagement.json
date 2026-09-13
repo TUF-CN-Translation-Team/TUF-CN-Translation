@@ -8,6 +8,7 @@
     "fetchFailed": "Failed to fetch level files",
     "uploadFailed": "Failed to upload level file",
     "selectFailed": "Failed to select level file",
+    "reparseFailed": "Failed to reparse chart",
     "deleteFailed": "Failed to delete level file",
     "missingUrl": "Please enter a URL",
     "cdnNotAllowed": "That URL points to the site CDN. Use a direct download link instead.",
@@ -30,6 +31,7 @@
   },
   "buttons": {
     "select": "Select Level",
+    "reparse": "Reparse",
     "currentlySelected": "Currently Selected",
     "uploadNew": "Upload New Level",
     "import": "Import",
@@ -55,5 +57,8 @@
   "confirmCloseDuringUpload": "Upload in progress. Are you sure you want to cancel?",
   "select": {
     "success": "Level file selected"
+  },
+  "reparse": {
+    "success": "Chart reparsed"
   }
 }

@@ -10,11 +10,15 @@
       "label": "Judgements",
       "tilecountMismatchTooltip": "Sum of judgements <b>{{hitSum}}</b> does not match the achievable tilecount <b>{{tilecount}}</b>.",
       "tilecountMismatchTooltipWithAuto": "Sum of judgements <b>{{hitSum}}</b> does not match the achievable tilecount <b>{{tilecount}}</b> ({{rawTilecount}} total, {{autoTileCount}} auto).",
+      "tilecountMismatchTooltipWithMidspin": "Sum of judgements <b>{{hitSum}}</b> does not match the achievable tilecount <b>{{tilecount}}</b> ({{rawTilecount}} total, {{midspinCount}} midspin).",
+      "tilecountMismatchTooltipWithAutoAndMidspin": "Sum of judgements <b>{{hitSum}}</b> does not match the achievable tilecount <b>{{tilecount}}</b> ({{rawTilecount}} total, {{autoTileCount}} auto, {{midspinCount}} midspin).",
       "fields": {
         "earlyDouble": "ED",
         "earlySingle": "ES",
         "ePerfect": "EP",
+        "perfectMinus": "P−",
         "perfect": "P",
+        "perfectPlus": "P+",
         "lPerfect": "LP",
         "lateSingle": "LS",
         "lateDouble": "LD"
@@ -29,7 +33,14 @@
         "12k": "12K",
         "nht": "NHT",
         "16k": "16K",
-        "adofaiV2": "ADOFAI v2"
+        "adofaiV2": "ADOFAI v2",
+        "adofaiVersion": "ADOFAI version",
+        "xPerfect": "X-Perfect"
+      },
+      "era": {
+        "latest": "Latest",
+        "pre340": "<3.4.0",
+        "v2": "v2"
       }
     },
     "submitter": "Submitter:",
@@ -39,6 +50,12 @@
     "videoLinkPlaceholder": "YouTube or Bilibili URL",
     "videoFromOwnChannel": "Video from user's own channel",
     "videoFromPasserChannel": "Passer's channel"
+  },
+  "midspinWarning": {
+    "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you save.",
+    "alreadyApplied": "Midspin Perfects have already been removed from this pass.",
+    "missing": "This level has no midspin count yet, so Perfect will not be adjusted.",
+    "perfectLt": "Perfect is lower than the midspin count, so Perfect will not be adjusted."
   },
   "playerAssignment": {
     "title": "Assign Player",

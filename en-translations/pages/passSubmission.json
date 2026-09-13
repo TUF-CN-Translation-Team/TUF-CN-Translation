@@ -9,7 +9,9 @@
     "keyCount": "Key Count (opt.)",
     "feelDiff": "Feeling Rating",
     "expectedDiff": "Expected Rating (opt.)",
-    "isAdofaiV2": "ADOFAI v2"
+    "isAdofaiV2": "ADOFAI v2",
+    "adofaiVersion": "ADOFAI version",
+    "isXPerfectMode": "X-Perfect"
   },
   "levelInfo": {
     "song": "Song Name",
@@ -33,7 +35,9 @@
   },
   "judgements": {
     "ePerfect": "EPerfect",
+    "perfectMinus": "Perfect−",
     "perfect": "Perfect",
+    "perfectPlus": "Perfect+",
     "lPerfect": "LPerfect",
     "tooearly": "Too Early",
     "early": "Early",
@@ -46,6 +50,19 @@
   "feelingTooltip": "How hard it felt for you personally. Valid examples: G1-G5, 17~18+, U1, etc.",
   "expectedTooltip": "What difficulty the level should be rated as (optional). Same format as feeling rating.",
   "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
+  "adofaiVersionTooltip": "Game version used for this clear. Latest is 3.4.0+. Autofilled from the video date; you can override it.",
+  "xPerfectTooltip": "Record Perfect− and Perfect+ counts from X-Perfect mode (3.4.0+ only).",
+  "adofaiVersion": {
+    "latest": "Latest",
+    "pre340": "<3.4.0",
+    "v2": "v2"
+  },
+  "midspinWarning": {
+    "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you submit.",
+    "alreadyApplied": "Midspin Perfects have already been removed from this pass.",
+    "missing": "This level has no midspin count yet, so Perfect will not be adjusted.",
+    "perfectLt": "Perfect is lower than the midspin count, so Perfect will not be adjusted."
+  },
   "alert": {
     "success": "Pass submitted successfully!",
     "error": "Error: ",
@@ -62,7 +79,9 @@
     "expectedRating": "Expected difficulty",
     "keyCount": "Key count",
     "ePerfect": "EPerfect",
+    "perfectMinus": "Perfect−",
     "perfect": "Perfect",
+    "perfectPlus": "Perfect+",
     "lPerfect": "LPerfect",
     "tooEarly": "Too Early",
     "early": "Early",
@@ -86,6 +105,8 @@
     "title": "Judgement total does not match achievable tilecount",
     "body": "This level's chart has <b>{{tilecount}}</b> achievable tiles. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
     "bodyWithAuto": "This level's chart has <b>{{rawTilecount}}</b> tiles (<b>{{autoTileCount}}</b> auto), so <b>{{tilecount}}</b> judgements are expected. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
+    "bodyWithMidspin": "This level's chart has <b>{{rawTilecount}}</b> tiles (<b>{{midspinCount}}</b> midspin), so <b>{{tilecount}}</b> judgements are expected. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
+    "bodyWithAutoAndMidspin": "This level's chart has <b>{{rawTilecount}}</b> tiles (<b>{{autoTileCount}}</b> auto, <b>{{midspinCount}}</b> midspin), so <b>{{tilecount}}</b> judgements are expected. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
     "reviewInputs": "Cancel",
     "submitAnyway": "Submit anyway"
   },

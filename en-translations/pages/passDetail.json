@@ -57,8 +57,11 @@
     "12k": "12K",
     "16k": "16K",
     "noHoldTap": "Alt. Hold Option",
-    "adofaiV2": "<adofaiicon></adofaiicon> v2",
-    "adofaiV2Note": "Recorded on ADOFAI v2"
+      "adofaiV2": "<adofaiicon></adofaiicon> v2",
+      "adofaiV2Note": "Recorded on ADOFAI v2",
+      "adofaiPre340": "<3.4.0",
+      "adofaiPre340Note": "Recorded before ADOFAI 3.4.0",
+      "xPerfect": "X-Perfect"
   },
   "judgements": {
     "title": "Judgements",
@@ -69,6 +72,14 @@
       },
       "perfect": {
         "label": "Perfect",
+        "value": "{{count}}"
+      },
+      "perfectMinus": {
+        "label": "Perfect−",
+        "value": "{{count}}"
+      },
+      "perfectPlus": {
+        "label": "Perfect+",
         "value": "{{count}}"
       },
       "latePerfect": {
