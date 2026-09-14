@@ -9,7 +9,9 @@
     "keyCount": "键数（选填）",
     "feelDiff": "体感难度",
     "expectedDiff": "预期难度（选填）",
-    "isAdofaiV2": "ADOFAI v2"
+    "isAdofaiV2": "ADOFAI v2",
+    "adofaiVersion": "游玩版本",
+    "isXPerfectMode": "X完美"
   },
   "levelInfo": {
     "song": "曲名",
@@ -33,7 +35,9 @@
   },
   "judgements": {
     "ePerfect": "稍快！",
+    "perfectMinus": "-完美！",
     "perfect": "完美！",
+    "perfectPlus": "完美！+",
     "lPerfect": "稍慢！",
     "tooearly": "太快！！",
     "early": "太快！",
@@ -46,6 +50,19 @@
   "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
   "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
   "adofaiV2Tooltip": "如果本次通关是在v3更新前的游戏上完成的，请勾选此项。",
+  "adofaiVersionTooltip": "本次通关使用的游戏版本。“最新版本”为3.4.0及更新版本。根据视频时间自动选择；你可以手动更改。",
+  "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
+  "adofaiVersion": {
+    "latest": "最新版本",
+    "pre340": "3.4.0前",
+    "v2": "v2"
+  },
+  "midspinWarning": {
+    "willApply": "此关卡有{{count}}个中旋砖块。保存时将从完美数量中减去。",
+    "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。",
+    "missing": "此关卡没有中旋砖块，因此完美数不会被调整。",
+    "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。"
+  },
   "alert": {
     "success": "通关记录提交成功！",
     "error": "错误：",
@@ -62,7 +79,9 @@
     "expectedRating": "预期难度",
     "keyCount": "按键数目",
     "ePerfect": "稍快！",
+    "perfectMinus": "-完美！",
     "perfect": "完美！",
+    "perfectPlus": "完美！+",
     "lPerfect": "稍慢！",
     "tooEarly": "太快！！",
     "early": "太快！",
@@ -85,7 +104,9 @@
   "tilecountMismatch": {
     "title": "判定总数与物量数量不一致",
     "body": "该谱面物量总数为<b>{{tilecount}}</b>，而你的判定总数为 <b>{{hitSum}}</b>。输入的判定数据可能有误。",
-    "bodyWithAuto": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
+    "bodyWithAuto": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
+    "bodyWithMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中{{midspinCount}}个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
+    "bodyWithAutoAndMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块，{{midspinCount}}个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
     "reviewInputs": "取消",
     "submitAnyway": "仍然提交"
   },
@@ -181,7 +202,7 @@
       "score": "分数",
       "accuracy": "精准度",
       "base": "底分",
-      "xaccMtp": "X-精准度 ×",
+      "xaccMtp": "X精准度 ×",
       "speedMtp": "飙速 ×",
       "missMtp": "空敲 ×",
       "noHold": "非默认长按设置",
@@ -225,7 +246,8 @@
 		  "delta": "分数变化",
 		  "generalDelta": "全局分变化",
 		  "ppDelta": "完美无瑕分变化",
-		  "slot": "前20名中的位置"
+		  "slot": "前20名中的位置",
+      "missingCdn": "此关卡文件不在CDN上，因此预计通关不会计入排位分中。"
 	  }
   }
 }
