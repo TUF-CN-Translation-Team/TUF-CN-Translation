@@ -246,7 +246,8 @@
       "delta": "Ranked Δ",
       "generalDelta": "General Δ",
       "ppDelta": "PP Δ",
-      "slot": "Top-20 slot"
+      "slot": "Top-20 slot",
+      "missingCdn": "This level has no hosted CDN file, so the simulated clear would not increase ranked score."
     }
   }
 }

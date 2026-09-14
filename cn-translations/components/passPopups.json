@@ -12,7 +12,9 @@
         "feelDiff": "体感难度",
         "expectedDiff": "预期难度（选填）",
         "nohold": "非默认长按设置",
-        "isAdofaiV2": "ADOFAI v2"
+        "isAdofaiV2": "ADOFAI v2",
+        "adofaiVersion": "使用游戏版本",
+        "isXPerfectMode": "X完美"
       },
       "levelInfo": {
         "song": "曲名",
@@ -37,11 +39,18 @@
       },
       "judgements": {
         "ePerfect": "稍快！",
+        "perfectMinus": "-完美！",
         "perfect": "完美！",
         "lPerfect": "稍慢！",
+        "perfectPlus": "完美！+",
         "tooearly": "太快！！",
         "early": "太快！",
         "late": "太慢！"
+      },
+      "adofaiVersion": {
+        "latest": "最新版本",
+        "pre340": "3.4.0前",
+        "v2": "v2"
       }
     },
     "acc": "精准度：",
@@ -51,6 +60,14 @@
     "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
     "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
     "adofaiV2Tooltip": "如果本次通关使用的是v2版本的ADOFAI，请勾选此项。",
+    "adofaiVersionTooltip": "本次通关使用的游戏版本。“最新版本”为3.4.0及更新版本",
+    "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
+    "midspinWarning": {
+      "willApply": "此关卡有{{count}}个中旋砖块。保存时将从完美数量中减去。",
+      "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。",
+      "missing": "此关卡没有中旋砖块，因此完美数不会被调整。",
+      "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。"
+    },
     "alert": {
       "success": "通关记录更新成功！",
       "error": "错误：",

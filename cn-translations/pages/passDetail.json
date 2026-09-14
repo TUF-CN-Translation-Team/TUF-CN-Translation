@@ -1,17 +1,18 @@
 {
   "meta": {
-    "title": "{{playerName}} 通关 {{song}} - {{artist}}",
-    "description": "{{playerName}} 通关了 {{artist}} 的 {{song}} — {{difficulty}} · 分数 {{score}}"
+    "title": "{{playerName}} 的通关记录：{{song}} - {{artist}}",
+    "description": "{{playerName}} 通关了 {{artist}} - {{song}} — {{difficulty}} · 分数 {{score}}"
   },
   "banners": {
     "deleted": "该通关记录已被删除",
-    "hidden": "该通关记录已从通关记录列表中隐藏"
+    "hidden": "该通关记录已从通关记录列表中隐藏",
+    "missingCdn": "此通关不加排位分，因为CDN上没有该关卡的文件。"
   },
   "level": {
     "baseScore": "{{score}}分",
     "credits": {
       "team": "{{team}}",
-      "charter": "由 {{charter}} 制作谱面",
+      "charter": "由 {{charter}} 制作轨道",
       "vfxer": "由 {{vfxer}} 制作特效"
     }
   },
@@ -20,9 +21,13 @@
     "score": {
       "current": "{{score}}",
       "difference": {
-        "positive": "+{{score}}"
+        "positive": "+{{score}}",
+        "potential": "+{{score}}"
       },
-      "previous": "{{score}}"
+      "previous": "{{score}}",
+      "tooltips": {
+        "potentialScore": "预计排位分。关卡文件修复后恢复正常。"
+      }
     },
     "clearDate": "通关于 {{date}}"
   },
@@ -58,7 +63,10 @@
     "16k": "16键",
     "noHoldTap": "非默认长按设置",
     "adofaiV2": "<adofaiicon></adofaiicon> v2",
-    "adofaiV2Note": "录制于 ADOFAI v2"
+    "adofaiV2Note": "录制于v2版本的ADOFAI ",
+      "adofaiPre340": "3.4.0前",
+      "adofaiPre340Note": "录制于3.4.0版本前的ADOFAI ",
+      "xPerfect": "X完美"
   },
   "judgements": {
     "title": "判定结果",
@@ -69,6 +77,14 @@
       },
       "perfect": {
         "label": "完美！",
+        "value": "{{count}}"
+      },
+      "perfectMinus": {
+        "label": "-完美！",
+        "value": "{{count}}"
+      },
+      "perfectPlus": {
+        "label": "完美！+",
         "value": "{{count}}"
       },
       "latePerfect": {
@@ -95,7 +111,7 @@
   },
   "video": {
     "notAvailable": {
-      "text": "无视频",
+      "text": "无有效视频",
       "watchOnYoutube": "在 YouTube 或 Bilibili 上观看"
     }
   },

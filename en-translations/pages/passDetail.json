@@ -5,7 +5,8 @@
   },
   "banners": {
     "deleted": "This pass has been deleted",
-    "hidden": "This pass is hidden from the leaderboard"
+    "hidden": "This pass is hidden from the leaderboard",
+    "missingCdn": "This clear does not increase ranked score because the chart file is not hosted on the CDN."
   },
   "level": {
     "baseScore": "{{score}}PP",
@@ -20,9 +21,13 @@
     "score": {
       "current": "{{score}}",
       "difference": {
-        "positive": "+{{score}}"
+        "positive": "+{{score}}",
+        "potential": "+{{score}}"
       },
-      "previous": "{{score}}"
+      "previous": "{{score}}",
+      "tooltips": {
+        "potentialScore": "Potential ranked score, doesn't count since the level file is missing."
+      }
     },
     "clearDate": "Cleared on {{date}}"
   },

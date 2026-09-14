@@ -2,16 +2,17 @@
   "title": "管理已上传关卡",
   "dropToUpload": "松开以上传",
   "errors": {
-    "invalidZip": "压缩文件无效",
+    "invalidZip": "压缩文件无效。支持如下格式：.zip、.rar、.7z、.tar、.tar.gz、.tgz。",
     "invalidZipSize": "压缩文件过大（最大 {{maxSize}} MB）",
     "fetchFailed": "获取关卡文件失败",
     "uploadFailed": "上传关卡文件失败",
     "selectFailed": "选择关卡文件失败",
+    "reparseFailed": "重解析关卡失败",
     "deleteFailed": "删除关卡文件失败",
-    "missingUrl": "请输入 URL",
-    "cdnNotAllowed": "该链接指向站点 CDN，请使用直接下载链接。",
-    "invalidUrl": "无效的 URL",
-    "importFailed": "从 URL 导入压缩包失败"
+    "missingUrl": "请输入链接",
+    "cdnNotAllowed": "该链接指向站点 CDN，请使用直链。",
+    "invalidUrl": "链接无效",
+    "importFailed": "从链接导入压缩包失败"
   },
   "sections": {
     "levelSelection": {
@@ -29,6 +30,7 @@
   },
   "buttons": {
     "select": "选择关卡",
+    "reparse": "重新解析",
     "currentlySelected": "当前选中",
     "uploadNew": "上传新关卡",
     "import": "导入",
@@ -40,7 +42,7 @@
     "progress": "上传中……{{progress}}%",
     "success": "关卡文件上传成功",
     "importSuccess": "关卡文件导入成功",
-    "importFromUrl": "正在从 URL 导入…",
+    "importFromUrl": "正在从链接导入……",
     "urlStageDownload": "下载",
     "urlStageCdn": "CDN"
   },
@@ -54,5 +56,8 @@
   "confirmCloseDuringUpload": "上传中。你确定要取消吗？",
   "select": {
     "success": "已选择关卡文件"
+  },
+  "reparse": {
+    "success": "关卡已重新解析"
   }
 }

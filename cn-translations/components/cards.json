@@ -40,7 +40,9 @@
       "twelveKey": "12键",
       "sixteenKey": "16键",
       "noHoldTap": "非默认长按设置",
-      "adofaiV2": "<adofaiicon></adofaiicon> v2"
+      "adofaiV2": "<adofaiicon></adofaiicon> v2",
+      "adofaiPre340": "3.4.0前",
+      "xPerfect": "X完美"
     },
     "links": {
       "video": "观看视频"

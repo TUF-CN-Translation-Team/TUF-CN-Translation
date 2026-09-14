@@ -7,14 +7,18 @@
     "expectedDiff": "预期难度",
     "speed": "飙速",
     "judgements": {
-      "label": "判定：",
+      "label": "判定结果信息",
       "tilecountMismatchTooltip": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致。",
-      "tilecountMismatchTooltipWithAuto": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致（共 {{rawTilecount}}个，自动砖块{{autoTileCount}}个）",
+      "tilecountMismatchTooltipWithAuto": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致（共{{rawTilecount}}个，自动砖块{{autoTileCount}}个）",
+      "tilecountMismatchTooltipWithMidspin": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致（共{{rawTilecount}}个，中旋{{autoTileCount}}个）",
+      "tilecountMismatchTooltipWithAutoAndMidspin": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致（共{{rawTilecount}}个，自动砖块{{autoTileCount}}个，中旋{{autoTileCount}}个）",
       "fields": {
         "earlyDouble": "太快！！",
         "earlySingle": "太快！",
         "ePerfect": "稍快！",
+        "perfectMinus": "-完美！",
         "perfect": "完美！",
+        "perfectPlus": "完美！+",
         "lPerfect": "稍慢！",
         "lateSingle": "太慢！",
         "lateDouble": "太慢！！"
@@ -29,7 +33,14 @@
         "12k": "12键",
         "nht": "非默认长按设置",
         "16k": "16键",
-        "adofaiV2": "ADOFAI v2"
+        "adofaiV2": "ADOFAI v2",
+        "adofaiVersion": "游戏版本",
+        "xPerfect": "X完美"
+      },
+      "era": {
+        "latest": "最新版本",
+        "pre340": "3.4.0前",
+        "v2": "v2"
       }
     },
     "submitter": "提交者：",
@@ -39,6 +50,12 @@
     "videoLinkPlaceholder": "YouTube 或 Bilibili 链接",
     "videoFromOwnChannel": "来自用户自己的频道的视频",
     "videoFromPasserChannel": "通关者主页"
+  },
+  "midspinWarning": {
+    "willApply": "此关卡有{{count}}个中旋砖块。保存时将从完美数中减去。",
+    "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。",
+    "missing": "此关卡没有中旋砖块，因此完美数不会被调整。",
+    "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。"
   },
   "playerAssignment": {
     "title": "分配玩家",

@@ -7,7 +7,7 @@
     },
     "tooltips": {
       "watchVideo": "Watch video",
-      "potentialScore": "The cleared level is not accessible, this is a potential score increase if it was."
+      "potentialScore": "Potential ranked score, doesn't count since the level file is missing."
     }
   }
 } 
