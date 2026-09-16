@@ -32,6 +32,7 @@
       "speed": "Speed"
     },
     "flags": {
+      "autoSubmitted": "Auto-submitted",
       "worldsFirst": "WF",
       "worldsFirstPP": "WF PP",
       "worldsFirstClearTooltip": "World's First Clear!",
@@ -101,4 +102,4 @@
       "levels": "level(s)"
     }
   }
-} 
+}
