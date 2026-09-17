@@ -132,7 +132,7 @@
       },
       "filters": {
         "title": "可用筛选条件",
-        "myRated": "我苹果的",
+        "myRated": "我评过的",
         "myRatedDesc": "显示，隐藏，或仅显示你评过的关卡",
         "lowDiff": "低难度",
         "lowDiffDesc": "筛选被标记为低难度的关卡",
