@@ -21,6 +21,10 @@
     "lowDiff": {
       "label": "Low Difficulty"
     },
+    "requestBands": {
+      "label": "Hide requested",
+      "hint": "Check to hide that request type from the list"
+    },
     "fourVote": {
       "label": "4+ Rated"
     },
@@ -86,6 +90,10 @@
     "exit": "Pause session",
     "noVideo": "No video available",
     "noPeers": "No ratings yet",
+    "peekSources": {
+      "hasManagers": "Managers: {{managers}} · Community: {{community}}",
+      "communityOnly": "Community only ({{count}})"
+    },
     "setup": {
       "title": "Rating Zen Mode",
       "subtitle": "Rate levels, one at a time.",
@@ -93,7 +101,8 @@
       "continue": "Continue session",
       "discard": "Discard & new",
       "deckSize": "Deck size",
-      "peekHint": "1 peek per 5 cards",
+      "deckSizeCustom": "Custom",
+      "peekHint": "{{peeks}} peeks (1 per 5 cards)",
       "requestBands": "Hide requested",
       "requestBandsHint": "Check to leave that request type out of the deck",
       "sort": "Priority",
@@ -138,11 +147,13 @@
     },
     "messages": {
       "emptyDeck": "No cards matched the Zen filters",
+      "shortDeck": "Only {{n}} of {{requested}} cards available",
       "reportSent": "Report sent"
     },
     "errors": {
       "loginRequired": "Log in to start Zen Mode",
       "dealFailed": "Failed to deal deck",
+      "invalidDeckSize": "Enter a deck size from 1 to 200",
       "reportFailed": "Failed to send report",
       "ratingRequired": "Enter a rating",
       "commentRequired": "Comment is required",

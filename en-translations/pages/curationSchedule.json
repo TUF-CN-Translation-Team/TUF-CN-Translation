@@ -39,5 +39,9 @@
     "added": "Curation added to schedule successfully",
     "removed": "Curation removed from schedule successfully",
     "updated": "Schedule updated successfully"
+  },
+  "unavailable": {
+    "deleted": "Deleted",
+    "hidden": "Hidden"
   }
 }

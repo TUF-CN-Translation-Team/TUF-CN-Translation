@@ -120,19 +120,21 @@
     },
     "chartStats": {
       "title": "Chart metadata",
-      "openButtonTitle": "Edit BPM, tile count & length (non-CDN only)",
+      "openButtonTitle": "Edit BPM, tile count, midspins & length (non-CDN only)",
       "clearHint": "Leave a field empty and save to clear that value.",
       "preview": "Preview",
       "toastSaved": "Chart metadata saved",
       "labels": {
         "bpm": "BPM",
         "tilecount": "Tile count",
+        "midspinCount": "Midspins",
         "lengthSeconds": "Length (seconds)"
       },
       "errors": {
         "save": "Failed to save chart metadata",
         "bpm": "BPM must be a number greater than 0",
         "tilecount": "Tile count must be a non-negative integer",
+        "midspinCount": "Midspin count must be a non-negative integer",
         "length": "Length must be a non-negative number (seconds, decimals allowed)"
       }
     },

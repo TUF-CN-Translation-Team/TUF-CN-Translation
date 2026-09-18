@@ -17,7 +17,9 @@
       "label": "Download:",
       "directLink": "Direct Link",
       "notAvailable": "Not Available",
-      "cdnLink": "Local CDN Link"
+      "cdnLink": "Local CDN Link",
+      "manage": "Manage upload",
+      "manageMissing": "Add upload"
     },
     "workshop": {
       "label": "Workshop:",
