@@ -31,7 +31,7 @@
     "timestamp": "上传时间",
     "nolink": "请输入有效的 YouTube 或哔哩哔哩视频链接",
     "resolving": "正在解析视频链接……",
-    "linkResolved": "短链接已解析为哔哩哔哩链接"
+    "linkResolved": "短链接已解析为标准链接"
   },
   "judgements": {
     "ePerfect": "稍快！",
@@ -46,7 +46,7 @@
   "acc": "精准度：",
   "scoreCalc": "分数：",
   "holdTooltip": "如果本次通关未使用默认长按设置（例如无需长按），请勾选此项。",
-  "keyCountTooltip": "本次通关使用的按键数目。对于U和UQ级谱面该项为必填项。",
+  "keyCountTooltip": "本次通关使用的按键数目。当通关的关卡是U级和UQ级时必须填写该项。",
   "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
   "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
   "adofaiV2Tooltip": "如果本次通关是在v3更新前的游戏上完成的，请勾选此项。",
