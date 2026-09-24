@@ -113,7 +113,8 @@
       "adofaiV2Note": "Recorded on ADOFAI v2",
       "adofaiPre340": "<3.4.0",
       "adofaiPre340Note": "Recorded before ADOFAI 3.4.0",
-      "xPerfect": "X-Perfect"
+      "xPerfect": "X-Perfect",
+      "wrongJudgement": "Wrong judgement"
   },
   "judgements": {
     "title": "Judgements",

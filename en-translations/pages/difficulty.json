@@ -134,8 +134,12 @@
       "scoreOn": "Assign threshold",
       "scoreOff": "Remove threshold",
       "reqVotes": "Req. votes: {{count}}",
-      "allowedBands": "Difficulty bands",
-      "allowedBandsHint": "Leave all unchecked to inherit. P / G / U / SPEC restrict community voting to those bands."
+      "allowedBands": "Applies to",
+      "allowedBandsHint": "Turning a band off hides this tag on charts in that range, even if the community already assigned it. Votes are kept. Leave all hidden to inherit (group, then every band).",
+      "bandP": "Planetary",
+      "bandG": "Galactic",
+      "bandU": "Universal",
+      "bandSpec": "Special"
     },
     "create": {
       "title": "Create Tag",

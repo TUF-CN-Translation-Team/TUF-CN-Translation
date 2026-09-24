@@ -50,7 +50,9 @@
     "return": "Return",
     "reset": "Reset",
     "create": "Create",
-    "createNew": "Create New"
+    "createNew": "Create New",
+    "yes": "Yes",
+    "no": "No"
   },
   "like": {
     "like": "Like",

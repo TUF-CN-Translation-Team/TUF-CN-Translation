@@ -29,7 +29,8 @@
         "deletedPasses": "Deleted Passes",
         "keyFlags": "Key Count",
         "wfFilter": "WF Filter",
-        "adofaiVersion": "ADOFAI version"
+        "adofaiVersion": "ADOFAI version",
+        "wrongJudgement": "Wrong Judgement"
       }
     },
     "sort": {

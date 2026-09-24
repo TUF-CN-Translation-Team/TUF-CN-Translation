@@ -168,6 +168,30 @@
       "transferFailed": "Failed to transfer pack ownership"
     }
   },
+  "editFolder": {
+    "title": "Edit folder",
+    "name": {
+      "label": "Folder name",
+      "placeholder": "Enter folder name",
+      "help": "This name is used as the folder path when downloading"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Optional details about this folder..."
+    }
+  },
+  "editNote": {
+    "title": "Edit note",
+    "name": {
+      "label": "Title",
+      "placeholder": "Enter a title"
+    },
+    "description": {
+      "label": "Note",
+      "placeholder": "Write anything you want others to know…",
+      "help": "Supports Markdown (bold, lists, links)."
+    }
+  },
   "downloadPack": {
     "title": "Download {{contextName}}",
     "defaultContextName": "Pack",
@@ -217,9 +241,17 @@
   "placement": {
     "titleAddFolder": "Add folder",
     "titleAddLevel": "Add levels",
+    "titleAddNote": "Add note",
     "titleMove": "Move item",
     "folderName": "Folder name",
     "folderNamePlaceholder": "Enter folder name",
+    "folderDescription": "Description",
+    "folderDescriptionPlaceholder": "Optional details about this folder (website only)",
+    "noteTitle": "Title",
+    "noteTitlePlaceholder": "Enter a title",
+    "noteBody": "Note",
+    "noteBodyPlaceholder": "Write anything you want others to know…",
+    "noteBodyHelp": "Supports Markdown (bold, lists, links). Website only — not included in downloads.",
     "levelIds": "Level IDs",
     "levelIdsPlaceholder": "e.g. 1234, 5678 or one per line",
     "positionLabel": "Position in pack",
@@ -229,6 +261,7 @@
     "dividerHint": "Hover a line to select an insertion point",
     "addFolder": "Add folder",
     "addLevels": "Add levels",
+    "addNote": "Add note",
     "move": "Move here",
     "submitting": "Saving…"
   },

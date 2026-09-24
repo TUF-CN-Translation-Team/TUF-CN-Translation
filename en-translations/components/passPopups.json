@@ -47,7 +47,7 @@
         "late": "Late"
       },
       "adofaiVersion": {
-        "latest": "Latest",
+        "latest": "Alpha",
         "pre340": "<3.4.0",
         "v2": "v2"
       }
@@ -59,7 +59,7 @@
     "feelingTooltip": "How hard it felt for you personally. Valid examples: G1-G5, 17~18+, U1, etc.",
     "expectedTooltip": "What difficulty the level should be rated as (optional). Same format as feeling rating.",
     "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
-    "adofaiVersionTooltip": "Game version used for this clear. Latest is 3.4.0+.",
+    "adofaiVersionTooltip": "Game version used for this clear. Alpha is 3.4.0+.",
     "xPerfectTooltip": "Record Perfect− and Perfect+ counts from X-Perfect mode (3.4.0+ only).",
     "midspinWarning": {
       "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you save.",

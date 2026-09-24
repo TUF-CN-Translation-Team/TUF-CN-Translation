@@ -80,7 +80,15 @@
     "ppBaseScore": "PP Base Score",
     "aliases": "Aliases",
     "comments": "Comments",
+    "description": "Description",
     "createdAt": "Created at"
+  },
+  "descriptionMode": {
+    "curation": "Curation description",
+    "creator": "Creator description",
+    "fromCreator": "From creator",
+    "hide": "Hide description",
+    "show": "Show description"
   },
   "leaderboard": {
     "header": "Leaderboard",

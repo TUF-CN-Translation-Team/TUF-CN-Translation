@@ -19,6 +19,7 @@
         "dlLink": "Download Link",
         "workshopLink": "Workshop Link",
         "publicComments": "Public Comments",
+        "description": "Description",
         "notes": "Notes",
         "isExternallyAvailable": "Is Externally Available",
         "previousDifficulty": "Previous Difficulty"
@@ -136,6 +137,14 @@
         "tilecount": "Tile count must be a non-negative integer",
         "midspinCount": "Midspin count must be a non-negative integer",
         "length": "Length must be a non-negative number (seconds, decimals allowed)"
+      },
+      "perfectsDifference": {
+        "title": "Update pass perfects?",
+        "message": "Midspin count is changing from {{from}} to {{to}}. Perfects on each pass would change by {{delta}}.",
+        "unset": "unset",
+        "question": "Apply this difference to all passes on this level?",
+        "toastSavedWithPasses": "Chart metadata saved. Perfects updated on {{count}} passes.",
+        "toastSavedWithPassesSkipped": "Chart metadata saved. Perfects updated on {{updated}} passes. {{skipped}} skipped because Perfect would go below 0."
       }
     },
     "tags": {

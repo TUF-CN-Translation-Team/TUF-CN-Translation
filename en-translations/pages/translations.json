@@ -29,7 +29,9 @@
         "placeholdersLabel": "Dynamic Values (Important!):",
         "placeholdersBody": "Some translations contain {{open}}value{{close}} placeholders. These must be kept but can be repositioned:",
         "placeholderExample": "\"welcome\": \"Welcome back, {{open}}username{{close}}!\"\n→ \"welcome\": \"{{open}}username{{close}}, willkommen zurück!\"\n\n\"progress\": \"{{open}}count{{close}} of {{open}}total{{close}} levels completed\"\n→ \"progress\": \"{{open}}count{{close}} von {{open}}total{{close}} Level abgeschlossen\"",
-        "placeholderWarning": "Never translate the placeholders themselves (e.g., {{open}}username{{close}}, {{open}}count{{close}}, etc.)"
+        "placeholderWarning": "Never translate the placeholders themselves (e.g., {{open}}username{{close}}, {{open}}count{{close}}, etc.)",
+        "contributorCreditsLabel": "Translator Credits:",
+        "contributorCreditsBody": "Contributor names are not stored in this file. Site admins edit each language's credit list on this page."
       },
       "verify": {
         "title": "Pack & Verify",
@@ -51,7 +53,11 @@
       "partial": "{{percent}}% Implemented",
       "pending": "Not Implemented"
     },
-    "contributors": "Contributors:"
+    "contributors": "Contributors:",
+    "contributorPlaceholder": "Name",
+    "dragContributor": "Drag to reorder",
+    "contributorsSaved": "Saved",
+    "contributorsSaveError": "Could not save contributors: {{message}}"
   },
   "results": {
     "valid": "All translations are valid!",

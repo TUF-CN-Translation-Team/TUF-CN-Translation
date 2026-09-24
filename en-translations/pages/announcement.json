@@ -26,7 +26,8 @@
     "fetchFailed": "Failed to fetch items. Please try again.",
     "announceFailed": "Failed to announce items. Please try again.",
     "invalidIds": "Some selected items have invalid IDs",
-    "discordBlocked": "Discord webhooks are temporarily blocked. Try again in {{time}}."
+    "discordBlocked": "Discord webhooks are temporarily blocked. Try again in {{time}}.",
+    "discardFailed": "Failed to discard announcement."
   },
   "gate": {
     "banner": "Discord delivery is blocked. Retry in {{time}}."
@@ -40,6 +41,11 @@
     "noAnnouncements": "No announcements",
     "loading": "Loading delivery progress…",
     "mergedNote": "Includes items already in flight",
+    "stale": "No update since {{time}}",
+    "attempt": "attempt {{count}}",
+    "discard": "Discard",
+    "discardConfirm": "Stop this announcement and release the items so they can be sent again?",
+    "discarded": "Announcement discarded",
     "status": {
       "queued": "queued",
       "sending": "sending",
@@ -50,6 +56,14 @@
       "delivered": "delivered",
       "skipped": "skipped",
       "sent": "sent"
+    },
+    "phase": {
+      "queued": "queued",
+      "preparing": "preparing",
+      "resolving": "resolving destinations",
+      "waiting_gate": "waiting on Discord",
+      "sending_webhook": "sending to {{label}}",
+      "recording": "recording"
     }
   }
 }
