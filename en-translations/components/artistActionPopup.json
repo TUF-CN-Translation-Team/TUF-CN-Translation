@@ -14,7 +14,8 @@
     "avatarUrl": "Avatar",
     "avatarUrlPlaceholder": "Enter avatar URL",
     "avatarCdnInfo": "CDN-hosted avatar can only be changed via upload/delete",
-    "verificationState": "Verification State"
+    "verificationState": "Verification State",
+    "tufVerified": "TUF Verified"
   },
   "merge": {
     "info": "Merge this artist into another. All data will be transferred.",

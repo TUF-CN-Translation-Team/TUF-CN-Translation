@@ -29,6 +29,8 @@
     "tournamentsDesc": "Manage tournament placements, name links, and reward frames",
     "oauthClients": "OAuth apps",
     "oauthClientsDesc": "Search, freeze, verify, or delete third-party OAuth apps",
+    "keyboards": "Keyboards",
+    "keyboardsDesc": "Staff catalog of board shapes, products, and switches",
     "resources": "Resources",
     "resourcesDesc": "Add, edit, and reorder useful Notion and documentation links"
   },
@@ -75,6 +77,57 @@
       "verify": "Verify failed",
       "unverify": "Unverify failed"
     }
+  },
+  "keyboards": {
+    "title": "Keyboard catalog",
+    "geometries": "Board shapes",
+    "products": "Products",
+    "switches": "Switches",
+    "slug": "Slug",
+    "name": "Name",
+    "kle": "KLE JSON",
+    "kleInvalid": "That layout JSON could not be read",
+    "openEditor": "Open editor",
+    "importKle": "Import KLE",
+    "brand": "Brand",
+    "model": "Model",
+    "formFactor": "Form factor",
+    "addShape": "Add shape",
+    "editShape": "Edit shape",
+    "addProduct": "Add product",
+    "editProduct": "Edit product",
+    "addSwitch": "Add switch",
+    "editSwitch": "Edit switch",
+    "formFactorsTab": "Form factors",
+    "addFormFactor": "Add form factor",
+    "editFormFactor": "Edit form factor",
+    "note": "Note",
+    "stem": "Stem",
+    "baseColor": "Base color",
+    "topColor": "Top color",
+    "stemColor": "Stem color",
+    "baseOpacity": "Top opacity {{percent}}%",
+    "tabs": {
+      "details": "Details",
+      "layout": "Layout"
+    },
+    "formFactors": {
+      "full": "Full-size",
+      "tkl": "TKL",
+      "96": "96%",
+      "75": "75%",
+      "65": "65%",
+      "other": "Other"
+    },
+    "loadError": "Failed to load keyboard catalog",
+    "saveError": "Could not save keyboard catalog",
+    "deleteError": "Could not delete this catalog item",
+    "saved": "Catalog item saved",
+    "deleted": "Catalog item deleted",
+    "deleteConfirm": "Delete this catalog item?",
+    "dragFormFactor": "Drag to reorder",
+    "reordered": "Form factor order saved",
+    "reorderError": "Could not reorder form factors"
   }
 }
  

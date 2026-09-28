@@ -11,7 +11,8 @@
   },
   "form": {
     "name": "Name",
-    "verificationState": "Verification State"
+    "verificationState": "Verification State",
+    "tufVerified": "TUF Verified"
   },
   "merge": {
     "info": "Merge this song into another. All data will be transferred.",

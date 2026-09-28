@@ -497,6 +497,7 @@
     "dragAria": "Drag to reorder",
     "favoriteCount": "{{used}}/{{max}} items",
     "searchPlayer": "Search players",
+    "searchCreator": "Search creators",
     "searchEntity": "Search to add",
     "searchNoResults": "No results"
   }

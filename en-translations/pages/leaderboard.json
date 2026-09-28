@@ -18,6 +18,7 @@
       "header": "Filter Settings",
       "following": "Following",
       "country": "Country or Region",
+      "rankedScoreRank": "Ranked score rank",
       "addStatFilters": "Add Stat Filters",
       "selectStatPlaceholder": "Select stat to filter...",
       "addFilterButton": "Add Filter",

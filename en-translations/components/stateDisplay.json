@@ -20,7 +20,9 @@
     "pixel": "px",
     "keyword": "side",
     "on": "On",
-    "off": "Off"
+    "off": "Off",
+    "single": "Single point",
+    "split": "Split"
   },
   "accessDenied": {
     "title": "Access Denied",

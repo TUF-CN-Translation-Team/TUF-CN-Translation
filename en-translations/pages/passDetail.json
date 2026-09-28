@@ -1,5 +1,18 @@
 {
   "replay": {
+    "visualSettings": {
+      "title": "Replay visual settings",
+      "description": "Choose the initial keyviewer and overlay for this pass. Viewers can choose other visible presets from your library without changing these defaults.",
+      "close": "Close", "working": "Saving or loading settings…", "retry": "Retry",
+      "loadFailed": "Your visual settings could not be loaded. Check your connection and retry.",
+      "saveFailed": "Your defaults could not be saved. A selected preset may have been hidden or removed. Reload the settings and try again.",
+      "visibilityFailed": "This preset’s visibility could not be changed. Check your connection and try again.",
+      "keyviewer": "Keyviewer", "overlay": "Overlay", "none": "None",
+      "save": "Save pass defaults", "saved": "Defaults saved.", "library": "Your preset library",
+      "hideHint": "Hiding applies to your entire library. Hidden presets cannot be selected for new submissions or by viewers. Existing pass defaults that use them become None. Showing a preset again does not restore those defaults.",
+      "empty": "You have no saved presets yet.", "hidden": "Hidden",
+      "showNamed": "Show {{name}}", "hideNamed": "Hide {{name}}", "show": "Show", "hide": "Hide"
+    },
     "title": "Replay",
     "expand": "Enter immersive view",
     "collapse": "Exit immersive view",

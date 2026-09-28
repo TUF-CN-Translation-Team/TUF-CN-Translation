@@ -8,7 +8,8 @@
     "placeholder": "Search artists..."
   },
   "filter": {
-    "verificationState": "Verification State"
+    "verificationState": "Verification State",
+    "tufVerified": "TUF Verified"
   },
   "sort": {
     "label": "Sort by:",

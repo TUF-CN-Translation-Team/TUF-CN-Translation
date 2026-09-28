@@ -108,7 +108,12 @@
     "bodyWithMidspin": "This level's chart has <b>{{rawTilecount}}</b> tiles (<b>{{midspinCount}}</b> midspin), so <b>{{tilecount}}</b> judgements are expected. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
     "bodyWithAutoAndMidspin": "This level's chart has <b>{{rawTilecount}}</b> tiles (<b>{{autoTileCount}}</b> auto, <b>{{midspinCount}}</b> midspin), so <b>{{tilecount}}</b> judgements are expected. Your total judgements add up to <b>{{hitSum}}</b>. These values might be wrong.",
     "reviewInputs": "Cancel",
-    "submitAnyway": "Submit anyway"
+    "submitAnyway": "Submit anyway",
+    "wrongVersion": {
+      "title": "Wrong game version",
+      "body": "Your total judgements seem to also include midspins (<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>). Those do not count since version <b>3.4.0</b> and need to be subtracted. Change the version to <pre340></pre340> to do that automatically?",
+      "changeVersion": "Change to <3.4.0"
+    }
   },
   "tagWarnings": {
     "title": "Please confirm these level requirements",
