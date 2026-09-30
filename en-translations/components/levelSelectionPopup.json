@@ -12,6 +12,7 @@
   "create": "Create",
   "selectLevel": "Select this level",
   "createLevel": "Create curation for this level",
+  "alreadyCurated": "This level already has a curation",
   "creator": "Creator",
   "pick": {
     "title": "Select level",
