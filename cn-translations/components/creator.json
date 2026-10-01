@@ -3,15 +3,15 @@
     "title": "搜索帮助",
     "closeButton": "关闭",
     "v2": {
-      "subtitle": "可按创作者名称、关联账号、精选类型筛选，或按各精选类型在署名关卡上的数量下限搜索。",
+      "subtitle": "可按创作者名称、绑定账号、精选类型筛选，或按各精选类型在署名关卡上的数量下限搜索。",
       "examplesTitle": "示例",
       "groups": {
         "basics": {
           "title": "名称与用户名",
-          "intro": "普通文本匹配创作者名称、别名与关联账号用户名。逗号为组内 AND，竖线为 OR 组。",
+          "intro": "普通文本匹配创作者名称、别名与绑定账号用户名。逗号为组内 AND，竖线为 OR 组。",
           "examples": {
             "plainName": "<b><code>Camellia</code></b> — 名称或别名部分匹配。",
-            "username": "<b><code>@yoon</code></b> — 关联该用户名的创作者。",
+            "username": "<b><code>@yoon</code></b> — 绑定该用户名的创作者。",
             "combine": "名称与数量条件可用逗号写在同一组内。"
           }
         },
@@ -54,7 +54,7 @@
         },
         "atUsername": {
           "title": "@用户名",
-          "desc": "以 @ 开头，按关联账号用户名精确查找。"
+          "desc": "以 @ 开头，按绑定账号用户名精确查找。"
         },
         "opGt": {
           "title": "大于",

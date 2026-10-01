@@ -23,7 +23,7 @@
     "avatarRemoved": "头像删除成功"
   },
   "avatar": {
-    "dragDropOrClick": "拖动文件至此或点击上传",
+    "dragDropOrClick": "拖拽文件至此或点击上传",
     "removeAvatar": "删除头像",
     "removing": "正在删除……",
     "confirmRemove": "你确定移除你的头像吗？此操作不可撤销。"

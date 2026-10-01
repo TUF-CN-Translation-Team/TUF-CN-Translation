@@ -39,5 +39,9 @@
     "added": "成功添加精选关卡至计划表",
     "removed": "成功于计划表移除精选关卡",
     "updated": "计划表更新成功"
+  },
+  "unavailable": {
+    "deleted": "已删除",
+    "hidden": "已隐藏"
   }
 }

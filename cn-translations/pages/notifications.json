@@ -93,6 +93,10 @@
         "title": "关卡已更新",
         "body": "你的关卡 {{artist}} - {{song}} 已更新。"
       },
+      "swapped": {
+        "title": "关卡信息已互换",
+        "body": "你的关卡 {{artist}} - {{song}} 现为关卡 #{{levelId}}，已与 {{swappedWithArtist}} - {{swappedWithSong}} （关卡ID #{{swappedWithLevelId}}）互换。"
+      },
       "rated": {
         "title": "关卡已评级",
         "body": "你的关卡 {{artist}} - {{song}} 已被评级为{{difficultyName}}。"

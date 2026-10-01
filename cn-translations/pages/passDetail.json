@@ -1,4 +1,64 @@
 {
+  "replay": {
+    "visualSettings": {
+      "title": "回放显示设置",
+      "description": "选择此通关记录的按键显示和信息显示。查看者可以从你的库中选择其他可见预设，而无需更改这些默认值。",
+      "close": "关闭", "working": "正在处理……", "retry": "重试",
+      "loadFailed": "无法加载你的显示设置。请检查你的连接并重试。",
+      "saveFailed": "无法保存你的默认设置。所选预设可能已被隐藏或删除。请重新加载设置并重试。",
+      "visibilityFailed": "该预设可见性无法更改。请检查你的连接并重试。",
+      "keyviewer": "按键显示", "overlay": "信息显示", "none": "无",
+      "save": "保存默认值", "saved": "默认值已保存。", "library": "你的预设库",
+      "hideHint": "“隐藏”操作适用于你的整个资源库。隐藏后的预设无法用于新提交的通关记录，也无法被查看者选中。若现有默认设置使用了这些预设，该设置将变为“无”。重新显示预设并不会恢复这些默认设置。",
+      "empty": "你没有已保存预设。", "hidden": "已隐藏",
+      "showNamed": "显示 {{name}}", "hideNamed": "隐藏 {{name}}", "show": "显示", "hide": "隐藏"
+    },
+    "title": "回放",
+    "expand": "宽屏模式",
+    "collapse": "退出宽屏",
+    "load": "加载回放",
+    "unload": "关闭回放",
+    "timeline": "时间线",
+    "play": "播放",
+    "pause": "暂停",
+    "restart": "从头开始",
+    "on": "开启",
+    "off": "关闭",
+    "settings": "设置",
+    "closeSettings": "关闭设置",
+    "audio": "音频",
+    "visuals": "显示",
+    "songVolume": "音乐",
+    "hitSoundVolume": "打拍声",
+    "vfxEnabled": "特效",
+    "effectRemovalEnabled": "删除特效",
+    "forceDefaultTrackAppearance": "单一砖块外观",
+    "showAllIcons": "显示所有砖块图标",
+    "resetSettings": "重置设置",
+    "loading": "正在加载回放……",
+    "playback": "回放",
+    "songVolumePercent": "音乐音量",
+    "hitSoundVolumePercent": "打拍声音量",
+    "hitErrorMeterVisible": "误击量计",
+    "hitErrorMeterSize": "误击量计大小",
+    "hitErrorMeterShape": "误击量计形状",
+    "small": "小",
+    "normal": "中",
+    "large": "大",
+    "extra_large": "特大",
+    "straight": "直线",
+    "curved": "曲线",
+    "errors": {
+      "generic": "无法加载此回放",
+      "level_revision_unavailable": "该通关记录使用的谱面版本不可用",
+      "level_gameplay_modified": "该通关记录已验证后谱面已被修改。",
+      "replay_parse_failed": "无法读取已记录回放数据。",
+      "audio_decode_failed": "无法加载谱面音频。",
+      "renderer_failed": "无法启动回放渲染器。",
+      "replay_not_configured": "回放未配置。",
+      "replay_load_timeout": "回放加载超时。请重试。"
+    }
+  },
   "meta": {
     "title": "{{playerName}} 的通关记录：{{song}} - {{artist}}",
     "description": "{{playerName}} 通关了 {{artist}} - {{song}} — {{difficulty}} · 分数 {{score}}"
@@ -6,7 +66,7 @@
   "banners": {
     "deleted": "该通关记录已被删除",
     "hidden": "该通关记录已从通关记录列表中隐藏",
-    "missingCdn": "此通关不加排位分，因为CDN上没有该关卡的文件。"
+    "missingCdn": "此通关记录不加排位分，因为 CDN 上没有该关卡的文件。"
   },
   "level": {
     "baseScore": "{{score}}分",
@@ -72,35 +132,35 @@
     "title": "判定结果",
     "types": {
       "earlyPerfect": {
-        "label": "稍快！",
+        "label": "稍快",
         "value": "{{count}}"
       },
       "perfect": {
-        "label": "完美！",
+        "label": "完美",
         "value": "{{count}}"
       },
       "perfectMinus": {
-        "label": "-完美！",
+        "label": "-完美",
         "value": "{{count}}"
       },
       "perfectPlus": {
-        "label": "完美！+",
+        "label": "完美+",
         "value": "{{count}}"
       },
       "latePerfect": {
-        "label": "稍慢！",
+        "label": "稍慢",
         "value": "{{count}}"
       },
       "tooEarly": {
-        "label": "太快！！",
+        "label": "提前",
         "value": "{{count}}"
       },
       "early": {
-        "label": "太快！",
+        "label": "太快",
         "value": "{{count}}"
       },
       "late": {
-        "label": "太慢！",
+        "label": "太慢",
         "value": "{{count}}"
       },
       "tooLate": {

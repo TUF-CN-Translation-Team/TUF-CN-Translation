@@ -7,7 +7,7 @@
   "subtitle": "创建赛事、录入名次、同步关卡积分，并绑定头像框装饰。",
   "tabs": {
     "events": "赛事",
-    "unresolved": "未关联名称",
+    "unresolved": "未绑定名称",
     "import": "导入",
     "series": "赛事系列"
   },
@@ -29,8 +29,8 @@
   "syncCredits": "同步积分",
   "withdrew": "退赛",
   "disqualified": "已取消资格",
-  "autoLinkExact": "自动关联完全匹配",
-  "noUnresolved": "所有名次名称均已关联。",
+  "autoLinkExact": "自动绑定完全匹配",
+  "noUnresolved": "所有名次名称均已绑定。",
   "addReward": "添加装饰",
   "syncEntitlements": "同步权益",
   "createSeries": "创建赛事系列",
@@ -38,7 +38,7 @@
   "reorder": {
     "moveUp": "上移",
     "moveDown": "下移",
-    "dragHandle": "拖动以排序"
+    "dragHandle": "拖拽以排序"
   },
   "import": {
     "dryRun": "试运行 CSV",
@@ -112,7 +112,7 @@
         "title": "名次模式",
         "intro": "每行可继承赛事默认或单独覆盖。",
         "bullets": {
-          "profile": "<b>档案</b> — 关联玩家或创作者；关卡仅作佐证。",
+          "profile": "<b>档案</b> — 绑定玩家或创作者；关卡仅作佐证。",
           "level": "<b>关卡</b> — 同步后扩展为关卡上的创作者。",
           "inherit": "<b>继承</b> — 使用详情中的赛事放置模式。"
         }
@@ -172,7 +172,7 @@
     "slug": "标识符",
     "name": "名称",
     "empty": "暂无赛事系列。请使用上方表单添加。",
-    "deleteConfirm": "确定删除「{{name}}」？关联的赛事将解除关联系列，仅绑定该系列的奖励将被移除。",
+    "deleteConfirm": "确定删除「{{name}}」？绑定的赛事将解除绑定系列，仅绑定该系列的奖励将被移除。",
     "messages": {
       "created": "赛事系列创建成功",
       "updated": "赛事系列更新成功",
@@ -187,17 +187,17 @@
   },
   "messages": {
     "tournamentCreated": "赛事创建成功",
-    "namesLinked": "已关联 {{count}} 个名称",
-    "placementLinked": "已关联",
+    "namesLinked": "已绑定 {{count}} 个名称",
+    "placementLinked": "已绑定",
     "reordered": "顺序已更新",
     "deleted": "赛事已删除"
   },
   "deleteConfirm": "确定删除赛事“{{name}}”及其全部名次、积分与奖励？",
   "errors": {
     "loadTournamentsFailed": "赛事加载失败",
-    "loadUnresolvedFailed": "未关联名称加载失败",
-    "resolveFailed": "自动关联失败",
-    "linkFailed": "关联失败",
+    "loadUnresolvedFailed": "未绑定名称加载失败",
+    "resolveFailed": "自动绑定失败",
+    "linkFailed": "绑定失败",
     "reorderFailed": "排序失败",
     "deleteFailed": "赛事删除失败"
   },
@@ -209,14 +209,14 @@
       "tier": "档位",
       "rowMode": "模式",
       "nameLevel": "名称 / 关卡",
-      "linkedUsers": "关联用户",
+      "linkedUsers": "绑定用户",
       "linkTypes": {
         "player": "玩家",
         "creator": "创作者"
       },
       "name": "名称",
       "level": "关卡",
-      "link": "关联",
+      "link": "绑定",
       "nominees": "提名",
       "team": "队伍",
       "noLevel": "无关卡",
@@ -347,7 +347,7 @@
     "packRefSearchFailed": "地图包搜索失败",
     "packRefNotFound": "未找到",
     "placementModes": {
-      "profile": "档案（关联玩家/创作者）",
+      "profile": "档案（绑定玩家/创作者）",
       "level": "关卡（扩展至创作者）"
     },
     "tracks": {

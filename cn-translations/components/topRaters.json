@@ -10,6 +10,11 @@
     "startDate": "起始日期",
     "endDate": "截止日期"
   },
+  "sort": {
+    "label": "排序依据",
+    "accuracy": "准确度",
+    "count": "评级数"
+  },
   "stats": {
     "totalUsers": "总用户数",
     "averageRatingsPerDay": "平均每天评级数",
@@ -22,13 +27,22 @@
   "raterEntry": {
     "unknown": "未知用户",
     "stats": {
+      "accuracy": "准确度",
+      "special": "特殊 {{score}}",
       "totalRatings": "合计",
       "averagePerDay": "平均每天"
+    },
+    "tooltip": {
+      "raw": "原始 {{score}} · {{n}}个",
+      "weighted": "权重 {{score}} （排行）",
+      "special": "特殊 {{score}} · {{n}}个",
+      "provisional": "临时 — 低于 {{min}} 个已评级关卡",
+      "empty": "无已计分的 PGU 关卡"
     }
   },
   "pagination": {
     "previous": "上一页",
     "next": "下一页",
-    "pageInfo": "第{{current}}页，共{{total}}页"
+    "pageInfo": "第 {{current}} 页，共 {{total}} 页"
   }
 }

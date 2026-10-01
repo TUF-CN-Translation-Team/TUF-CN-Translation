@@ -29,12 +29,13 @@
         "deletedPasses": "已删除通关记录",
         "keyFlags": "按键数目",
         "wfFilter": "世界首个",
-        "adofaiVersion": "游戏版本"
+        "adofaiVersion": "游戏版本",
+        "wrongJudgement": "判定数据错误"
       }
     },
     "sort": {
       "title": "排序",
-      "header": "通关记录排序顺序",
+      "header": "排序依据",
       "order": "排序顺序",
       "options": {
         "date": "日期",

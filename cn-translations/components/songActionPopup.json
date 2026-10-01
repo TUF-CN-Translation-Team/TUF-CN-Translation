@@ -11,7 +11,8 @@
   },
   "form": {
     "name": "名称",
-    "verificationState": "认证状态"
+    "verificationState": "认证状态",
+    "tufVerified": "已经 TUF 认证"
   },
   "merge": {
     "info": "将此音乐合并到另一音乐中。所有数据都将被转移。",
@@ -29,7 +30,7 @@
   "credits": {
     "search": "搜索艺术家",
     "placeholder": "按名称搜索……",
-    "role": "身份组（可选",
+    "role": "身份（可选）",
     "rolePlaceholder": "例如，Producer, Composer",
     "existing": "现有制作人",
     "add": "添加制作人"
@@ -50,7 +51,7 @@
     "existing": "现有凭证",
     "dropZoneText": "拖拽图像至此处或点击选择",
     "dropZoneHint": "支持多文件选择",
-    "deleteConfirm": "你确定删除此凭证吗/"
+    "deleteConfirm": "你确定删除此凭证吗？"
   },
   "buttons": {
     "merge": "合并",
@@ -85,7 +86,7 @@
     "mergeFailed": "歌曲合并失败",
     "selectTarget": "请选择目标歌曲",
     "selectArtist": "请选择艺术家",
-    "loadSongsFailed": "加载音乐失败",
+    "loadSongsFailed": "音乐加载失败",
     "deleteFailed": "删除失败",
     "creditFailed": "制作人添加失败",
     "evidenceFailed": "凭证添加失败",

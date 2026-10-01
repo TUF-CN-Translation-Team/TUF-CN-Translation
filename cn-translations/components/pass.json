@@ -26,7 +26,7 @@
         },
         "levelContext": {
           "title": "关卡字段（通关记录中）",
-          "intro": "按关联关卡的属性搜索通关记录。字段名使用点号表示法。",
+          "intro": "按绑定关卡的属性搜索通关记录。字段名使用点号表示法。",
           "examples": {
             "songArtist": "<b><code>level.song:hello, level.artist:cam</code></b> 按关卡歌曲和艺术家搜索。",
             "dlLink": "<b><code>level.dlLink:drive.google</code></b> 匹配关卡下载链接文本。"
@@ -115,11 +115,11 @@
         },
         "levelSong": {
           "title": "关卡歌曲",
-          "desc": "按关联关卡歌曲名称搜索。"
+          "desc": "按绑定的关卡歌曲名称搜索。"
         },
         "levelArtist": {
           "title": "关卡曲师",
-          "desc": "按关联关卡艺术家名称搜索。"
+          "desc": "按绑定的关卡艺术家名称搜索。"
         },
         "levelDlLink": {
           "title": "关卡下载链接",

@@ -33,7 +33,7 @@
     "workshop": "在创意工坊上查看",
     "thumbnailNotFound": {
       "text": "未找到视频封面",
-      "goToVideo": "跳转到视频"
+      "goToVideo": "观看视频"
     }
   },
   "aliases": {
@@ -80,7 +80,15 @@
     "ppBaseScore": "无暇基础分数",
     "aliases": "别名",
     "comments": "评论",
+    "description": "描述",
     "createdAt": "上传日期"
+  },
+  "descriptionMode": {
+    "curation": "精选描述信息",
+    "creator": "创作者描述信息",
+    "fromCreator": "来自创作者",
+    "hide": "隐藏",
+    "show": "显示"
   },
   "leaderboard": {
     "header": "排行榜",
@@ -197,6 +205,6 @@
     "header": "赛事收录"
   },
   "linkedLevels": {
-    "header": "关联关卡"
+    "header": "绑定关卡"
   }
 }

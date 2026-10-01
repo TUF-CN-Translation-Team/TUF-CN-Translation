@@ -12,6 +12,7 @@
   "create": "添加",
   "selectLevel": "选择此关卡",
   "createLevel": "将此关卡添加至精选关卡",
+  "alreadyCurated": "此关卡已被精选",
   "creator": "创作者",
   "pick": {
     "title": "选择关卡",

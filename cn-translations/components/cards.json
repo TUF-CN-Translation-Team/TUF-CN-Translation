@@ -32,6 +32,7 @@
       "speed": "飙速"
     },
     "flags": {
+      "autoSubmitted": "自动提交",
       "worldsFirst": "WF",
       "worldsFirstPP": "WF PP",
       "worldsFirstClearTooltip": "世界首通！",
@@ -42,7 +43,8 @@
       "noHoldTap": "非默认长按设置",
       "adofaiV2": "<adofaiicon></adofaiicon> v2",
       "adofaiPre340": "3.4.0前",
-      "xPerfect": "X完美"
+      "xPerfect": "X完美",
+      "wrongJudgement": "判定数据错误"
     },
     "links": {
       "video": "观看视频"

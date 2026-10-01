@@ -22,7 +22,7 @@
     "verifying": "验证中……"
   },
   "upload": {
-    "dragDropMessage": "拖动备份文件至此，或点击选择",
+    "dragDropMessage": "拖拽备份文件至此，或点击选择",
     "errors": {
       "fileTooBig": "文件大小超过最大文件大小 {{size}} 限制",
       "validationFailed": "上传凭证验证失败"

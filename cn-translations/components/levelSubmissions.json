@@ -17,7 +17,9 @@
       "label": "下载：",
       "directLink": "直链",
       "notAvailable": "无",
-      "cdnLink": "本地 CDN 链接"
+      "cdnLink": "本地 CDN 链接",
+      "manage": "管理已上传文件",
+      "manageMissing": "添加文件"
     },
     "workshop": {
       "label": "创意工坊：",
@@ -30,7 +32,7 @@
     "submitterRecordTooltip": "已通过 {{accepted}} 个，已拒绝 {{declined}} 个",
     "evidence": "凭证：",
     "notes": "备注",
-    "notesPlaceholder": "可选管理员备注"
+    "notesPlaceholder": "可选备注，仅管理员可见"
   },
   "buttons": {
     "manageCreator": "管理创作者",

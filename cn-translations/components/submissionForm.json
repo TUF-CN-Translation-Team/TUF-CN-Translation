@@ -3,7 +3,7 @@
     "common": "基础信息",
     "levelDetails": "关卡详细信息",
     "passDetails": "通关记录详细信息",
-    "judgements": "判定"
+    "judgements": "判定结果"
   },
   "fields": {
     "videoLink": "视频链接",
@@ -18,12 +18,12 @@
     "levelId": "关卡 ID",
     "speed": "飙速速度",
     "feelingRating": "体感难度",
-    "ePerfect": "稍快！",
-    "perfect": "完美！",
-    "lPerfect": "稍慢！",
-    "tooEarly": "太快！！",
-    "early": "太快！",
-    "late": "太慢！",
+    "ePerfect": "稍快",
+    "perfect": "完美",
+    "lPerfect": "稍慢",
+    "tooEarly": "提前",
+    "early": "太快",
+    "late": "太慢",
     "isNoHold": "非默认长按设置长按",
     "is12K": "12键",
     "is16K": "16键"

@@ -8,7 +8,8 @@
     "placeholder": "搜索歌曲……"
   },
   "filter": {
-    "verificationState": "认证状态"
+    "verificationState": "认证状态",
+    "tufVerified": "已经 TUF 认证"
   },
   "sort": {
     "label": "排序依据",

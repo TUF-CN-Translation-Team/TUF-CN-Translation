@@ -50,7 +50,7 @@
     "noRoleToRemove": "该用户没有可删除的身份组",
     "cannotRemoveBottomRole": "无法从基础身份组中删除用户 - 他们只能被降级",
     "scheduleAccountConfirm": "为该用户安排账户注销？3 天内其资料将从排行榜隐藏，之后永久注销。",
-    "scheduleWithCreatorConfirm": "安排账户注销，并在执行时清理其关联的创作者资料？仅由其署名的关卡将永久删除；合作谱面将移除其署名。",
+    "scheduleWithCreatorConfirm": "安排账户注销，并在执行时清理其绑定的创作者资料？仅由其署名的关卡将永久删除；合作谱面将移除其署名。",
     "scheduleOwnConfirm": "你正在为自己的管理员账户安排注销，是否继续？",
     "scheduleDeletionFailed": "无法安排账户注销。"
   },
@@ -59,7 +59,7 @@
     "pendingTitle": "已安排账户注销",
     "executesAt": "永久注销：{{date}}",
     "includesCreator": "执行时将包含创作者资料清理。",
-    "includeCreator": "执行时也清理关联的创作者资料（单人关卡软删除，移除署名）",
+    "includeCreator": "执行时也清理绑定的创作者资料（单人关卡软删除，移除署名）",
     "scheduleButton": "安排账户注销"
   }
 }

@@ -34,14 +34,14 @@
     "linkResolved": "短链接已解析为标准链接"
   },
   "judgements": {
-    "ePerfect": "稍快！",
-    "perfectMinus": "-完美！",
-    "perfect": "完美！",
-    "perfectPlus": "完美！+",
-    "lPerfect": "稍慢！",
-    "tooearly": "太快！！",
-    "early": "太快！",
-    "late": "太慢！"
+    "ePerfect": "稍快",
+    "perfectMinus": "-完美",
+    "perfect": "完美",
+    "perfectPlus": "完美+",
+    "lPerfect": "稍慢",
+    "tooearly": "提前",
+    "early": "太快",
+    "late": "太慢"
   },
   "acc": "精准度：",
   "scoreCalc": "分数：",
@@ -50,10 +50,10 @@
   "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
   "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
   "adofaiV2Tooltip": "如果本次通关是在v3更新前的游戏上完成的，请勾选此项。",
-  "adofaiVersionTooltip": "本次通关使用的游戏版本。“最新版本”为3.4.0及更新版本。根据视频时间自动选择；你可以手动更改。",
+  "adofaiVersionTooltip": "本次通关使用的游戏版本。“Alpha版本”为3.4.0及更新版本。根据视频时间自动选择；你可以手动更改。",
   "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
   "adofaiVersion": {
-    "latest": "最新版本",
+    "latest": "Alpha版本",
     "pre340": "3.4.0前",
     "v2": "v2"
   },
@@ -78,14 +78,14 @@
     "feelingRating": "体感难度",
     "expectedRating": "预期难度",
     "keyCount": "按键数目",
-    "ePerfect": "稍快！",
-    "perfectMinus": "-完美！",
-    "perfect": "完美！",
-    "perfectPlus": "完美！+",
-    "lPerfect": "稍慢！",
-    "tooEarly": "太快！！",
-    "early": "太快！",
-    "late": "太慢！",
+    "ePerfect": "稍快",
+    "perfectMinus": "-完美",
+    "perfect": "完美",
+    "perfectPlus": "完美+",
+    "lPerfect": "稍慢",
+    "tooEarly": "提前",
+    "early": "太快",
+    "late": "太慢",
     "rulesAccepted": "已接受规则"
   },
   "score": {
@@ -108,7 +108,12 @@
     "bodyWithMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中{{midspinCount}}个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
     "bodyWithAutoAndMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块，{{midspinCount}}个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
     "reviewInputs": "取消",
-    "submitAnyway": "仍然提交"
+    "submitAnyway": "仍然提交",
+    "wrongVersion": {
+      "title": "游戏版本错误",
+      "body": "你的判定结果总数似乎包括了额外中旋完美数。（<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>）自<b>3.4.0</b>版本后判定结果中不再计算中旋数，该值需要被减去。需要修改游戏版本至 <pre340></pre340> 以自动执行此操作吗？",
+      "changeVersion": "修改至 3.4.0前"
+    }
   },
   "tagWarnings": {
     "title": "请确认这些关卡要求",

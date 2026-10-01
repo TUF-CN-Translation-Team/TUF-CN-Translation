@@ -11,7 +11,7 @@
     "both": "同时",
     "12k": "12键",
     "16k": "16键",
-    "latest": "最新版本",
+    "latest": "Alpha版本",
     "pre340": "3.4.0前",
     "v2": "v2",
     "PASS": "已通过",
@@ -20,7 +20,9 @@
     "pixel": "像素",
     "keyword": "侧",
     "on": "开",
-    "off": "关"
+    "off": "关",
+    "single": "单点",
+    "split": "拆分"
   },
   "accessDenied": {
     "title": "拒绝访问",

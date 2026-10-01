@@ -25,23 +25,27 @@
   },
   "items": {
     "title": "地图包内容",
-    "dragHint": "拖动项目以重新排序或合并它们",
+    "dragHint": "拖拽项目以重新排序或合并它们",
     "empty": "此包为空。",
-    "dragToReorder": "拖动来重新排序"
+    "dragToReorder": "拖拽来重新排序"
   },
   "actions": {
     "edit": "编辑此包",
     "addFolder": "添加文件夹",
     "addLevel": "添加关卡",
+    "addNote": "添加备注",
     "collapseAll": "全部折叠",
     "expandAll": "全部展开",
     "addToFavorites": "收藏",
     "removeFromFavorites": "取消收藏",
     "downloadPack": "下载地图包",
+    "downloadFolder": "下载文件夹",
     "exportAs": "导出为",
-    "addToFolder": "添加到现有文件夹…",
-    "moveItem": "点击移动，或拖动",
-    "downloadFolder": "下载文件夹"
+    "addToFolder": "添加到现有文件夹……",
+    "moveItem": "点击移动，或拖拽",
+    "editFolder": "编辑文件夹",
+    "editNote": "编辑备注",
+    "deleteNote": "删除备注"
   },
   "download": {
     "estimatedLong": "（预计：缺少 {{count}} 个大小元数据）",
@@ -56,6 +60,10 @@
     "success": "文件夹创建成功",
     "error": "文件夹创建失败"
   },
+  "createNote": {
+    "success": "备注添加成功",
+    "error": "备注添加失败"
+  },
   "addLevel": {
     "prompt": "输入关卡ID：",
     "success": "关卡添加成功",
@@ -67,12 +75,23 @@
     "success": "文件夹重命名成功",
     "error": "文件夹重命名失败"
   },
+  "editFolder": {
+    "success": "文件夹更新成功",
+    "error": "文件夹更新失败"
+  },
+  "editNote": {
+    "success": "备注更新成功",
+    "error": "备注更新失败"
+  },
   "deleteItem": {
     "success": "项目删除成功",
     "error": "项目删除失败"
   },
   "deleteFolder": {
     "confirm": "你确定删除文件夹 \"{{name}}\" 吗？这将同时删除文件夹中的项目。"
+  },
+  "deleteNote": {
+    "confirm": "Are you sure you want to delete the note \"{{name}}\"?"
   },
   "deleteLevel": {
     "confirm": "你确定要从包中删除该关卡吗？"

@@ -29,7 +29,9 @@
         "placeholdersLabel": "变量值（很重要！）：",
         "placeholdersBody": "一些文本包含 {{open}}value{{close}} （变量）占位符。他们必须被保留，但可以调整顺序：",
         "placeholderExample": "\"welcome\": \"Welcome back, {{open}}username{{close}}!\"\n→ \"welcome\": \"欢迎回来，{{open}}username{{close}}！\"\n\n\"progress\": \"{{open}}count{{close}} of {{open}}total{{close}} levels completed\"\n→ \"progress\": \"已完成 {{open}}total{{close}} 个关卡中的 {{open}}count{{close}} 个关卡\"",
-        "placeholderWarning": "不要翻译占位符本身（例如，{{open}}username{{close}}, {{open}}count{{close}}，等等）"
+        "placeholderWarning": "不要翻译占位符本身（例如，{{open}}username{{close}}, {{open}}count{{close}}，等等）",
+        "contributorCreditsLabel": "翻译贡献者：",
+        "contributorCreditsBody": "贡献者名单不存在于该文件中。管理员可在该页面中编辑网站翻译贡献者。"
       },
       "verify": {
         "title": "打包并校验",
@@ -52,7 +54,10 @@
       "pending": "尚未开工"
     },
     "contributors": "贡献者：",
-    "tl_comment": "贡献者的名单是硬编码的"
+    "contributorPlaceholder": "名称",
+    "dragContributor": "拖拽以重排序",
+    "contributorsSaved": "已保存",
+    "contributorsSaveError": "无法保存贡献者名单：{{message}}"
   },
   "results": {
     "valid": "翻译已完成！",

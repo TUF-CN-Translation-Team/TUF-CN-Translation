@@ -9,7 +9,8 @@
   },
   "filter": {
     "verification": "认证状态",
-    "all": "所有"
+    "all": "所有",
+    "tufVerified": "已经 TUF 认证"
   },
   "sort": {
     "label": "排序依据",
@@ -33,6 +34,7 @@
     "selectAvatarFile": "选择头像文件",
     "removeAvatar": "移除",
     "verificationState": "认证状态",
+    "tufVerified": "已经 TUF 认证",
     "aliases": "别名",
     "aliasPlaceholder": "输入别名",
     "addAlias": "添加别名"

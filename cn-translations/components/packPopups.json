@@ -168,6 +168,30 @@
       "transferFailed": "更改所有者失败"
     }
   },
+  "editFolder": {
+    "title": "编辑文件夹",
+    "name": {
+      "label": "文件夹名称",
+      "placeholder": "请输入文件夹名称",
+      "help": "此名称将用于下载时的文件夹路径"
+    },
+    "description": {
+      "label": "描述",
+      "placeholder": "关于此文件夹的可选描述……"
+    }
+  },
+  "editNote": {
+    "title": "编辑备注",
+    "name": {
+      "label": "标题",
+      "placeholder": "请输入标题"
+    },
+    "description": {
+      "label": "备注",
+      "placeholder": "说明你希望他人了解的信息……",
+      "help": "支持 Markdown 语法（粗体、列表、链接）"
+    }
+  },
   "downloadPack": {
     "title": "下载 {{contextName}}",
     "defaultContextName": "地图包",
@@ -199,8 +223,8 @@
     "description": "下载 {{contextName}} 中关卡的表格文件。",
     "formatLabel": "格式",
     "format": {
-      "xlsx": "Excel (.xlsx)",
-      "csv": "CSV (.csv)"
+      "xlsx": "Excel（.xlsx）",
+      "csv": "CSV（.csv）"
     },
     "structureLabel": "布局",
     "structure": {
@@ -217,9 +241,17 @@
   "placement": {
     "titleAddFolder": "添加文件夹",
     "titleAddLevel": "添加关卡",
+    "titleAddNote": "Add note",
     "titleMove": "移动项目",
     "folderName": "文件夹名称",
     "folderNamePlaceholder": "输入文件夹名称",
+    "folderDescription": "描述",
+    "folderDescriptionPlaceholder": "可选的文件夹详细信息（仅限网页）",
+    "noteTitle": "标题",
+    "noteTitlePlaceholder": "请输入标题",
+    "noteBody": "备注",
+    "noteBodyPlaceholder": "说明你希望他人了解的信息……",
+    "noteBodyHelp": "支持 Markdown 语法。（粗体、列表、链接）仅限网页——下载时不包含该项。",
     "levelIds": "关卡 ID",
     "levelIdsPlaceholder": "例如 1234、5678 或每行一个",
     "positionLabel": "在地图包中的位置",
@@ -229,6 +261,7 @@
     "dividerHint": "将鼠标悬停在分割线上以选择插入位置",
     "addFolder": "添加文件夹",
     "addLevels": "添加关卡",
+    "addNote": "添加备注",
     "move": "移动到此",
     "submitting": "保存中……"
   },

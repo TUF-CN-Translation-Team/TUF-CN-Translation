@@ -19,6 +19,7 @@
         "dlLink": "下载链接",
         "workshopLink": "创意工坊链接",
         "publicComments": "公开注释（此处填写 Censored 理由）",
+        "description": "描述",
         "notes": "备注",
         "isExternallyAvailable": "是否外部可用",
         "previousDifficulty": "先前评级"
@@ -120,20 +121,30 @@
     },
     "chartStats": {
       "title": "谱面数据",
-      "openButtonTitle": "编辑 BPM、物量与时长信息",
-      "clearHint": "留空可隐藏对应条目。",
+      "openButtonTitle": "编辑 BPM、物量、中旋与时长信息（仅限非CDN谱面）",
+      "clearHint": "留空并保存以隐藏对应条目。",
       "preview": "预览",
       "toastSaved": "谱面数据已保存",
       "labels": {
         "bpm": "BPM",
         "tilecount": "物量",
+        "midspinCount": "中旋数",
         "lengthSeconds": "时长（秒）"
       },
       "errors": {
         "save": "保存谱面数据失败",
         "bpm": "BPM 必须为大于 0 的数字",
         "tilecount": "物量必须为非负整数",
+        "midspinCount": "中旋数必须为非负整数",
         "length": "时长必须为非负数（秒，可含小数）"
+      },
+      "perfectsDifference": {
+        "title": "更新通关记录完美数？",
+        "message": "中旋数已由 {{from}} 改为 {{to}}。每个通关记录的完美数将变动{{delta}}。",
+        "unset": "未设置",
+        "question": "将此变动应用到该关卡的所有通关记录？",
+        "toastSavedWithPasses": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。",
+        "toastSavedWithPassesSkipped": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。{{skipped}} 个通关记录由于完美数将低于 0 而已跳过。"
       }
     },
     "tags": {
@@ -161,7 +172,7 @@
     "title": "互换关卡信息",
     "close": "关闭",
     "explanation": "这将在两个不同 ID 的关卡之间互换关卡信息。",
-    "note": "通关记录，评级信息，创作者信息，地图包信息以及其他关联的信息将互换。收藏数保持不变。",
+    "note": "通关记录，评级信息，创作者信息，地图包信息以及其他绑定的信息将互换。收藏数保持不变。",
     "thisLevel": "本关卡",
     "otherLevel": "另一关卡",
     "noTarget": "未选择关卡",
@@ -176,19 +187,19 @@
     }
   },
   "linkedLevels": {
-    "title": "关联关卡",
-    "empty": "暂无关联关卡。",
+    "title": "绑定关卡",
+    "empty": "暂无绑定关卡。",
     "youAreHere": "当前关卡",
     "unknownSong": "未知歌曲",
-    "toastAdded": "已关联 {{name}}",
-    "toastRemoved": "已取消关联",
+    "toastAdded": "已绑定 {{name}}",
+    "toastRemoved": "已解绑",
     "shareChart": "采音",
     "shareVfx": "特效",
     "errors": {
-      "sameLevel": "不能将关卡与自己相关联",
+      "sameLevel": "不能将关卡与自己绑定",
       "alreadyLinked": "该关卡已在此组中",
-      "add": "关卡关联失败",
-      "remove": "关联取消失败",
+      "add": "关卡绑定失败",
+      "remove": "绑定取消失败",
       "saveShare": "共享设置更新失败"
     }
   },

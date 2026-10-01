@@ -18,6 +18,7 @@
       "header": "筛选设置",
       "following": "已关注",
       "country": "国家或地区",
+      "rankedScoreRank": "排行位次",
       "addStatFilters": "添加统计数据筛选条件",
       "selectStatPlaceholder": "选择统计数据以筛选……",
       "addFilterButton": "添加",

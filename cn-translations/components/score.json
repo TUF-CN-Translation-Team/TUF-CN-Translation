@@ -3,11 +3,12 @@
     "labels": {
       "score": "分数",
       "accuracy": "精准度",
-      "speed": "飙速"
+      "speed": "飙速",
+      "keyboardBind": "{{count}}键键位"
     },
     "tooltips": {
       "watchVideo": "观看视频",
-      "potentialScore": "该关卡不可下载，修复下载链接后恢复正常加分行为。"
+      "potentialScore": "预计排位分。关卡文件修复后恢复正常。"
     }
   }
 } 

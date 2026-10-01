@@ -21,11 +21,15 @@
     "lowDiff": {
       "label": "低难度"
     },
+    "requestBands": {
+      "label": "隐藏请求等级",
+      "hint": "勾选以从列表中隐藏请求等级范围"
+    },
     "fourVote": {
       "label": "4+ 评级"
     },
     "rankReady": {
-      "label": "待定级"
+      "label": "可定级"
     }
   },
   "sort": {
@@ -68,7 +72,7 @@
       "autorater": "自动评级"
     },
     "empty": {
-      "title": "没有待定级关卡",
+      "title": "没有可定级关卡",
       "subtitle": "没有拥有超过两个管理员评级且未被通关的关卡。"
     }
   },
@@ -86,6 +90,10 @@
     "exit": "暂停",
     "noVideo": "无可用视频",
     "noPeers": "无评级",
+    "peekSources": {
+      "hasManagers": "管理员：{{managers}} · 其他玩家：{{community}}",
+      "communityOnly": "仅玩家评级（{{count}}）"
+    },
     "setup": {
       "title": "沉浸模式评级",
       "subtitle": "沉浸评级，一次一个。",
@@ -93,6 +101,7 @@
       "continue": "继续",
       "discard": "放弃并重新开始",
       "deckSize": "本次评级关卡数量",
+      "deckSizeCustom": "自定义",
       "peekHint": "每 5 个关卡有 1 次查看机会",
       "requestBands": "隐藏特定等级范围",
       "requestBandsHint": "勾选以忽略特定的申请等级范围",
@@ -138,11 +147,13 @@
     },
     "messages": {
       "emptyDeck": "无匹配结果",
+      "shortDeck": "仅有 {{requested}} 个中的 {{n}} 个可用",
       "reportSent": "报告已发送"
     },
     "errors": {
       "loginRequired": "登录以进行沉浸模式",
       "dealFailed": "处理失败",
+      "invalidDeckSize": "请输入 1 到 200 之间的整数",
       "reportFailed": "报告发送失败",
       "ratingRequired": "输入你的评级",
       "commentRequired": "需要理由",

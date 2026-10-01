@@ -26,7 +26,8 @@
     "fetchFailed": "获取项目失败，请重试。",
     "announceFailed": "公告发布失败，请重试。",
     "invalidIds": "部分选中项目的 ID 无效。",
-    "discordBlocked": "Discord webhook 已被临时封锁。请于 {{time}} 后重试。"
+    "discordBlocked": "Discord webhook 已被临时封锁。请于 {{time}} 后重试。",
+    "discardFailed": "公告取消失败。"
   },
   "gate": {
     "banner": "Discord 发送系统已被封锁。{{time}} 后重试。"
@@ -40,6 +41,11 @@
     "noAnnouncements": "暂无公告",
     "loading": "发送进度加载中……",
     "mergedNote": "包含进行中项目",
+    "stale": "自 {{time}} 后无更新",
+    "attempt": "尝试次数 {{count}}",
+    "discard": "取消",
+    "discardConfirm": "停止公告并释放项目以便重新发送？",
+    "discarded": "公告已取消",
     "status": {
       "queued": "已加入队列",
       "sending": "发送中",
@@ -50,6 +56,14 @@
       "delivered": "已发送",
       "skipped": "已跳过",
       "sent": "已发送"
+    },
+    "phase": {
+      "queued": "已加入队列",
+      "preparing": "准备中",
+      "resolving": "正在解析目标",
+      "waiting_gate": "等待 Discord 响应",
+      "sending_webhook": "发送至 {{label}}",
+      "recording": "记录中"
     }
   }
-} 
+}

@@ -92,12 +92,12 @@
       "is12K": "12键通关"
     },
     "judgements": {
-      "tooearly": "太快！！",
-      "early": "太快！",
-      "ePerfect": "稍快！",
-      "perfect": "完美！",
-      "lPerfect": "稍慢！",
-      "late": "太慢！"
+      "tooearly": "提前",
+      "early": "太快",
+      "ePerfect": "稍快",
+      "perfect": "完美",
+      "lPerfect": "稍慢",
+      "late": "太慢"
     },
     "acc": "精准度：",
     "scoreCalc": "分数：",

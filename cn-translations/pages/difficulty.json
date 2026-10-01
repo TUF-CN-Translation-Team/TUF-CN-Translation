@@ -135,7 +135,11 @@
       "scoreOff": "删除阈值",
       "reqVotes": "需要票数：{{count}}",
       "allowedBands": "难度区间",
-      "allowedBandsHint": "将所有未更改项目设为“继承”。PGU或特殊难度限制社区评级到这些区间。"
+      "allowedBandsHint": "将所有未更改项目设为“继承”。PGU或特殊难度限制社区评级到这些区间。",
+      "bandP": "P",
+      "bandG": "G",
+      "bandU": "U",
+      "bandSpec": "特殊"
     },
     "create": {
       "title": "创建标签",

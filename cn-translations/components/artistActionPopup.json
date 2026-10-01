@@ -14,7 +14,8 @@
     "avatarUrl": "头像",
     "avatarUrlPlaceholder": "输入头像链接",
     "avatarCdnInfo": "CDN 托管的头像只能通过上传或删除的方式更改。",
-    "verificationState": "认证状态"
+    "verificationState": "认证状态",
+    "tufVerified": "已经 TUF 认证"
   },
   "merge": {
     "info": "将此艺术家合并至另一位艺术家。所有数据都将被转移。",

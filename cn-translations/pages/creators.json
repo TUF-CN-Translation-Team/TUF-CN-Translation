@@ -54,7 +54,7 @@
   "card": {
     "verified": "已认证",
     "chartsTotal": "{{count}} 个关卡",
-    "noUser": "未关联账户",
+    "noUser": "未绑定账户",
     "curationBadgesAria": "精选类型摘要"
   },
   "verificationStatus": {

@@ -33,10 +33,10 @@
     "errors": {
       "commentLength": "理由必须少于1000个字符",
       "commentRequired": "Censored 评级需要理由",
-      "saveFailed": "保存更改失败",
-      "updateFailed": "更新评级失败",
+      "saveFailed": "更改保存失败",
+      "updateFailed": "评级更新失败",
       "unsavedChanges": "你有未保存的更改，确定要退出吗？",
-      "deleteFailed": "删除评级失败",
+      "deleteFailed": "评级删除失败",
       "autorateFailed": "自动评级失败"
     },
     "tooltips": {
@@ -44,9 +44,18 @@
       "requiredComment": "评为 Censored 时需要理由"
     },
     "placeholders": {
-      "requiredComment": "请解释为什么你给这个关卡评Censored……",
+      "requiredComment": "请解释为什么你给这个关卡评 Censored……",
       "difficultyInput": "输入难度……",
       "communityComment": "请提供一个你的评级的理由……"
+    },
+    "accuracy": {
+      "provisional": "临时",
+      "specialCareer": "特殊 {{score}} · {{n}}",
+      "thisChart": "本关卡 {{score}}",
+      "modeQ": "{{settled}}",
+      "modeSpecial": "特殊等级 {{settled}} 个",
+      "modeRank": "{{center}} 准确",
+      "scoredAs": "计分为 {{value}}"
     },
     "confirmations": {
       "deleteRating": "你确定删除 {{username}} 的评级吗？",
@@ -113,7 +122,7 @@
         "features": [
           {
             "title": "评论中的ID链接",
-            "description": "你可以在评论区添加 ID 指示，例如“#1527”。这将自动将其转换为 idPrefixDontChange:1527"
+            "description": "你可以在评论区添加关卡 ID，例如 “#1527”。这将自动将其转换为 idPrefixDontChange:1527"
           },
           {
             "title": "隐藏投票",
@@ -122,7 +131,7 @@
         ]
       },
       "averaging": {
-        "title": "平均评分",
+        "title": "平均评级",
         "description": "系统采用加权平均计算，其中考虑了以下几个因素：",
         "points": {
           "special": "如果特殊评级（Censored、Impossible等）获得 4 票或更多投票，则会覆盖平均值",
@@ -130,12 +139,23 @@
           "order": "PGU 评分是根据难度顺序而非数值进行平均的"
         }
       },
+      "accuracy": {
+        "title": "评级准确度",
+        "description": "当一个关卡的等级确定之后，所有的评级都将冻结并根据所确定的等级进行计分。",
+        "points": {
+          "q": "当已确定评级为 Q 时（GQ/UQ）， 该区间内为平台分，再向邻近等级较缓衰减（τ = 3）。",
+          "rank": "当已确定评级为精确的 PGU 等级时，使用以该等级为中心的拉普拉斯核（τ = 2）。",
+          "ranges": "像 G5~G8 这类的范围使用平均值，范围越宽分数越低于精确命中。",
+          "freeze": "评级将在确定等级后冻结，无法之后更改，以避免了解结果后修改准确度。",
+          "sort": "该列表按经收缩处理的评级生涯平均值排序，以避免已评关卡数量较少的评级员排名过高。每一行显示的数值是原始百分比乘样本数量。"
+        }
+      },
       "filters": {
         "title": "可用筛选条件",
         "myRated": "我评过的",
         "myRatedDesc": "显示，隐藏，或仅显示你评过的关卡",
-        "lowDiff": "低难度",
-        "lowDiffDesc": "筛选被标记为低难度的关卡",
+        "requestBands": "申请等级",
+        "requestBandsDesc": "隐藏申请等级为P，G或U的评级",
         "fourVote": "4+ 评级",
         "fourVoteDesc": "筛选拥有超过4个评级的关卡"
       },
