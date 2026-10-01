@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "我的提交",
+    "title": "我的提交记录",
     "description": "浏览你的关卡和通关记录提交情况"
   },
   "title": "我的提交",
@@ -42,10 +42,10 @@
     "prev": "上一页",
     "next": "下一页",
     "page": "第 {{page}} / {{totalPages}} 页",
-    "total_one": "{{count}} 个提交记录",
-    "total_other": "{{count}} 个提交记录"
+    "total_one": "{{count}} 个提交历史记录",
+    "total_other": "{{count}} 个提交历史记录"
   },
-  "empty": "没有提交记录。",
+  "empty": "没有提交历史记录。",
   "loading": "加载中……",
-  "error": "无法加载提交记录。请重试。"
+  "error": "无法加载提交历史记录。请重试。"
 }
