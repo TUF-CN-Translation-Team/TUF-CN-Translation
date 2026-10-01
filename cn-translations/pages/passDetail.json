@@ -126,7 +126,8 @@
     "adofaiV2Note": "录制于v2版本的ADOFAI ",
       "adofaiPre340": "3.4.0前",
       "adofaiPre340Note": "录制于3.4.0版本前的ADOFAI ",
-      "xPerfect": "X完美"
+      "xPerfect": "X完美",
+      "wrongJudgement": "判定数据错误"
   },
   "judgements": {
     "title": "判定结果",

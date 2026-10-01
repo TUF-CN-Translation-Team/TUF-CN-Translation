@@ -285,7 +285,8 @@
       "pass": "通关记录",
       "level": "关卡",
       "pack": "地图包",
-      "player": "晚间"
+      "player": "玩家",
+      "creator": "创作者"
     },
     "expandFavorite": "展开",
     "collapseFavorite": "收起"
