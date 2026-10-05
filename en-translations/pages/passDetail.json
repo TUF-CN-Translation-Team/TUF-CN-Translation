@@ -123,9 +123,9 @@
     "16k": "16K",
     "noHoldTap": "Alt. Hold Option",
       "adofaiV2": "<adofaiicon></adofaiicon> v2",
-      "adofaiV2Note": "Recorded on ADOFAI v2",
+      "adofaiV2Note": "Versions prior to the engine change <b>(up to v2.9.8)</b>. These versions were less stable and imprecise due to timing engine issues.",
       "adofaiPre340": "<3.4.0",
-      "adofaiPre340Note": "Recorded before ADOFAI 3.4.0",
+      "adofaiPre340Note": "Versions prior to XPerfect <b>(Up to v3.3.1)</b>.",
       "xPerfect": "X-Perfect",
       "wrongJudgement": "Wrong judgement"
   },

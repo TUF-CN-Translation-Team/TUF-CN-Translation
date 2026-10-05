@@ -42,6 +42,13 @@
         "perfect": "Perfect",
         "perfectPlus": "Perfect+",
         "lPerfect": "LPerfect",
+        "short": {
+          "ePerfect": "EP",
+          "perfectMinus": "P−",
+          "perfect": "P",
+          "perfectPlus": "P+",
+          "lPerfect": "LP"
+        },
         "tooearly": "Too Early",
         "early": "Early",
         "late": "Late"
@@ -61,11 +68,27 @@
     "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
     "adofaiVersionTooltip": "Game version used for this clear. Alpha is 3.4.0+.",
     "xPerfectTooltip": "Record Perfect− and Perfect+ counts from X-Perfect mode (3.4.0+ only).",
+    "duplicateGuessHint": "Guessed from a higher-scoring clear of the same chart. Changing this checkbox keeps the correction.",
     "midspinWarning": {
       "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you save.",
       "alreadyApplied": "Midspin Perfects have already been removed from this pass.",
       "missing": "This level has no midspin count yet, so Perfect will not be adjusted.",
       "perfectLt": "Perfect is lower than the midspin count, so Perfect will not be adjusted."
+    },
+    "keyboard": {
+      "label": "Keyboard layout",
+      "auto": "Automatic",
+      "autoValue": "Automatic · {{layout}}",
+      "autoUses": "On the upload date, this pass uses {{layout}}.",
+      "autoNone": "No saved layout matches this key count on the upload date.",
+      "autoMany": "More than one layout matches this pass. Choose one.",
+      "autoNoKeyCount": "Enter a key count to match a layout from the upload date.",
+      "autoNoDate": "This pass has no upload date, so choose a layout.",
+      "noLayouts": "This player has no saved layouts.",
+      "since": "Since {{date}}",
+      "range": "{{from}} – {{to}}",
+      "matches": "Matches this pass",
+      "mismatch": "This layout is {{layoutCount}}K. This pass is {{passCount}}K."
     },
     "alert": {
       "success": "Pass updated successfully!",

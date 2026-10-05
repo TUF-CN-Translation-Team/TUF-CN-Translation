@@ -7,6 +7,17 @@
     "creator": "Creator",
     "clears": "Clears",
     "totalClears": "Total clears",
+    "clearStatus": {
+      "cleared": "Cleared",
+      "purePerfect": "Pure Perfect",
+      "pureXPerfect": "Pure X-Perfect",
+      "tooltip": "Cleared with {{accuracy}}, {{score}}",
+      "tooltipPurePerfect": "Cleared with Pure Perfect, {{score}}",
+      "tooltipPureXPerfect": "Cleared with X Pure Perfect, {{score}}"
+    },
+    "tooltips": {
+      "purePerfectScore": "Pure perfect: {{score}}"
+    },
     "addToPack": "Add to Pack",
     "buttons": {
       "addToPack": "Add to Pack"
@@ -42,7 +53,9 @@
       "sixteenKey": "16K",
       "noHoldTap": "No Hold",
       "adofaiV2": "<adofaiicon></adofaiicon> v2",
+      "adofaiV2Tooltip": "Versions prior to the engine change <b>(up to v2.9.8)</b>. These versions were less stable and imprecise due to timing engine issues.",
       "adofaiPre340": "<3.4.0",
+      "adofaiPre340Tooltip": "Versions prior to XPerfect <b>(Up to v3.3.1)</b>.",
       "xPerfect": "X-Perfect",
       "wrongJudgement": "Wrong judgement"
     },

@@ -26,7 +26,8 @@
     "loginRequired": "Login to like this level",
     "editDisabled": "This level has more than 2 charters assigned. Contact admins if you believe that you should be the owner.",
     "muteChartClears": "Mute clear notifications for this chart",
-    "unmuteChartClears": "Unmute clear notifications for this chart"
+    "unmuteChartClears": "Unmute clear notifications for this chart",
+    "purePerfectScore": "Pure perfect: {{score}}"
   },
   "links": {
     "download": "Download Level",

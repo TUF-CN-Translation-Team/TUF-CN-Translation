@@ -57,6 +57,12 @@
   "preferences": {
     "title": "Preferences",
     "subtitle": "Site options that apply to your account on this device.",
+    "language": {
+      "title": "Language",
+      "label": "Preferred language",
+      "description": "Used across the site. Follow country uses the country on your player profile.",
+      "followCountry": "Follow country ({{language}})"
+    },
     "motion": {
       "title": "Motion",
       "submissionMinimalMotion": {

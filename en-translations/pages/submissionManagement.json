@@ -12,6 +12,10 @@
     "passes": "Pass Submissions",
     "autoAllow": "Auto-Allow Valid Passes"
   },
+  "search": {
+    "placeholder": "Search by song, artist, creator, player, or submitter",
+    "noMatches": "No matching submissions"
+  },
   "jobs": {
     "title": "Processing",
     "hide": "Hide queue",
