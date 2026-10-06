@@ -31,12 +31,18 @@
   },
   "row": {
     "openLevel": "关卡页面",
+    "openPass": "通关记录页面",
     "watchVideo": "视频链接",
-    "score": "得分 {{value}}",
-    "accuracy": "{{value}}",
-    "speed": "{{value}}×",
-    "charter": "采音师 {{name}}",
-    "requestedDiff": "请求难度 {{diff}}"
+    "workshop": "创意工坊",
+    "download": "下载",
+    "score": "得分",
+    "accuracy": "精准度",
+    "speed": "飙速",
+    "speedValue": "{{value}}×",
+    "difficulty": "难度",
+    "charter": "采音师",
+    "requestedDiff": "请求难度",
+    "rated": "已评为"
   },
   "pagination": {
     "prev": "上一页",

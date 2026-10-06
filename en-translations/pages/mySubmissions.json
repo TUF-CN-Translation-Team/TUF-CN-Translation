@@ -30,13 +30,19 @@
     "type": "Type"
   },
   "row": {
-    "openLevel": "Open level",
+    "openLevel": "Level",
+    "openPass": "Pass",
     "watchVideo": "Video",
-    "score": "Score {{value}}",
-    "accuracy": "{{value}}",
-    "speed": "{{value}}×",
-    "charter": "Charter {{name}}",
-    "requestedDiff": "Requested {{diff}}"
+    "workshop": "Workshop",
+    "download": "Download",
+    "score": "Score",
+    "accuracy": "Accuracy",
+    "speed": "Speed",
+    "speedValue": "{{value}}×",
+    "difficulty": "Difficulty",
+    "charter": "Charter",
+    "requestedDiff": "Requested",
+    "rated": "Rated"
   },
   "pagination": {
     "prev": "Previous",

@@ -57,6 +57,12 @@
   "preferences": {
     "title": "偏好设置",
     "subtitle": "适用于此设备上帐户的网站页面选项。",
+    "language": {
+      "title": "语言",
+      "label": "偏好语言",
+      "description": "整个网站中使用的语言。“跟随国家设置”将使用你的玩家个人资料中设置的国家语言。",
+      "followCountry": "跟随国家设置（{{language}}）"
+    },
     "motion": {
       "title": "动态效果",
       "submissionMinimalMotion": {
@@ -68,7 +74,7 @@
       "title": "显示设置",
       "disableMascots": {
         "label": "隐藏吉祥物",
-        "description": "在提交页面隐藏吉祥物图案，改为显示adofai或创作者图标。"
+        "description": "在提交页面隐藏吉祥物，改为显示游戏或创作者图标。"
       }
     },
     "navigation": {

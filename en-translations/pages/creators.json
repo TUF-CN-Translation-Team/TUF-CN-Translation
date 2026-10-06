@@ -51,6 +51,12 @@
     "empty": "No creators found.",
     "emptyFollowing": "You're not following anyone yet."
   },
+  "locate": {
+    "button": "Where am I?",
+    "signedOut": "Sign in to find your place on the creator leaderboard.",
+    "unlinked": "Link a creator profile to find your place on the leaderboard.",
+    "missing": "You don't appear in these results."
+  },
   "card": {
     "verified": "Verified",
     "chartsTotal": "{{count}} levels",
