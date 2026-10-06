@@ -16,7 +16,7 @@
       "packs": "地图包",
       "info": "信息",
       "more": "更多",
-      "pass": "通关列表",
+      "pass": "通关记录列表",
       "submission": "提交",
       "submitPassForLevel": "提交此关卡的通关记录",
       "rating": "待评级列表",
@@ -51,7 +51,7 @@
         "scoreCalculator": "分数计算器"
       },
       "more": {
-        "passes": "通关列表",
+        "passes": "通关记录列表",
         "rating": "待评级列表",
         "tufHelper": "TUFHelper",
         "tufHelperLite": "TUFHelperLite",
