@@ -103,5 +103,11 @@
       "11": "Nov",
       "12": "Dec"
     }
+  },
+  "locate": {
+    "button": "Where am I?",
+    "signedOut": "Sign in to find your place on the leaderboard.",
+    "unlinked": "Link a player profile to find your place on the leaderboard.",
+    "missing": "You don't appear in these results."
   }
 } 

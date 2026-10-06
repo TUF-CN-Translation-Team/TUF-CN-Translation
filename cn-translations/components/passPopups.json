@@ -81,15 +81,15 @@
       "auto": "自动",
       "autoValue": "自动——{{layout}}",
       "autoUses": "在上传日期时该通关记录使用{{layout}}。",
-      "autoNone": "上传日期无匹配结果No saved layout matches this key count on the upload date.",
-      "autoMany": "More than one layout matches this pass. Choose one.",
-      "autoNoKeyCount": "Enter a key count to match a layout from the upload date.",
-      "autoNoDate": "This pass has no upload date, so choose a layout.",
-      "noLayouts": "This player has no saved layouts.",
+      "autoNone": "上传日期无布局匹配按键数目。",
+      "autoMany": "有多个布局匹配通关记录。请选择一个。",
+      "autoNoKeyCount": "请输入按键数目以匹配上传时的键位布局。",
+      "autoNoDate": "该通关记录无上传日期。请手动选择布局。",
+      "noLayouts": "该玩家无已保存布局。",
       "since": "自 {{date}} 以来",
       "range": "从 {{from}} 到 {{to}}",
-      "matches": "Matches this pass",
-      "mismatch": "This layout is {{layoutCount}}K. This pass is {{passCount}}K."
+      "matches": "与通关记录匹配",
+      "mismatch": "该布局为 {{layoutCount}}键，本通关记录为 {{passCount}}键。"
     },
     "alert": {
       "success": "通关记录更新成功！",
