@@ -13,7 +13,7 @@
         "expectedDiff": "预期难度（选填）",
         "nohold": "非默认长按设置",
         "isAdofaiV2": "ADOFAI v2",
-        "adofaiVersion": "使用游戏版本",
+        "adofaiVersion": "所用游戏版本",
         "isXPerfectMode": "X完美"
       },
       "levelInfo": {
@@ -41,8 +41,15 @@
         "ePerfect": "稍快",
         "perfectMinus": "-完美",
         "perfect": "完美",
-        "lPerfect": "稍慢",
         "perfectPlus": "完美+",
+        "lPerfect": "稍慢",
+        "short": {
+          "ePerfect": "EP",
+          "perfectMinus": "P−",
+          "perfect": "P",
+          "perfectPlus": "P+",
+          "lPerfect": "LP"
+        },
         "tooearly": "提前",
         "early": "太快",
         "late": "太慢"
@@ -62,11 +69,27 @@
     "adofaiV2Tooltip": "如果本次通关使用的是v2版本的ADOFAI，请勾选此项。",
     "adofaiVersionTooltip": "本次通关使用的游戏版本。“Alpha版本”为3.4.0及更新版本",
     "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
+    "duplicateGuessHint": "根据相同关卡更高分通关记录推断。修改该复选框以保留修正。",
     "midspinWarning": {
       "willApply": "此关卡有{{count}}个中旋砖块。保存时将从完美数量中减去。",
       "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。",
       "missing": "此关卡没有中旋砖块，因此完美数不会被调整。",
       "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。"
+    },
+    "keyboard": {
+      "label": "键位布局",
+      "auto": "自动",
+      "autoValue": "自动——{{layout}}",
+      "autoUses": "在上传日期时该通关记录使用{{layout}}。",
+      "autoNone": "上传日期无匹配结果No saved layout matches this key count on the upload date.",
+      "autoMany": "More than one layout matches this pass. Choose one.",
+      "autoNoKeyCount": "Enter a key count to match a layout from the upload date.",
+      "autoNoDate": "This pass has no upload date, so choose a layout.",
+      "noLayouts": "This player has no saved layouts.",
+      "since": "自 {{date}} 以来",
+      "range": "从 {{from}} 到 {{to}}",
+      "matches": "Matches this pass",
+      "mismatch": "This layout is {{layoutCount}}K. This pass is {{passCount}}K."
     },
     "alert": {
       "success": "通关记录更新成功！",
