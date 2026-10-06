@@ -39,6 +39,13 @@
     "perfect": "完美",
     "perfectPlus": "完美+",
     "lPerfect": "稍慢",
+    "short": {
+      "ePerfect": "EP",
+      "perfectMinus": "P−",
+      "perfect": "P",
+      "perfectPlus": "P+",
+      "lPerfect": "LP"
+    },
     "tooearly": "提前",
     "early": "太快",
     "late": "太慢"

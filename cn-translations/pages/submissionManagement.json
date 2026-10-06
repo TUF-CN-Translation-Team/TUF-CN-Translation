@@ -12,6 +12,10 @@
     "passes": "通关记录提交列表",
     "autoAllow": "自动通过有效通关记录"
   },
+  "search": {
+    "placeholder": "按音乐，曲师，创作者，玩家或提交者搜索",
+    "noMatches": "无匹配结果"
+  },
   "jobs": {
     "title": "处理队列",
     "hide": "隐藏队列",
