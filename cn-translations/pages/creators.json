@@ -51,6 +51,12 @@
     "empty": "未找到创作者。",
     "emptyFollowing": "你没关注任何人。"
   },
+  "locate": {
+    "button": "我在哪？",
+    "signedOut": "登录以定位到你在创作者排行榜中的位置。",
+    "unlinked": "绑定创作者资料以定位到你在创作者排行榜中的位置。",
+    "missing": "你未在结果中出现。"
+  },
   "card": {
     "verified": "已认证",
     "chartsTotal": "{{count}} 个关卡",
