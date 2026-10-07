@@ -11,7 +11,7 @@
   "banned": "你的账号已被封禁",
   "bannedUntil": "你的账号已被封禁至 {{date}}",
   "accountScheduledDeletion": "你的账号已安排在 {{date}} 注销。在此之前可在“编辑个人资料”中取消。",
-  "accountScheduledDeletionWithCreator": "你的账号已安排在 {{date}} 注销，并将移除创作者资料（剥离署名、单人谱面软删除）。在此之前可在“编辑个人资料”中取消。",
+  "accountScheduledDeletionWithCreator": "你的账号已安排在 {{date}} 注销，并将移除创作者资料（删除参与信息、单人谱面软删除）。在此之前可在“编辑个人资料”中取消。",
   "submissionSuspended": "你的提交功能已被暂停",
   "searchForOther": "无法显示你的个人资料，请搜索其他玩家",
   "valueLabels": {
