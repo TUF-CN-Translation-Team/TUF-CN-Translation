@@ -19,6 +19,8 @@ TUF译文校验器以及如何做翻译工作：https://tuforums.com/translation
 
 请使用 github 的 Issue 功能
 
+新建issue时请遵守第一个模板
+
 我会过段时间处理一下
 
 # 注意：
