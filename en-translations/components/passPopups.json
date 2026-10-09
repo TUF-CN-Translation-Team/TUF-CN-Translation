@@ -34,7 +34,7 @@
         "timestamp": "Upload Date",
         "nolink": "No video link provided",
         "resolving": "Resolving video link…",
-        "linkResolved": "Short link resolved to Bilibili URL"
+        "linkResolved": "Short link resolved"
       },
       "judgements": {
         "ePerfect": "EPerfect",

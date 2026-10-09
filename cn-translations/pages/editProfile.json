@@ -112,17 +112,17 @@
     "unlink": "解绑",
     "cannotUnlinkLastProvider": "无法在没有密码的情况下解绑最后一个绑定账户",
     "youtube": "YouTube",
-    "youtubeSubtitle": "已验证频道显示在你的资料上。基本频道是页眉按钮。",
-    "linkYoutube": "绑定YouTube频道",
-    "linkAnotherYoutube": "绑定另一个YouTube频道",
+    "youtubeSubtitle": "已验证频道显示在你的资料上。页眉按钮是基本频道。",
+    "linkYoutube": "绑定 YouTube 频道",
+    "linkAnotherYoutube": "绑定另一个 YouTube 频道",
     "youtubePrimary": "基本频道",
-    "youtubeUnlink": "解绑频道",
-    "youtubeLinked": "YouTube频道已绑定",
-    "youtubeUnlinked": "YouTube频道已解绑",
-    "youtubePrimarySet": "基本YouTube频道已更新",
-    "youtubeLinkFailed": "无法绑定YouTube频道",
-    "youtubeUnlinkFailed": "无法解绑YouTube频道",
-    "youtubePrimaryFailed": "无法更新基本YouTube频道",
+    "youtubeUnlink": "解绑",
+    "youtubeLinked": "YouTube 频道已绑定",
+    "youtubeUnlinked": "YouTube 频道已解绑",
+    "youtubePrimarySet": "基本 YouTube 频道已更新",
+    "youtubeLinkFailed": "无法绑定 YouTube 频道",
+    "youtubeUnlinkFailed": "无法解绑 YouTube 频道",
+    "youtubePrimaryFailed": "无法更新基本 YouTube 频道",
     "youtubeHandle": "@{{handle}}",
     "youtubeChannelId": "频道 ID：{{id}}"
   },
@@ -142,8 +142,8 @@
     "successCanceled": "已取消注销账户。",
     "errorSchedule": "无法安排注销账户。",
     "errorCancel": "无法取消注销账户。",
-    "includeCreatorCheckbox": "同时移除我的创作者资料与谱面署名。仅由我署名的关卡将隐藏（软删除）且不再显示创作者；合作谱面仅移除我的署名。",
-    "pendingIncludesCreator": "删除执行时将移除创作者资料，删除署名（创作者显示为未知），单人关卡软删除以保留谱面文件。"
+    "includeCreatorCheckbox": "同时移除我的创作者资料与谱面参与信息。仅由我制作的关卡将隐藏（软删除）且不再显示创作者；合作谱面仅移除我的参与信息。",
+    "pendingIncludesCreator": "删除执行时将移除创作者资料，删除参与信息（创作者显示为未知），单人关卡软删除以保留谱面文件。"
   }
 }
 

@@ -3,7 +3,7 @@
     "title": "搜索帮助",
     "closeButton": "关闭",
     "v2": {
-      "subtitle": "可按创作者名称、绑定账号、精选类型筛选，或按各精选类型在署名关卡上的数量下限搜索。",
+      "subtitle": "可按创作者名称、绑定账号、精选类型筛选，或按各精选类型在已参与关卡上的数量下限搜索。",
       "examplesTitle": "示例",
       "groups": {
         "basics": {
@@ -19,7 +19,7 @@
           "title": "精选数量条件",
           "intro": "在精选类型名称后写比较符与整数。类型名须完全一致。",
           "examples": {
-            "single": "<b><code>C3&gt;3</code></b> — 拥有超过 3 个带 <code>C3</code> 精选的署名关卡。",
+            "single": "<b><code>C3&gt;3</code></b> — 拥有超过 3 个带 <code>C3</code> 精选的已参与关卡。",
             "and": "<b><code>C3&gt;3,C2&gt;=1</code></b> — 须同时满足 (AND)。",
             "or": "<b><code>C3&gt;3|C2&gt;5</code></b> — 满足其一 (OR)。",
             "withName": "<b><code>Epic,C3&gt;3</code></b> — 名称 + 数量条件。"
@@ -27,7 +27,7 @@
         },
         "facetFilter": {
           "title": "精选类型筛选（面板）",
-          "intro": "在筛选面板中使用精选类型构建器，要求创作者在署名关卡上具有所选类型（与关卡搜索 facet 规则相同）。",
+          "intro": "在筛选面板中使用精选类型构建器，要求创作者在已参与关卡上具有所选类型（与关卡搜索 facet 规则相同）。",
           "examples": {
             "simple": "简单模式：选择类型，要求拥有<b>任一</b>或<b>全部</b>。",
             "advanced": "高级模式：ALL/ANY 分组、组间 AND/OR、排除类型。"

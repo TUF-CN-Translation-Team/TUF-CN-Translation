@@ -89,7 +89,7 @@
   "merge": {
     "warning": {
       "title": "警告：",
-      "message": "这将删除 {{creatorName}}，并将所有署名贡献重新分配给选中的创作者。此操作无法撤销。"
+      "message": "这将删除 {{creatorName}}，并将所有合作参与信息重新分配给选中的创作者。此操作无法撤销。"
     },
     "search": {
       "label": "目标创作者",
@@ -103,14 +103,14 @@
       "label": "将被删除"
     },
     "destination": {
-      "label": "将保留所有署名"
+      "label": "将保留所有参与信息"
     },
     "idLabel": "ID {{id}}",
     "chartsLabel": "{{count}} 个关卡",
     "openProfile": "打开资料",
     "changeDestination": "更换目标",
     "confirm": {
-      "message": "{{sourceName}} 的所有署名将转移至 {{destName}}。{{sourceName}} 将被删除。此操作无法撤销。",
+      "message": "{{sourceName}} 的所有参与信息将转移至 {{destName}}。{{sourceName}} 将被删除。此操作无法撤销。",
       "confirmButton": "合并到 {{name}}"
     },
     "mergeButton": "合并创作者"
@@ -131,8 +131,8 @@
     "passwordRequired": "请输入超管密码。",
     "purgeButton": "彻底删除创作者资料",
     "unlinkButton": "仅解除用户绑定",
-    "confirmPurge": "确定永久删除该创作者？仅由该创作者单独署名的关卡将被删除，合作署名中的该创作者贡献也会被删除。此操作无法撤销。",
-    "confirmUnlink": "确定只解除该创作者与用户账号的绑定？创作者记录和关卡署名仍会保留。",
+    "confirmPurge": "确定永久删除该创作者？仅由该创作者单独制作的关卡将被删除，合作关卡中的该创作者参与信息也会被删除。此操作无法撤销。",
+    "confirmUnlink": "确定只解除该创作者与用户账号的绑定？创作者记录和关卡制作参与信息仍会保留。",
     "successPurge": "创作者资料已彻底删除。",
     "successUnlink": "创作者已解除用户绑定。",
     "purgeFailed": "删除创作者资料失败。",

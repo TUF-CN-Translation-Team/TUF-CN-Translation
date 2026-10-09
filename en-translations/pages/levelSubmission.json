@@ -29,7 +29,7 @@
     "timestamp": "Upload Time",
     "nolink": "No link provided",
     "resolving": "Resolving video link…",
-    "linkResolved": "Short link resolved to Bilibili URL"
+    "linkResolved": "Short link resolved"
   },
   "tooltip": "Unknown difficulty, will submit but please make sure it's readable by the managers. Correct diff ex.: G13; P7~P13; 21.1+; 19~20.0+",
   "suffixTooltip": "This will be put after the song name, for example, \"<bold>Nerfed</bold>\" here will result in \"Song Name <bold>Nerfed</bold>\"",

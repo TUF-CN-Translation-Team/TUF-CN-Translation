@@ -25,13 +25,13 @@
     "notfound": "Not Found"
   },
   "videoInfo": {
-    "videoLink": "YouTube or Bilibili video link",
+    "videoLink": "YouTube, Bilibili, or Douyin video link",
     "title": "Title",
     "channel": "Channel",
     "timestamp": "Upload Time",
-    "nolink": "Enter a valid YouTube or Bilibili video link",
+    "nolink": "Enter a valid YouTube, Bilibili, or Douyin video link",
     "resolving": "Resolving video link…",
-    "linkResolved": "Short link resolved to Bilibili URL"
+    "linkResolved": "Short link resolved"
   },
   "judgements": {
     "ePerfect": "EPerfect",
