@@ -97,7 +97,7 @@
     "setup": {
       "title": "Rating Zen Mode",
       "subtitle": "Rate levels, one at a time.",
-      "resumeHint": "You have a paused Zen session in this tab.",
+      "resumeHint": "You have a paused Zen session on this account.",
       "continue": "Continue session",
       "discard": "Discard & new",
       "deckSize": "Deck size",
@@ -157,7 +157,9 @@
       "reportFailed": "Failed to send report",
       "ratingRequired": "Enter a rating",
       "commentRequired": "Comment is required",
-      "submitFailed": "Submit failed"
+      "submitFailed": "Submit failed",
+      "alreadyRated": "This level is already rated in Zen Mode",
+      "normalRatingLocked": "Finish or discard Zen Mode before using the rating queue"
     }
   }
 }

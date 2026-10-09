@@ -245,6 +245,7 @@
   },
   "creditsEdit": {
     "searchPlaceholder": "Search creators…",
-    "noResults": "No matching creators"
+    "noResults": "No matching creators",
+    "keepSelfOwner": "You cannot remove yourself as an owner"
   }
 }

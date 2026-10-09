@@ -47,7 +47,7 @@
     "submitterRecordTooltip": "{{accepted}} accepted / {{declined}} declined",
     "uploadTime": "Upload Time",
     "videoLink": "Video link:",
-    "videoLinkPlaceholder": "YouTube or Bilibili URL",
+    "videoLinkPlaceholder": "YouTube, Bilibili, or Douyin URL",
     "videoFromOwnChannel": "Video from user's own channel",
     "videoFromPasserChannel": "Passer's channel"
   },

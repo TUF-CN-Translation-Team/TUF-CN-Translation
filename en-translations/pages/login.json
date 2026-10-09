@@ -36,7 +36,7 @@
     "resendCooldown": "Please wait before requesting another code",
     "sendFailed": "Failed to send login code",
     "expired": "Login challenge expired. Please sign in again.",
-    "rememberDevice": "Remember this device for 30 days",
+    "rememberDevice": "Remember this device for 120 days",
     "back": "Back to login",
     "usePasskey": "Use a passkey instead",
     "passkeyFailed": "Passkey verification failed. Please try again."
