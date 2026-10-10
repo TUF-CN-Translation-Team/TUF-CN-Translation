@@ -97,7 +97,7 @@
     "setup": {
       "title": "沉浸模式评级",
       "subtitle": "沉浸评级，一次一个。",
-      "resumeHint": "上次沉浸模式尚未完成。",
+      "resumeHint": "上次沉浸模式评级尚未完成。",
       "continue": "继续",
       "discard": "放弃并重新开始",
       "deckSize": "本次评级关卡数量",
@@ -157,7 +157,9 @@
       "reportFailed": "报告发送失败",
       "ratingRequired": "输入你的评级",
       "commentRequired": "需要理由",
-      "submitFailed": "提交失败"
+      "submitFailed": "提交失败",
+      "alreadyRated": "此关卡已在沉浸模式中评过",
+      "normalRatingLocked": "查看评级列表前请先结束或取消沉浸模式"
     }
   }
 }

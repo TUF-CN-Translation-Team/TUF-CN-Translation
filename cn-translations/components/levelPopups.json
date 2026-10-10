@@ -245,6 +245,7 @@
   },
   "creditsEdit": {
     "searchPlaceholder": "搜索创作者…",
-    "noResults": "没有匹配的创作者"
+    "noResults": "没有匹配的创作者",
+    "keepSelfOwner": "自己是所有者时不能把自己删除"
   }
 }

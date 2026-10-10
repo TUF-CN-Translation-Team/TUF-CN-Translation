@@ -24,7 +24,7 @@
   },
   "mfa": {
     "title": "检查你的收件箱",
-    "codePrompt": "输入发送至{{email}}的代码以结束登录进程。",
+    "codePrompt": "输入发送至{{email}}的代码以完成登录进程。",
     "yourEmail": "你的邮箱",
     "codeLabel": "登录代码",
     "codeRequired": "输入发送至你的邮箱的8位代码",
@@ -33,10 +33,10 @@
     "verifying": "验证中……",
     "resend": "重新发送",
     "resendIn": "{{seconds}}秒后可重新发送",
-    "resendCooldown": "请求另一代码前请先等候",
+    "resendCooldown": "请求另一代码前请先等待",
     "sendFailed": "发送登录代码失败",
     "expired": "登录已过期。请重试。",
-    "rememberDevice": "记住该设备30天",
+    "rememberDevice": "记住此设备120天",
     "back": "返回登录",
     "usePasskey": "使用通行密钥",
     "passkeyFailed": "通行密钥验证失败。请重试。"

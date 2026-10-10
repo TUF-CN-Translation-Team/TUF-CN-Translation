@@ -47,7 +47,7 @@
     "submitterRecordTooltip": "已通过 {{accepted}} 个，已拒绝 {{declined}} 个",
     "uploadTime": "上传时间",
     "videoLink": "视频链接：",
-    "videoLinkPlaceholder": "YouTube 或 Bilibili 链接",
+    "videoLinkPlaceholder": "YouTube，B站或抖音视频链接",
     "videoFromOwnChannel": "来自用户自己的频道的视频",
     "videoFromPasserChannel": "通关者主页"
   },
