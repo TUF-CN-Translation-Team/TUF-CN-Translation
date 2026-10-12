@@ -19,7 +19,7 @@
   "jobs": {
     "title": "处理队列",
     "hide": "隐藏队列",
-    "loading": "正在加载队列…",
+    "loading": "正在加载队列……",
     "processing": "处理中",
     "done": "已完成",
     "emptyProcessing": "队列为空",
