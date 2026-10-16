@@ -6,7 +6,7 @@
   "level": {
     "creator": "关卡设计",
     "clears": "通关总数",
-    "totalClears": "总通关",
+    "totalClears": "总通关次数",
     "clearStatus": {
       "cleared": "已通关",
       "purePerfect": "已完美无瑕",
