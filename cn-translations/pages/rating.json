@@ -44,7 +44,7 @@
   "labels": {
     "totalRatings": "{{count}} 个待评级关卡",
     "connectedUsers": "{{count}} 人在线",
-    "connectedManagers": "({{count}} 名管理员)",
+    "connectedManagers": "（{{count}} 名管理员）",
     "disconnected": "未连接"
   },
   "tooltips": {

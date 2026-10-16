@@ -239,7 +239,7 @@
   "adminGrants": {
     "openMode": "管理员赠予模式",
     "exitMode": "退出管理员模式",
-    "title": "管理员访问赠予",
+    "title": "管理员赠予模式",
     "subtitle": "无需付款即可赠送 TUFStellar 访问权限。所有操作均会记录。",
     "close": "关闭管理员模式",
     "passwordTitle": "超管密码",

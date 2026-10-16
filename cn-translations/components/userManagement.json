@@ -25,7 +25,7 @@
   },
   "roles": {
     "rater": "评级员",
-    "superadmin": "超级管理员",
+    "superadmin": "管理员",
     "curator": "精选委员",
     "headCurator": "精选委员长"
   },
@@ -49,8 +49,8 @@
     "alreadyLowestRole": "该用户已有最低身份组",
     "noRoleToRemove": "该用户没有可删除的身份组",
     "cannotRemoveBottomRole": "无法从基础身份组中删除用户 - 他们只能被降级",
-    "scheduleAccountConfirm": "为该用户安排账户注销？3 天内其资料将从排行榜隐藏，之后永久注销。",
-    "scheduleWithCreatorConfirm": "安排账户注销，并在执行时清理其绑定的创作者资料？仅由其制作的关卡将永久删除；合作谱面将删除其参与信息。",
+    "scheduleAccountConfirm": "为该用户安排账户注销？其资料将从排行榜隐藏 3 天，之后账户将被永久注销。",
+    "scheduleWithCreatorConfirm": "安排账户注销，并在执行时清理其绑定的创作者资料？仅由其制作的关卡将永久删除，合作谱面将删除其参与信息。",
     "scheduleOwnConfirm": "你正在为自己的管理员账户安排注销，是否继续？",
     "scheduleDeletionFailed": "无法安排账户注销。"
   },
