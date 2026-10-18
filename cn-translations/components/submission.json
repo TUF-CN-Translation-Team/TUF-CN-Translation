@@ -21,7 +21,7 @@
     "title": "提交关卡",
     "videoInfo": {
       "title": "视频标题",
-      "channel": "UP主名称",
+      "channel": "上传者名称",
       "timestamp": "时间戳",
       "nolink": "未提供链接"
     },
@@ -60,7 +60,7 @@
     "videoInfo": {
       "videoLink": "视频链接",
       "title": "视频标题",
-      "channel": "UP主名称",
+      "channel": "上传者名称",
       "timestamp": "时间戳",
       "nolink": "未提供链接" 
     },

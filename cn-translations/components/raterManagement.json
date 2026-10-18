@@ -34,12 +34,12 @@
     "passwordRequired": "需要密码",
     "invalidPassword": "超管密码无效",
     "deleteConfirm": "确认删除评级员？",
-    "updateAdminFailed": "更新管理员状态失败",
-    "deleteFailed": "删除评级员失败",
-    "discordFetchFailed": "获取 Discord ID 失败",
-    "updateDiscordFailed": "更新 Discord 信息失败",
-    "loadFailed": "加载评级员失败",
-    "addFailed": "添加评级员失败",
+    "updateAdminFailed": "管理员状态更新失败",
+    "deleteFailed": "评级员删除失败",
+    "discordFetchFailed": "Discord ID 获取失败",
+    "updateDiscordFailed": "Discord 信息更新失败",
+    "loadFailed": "评级员加载失败",
+    "addFailed": "评级员添加失败",
     "userNotFound": "未找到用户"
   }
 } 

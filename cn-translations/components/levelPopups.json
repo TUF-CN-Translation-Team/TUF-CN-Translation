@@ -121,7 +121,7 @@
     },
     "chartStats": {
       "title": "谱面数据",
-      "openButtonTitle": "编辑 BPM、物量、中旋与时长信息（仅限非CDN谱面）",
+      "openButtonTitle": "编辑BPM、物量、中旋与时长信息（仅限非 CDN 谱面）",
       "clearHint": "留空并保存以隐藏对应条目。",
       "preview": "预览",
       "toastSaved": "谱面数据已保存",
@@ -144,7 +144,8 @@
         "unset": "未设置",
         "question": "将此变动应用到该关卡的所有通关记录？",
         "toastSavedWithPasses": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。",
-        "toastSavedWithPassesSkipped": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。{{skipped}} 个通关记录由于完美数将低于 0 而已跳过。"
+        "toastSavedWithPassesSkipped": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。{{skipped}} 个通关记录由于完美数将低于 0 而已跳过。",
+        "toastSavedNoneUpdated": "谱面数据已保存。未更新任何通关记录。（未更改 {{skipped}} 个）"
       }
     },
     "tags": {
@@ -245,6 +246,7 @@
   },
   "creditsEdit": {
     "searchPlaceholder": "搜索创作者…",
-    "noResults": "没有匹配的创作者"
+    "noResults": "没有匹配的创作者",
+    "keepSelfOwner": "自己是所有者时不能把自己删除"
   }
 }

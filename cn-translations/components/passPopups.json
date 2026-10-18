@@ -30,12 +30,11 @@
       "videoInfo": {
         "videoLink": "视频链接",
         "title": "标题",
-        "channel": "UP主名称",
-        "tl_comment": "上边那一条别动",
+        "channel": "上传者名称",
         "timestamp": "上传日期",
         "nolink": "未提供视频链接",
-        "resolving": "正在解析视频链接…",
-        "linkResolved": "短链接已解析为哔哩哔哩链接"
+        "resolving": "正在解析视频链接……",
+        "linkResolved": "短链接已解析"
       },
       "judgements": {
         "ePerfect": "稍快",

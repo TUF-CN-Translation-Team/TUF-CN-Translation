@@ -68,6 +68,8 @@
     },
     "messages": {
       "ratingBanned": "You are not allowed to rate",
+      "voteSettled": "Rating settled in a voting discussion.",
+      "voteThread": "Open discord thread",
       "autorateSuccess": "Rating autorated successfully"
     }
   },

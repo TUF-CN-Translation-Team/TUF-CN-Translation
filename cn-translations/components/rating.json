@@ -68,6 +68,8 @@
     },
     "messages": {
       "ratingBanned": "你没有评级权限",
+      "voteSettled": "评级已在投票讨论中确定。",
+      "voteThread": "打开 Discord 子区",
       "autorateSuccess": "自动评级成功"
     }
   },

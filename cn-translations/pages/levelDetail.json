@@ -105,7 +105,14 @@
       "speed": "按飙速排序"
     },
     "dedupe": {
-      "label": "隐藏重复通关"
+      "label": "隐藏重复通关记录"
+    },
+    "search": {
+      "placeholder": "按玩家名称搜索",
+      "noMatches": "无匹配结果"
+    },
+    "showHidden": {
+      "label": "显示隐藏通关记录"
     }
   },
   "dialog": {
@@ -149,7 +156,7 @@
     "tooltipEarly": "太快/慢",
     "disablePP": "隐藏完美无瑕",
     "judgementsAria": "判定分布",
-    "judgementMiss": "空敲",
+    "judgementMiss": "提前",
     "judgementEarly": "太快",
     "judgementEPerfect": "稍快",
     "judgementPerfect": "完美",
@@ -157,10 +164,12 @@
     "judgementLate": "太慢"
   },
   "toRatePending": {
-    "header": "待重新评级",
+    "header": "正在评级中……",
     "rerateNumber": "请求评级",
+    "requesterFR": "请求评级",
     "rerateMessage": "重评信息",
-    "noDetails": "未填写额外信息。"
+    "noDetails": "未填写额外信息。",
+    "openRating": "在评级页面中查看"
   },
   "tags": {
     "header": "关卡标签",

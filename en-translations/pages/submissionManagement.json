@@ -31,6 +31,7 @@
     "holdToCloseAll": "Hold to close all",
     "openLevel": "Level #{{id}}",
     "openPass": "Pass #{{id}}",
+    "noDeclineReason": "No reason provided",
     "status": {
       "queued": "queued",
       "processing": "processing",

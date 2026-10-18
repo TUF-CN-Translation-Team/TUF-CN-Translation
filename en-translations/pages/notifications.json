@@ -122,6 +122,64 @@
         "body": "{{playerName}} cleared {{song}} by {{artist}}."
       }
     },
+    "request": {
+      "updated": {
+        "title": "Request updates",
+        "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} is now {{statusLabel}}.",
+        "accepted": {
+          "title": "Request accepted",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} was accepted."
+        },
+        "rejected": {
+          "title": "Request rejected",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} was rejected."
+        },
+        "rejectedWithNote": {
+          "title": "Request rejected",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} was rejected: \"{{publicNote}}\"."
+        },
+        "rejectedWithActor": {
+          "title": "Request rejected",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} was rejected — {{actorName}}."
+        },
+        "rejectedWithNoteAndActor": {
+          "title": "Request rejected",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} was rejected: \"{{publicNote}}\" — {{actorName}}."
+        },
+        "completed": {
+          "title": "Request completed",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} is complete."
+        },
+        "completed_changed": {
+          "title": "Request completed",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} is complete — difficulty changed from {{previousDifficulty}} to {{settledDifficulty}}."
+        },
+        "completed_unchanged": {
+          "title": "Request completed",
+          "body": "Your {{requestTypeLabel}} request for {{song}} by {{artist}} is complete — the difficulty stayed {{settledDifficulty}}."
+        },
+        "added_to_rating_page": {
+          "title": "Added to rating page",
+          "body": "Your rerate request for {{song}} by {{artist}} is now on the rating page."
+        },
+        "added_to_rating_pageWithRating": {
+          "title": "Added to rating page",
+          "body": "Your rerate request for {{song}} by {{artist}} is now on the rating page as {{requestedRating}}."
+        },
+        "discord_vote": {
+          "title": "Discord vote started",
+          "body": "Your rerate request for {{song}} by {{artist}} will be settled in a Discord vote."
+        },
+        "note": {
+          "title": "Request note",
+          "body": "A note was added to your {{requestTypeLabel}} request for {{song}} by {{artist}}: \"{{publicNote}}\"."
+        },
+        "noteWithActor": {
+          "title": "Request note",
+          "body": "{{actorName}} left a note on your {{requestTypeLabel}} request for {{song}} by {{artist}}: \"{{publicNote}}\"."
+        }
+      }
+    },
     "following": {
       "player": {
         "pass": {
