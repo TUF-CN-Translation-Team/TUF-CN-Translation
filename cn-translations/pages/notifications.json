@@ -122,6 +122,64 @@
         "body": "{{playerName}} 通过了关卡 {{artist}} - {{song}}。"
       }
     },
+    "request": {
+      "updated": {
+        "title": "请求已更新",
+        "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求状态已更新为 {{statusLabel}}。",
+        "accepted": {
+          "title": "请求已接受",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已被接受。"
+        },
+        "rejected": {
+          "title": "请求已拒绝",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已被拒绝。"
+        },
+        "rejectedWithNote": {
+          "title": "请求已拒绝",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已被拒绝：\"{{publicNote}}\"。"
+        },
+        "rejectedWithActor": {
+          "title": "请求已拒绝",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已被拒绝。 — {{actorName}}"
+        },
+        "rejectedWithNoteAndActor": {
+          "title": "请求已拒绝",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已被拒绝：\"{{publicNote}}\"。 — {{actorName}}"
+        },
+        "completed": {
+          "title": "请求已完成",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已完成。"
+        },
+        "completed_changed": {
+          "title": "请求已完成",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已完成 —— 难度已从 {{previousDifficulty}} 更改为 {{settledDifficulty}}。"
+        },
+        "completed_unchanged": {
+          "title": "请求已完成",
+          "body": "你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求已完成 —— 难度仍为 {{settledDifficulty}}。"
+        },
+        "added_to_rating_page": {
+          "title": "已添加至评级页面",
+          "body": "你发送的 {{artist}} - {{song}} 的重评请求已被添加至评级页面。"
+        },
+        "added_to_rating_pageWithRating": {
+          "title": "已添加至评级页面",
+          "body": "你发送的 {{artist}} - {{song}} 的重评请求已与请求等级 {{requestedRating}} 一同被添加至评级页面。"
+        },
+        "discord_vote": {
+          "title": "Discord 投票已开启",
+          "body": "你发送的 {{artist}} - {{song}} 的重评请求将被在 Discord 投票中确定。"
+        },
+        "note": {
+          "title": "Request note",
+          "body": "一条备注已被添加至你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求：\"{{publicNote}}\"。"
+        },
+        "noteWithActor": {
+          "title": "请求备注已更新",
+          "body": "{{actorName}} 在你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求上添加了备注：\"{{publicNote}}\"。"
+        }
+      }
+    },
     "following": {
       "player": {
         "pass": {

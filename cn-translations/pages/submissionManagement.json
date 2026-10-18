@@ -31,6 +31,7 @@
     "holdToCloseAll": "长按关闭全部",
     "openLevel": "关卡 #{{id}}",
     "openPass": "通关记录 #{{id}}",
+    "noDeclineReason": "未提供原因",
     "status": {
       "queued": "排队中",
       "processing": "处理中",
