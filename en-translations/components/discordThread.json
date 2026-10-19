@@ -1,0 +1,12 @@
+{
+  "titleCreate": "Create Discord thread",
+  "titleClose": "Close Discord thread",
+  "titleReopen": "Reopen Discord thread",
+  "pingLabel": "Ping the rating team",
+  "continue": "Continue",
+  "willPing": "WILL PING",
+  "willNotPing": "WILL NOT PING",
+  "confirmCreate": "This will create the thread and {{ping}} the rating team in the message",
+  "confirmReopen": "This will reopen the thread and {{ping}} the rating team in the message",
+  "confirmClose": "This will close the thread and return this chart to website rating and {{ping}} the rating team in the message"
+}

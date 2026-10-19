@@ -28,7 +28,11 @@
       "saveChanges": "Save Changes",
       "removeRating": "Remove Rating",
       "viewAdminRatings": "View Manager Ratings",
-      "viewCommunityRatings": "View Community Ratings"
+      "viewCommunityRatings": "View Community Ratings",
+      "discordThread": "Create Discord thread",
+      "discordThreadClose": "Close Discord thread",
+      "discordThreadReopen": "Reopen Discord thread",
+      "discordThreadClosed": "Closed Discord thread"
     },
     "errors": {
       "commentLength": "Comment must be less than 1000 characters",
@@ -37,7 +41,8 @@
       "updateFailed": "Failed to update rating",
       "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
       "deleteFailed": "Failed to delete rating",
-      "autorateFailed": "Failed to autorate rating"
+      "autorateFailed": "Failed to autorate rating",
+      "discordThread": "Could not update the Discord thread"
     },
     "tooltips": {
       "lastUpdated": "Last updated time",
@@ -59,6 +64,7 @@
     },
     "confirmations": {
       "deleteRating": "Are you sure you want to delete this rating from {{username}}?",
+      "discordThread": "Create a Discord vote thread for this rating? The chart will stay on the rating page as a vote card.",
       "unsavedDraft": {
         "title": "Unsaved rating",
         "body": "Save a draft for later, discard your changes, or stay and keep editing.",
@@ -70,6 +76,9 @@
       "ratingBanned": "You are not allowed to rate",
       "voteSettled": "Rating settled in a voting discussion.",
       "voteThread": "Open discord thread",
+      "discordThreadStarted": "Discord thread created",
+      "discordThreadClosed": "Discord thread closed",
+      "discordThreadReopened": "Discord thread reopened",
       "autorateSuccess": "Rating autorated successfully"
     }
   },
