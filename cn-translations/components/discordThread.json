@@ -1,0 +1,12 @@
+{
+  "titleCreate": "创建 Discord 子区",
+  "titleClose": "关闭 Discord 子区",
+  "titleReopen": "重开 Discord 子区",
+  "pingLabel": "@评级团队",
+  "continue": "继续",
+  "willPing": "将会发送@消息",
+  "willNotPing": "将不发送@消息",
+  "confirmCreate": "这将创建子区并在消息中 {{ping}} 评级团队",
+  "confirmReopen": "这将重开子区并在消息中 {{ping}} 评级团队",
+  "confirmClose": "这将关闭子区并将谱面放回至网站评级页面并在消息中 {{ping}} 评级团队"
+}

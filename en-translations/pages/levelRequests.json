@@ -1,5 +1,5 @@
 {
-  "menu": "Request",
+  "menu": "Request change",
   "alreadyExists": "Already exists",
   "alreadyRequested": "You already requested this",
   "onRatingPage": "Level already on rating",
@@ -72,8 +72,8 @@
     "discord_close": "Could not close the Discord thread"
   },
   "form": {
-    "title": "{{type}} request",
-    "editTitle": "Edit {{type}} request",
+    "title": "Request change",
+    "editTitle": "Request change",
     "reason": "Reason",
     "reasonPlaceholder": "Explain the request. Mention levels as #123.",
     "noReferencesConfirm": "Are you sure you want to submit this without any references? Adding a reference level will speed up processing of your request (and make our job a bit easier)",
@@ -128,6 +128,11 @@
     "frozenVsCurrent": "{{frozen}} now {{current}}",
     "clear": "Best pass",
     "noClear": "No visible pass",
+    "topClear": "Top clear",
+    "cleared": "Cleared",
+    "uncleared": "No clear",
+    "clearedHint": "Player has cleared this level with {{accuracy}} accuracy",
+    "neverClearedHint": "Player has never cleared this level",
     "publicNote": "Public note",
     "internalNote": "Internal note",
     "discordError": "Discord post failed",
@@ -179,6 +184,103 @@
     "save": "Save",
     "saved": "Notes saved"
   },
+  "helpPopup": {
+    "title": "Search Help",
+    "closeButton": "Close",
+    "v2": {
+      "subtitle": "Advanced search is a small query language. Use field tokens and operators to narrow requests.",
+      "examplesTitle": "Examples",
+      "groups": {
+        "basics": {
+          "title": "Basics (how queries are parsed)",
+          "intro": "Write conditions as field:value or field=value. Use commas for AND inside a group, and | to create OR groups.",
+          "examples": {
+            "and": "<b><code>song:hello, requester:v0w4n</code></b><br/>Both conditions must match (AND).",
+            "or": "<b><code>status=pending | status=accepted</code></b><br/>Either group can match (OR).",
+            "not": "<b><code>song:onus, \\!status:rejected</code></b><br/>Exclude matches (NOT)."
+          }
+        },
+        "fields": {
+          "title": "Request fields",
+          "intro": "These fields match request data. Use : for partial match and = for exact match. IDs are always exact.",
+          "examples": {
+            "level": "<b><code>#123</code></b> or <b><code>level=123</code></b> finds requests for that level. <b><code>id=45</code></b> finds a specific request.",
+            "requesterStatus": "<b><code>requester:v0w4n, status:pending</code></b><br/>Filter by username or nickname and status.",
+            "typeReason": "<b><code>type:info, reason:offset</code></b><br/>Type is most useful on My requests, where all types are listed together."
+          }
+        },
+        "tips": {
+          "title": "Tips",
+          "intro": "A few details that help avoid surprises.",
+          "bullets": {
+            "plainText": "A term without a field still searches song, artist, level id, request id, requester, status, reason, and (on My requests) type.",
+            "statusToggle": "If the query includes status:, the completed toggle is ignored.",
+            "caseInsensitive": "Search is case-insensitive: 'SONG' and 'song' behave the same.",
+            "spacesAllowed": "Spaces are allowed in values: song:Example Song works.",
+            "groupingMentalModel": "Think of it as (A AND B) OR (C AND D): commas build AND groups, | splits OR groups."
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "Partial match",
+          "desc": "Use : to match partial text (example: song:go)."
+        },
+        "operatorEquals": {
+          "title": "Exact match",
+          "desc": "Use = to match exactly (example: song=goTe)."
+        },
+        "operatorComma": {
+          "title": "AND inside a group",
+          "desc": "Separate terms with commas to require all conditions in the group."
+        },
+        "operatorPipe": {
+          "title": "OR between groups",
+          "desc": "Use | to split your query into OR groups. If any group matches, the request is included."
+        },
+        "operatorNot": {
+          "title": "NOT (exclude)",
+          "desc": "Prefix a term with \\! to exclude matches containing that term."
+        },
+        "id": {
+          "title": "Request id",
+          "desc": "Exact request id (example: id=45)."
+        },
+        "hashtag": {
+          "title": "Level id shortcut",
+          "desc": "#123 is the same as level=123."
+        },
+        "level": {
+          "title": "Level id",
+          "desc": "Exact level id. levelId is an alias (example: level:123)."
+        },
+        "song": {
+          "title": "Song",
+          "desc": "Matches the level song name."
+        },
+        "artist": {
+          "title": "Artist",
+          "desc": "Matches the level artist name."
+        },
+        "requester": {
+          "title": "Requester",
+          "desc": "Matches username or nickname. user and username are aliases."
+        },
+        "status": {
+          "title": "Status",
+          "desc": "pending, accepted, added_to_rating_page (aliases: rating, rating_page), discord_vote (aliases: discord, vote), rejected, withdrawn, completed, completed_changed, completed_unchanged."
+        },
+        "type": {
+          "title": "Request type",
+          "desc": "rerate, info_change (alias: info), tag, curation, curation_rerate. Most useful on My requests."
+        },
+        "reason": {
+          "title": "Reason",
+          "desc": "Matches the request reason text."
+        }
+      }
+    }
+  },
   "list": {
     "empty": "No requests",
     "loading": "Loading requests…",
@@ -189,8 +291,14 @@
     "requesterPlaceholder": "Username",
     "status": "Status",
     "anyStatus": "Any open status",
-    "searchPlaceholder": "Search song, level, requester, or status",
+    "searchPlaceholder": "Search requests (field:value)",
+    "searchHelp": "Search Help",
     "completed": "Completed",
+    "sort": "Sort",
+    "sortCreatedDesc": "Newest first",
+    "sortCreatedAsc": "Oldest first",
+    "sortUpdatedDesc": "Recently updated",
+    "sortUpdatedAsc": "Least recently updated",
     "type": "Type",
     "anyType": "Any type",
     "page": "Page {{page}} of {{totalPages}}",

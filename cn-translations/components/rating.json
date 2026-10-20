@@ -28,16 +28,21 @@
       "saveChanges": "保存更改",
       "removeRating": "删除评级",
       "viewAdminRatings": "查看评级员评级",
-      "viewCommunityRatings": "查看其他玩家评级"
+      "viewCommunityRatings": "查看其他玩家评级",
+      "discordThread": "创建 Discord 子区",
+      "discordThreadClose": "关闭 Discord 子区",
+      "discordThreadReopen": "重开 Discord 子区",
+      "discordThreadClosed": "已关闭 Discord 子区"
     },
     "errors": {
-      "commentLength": "理由必须少于1000个字符",
-      "commentRequired": "Censored 评级需要理由",
+      "commentLength": "理由必须少于 1000 个字符",
+      "commentRequired": "对于 Censored 评级需要理由",
       "saveFailed": "更改保存失败",
       "updateFailed": "评级更新失败",
       "unsavedChanges": "你有未保存的更改，确定要退出吗？",
       "deleteFailed": "评级删除失败",
-      "autorateFailed": "自动评级失败"
+      "autorateFailed": "自动评级失败",
+      "discordThread": "无法更新 Discord 子区"
     },
     "tooltips": {
       "lastUpdated": "上次更新时间",
@@ -45,7 +50,7 @@
     },
     "placeholders": {
       "requiredComment": "请解释为什么你给这个关卡评 Censored……",
-      "difficultyInput": "输入难度……",
+      "difficultyInput": "请输入难度……",
       "communityComment": "请提供一个你的评级的理由……"
     },
     "accuracy": {
@@ -59,6 +64,7 @@
     },
     "confirmations": {
       "deleteRating": "你确定删除 {{username}} 的评级吗？",
+      "discordThread": "为此评级创建 Discord 投票子区？此关卡将在评级页面中标记为投票卡片。",
       "unsavedDraft": {
         "title": "未保存评级",
         "body": "暂存为草稿，可放弃修改或以后继续编辑。",
