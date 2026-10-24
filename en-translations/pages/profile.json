@@ -66,7 +66,13 @@
     "highestRankAt": "at {{date}}",
     "highestRankNow": "At highest rank right now!",
     "youtubeChannel": "YouTube: {{name}}",
-    "youtubeMore": "More YouTube channels"
+    "youtubeMore": "More YouTube channels",
+    "note": {
+      "open": "Notes",
+      "empty": "No note yet.",
+      "saved": "Note saved",
+      "error": "Couldn't save note"
+    }
   },
   "bio": {
     "header": "Bio",

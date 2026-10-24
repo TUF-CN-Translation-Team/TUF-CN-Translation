@@ -8,6 +8,8 @@
     "speed": "Speed (opt., >=1.0)",
     "keyCount": "Key Count (opt.)",
     "feelDiff": "Feeling Rating",
+    "details": "Details (optional)",
+    "detailsPlaceholder": "Any additional info about this clear",
     "expectedDiff": "Expected Rating (opt.)",
     "isAdofaiV2": "ADOFAI v2",
     "adofaiVersion": "ADOFAI version",

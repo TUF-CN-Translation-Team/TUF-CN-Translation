@@ -170,6 +170,11 @@
       }
     }
   },
+  "details": {
+    "label": "Details",
+    "showMore": "Read More",
+    "showLess": "Show Less"
+  },
   "video": {
     "notAvailable": {
       "text": "Video not available",

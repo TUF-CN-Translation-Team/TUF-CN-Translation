@@ -10,6 +10,8 @@
         "speed": "Speed",
         "keyCount": "Key Count (opt.)",
         "feelDiff": "Feeling Rating",
+        "details": "Details (optional)",
+        "detailsPlaceholder": "Any additional info about this clear",
         "expectedDiff": "Expected Rating (opt.)",
         "nohold": "No Hold",
         "isAdofaiV2": "ADOFAI v2",

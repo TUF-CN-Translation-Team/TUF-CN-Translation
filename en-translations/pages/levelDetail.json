@@ -27,7 +27,8 @@
     "editDisabled": "This level has more than 2 charters assigned. Contact admins if you believe that you should be the owner.",
     "muteChartClears": "Mute clear notifications for this chart",
     "unmuteChartClears": "Unmute clear notifications for this chart",
-    "purePerfectScore": "Pure perfect: {{score}}"
+    "purePerfectScore": "Pure perfect: {{score}}",
+    "referenceLevel": "This is a reference level for {{diffName}}"
   },
   "links": {
     "download": "Download Level",

@@ -3,21 +3,21 @@
     "title": "搜索帮助",
     "closeButton": "关闭",
     "v2": {
-      "subtitle": "高级搜索是一套简短的查询语法。通过组合字段、运算符与范围可以快速缩小结果。",
+      "subtitle": "高级搜索是一套简短的搜索语法。通过组合字段、运算符与范围来缩小结果范围。",
       "examplesTitle": "示例",
       "groups": {
         "basics": {
           "title": "基础（解析规则）",
-          "intro": "用 field:value 或 field=value 输入搜索条件。英文逗号 , 表示与（AND）条件，竖线 | 表示且用来分开或（OR）条件。",
+          "intro": "用“field:value”或“field=value”输入搜索条件。英文逗号“,”表示“与”条件，竖线“|”表示且用来分开“或”条件。",
           "examples": {
-            "and": "<b><code>song:hello, artist:camellia</code></b><br/>两个条件都要满足（AND），这将寻找由“camellia”作曲、带有“hello”的关卡。",
-            "or": "<b><code>song=goTe | song:xnor</code></b><br/>满足任一条件即可（OR），这将搜索任何曲名中带有 goTe 的关卡（不带 EX）或带有 XNOR 的关卡。",
-            "not": "<b><code>song:onus, \\!nerfed</code></b><br/>排除包含某词语的结果（NOT），这将排除曲名中含 Onus 的带“nerfed”的关卡。"
+            "and": "<b><code>song:hello, artist:camellia</code></b><br/>两个条件都要满足，这将寻找由“camellia”作曲、带有“hello”的关卡。",
+            "or": "<b><code>song=goTe | song:xnor</code></b><br/>满足任一条件即可，这将搜索任何曲名中带有 goTe 的关卡（不带 EX）或带有 XNOR 的关卡。",
+            "not": "<b><code>song:onus, \\!nerfed</code></b><br/>排除包含某词语的结果，这将排除曲名中含 Onus 的带“nerfed”的关卡。"
           }
         },
         "text": {
           "title": "文本（名称/身份组）",
-          "intro": "不区分大小写。: 表示部分匹配， = 表示完全匹配。",
+          "intro": "不区分大小写。“:”表示部分匹配，“=”表示完全匹配。",
           "examples": {
             "partialVsExact": "<b><code>song:go</code></b> 为部分匹配，<b><code>song=goTe</code></b> 为完全匹配。",
             "multiWord": "值中允许空格：<b><code>artist:Camellia (feat. Nanahira)</code></b> 有效。",

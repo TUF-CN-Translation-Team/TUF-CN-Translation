@@ -5,6 +5,7 @@
     "player": "Player",
     "feelingDiff": "Feeling Difficulty",
     "expectedDiff": "Expected Rating",
+    "passDetails": "Details",
     "speed": "Speed",
     "judgements": {
       "label": "Judgements",
