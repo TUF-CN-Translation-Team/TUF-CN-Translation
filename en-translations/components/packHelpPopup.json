@@ -1,50 +1,100 @@
 {
-    "title": "Pack Search Help",
-    "closeButton": "Close",
-    "sections": {
-      "search": {
-        "title": "Field-Specific Search",
-        "description": "You can search for specific pack fields using two different operators: colon (:) for partial matches and equals (=) for exact matches.",
+  "title": "Pack Search Help",
+  "closeButton": "Close",
+  "v2": {
+    "subtitle": "Advanced search is a small query language. Use field tokens and operators to narrow packs.",
+    "examplesTitle": "Examples",
+    "groups": {
+      "basics": {
+        "title": "Basics (how queries are parsed)",
+        "intro": "Write conditions as field:value or field=value. Use commas for AND inside a group, and | to create OR groups.",
         "examples": {
-          "title": "Available Fields",
-          "nameField": "Search by pack name (e.g., 'name:my pack' or 'name=My Cool Pack')",
-          "ownerField": "Search by pack owner username (e.g., 'owner:v0w4n' or 'owner=v0w4n')",
-          "levelIdField": "Search for packs containing a specific level (e.g., 'levelId:123' or 'levelId=456')",
-          "viewModeField": "Search by pack visibility mode (e.g., 'viewMode:0' for public packs)",
-          "pinnedField": "Search by pinned status (e.g., 'pinned:true' for pinned packs)"
+          "and": "<b><code>name:my pack, owner:v0w4n</code></b><br/>Both conditions must match (AND).",
+          "or": "<b><code>name=My Pack | name:cool pack</code></b><br/>Either group can match (OR).",
+          "not": "<b><code>name:cool, \\!pinned:true</code></b><br/>Exclude matches (NOT)."
         }
       },
-      "operators": {
-        "title": "Search Operators",
-        "description": "You can combine multiple search conditions using operators.",
+      "fields": {
+        "title": "Pack fields",
+        "intro": "These fields match pack data. Use : for partial match and = for exact match.",
         "examples": {
-          "title": "Operator Examples",
-          "and": "Search for packs that match both conditions (AND). This will look for packs named 'my pack' owned by 'v0w4n'",
-          "or": "Search for packs that match either condition (OR). This searches for either exact 'My Pack' or any pack with 'cool pack' in the name",
-          "complex": "Complex search combining AND and OR conditions. This looks for pinned packs by 'teo_72' or any packs by 'v0w4n'",
-          "not": "Usage of '\\!' will exclude results containing the term - this expression will exclude pinned packs with 'cool' in the name"
+          "nameOwner": "<b><code>name:cool, owner:v0w4n</code></b><br/>Name plus owner username.",
+          "levelId": "<b><code>levelId=123</code></b> finds packs containing that level.",
+          "pinned": "<b><code>owner:teo_72, pinned:true | owner:v0w4n</code></b><br/>Combine AND and OR groups."
         }
       },
       "viewModes": {
-        "title": "View Mode Values",
-        "description": "Pack visibility modes control who can see your pack.",
+        "title": "View modes",
+        "intro": "Pack visibility modes control who can see a pack. Search with viewMode:0 or viewMode=0.",
         "examples": {
-          "title": "View Mode Examples",
-          "public": "Public - Everyone can see and search for this pack",
-          "linkOnly": "Link Only - Only visible with direct link, not in search results",
-          "private": "Private - Only the owner can see this pack",
-          "forcedPrivate": "Forced Private - Admin-locked private pack"
+          "public": "<b><code>viewMode=0</code></b> — Public: everyone can see and search for this pack.",
+          "linkOnly": "<b><code>viewMode=1</code></b> — Link only: visible with a direct link, not in search results.",
+          "private": "<b><code>viewMode=2</code></b> — Private: only the owner can see this pack.",
+          "forcedPrivate": "<b><code>viewMode=3</code></b> — Forced private: admin-locked private pack."
         }
       },
       "tips": {
-        "title": "Search Tips",
-        "points": {
-          "caseSensitive": "Searches are case-insensitive - 'PACK' and 'pack' will give the same results",
-          "partial": "Colon (:) allows partial matches - 'name:cool' will match 'My Cool Pack'",
-          "spaces": "Spaces are allowed in search terms - 'name:my cool pack' works",
-          "order": "The order of conditions doesn't matter within each group",
-          "boolean": "Boolean values like 'pinned:true' or 'pinned:false' work for true/false fields"
+        "title": "Tips",
+        "intro": "A few details that help avoid surprises.",
+        "bullets": {
+          "caseInsensitive": "Search is case-insensitive: 'PACK' and 'pack' behave the same.",
+          "partial": "Colon (:) allows partial matches: name:cool matches My Cool Pack.",
+          "spacesAllowed": "Spaces are allowed in values: name:my cool pack works.",
+          "orderDoesNotMatter": "Order does not matter within a group.",
+          "boolean": "Boolean values like pinned:true or pinned:false work for true/false fields.",
+          "groupingMentalModel": "Think of it as (A AND B) OR (C AND D): commas build AND groups, | splits OR groups."
         }
+      }
+    },
+    "fields": {
+      "operatorColon": {
+        "title": "Partial match",
+        "desc": "Use : to match partial text (example: name:cool)."
+      },
+      "operatorEquals": {
+        "title": "Exact match",
+        "desc": "Use = to match exactly (example: name=My Cool Pack)."
+      },
+      "operatorComma": {
+        "title": "AND inside a group",
+        "desc": "Separate terms with commas to require all conditions in the group."
+      },
+      "operatorPipe": {
+        "title": "OR between groups",
+        "desc": "Use | to split your query into OR groups. If any group matches, the pack is included."
+      },
+      "operatorNot": {
+        "title": "NOT (exclude)",
+        "desc": "Prefix a term with \\! to exclude matches containing that term."
+      },
+      "id": {
+        "title": "Pack id",
+        "desc": "Exact pack id or public code (example: id=123)."
+      },
+      "hashtag": {
+        "title": "Public code shortcut",
+        "desc": "#ABC is the same as id:ABC."
+      },
+      "name": {
+        "title": "Name",
+        "desc": "Matches the pack name (example: name:my pack)."
+      },
+      "owner": {
+        "title": "Owner",
+        "desc": "Matches the pack owner username (example: owner:v0w4n)."
+      },
+      "levelId": {
+        "title": "Contained level",
+        "desc": "Finds packs that contain this level id (example: levelId=456)."
+      },
+      "viewMode": {
+        "title": "View mode",
+        "desc": "Pack visibility: 0 public, 1 link only, 2 private, 3 forced private."
+      },
+      "pinned": {
+        "title": "Pinned",
+        "desc": "true or false (example: pinned:true)."
       }
     }
   }
+}

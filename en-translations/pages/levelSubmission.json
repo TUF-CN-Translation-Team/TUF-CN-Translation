@@ -43,6 +43,7 @@
     "orDragDrop": "or drag and drop here",
     "dropHere": "Drop file here!",
     "uploadEvidence": "Upload Evidence Images",
+    "requestTags": "Request tags",
     "submit": "Submit",
     "submitWait": "..."
   },
@@ -91,6 +92,7 @@
     "searchTeam": "Search for a team...",
     "newCreator": "Enter new creator name",
     "newTeam": "Enter new team name",
+    "tags": "No tags requested",
     "notes": "Optional notes for managers (chart details, credits, etc.)"
   },
   "cdnTos": {

@@ -1,5 +1,10 @@
 {
-  "menu": "Request",
+  "menu": "Request change",
+  "alreadyExists": "Already exists",
+  "alreadyRequested": "You already requested this",
+  "alreadySent": "The request for this has been already sent",
+  "onRatingPage": "Level already on rating",
+  "referenceLevel": "Cannot rerate a reference level",
   "types": {
     "rerate": "Rerate",
     "info_change": "Info change",
@@ -47,30 +52,54 @@
     "deleted": "Deleted levels cannot be requested",
     "hidden": "Hidden levels cannot be requested",
     "unsettled": "This chart is still on the rating page",
+    "reference": "Cannot rerate a reference level",
     "missing_level": "Level not found",
     "reason": "A reason is required",
     "reason_length": "Reason must be at most 1000 characters",
-    "requested_rating": "Enter a real P, G, or U rating",
+    "requested_rating": "Enter a P, G, or U rating, or a special difficulty name",
+    "rating": "Enter a P, G, or U rating, or a special difficulty name",
     "comparisons": "Mention at least one existing level with #id",
+    "comparison_rerating": "{{label}} is currently being rerated, it cannot be used for comparison",
     "tags": "Choose existing tags",
+    "kind": "Choose what should change",
+    "type": "Choose a request type",
+    "curation_types": "One or more curation types do not exist",
+    "curation_empty": "Choose at least one curation type",
     "unchanged": "This already matches the level",
+    "unchanged_tags": "Selected tags already match the level",
+    "unchanged_curation": "Selected types already match the level",
+    "has_curation": "This level already has a curation — request a curation rerate",
+    "no_curation": "This level has no curation yet — request a new curation",
     "song": "Choose an existing song",
     "artist": "Choose an existing artist",
     "value": "Enter the new value",
     "value_length": "That value must be at most 4000 characters",
+    "download_both": "Attach a zip or paste a link, not both",
+    "cdn_link": "Paste an external link. Upload the zip to use a CDN file",
+    "chart_required": "Choose a chart from this zip before accepting",
+    "chart": "Choose a chart from this zip",
+    "upload": "The zip could not be uploaded",
+    "file_missing": "The uploaded file is no longer available",
     "credits": "Choose a valid creator list",
     "forbidden": "You cannot do that",
     "locked": "This request can no longer be changed",
     "action": "That action is not available for this request",
     "status": "Use the request actions instead of setting a status",
     "notes": "No notes to save",
-    "discord": "Discord threads are only created for rerate requests"
+    "discord": "Discord threads are only created for rerate requests",
+    "discord_close": "Could not close the Discord thread",
+    "discord_reopen": "Could not reopen the Discord thread",
+    "missing": "Request not found",
+    "level": "That level id is invalid"
   },
   "form": {
-    "title": "{{type}} request",
-    "editTitle": "Edit {{type}} request",
+    "title": "Request change",
+    "editTitle": "Request change",
     "reason": "Reason",
+    "reasonOptional": "Reason (optional)",
     "reasonPlaceholder": "Explain the request. Mention levels as #123.",
+    "reasonPlaceholderOptional": "Explain the request (optional).",
+    "noReferencesConfirm": "Are you sure you want to submit this without any references? Adding a reference level will speed up processing of your request (and make our job a bit easier)",
     "requestedRating": "Requested rating",
     "requestedRatingPlaceholder": "G15 or G18~U2",
     "kind": "What should change",
@@ -85,6 +114,7 @@
     "manageCreators": "Manage creators",
     "owner": "Owner",
     "selectSong": "Select a song",
+    "suffix": "Suffix",
     "selectArtist": "Select an artist",
     "creditSummary": "{{add}} to add, {{change}} to change, {{remove}} to remove",
     "tagsNone": "None",
@@ -104,6 +134,15 @@
     "removeType": "Remove type",
     "addType": "Add type",
     "creatorEditable": "You can already edit this field on the chart",
+    "downloadFile": "Attach zip",
+    "downloadOr": "Or paste an external link",
+    "removeFile": "Remove file",
+    "hashing": "Checking zip… {{percent}}%",
+    "uploading": "Uploading zip… {{percent}}%",
+    "assembling": "Assembling upload…",
+    "sending": "Sending zip to CDN…",
+    "chartLater": "Request saved. Choose its chart before it can be accepted",
+    "invalidArchive": "Choose a zip, rar, 7z, or tar archive",
     "submit": "Submit",
     "submitted": "Request submitted",
     "save": "Save",
@@ -121,10 +160,16 @@
     "frozenVsCurrent": "{{frozen}} now {{current}}",
     "clear": "Best pass",
     "noClear": "No visible pass",
+    "topClear": "Top clear",
+    "cleared": "Cleared",
+    "uncleared": "No clear",
+    "clearedHint": "Player has cleared this level with {{accuracy}} accuracy",
+    "neverClearedHint": "Player has never cleared this level",
     "publicNote": "Public note",
     "internalNote": "Internal note",
     "discordError": "Discord post failed",
     "thread": "Discord thread",
+    "threadClosed": "Closed Discord thread",
     "copyReason": "Copy reason",
     "copied": "Reason copied",
     "copyFailed": "Could not copy the reason",
@@ -137,14 +182,26 @@
     "discordPosted": "Posted to Discord",
     "addToRatingConfirm": "Add this chart to the rating page with {{rating}} and the request reason?",
     "completeConfirm": "Mark this request as completed?",
+    "deleteDiscordConfirm": "Delete the Discord post for this request?",
+    "closeDiscordConfirm": "Close the Discord thread for this request? The discussion will stay on Discord.",
     "ban": "Restrict rerate requests",
-    "banMissingPlayer": "This requester has no player profile"
+    "banMissingPlayer": "This requester has no player profile",
+    "downloadFile": "Download file",
+    "chartRequired": "A chart still needs to be chosen before this can be accepted",
+    "chooseChart": "Choose chart",
+    "chartChosen": "Chart chosen",
+    "selectedChart": "Chart: {{chart}}"
   },
   "pipeline": {
     "accept": "Accept",
     "acceptDone": "Request accepted",
+    "acceptDownload": "Accept and replace download",
+    "acceptDownloadDone": "Download replaced",
     "reject": "Reject",
     "rejectConfirm": "Reject request",
+    "rejectDownload": "Reject and delete file",
+    "rejectDownloadConfirm": "Reject and delete file",
+    "rejectDownloadDone": "Request rejected and file deleted",
     "rejectNote": "Public note (optional)",
     "rejectDone": "Request rejected",
     "complete": "Complete",
@@ -154,7 +211,13 @@
     "discord_vote": "Start Discord vote",
     "discord_voteDone": "Discord vote started",
     "retry_discord": "Retry Discord post",
-    "retry_discordDone": "Posted to Discord"
+    "retry_discordDone": "Posted to Discord",
+    "delete_discord": "Delete Discord post",
+    "delete_discordDone": "Discord post deleted",
+    "close_discord": "Close Discord thread",
+    "close_discordDone": "Discord thread closed",
+    "reopen_discord": "Reopen Discord thread",
+    "reopen_discordDone": "Discord thread reopened"
   },
   "statusPopup": {
     "title": "Notes",
@@ -162,6 +225,103 @@
     "internalNote": "Internal note",
     "save": "Save",
     "saved": "Notes saved"
+  },
+  "helpPopup": {
+    "title": "Search Help",
+    "closeButton": "Close",
+    "v2": {
+      "subtitle": "Advanced search is a small query language. Use field tokens and operators to narrow requests.",
+      "examplesTitle": "Examples",
+      "groups": {
+        "basics": {
+          "title": "Basics (how queries are parsed)",
+          "intro": "Write conditions as field:value or field=value. Use commas for AND inside a group, and | to create OR groups.",
+          "examples": {
+            "and": "<b><code>song:hello, requester:v0w4n</code></b><br/>Both conditions must match (AND).",
+            "or": "<b><code>status=pending | status=accepted</code></b><br/>Either group can match (OR).",
+            "not": "<b><code>song:onus, \\!status:rejected</code></b><br/>Exclude matches (NOT)."
+          }
+        },
+        "fields": {
+          "title": "Request fields",
+          "intro": "These fields match request data. Use : for partial match and = for exact match. IDs are always exact.",
+          "examples": {
+            "level": "<b><code>#123</code></b> or <b><code>level=123</code></b> finds requests for that level. <b><code>id=45</code></b> finds a specific request.",
+            "requesterStatus": "<b><code>requester:v0w4n, status:pending</code></b><br/>Filter by username or nickname and status.",
+            "typeReason": "<b><code>type:info, reason:offset</code></b><br/>Type is most useful on My requests, where all types are listed together."
+          }
+        },
+        "tips": {
+          "title": "Tips",
+          "intro": "A few details that help avoid surprises.",
+          "bullets": {
+            "plainText": "A term without a field still searches song, artist, level id, request id, requester, status, reason, and (on My requests) type.",
+            "statusToggle": "Choosing a status in Filter, or using status: in the query, ignores the completed toggle.",
+            "caseInsensitive": "Search is case-insensitive: 'SONG' and 'song' behave the same.",
+            "spacesAllowed": "Spaces are allowed in values: song:Example Song works.",
+            "groupingMentalModel": "Think of it as (A AND B) OR (C AND D): commas build AND groups, | splits OR groups."
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "Partial match",
+          "desc": "Use : to match partial text (example: song:go)."
+        },
+        "operatorEquals": {
+          "title": "Exact match",
+          "desc": "Use = to match exactly (example: song=goTe)."
+        },
+        "operatorComma": {
+          "title": "AND inside a group",
+          "desc": "Separate terms with commas to require all conditions in the group."
+        },
+        "operatorPipe": {
+          "title": "OR between groups",
+          "desc": "Use | to split your query into OR groups. If any group matches, the request is included."
+        },
+        "operatorNot": {
+          "title": "NOT (exclude)",
+          "desc": "Prefix a term with \\! to exclude matches containing that term."
+        },
+        "id": {
+          "title": "Request id",
+          "desc": "Exact request id (example: id=45)."
+        },
+        "hashtag": {
+          "title": "Level id shortcut",
+          "desc": "#123 is the same as level=123."
+        },
+        "level": {
+          "title": "Level id",
+          "desc": "Exact level id. levelId is an alias (example: level:123)."
+        },
+        "song": {
+          "title": "Song",
+          "desc": "Matches the level song name."
+        },
+        "artist": {
+          "title": "Artist",
+          "desc": "Matches the level artist name."
+        },
+        "requester": {
+          "title": "Requester",
+          "desc": "Matches username or nickname. user and username are aliases."
+        },
+        "status": {
+          "title": "Status",
+          "desc": "pending, accepted, added_to_rating_page (aliases: rating, rating_page), discord_vote (aliases: discord, vote), rejected, withdrawn, completed, completed_changed, completed_unchanged."
+        },
+        "type": {
+          "title": "Request type",
+          "desc": "rerate, info_change (alias: info), tag, curation, curation_rerate. Most useful on My requests."
+        },
+        "reason": {
+          "title": "Reason",
+          "desc": "Matches the request reason text."
+        }
+      }
+    }
   },
   "list": {
     "empty": "No requests",
@@ -172,14 +332,53 @@
     "requester": "Requester",
     "requesterPlaceholder": "Username",
     "status": "Status",
-    "anyStatus": "Any open status",
-    "searchPlaceholder": "Search song, level, requester, or status",
+    "anyStatus": "Any",
+    "searchPlaceholder": "Search requests (field:value)",
+    "searchHelp": "Search Help",
     "completed": "Completed",
+    "statusIgnoresCompleted": "Completed is ignored while a status is selected or the search uses status:.",
+    "filterTitle": "Filter",
+    "sortTitle": "Sort",
+    "sortBy": "Sort by",
+    "sortCreated": "Created",
+    "sortUpdated": "Updated",
+    "sortOrder": "Order",
+    "tooltips": {
+      "search": "Learn how to use advanced search",
+      "filter": "Filter results",
+      "sort": "Sort results",
+      "reset": "Reset filters",
+      "orderAsc": "Ascending",
+      "orderDesc": "Descending"
+    },
     "type": "Type",
     "anyType": "Any type",
     "page": "Page {{page}} of {{totalPages}}",
     "previous": "Previous",
-    "next": "Next"
+    "next": "Next",
+    "exportAs": "Export as",
+    "acceptAll": "Accept all",
+    "completeAll": "Complete all",
+    "acceptAllConfirm": "Accept every pending {{type}} request? Requesters will no longer be able to edit them.",
+    "completeAllConfirm": "Mark every accepted {{type}} request as completed?",
+    "acceptAllDone": "Accepted {{count}} requests",
+    "completeAllDone": "Completed {{count}} requests",
+    "bulkNone": "No matching requests to update",
+    "bulkPartial": "{{updated}} updated, {{failed}} failed",
+    "export": {
+      "title": "Export {{contextName}}",
+      "defaultContextName": "Requests",
+      "description": "Default exports the open queue for {{contextName}}. Use filters to export every request matching the search and filters on this page.",
+      "scope": "Rows",
+      "export": "Export",
+      "exporting": "Exporting…",
+      "unavailable": "Unavailable",
+      "progress": "Collected {{fetched}} of {{total}}…",
+      "errors": {
+        "exportFailed": "Failed to export requests. Please try again.",
+        "empty": "No requests to export"
+      }
+    }
   },
   "tabs": {
     "submissions": "Submissions",

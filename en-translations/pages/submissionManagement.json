@@ -48,6 +48,7 @@
       "createLevel": "Create level",
       "notify": "Notify",
       "chartStats": "Chart stats",
+      "requestedTags": "Requested tags",
       "autoTags": "Auto tags",
       "autorate": "Autorate",
       "cleanup": "Cleanup",

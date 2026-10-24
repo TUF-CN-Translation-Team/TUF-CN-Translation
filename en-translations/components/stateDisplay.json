@@ -22,7 +22,9 @@
     "on": "On",
     "off": "Off",
     "single": "Single point",
-    "split": "Split"
+    "split": "Split",
+    "requestExportDefault": "Default",
+    "requestExportFilters": "Use filters"
   },
   "accessDenied": {
     "title": "Access Denied",

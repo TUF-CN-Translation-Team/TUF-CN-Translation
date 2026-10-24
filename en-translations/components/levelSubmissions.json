@@ -32,7 +32,8 @@
     "submitterRecordTooltip": "{{accepted}} accepted / {{declined}} declined",
     "evidence": "Evidence:",
     "notes": "Notes",
-    "notesPlaceholder": "Optional notes for managers"
+    "notesPlaceholder": "Optional notes for managers",
+    "tagsEmpty": "No tags requested"
   },
   "buttons": {
     "manageCreator": "Manage Creator",
@@ -44,6 +45,7 @@
     "addSongRequest": "Request as a New Song",
     "addArtistRequest": "Add New Artist",
     "removeArtist": "Remove Artist",
+    "requestTags": "Request tags",
     "allow": "Allow",
     "decline": "Decline",
     "addCharter": "Add Charter",
@@ -75,7 +77,8 @@
       "rejected": "Submission rejected successfully",
       "suffixUpdated": "Suffix updated successfully",
       "videoLinkUpdated": "Video link updated successfully",
-      "notesUpdated": "Notes updated successfully"
+      "notesUpdated": "Notes updated successfully",
+      "tagsUpdated": "Tags updated successfully"
     },
     "error": {
       "generic": "An error occurred",
@@ -125,6 +128,7 @@
     "suffixUpdateFailed": "Failed to update suffix",
     "videoLinkUpdateFailed": "Failed to update video link",
     "notesUpdateFailed": "Failed to update notes",
+    "tagsUpdateFailed": "Failed to update tags",
     "videoLinkRequired": "Video link cannot be empty",
     "updateSongFailed": "Failed to update song",
     "updateArtistFailed": "Failed to update artist",
