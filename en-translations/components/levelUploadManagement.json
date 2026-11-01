@@ -1,6 +1,7 @@
 {
   "title": "Manage Level Upload",
   "dropToUpload": "Drop to upload",
+  "pasteHint": "Paste a copied archive to upload",
   "errors": {
     "invalidZip": "Invalid archive file. Supported formats: .zip, .rar, .7z, .tar, .tar.gz, .tgz.",
     "invalidZip": "Invalid zip file",

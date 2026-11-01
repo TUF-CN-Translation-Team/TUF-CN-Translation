@@ -22,15 +22,21 @@
       "label": "Low Difficulty"
     },
     "requestBands": {
-      "label": "Hide requested",
-      "hint": "Check to hide that request type from the list"
+      "label": "Hide AutoRater",
+      "hint": "Check to hide that AutoRater band from the list"
     },
     "fourVote": {
-      "label": "4+ Rated"
+      "suffix": "+ Rated",
+      "input": "Minimum number of ratings"
     },
     "rankReady": {
       "label": "Rank-ready"
     }
+  },
+  "flows": {
+    "flow1": "Flow 1",
+    "flow2": "Flow 2",
+    "flow3": "Flow 3"
   },
   "sort": {
     "byId": "Level ID",
@@ -73,7 +79,7 @@
     },
     "empty": {
       "title": "No rank-ready levels",
-      "subtitle": "Nothing with 2+ manager votes and 0 clears."
+      "subtitle": "Nothing here needs a super admin to settle by hand."
     }
   },
   "infiniteScroll": {
@@ -103,8 +109,8 @@
       "deckSize": "Deck size",
       "deckSizeCustom": "Custom",
       "peekHint": "{{peeks}} peeks (1 per 5 cards)",
-      "requestBands": "Hide requested",
-      "requestBandsHint": "Check to leave that request type out of the deck",
+      "requestBands": "Hide AutoRater",
+      "requestBandsHint": "Check to leave that AutoRater band out of the deck",
       "sort": "Priority",
       "sortLeast": "Least rated first",
       "sortMost": "Most rated first",

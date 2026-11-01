@@ -132,6 +132,12 @@
     "liked": "Liked!",
     "unliked": "Unliked"
   },
+  "curationHistory": {
+    "header": "Curation History",
+    "open": "Show curation history",
+    "close": "Close curation history",
+    "empty": "None"
+  },
   "rerateHistory": {
     "header": "Rerate History",
     "open": "Show rerate history",

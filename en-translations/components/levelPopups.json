@@ -161,6 +161,7 @@
       "addTag": "Add tag",
       "communityTags": "Community tags",
       "communityTagsHint": "These tags were added by community votes. Saving will not pin them unless you add them above.",
+      "automaticTagsHint": "Length, VFX, DLC, and other tags read from the level file are set by the parser and cannot be requested.",
       "errors": {
         "fetchTags": "Failed to fetch tags",
         "saveTags": "Failed to save tags"

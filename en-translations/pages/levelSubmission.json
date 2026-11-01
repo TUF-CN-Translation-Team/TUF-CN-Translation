@@ -40,7 +40,7 @@
     "addArtist": "Add Artist",
     "removeCreator": "Remove",
     "uploadZip": "Upload Zip",
-    "orDragDrop": "or drag and drop here",
+    "orDragDrop": "or drag and drop, or paste",
     "dropHere": "Drop file here!",
     "uploadEvidence": "Upload Evidence Images",
     "requestTags": "Request tags",
@@ -107,6 +107,9 @@
     "dontShowAgain": "Don't show this again",
     "agree": "I Confirm",
     "decline": "Cancel"
+  },
+  "levelSelection": {
+    "leaveDefault": "Leave the default selection? The largest chart by file size will be used, and it could be the wrong one."
   },
   "chartClearNotify": {
     "title": "Chart clear notifications",

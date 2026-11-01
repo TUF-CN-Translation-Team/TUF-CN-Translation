@@ -70,6 +70,13 @@
         "description": "Turns off decorative animations on the submission landing page. Character hover glow stays so you can still tell which side is active. Also applied automatically when your system requests reduced motion."
       }
     },
+    "performance": {
+      "title": "Performance",
+      "disableOptionalAnimations": {
+        "label": "Disable optional animations",
+        "description": "Turns off decorative looping animations. Short transitions and hover feedback stay. Also applied automatically when your system requests reduced motion."
+      }
+    },
     "display": {
       "title": "Display",
       "disableMascots": {

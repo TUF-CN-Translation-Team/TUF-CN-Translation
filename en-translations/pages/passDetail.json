@@ -202,6 +202,9 @@
       "processing": "Showing..."
     }
   },
+  "ownEdit": {
+    "title": "Edit your pass"
+  },
   "feelingRating": {
     "title": "Edit Feeling Rating",
     "placeholder": "e.g. U15, G18~G20"

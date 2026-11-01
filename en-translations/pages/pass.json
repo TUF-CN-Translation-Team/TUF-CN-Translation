@@ -44,6 +44,7 @@
         "difficulty": "Difficulty",
         "speed": "Speed",
         "keyCount": "Key Count",
+        "likes": "Likes",
         "random": "Random"
       }
     },

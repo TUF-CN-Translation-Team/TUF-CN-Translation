@@ -191,7 +191,8 @@
         "hours": "Hours",
         "days": "Days",
         "weeks": "Weeks",
-        "months": "Months"
+        "months": "Months",
+        "forever": "Forever"
       },
       "pauseConfirm": "Pause submissions for this player?",
       "resumeConfirm": "Resume submissions for this player?",
