@@ -16,6 +16,10 @@
     "placeholder": "Search by song, artist, creator, player, or submitter",
     "noMatches": "No matching submissions"
   },
+  "hideDifficulty": {
+    "label": "Hide difficulty",
+    "hint": "Check a subtype to hide those passes. Click the label to select or clear all."
+  },
   "jobs": {
     "title": "Processing",
     "hide": "Hide queue",

@@ -9,35 +9,35 @@
         "title": "基础（解析规则）",
         "intro": "用“field:value”或“field=value”输入搜索条件。英文逗号“,”表示“与”条件，竖线“|”表示且用来分开“或”条件。",
         "examples": {
-          "and": "<b><code>name:my pack, owner:v0w4n</code></b><br/>两个条件都要满足。",
-          "or": "<b><code>name=My Pack | name:cool pack</code></b><br/>满足任一条件即可。",
-          "not": "<b><code>name:cool, \\!pinned:true</code></b><br/>排除包含某词语的结果。"
+          "and": "<b><code>name:my pack, owner:v0w4n</code></b><br/> 两个条件都要满足。",
+          "or": "<b><code>name=My Pack | name:cool pack</code></b><br/> 满足任一条件即可。",
+          "not": "<b><code>name:cool, \\!pinned:true</code></b><br/> 排除包含某词语的结果。"
         }
       },
       "fields": {
         "title": "地图包字段",
         "intro": "这些字段用来匹配地图包数据。“:”表示部分匹配，“=”表示完全匹配。",
         "examples": {
-          "nameOwner": "<b><code>name:cool, owner:v0w4n</code></b><br/>地图包名字和所有者用户名。",
+          "nameOwner": "<b><code>name:cool, owner:v0w4n</code></b><br/> 地图包名字和所有者用户名。",
           "levelId": "<b><code>levelId=123</code></b> 搜索包含这个关卡的地图包。",
-          "pinned": "<b><code>owner:teo_72, pinned:true | owner:v0w4n</code></b><br/>Combine AND and OR groups."
+          "pinned": "<b><code>owner:teo_72, pinned:true | owner:v0w4n</code></b><br/> 同时使用了“和”和“与”条件的搜索。"
         }
       },
       "viewModes": {
         "title": "可见性",
         "intro": "可见性控制谁能看到某个地图包。使用“viewMode:0”或“viewMode=0”来搜索。",
         "examples": {
-          "public": "<b><code>viewMode=0</code></b> — Public: everyone can see and search for this pack.",
-          "linkOnly": "<b><code>viewMode=1</code></b> — Link only: visible with a direct link, not in search results.",
-          "private": "<b><code>viewMode=2</code></b> — Private: only the owner can see this pack.",
-          "forcedPrivate": "<b><code>viewMode=3</code></b> — Forced private: admin-locked private pack."
+          "public": "<b><code>viewMode=0</code></b> —— 公开：所有人可查看并搜索到该地图包。",
+          "linkOnly": "<b><code>viewMode=1</code></b> —— 仅限链接：通过链接查看，不在搜索结果中显示。。",
+          "private": "<b><code>viewMode=2</code></b> —— 私密：仅所有者可查看该地图包。",
+          "forcedPrivate": "<b><code>viewMode=3</code></b> —— 强制私密：被管理员锁定的私密地图包。"
         }
       },
       "tips": {
         "title": "技巧",
         "intro": "一些帮助避免意外的情况。",
         "bullets": {
-          "caseInsensitive": "Search is case-insensitive: 'PACK' and 'pack' behave the same.",
+          "caseInsensitive": "搜索不区分大小写：“PACK”和“pack”效果相同。",
           "partial": "Colon (:) allows partial matches: name:cool matches My Cool Pack.",
           "spacesAllowed": "Spaces are allowed in values: name:my cool pack works.",
           "orderDoesNotMatter": "Order does not matter within a group.",
@@ -88,12 +88,12 @@
         "desc": "Finds packs that contain this level id (example: levelId=456)."
       },
       "viewMode": {
-        "title": "View mode",
-        "desc": "Pack visibility: 0 public, 1 link only, 2 private, 3 forced private."
+        "title": "可见性",
+        "desc": "地图包可见性：0：公开，1：仅限链接，2：私密，3：强制私密。"
       },
       "pinned": {
-        "title": "Pinned",
-        "desc": "true or false (example: pinned:true)."
+        "title": "已置顶",
+        "desc": "有效值为 true（是） 和 false（否）。（例如：pinned:true）"
       }
     },
     "sections": {

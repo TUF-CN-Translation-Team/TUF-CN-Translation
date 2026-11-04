@@ -150,6 +150,18 @@
     "detailedJudgement": "This level requires detailed judgement. Confirm the judgement display matches the requirement.",
     "timingWindowScale": "This level uses a scaled timing window. Confirm you played with the required timing window."
   },
+  "feelingExplanation": {
+    "title": "Explain your feeling rating",
+    "body": "Optionally explain why this clear felt like the rating you entered.",
+    "placeholder": "Explain the rating. Mention levels as #123.",
+    "submitExplanation": "Submit explanation",
+    "skip": "Skip",
+    "skipConfirm": "Submit without explanation? Extra info on this level from you as a clearer would help rating it more accurately.",
+    "suggestTitle": "Add a reference chart",
+    "suggestBody": "Adding a chart of similar difficulty as a reference (for example #123) helps raters. You can still submit without one.",
+    "addReference": "Add a reference",
+    "submitAnyway": "Submit anyway"
+  },
   "calculator": {
     "title": "Pass Score Calculator",
     "thumbnailInfo": "Calculator mode — no video required",

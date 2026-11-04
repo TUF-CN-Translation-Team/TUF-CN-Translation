@@ -170,6 +170,9 @@
       }
     }
   },
+  "feelingExplanation": {
+    "label": "Feeling explanation"
+  },
   "details": {
     "label": "Details",
     "showMore": "Read More",

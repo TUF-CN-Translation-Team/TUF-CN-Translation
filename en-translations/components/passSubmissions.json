@@ -4,6 +4,7 @@
     "level": "Level",
     "player": "Player",
     "feelingDiff": "Feeling Difficulty",
+    "feelingExplanation": "Feeling explanation",
     "expectedDiff": "Expected Rating",
     "passDetails": "Details",
     "speed": "Speed",
