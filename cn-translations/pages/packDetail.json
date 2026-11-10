@@ -45,7 +45,16 @@
     "moveItem": "点击移动，或拖拽",
     "editFolder": "编辑文件夹",
     "editNote": "编辑备注",
-    "deleteNote": "删除备注"
+    "deleteNote": "删除备注",
+    "editItems": "Edit items"
+  },
+  "editItems": {
+    "saveSuccess": "Pack items saved",
+    "saveError": "Failed to save pack items",
+    "undoHint": "Undo (Ctrl+Z)",
+    "redoHint": "Redo (Ctrl+Y)",
+    "nameConflict": "An item named \"{{name}}\" already exists in this location",
+    "quotaExceeded": "This pack has reached its item limit"
   },
   "download": {
     "estimatedLong": "（预计：缺少 {{count}} 个大小元数据）",

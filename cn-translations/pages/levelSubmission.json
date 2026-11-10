@@ -40,9 +40,10 @@
     "addArtist": "添加曲师",
     "removeCreator": "删除",
     "uploadZip": "上传压缩文件",
-    "orDragDrop": "或拖放文件到此处",
+    "orDragDrop": "or drag and drop, or paste",
     "dropHere": "松开以上传！",
     "uploadEvidence": "上传凭证图片",
+    "requestTags": "Request tags",
     "submit": "提交",
     "submitWait": "……"
   },
@@ -91,6 +92,7 @@
     "searchTeam": "搜索团队……",
     "newCreator": "输入新创作者名称",
     "newTeam": "输入新团队名称",
+    "tags": "No tags requested",
     "notes": "可选备注（谱面细节、参与信息等，供管理员查看）"
   },
   "cdnTos": {
@@ -105,6 +107,9 @@
     "dontShowAgain": "不再显示",
     "agree": "同意",
     "decline": "不同意并取消"
+  },
+  "levelSelection": {
+    "leaveDefault": "Leave the default selection? The largest chart by file size will be used, and it could be the wrong one."
   },
   "chartClearNotify": {
     "title": "谱面通关通知",

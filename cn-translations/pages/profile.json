@@ -66,7 +66,13 @@
     "highestRankAt": "于 {{date}}",
     "highestRankNow": "当前为最高排名！",
     "youtubeChannel": "YouTube频道名：{{name}}",
-    "youtubeMore": "更多YouTube频道"
+    "youtubeMore": "更多YouTube频道",
+    "note": {
+      "open": "Notes",
+      "empty": "No note yet.",
+      "saved": "Note saved",
+      "error": "Couldn't save note"
+    }
   },
   "bio": {
     "header": "个人简介",
@@ -328,6 +334,7 @@
     "rtActuation": "快速触发行程 {{mm}}mm",
     "customProduct": "自定义键盘",
     "customSwitch": "自定义轴体",
+    "noSwitch": "None",
     "geometry": "自定义外形",
     "product": "键盘",
     "brand": "厂商",
@@ -348,15 +355,15 @@
       "magnetic": "磁轴"
     },
     "switch": "轴体",
-    "actuationLabel": "触发行程（mm）",
+    "actuationLabel": "Actuation",
     "rapidTrigger": "快速触发",
     "rtMode": {
       "off": "关闭",
       "single": "单点模式",
       "split": "分离模式"
     },
-    "rtPressLabel": "按下灵敏度（mm）",
-    "rtReleaseLabel": "抬起灵敏度（mm）",
+    "rtPressLabel": "Press",
+    "rtReleaseLabel": "Release",
     "rtSplit": "快速触发行程 {{press}} / {{release}} mm",
     "emptyHistory": "此设备无更早日期。",
     "colorway": "配色",
@@ -366,7 +373,24 @@
     "clears": "清除键位",
     "autoBind": "自动",
     "bindField": "键盘布局",
-    "clickLayout": "点击按键以修改布局。",
+    "clickLayout": "Click a key to toggle it. Hold Shift and drag to flip every key inside.",
+    "clickSelect": "Click a key to toggle it. Hold Shift and drag to flip every key inside.",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "selectKeys": "Select keys to edit.",
+    "layoutHint": "Bind keys for this layout. Other tabs edit the selected keys.",
+    "addSwitch": "Add switch",
+    "removeSwitch": "Remove switch",
+    "switchN": "Switch {{n}}",
+    "actuationVaries": "Actuation varies by key",
+    "rapidTriggerVaries": "Rapid trigger varies by key",
+    "modes": {
+      "label": "Editor mode",
+      "layout": "Game layout",
+      "switches": "Switches",
+      "actuation": "Actuation point",
+      "rapidTrigger": "Rapid trigger"
+    },
     "replaceLayout": "已有一个{{count}}键布局。是否使用已选键位替换？ ",
     "layoutCollision": "此键位已在一个现有{{count}}键布局中应用。如若替换请切换至那个布局。",
     "noLayouts": "此玩家无已保存布局。",

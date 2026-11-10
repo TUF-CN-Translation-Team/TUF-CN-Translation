@@ -32,7 +32,8 @@
     "submitterRecordTooltip": "已通过 {{accepted}} 个，已拒绝 {{declined}} 个",
     "evidence": "凭证：",
     "notes": "备注",
-    "notesPlaceholder": "可选备注，供管理员查看"
+    "notesPlaceholder": "可选备注，供管理员查看",
+    "tagsEmpty": "No tags requested"
   },
   "buttons": {
     "manageCreator": "管理创作者",
@@ -44,6 +45,7 @@
     "addSongRequest": "请求为新歌曲",
     "addArtistRequest": "添加新艺术家",
     "removeArtist": "移除艺术家",
+    "requestTags": "Request tags",
     "allow": "通过",
     "decline": "拒绝",
     "addCharter": "添加采音师",
@@ -75,7 +77,8 @@
       "rejected": "提交拒绝成功",
       "suffixUpdated": "后缀更新成功",
       "videoLinkUpdated": "视频链接更新成功",
-      "notesUpdated": "备注更新成功"
+      "notesUpdated": "备注更新成功",
+      "tagsUpdated": "Tags updated successfully"
     },
     "error": {
       "generic": "发生错误",
@@ -125,6 +128,7 @@
     "suffixUpdateFailed": "后缀更新失败",
     "videoLinkUpdateFailed": "视频链接更新失败",
     "notesUpdateFailed": "备注更新失败",
+    "tagsUpdateFailed": "Failed to update tags",
     "videoLinkRequired": "视频链接不能为空",
     "updateSongFailed": "歌曲更新失败",
     "updateArtistFailed": "艺术家更新失败",

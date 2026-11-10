@@ -1,5 +1,10 @@
 {
   "menu": "请求列表",
+  "alreadyExists": "Already exists",
+  "alreadyRequested": "You already requested this",
+  "alreadySent": "The request for this has been already sent",
+  "onRatingPage": "Level already on rating",
+  "referenceLevel": "Cannot rerate a reference level",
   "types": {
     "rerate": "重评级",
     "info_change": "信息更改",
@@ -47,36 +52,77 @@
     "deleted": "已删除关卡无法进行请求",
     "hidden": "已隐藏关卡无法进行请求",
     "unsettled": "此关卡正在评级中",
+    "reference": "Cannot rerate a reference level",
     "missing_level": "未找到关卡",
     "reason": "需要原因",
     "reason_length": "原因最多 1000 个字符",
     "requested_rating": "请输入有效的 PGU 等级",
+    "rating": "Enter a P, G, or U rating, or a special difficulty name",
+    "base_score": "Base score must be a non-negative number",
+    "pp_base_score": "PP base score must be a non-negative number",
+    "score_curve": "Score curve is invalid",
     "comparisons": "需要至少一个现有关卡，使用 #id 进行提及", 
+    "comparison_rerating": "{{label}} is currently being rerated, it cannot be used for comparison",
     "tags": "请选择现有标签",
+    "community_tags": "Community tags are voted on, not requested",
+    "automatic_tags": "Tags read from the level file are set by the parser, not by request",
+    "kind": "Choose what should change",
+    "type": "Choose a request type",
+    "curation_types": "One or more curation types do not exist",
+    "curation_empty": "Choose at least one curation type",
     "unchanged": "这与原关卡相同",
+    "unchanged_tags": "Selected tags already match the level",
+    "unchanged_curation": "Selected types already match the level",
+    "has_curation": "This level already has a curation — request a curation rerate",
+    "no_curation": "This level has no curation yet — request a new curation",
     "song": "请选择现有歌曲",
     "artist": "请选择现有艺术家",
     "value": "请输入新值",
     "value_length": "该值最大 4000 字符",
+    "download_both": "Attach a zip or paste a link, not both",
+    "cdn_link": "Paste an external link. Upload the zip to use a CDN file",
+    "chart_required": "Choose a chart from this zip before accepting",
+    "chart": "Choose a chart from this zip",
+    "upload": "The zip could not be uploaded",
+    "file_missing": "The uploaded file is no longer available",
     "credits": "请选择有效创作者列表",
     "forbidden": "你无权操作",
     "locked": "此请求无法更改",
     "action": "该操作对该请求不可用",
     "status": "使用请求操作而不是设置状态",
     "notes": "无可保存备注",
-    "discord": "Discord 子区仅为重评级请求创建"
+    "discord": "Discord 子区仅为重评级请求创建",
+    "discord_close": "Could not close the Discord thread",
+    "discord_reopen": "Could not reopen the Discord thread",
+    "missing": "Request not found",
+    "level": "That level id is invalid"
   },
   "form": {
     "title": "{{type}} 请求",
     "editTitle": "编辑请求类型 {{type}}",
     "reason": "原因",
+    "reasonOptional": "Reason (optional)",
     "reasonPlaceholder": "说明请求，使用诸如 #123 来提及关卡。",
+    "reasonPlaceholderOptional": "Explain the request (optional).",
+    "noReferencesConfirm": "Are you sure you want to submit this without any references? Adding a reference level will speed up processing of your request (and make our job a bit easier)",
     "requestedRating": "请求评级",
     "requestedRatingPlaceholder": "例如 G15 或 G18~U2",
+    "baseScore": "Base score (optional)",
+    "baseScorePlaceholder": "12.5",
+    "ppBaseScore": "PP base score (optional)",
+    "ppBaseScorePlaceholder": "8",
+    "scoreCurve": "Score curve (optional)",
+    "scoreCurveOpen": "Edit score curve",
+    "scoreCurveClear": "Clear score curve",
+    "scoreCurveSet": "Score curve set",
+    "scoreCurveTitle": "Requested score curve",
+    "scoreCurveHint": "Set pins from accuracy or from two clears. Apply stores this curve on the request; the level is not changed.",
     "kind": "请求更改的内容",
     "action": "标签更改",
     "tags": "标签",
     "tagsCurrent": "请求标签",
+    "communityTagsHint": "Community tags are chosen by voting on the level, so they cannot be requested here.",
+    "automaticTagsHint": "Length, VFX, DLC, and other tags read from the level file are set by the parser and cannot be requested.",
     "tagsAdd": "可用标签",
     "toAdd": "待添加：",
     "toChange": "待更改：",
@@ -85,6 +131,7 @@
     "manageCreators": "管理创作者",
     "owner": "所有者",
     "selectSong": "请选择歌曲",
+    "suffix": "Suffix",
     "selectArtist": "请选择艺术家",
     "creditSummary": "待添加：{{add}}，待更改：{{change}}，待删除：{{remove}}",
     "tagsNone": "无",
@@ -104,6 +151,16 @@
     "removeType": "删除类型",
     "addType": "添加类型",
     "creatorEditable": "你有修改权，可直接修改",
+    "downloadFile": "Attach zip",
+    "downloadPaste": "Or paste a copied zip",
+    "downloadOr": "Or paste an external link",
+    "removeFile": "Remove file",
+    "hashing": "Checking zip… {{percent}}%",
+    "uploading": "Uploading zip… {{percent}}%",
+    "assembling": "Assembling upload…",
+    "sending": "Sending zip to CDN…",
+    "chartLater": "Request saved. Choose its chart before it can be accepted",
+    "invalidArchive": "Choose a zip, rar, 7z, or tar archive",
     "submit": "提交",
     "submitted": "请求已提交",
     "save": "保存",
@@ -114,6 +171,12 @@
     "levelMissing": "关卡缺失",
     "requester": "请求者",
     "requested": "请求难度",
+    "baseScore": "Requested base score",
+    "ppBaseScore": "Requested PP base score",
+    "scoreCurve": "Score curve",
+    "scoreCurveOpen": "View score curve",
+    "scoreCurveTitle": "Requested score curve",
+    "scoreCurveHint": "Pins, judgements, and passes from the request. Closing does not save the curve to the level.",
     "difficultyAtSubmit": "请求时难度",
     "current": "当前难度",
     "team": "团队",
@@ -121,14 +184,21 @@
     "frozenVsCurrent": "提交时 {{frozen}}，当前 {{current}}",
     "clear": "最好通关记录",
     "noClear": "无可见通关记录",
+    "topClear": "Top clear",
+    "cleared": "Cleared",
+    "uncleared": "No clear",
+    "clearedHint": "Player has cleared this level with {{accuracy}} accuracy",
+    "neverClearedHint": "Player has never cleared this level",
     "publicNote": "公开备注",
     "internalNote": "内部备注",
     "discordError": "在 Discord 上发帖失败",
     "thread": "Discord 子区",
+    "threadClosed": "Closed Discord thread",
     "copyReason": "复制",
     "copied": "复制成功",
     "copyFailed": "复制失败",
-    "edit": "编辑",
+    "edit": "Edit request",
+    "editLevel": "Edit level",
     "withdraw": "取消请求",
     "withdrawn": "请求已取消",
     "notes": "备注",
@@ -137,14 +207,26 @@
     "discordPosted": "已发帖至 Discord",
     "addToRatingConfirm": "将该谱面与请求等级 {{rating}} 和原因添加至评级页面？",
     "completeConfirm": "将此请求标记为已完成？",
+    "deleteDiscordConfirm": "Delete the Discord post for this request?",
+    "closeDiscordConfirm": "Close the Discord thread for this request? The discussion will stay on Discord.",
     "ban": "限制重评请求",
-    "banMissingPlayer": "请求者无玩家个人资料"
+    "banMissingPlayer": "请求者无玩家个人资料",
+    "downloadFile": "Download file",
+    "chartRequired": "A chart still needs to be chosen before this can be accepted",
+    "chooseChart": "Choose chart",
+    "chartChosen": "Chart chosen",
+    "selectedChart": "Chart: {{chart}}"
   },
   "pipeline": {
     "accept": "接受",
     "acceptDone": "请求已接受",
+    "acceptDownload": "Accept and replace download",
+    "acceptDownloadDone": "Download replaced",
     "reject": "拒绝",
     "rejectConfirm": "拒绝请求",
+    "rejectDownload": "Reject and delete file",
+    "rejectDownloadConfirm": "Reject and delete file",
+    "rejectDownloadDone": "Request rejected and file deleted",
     "rejectNote": "公开备注（可选）",
     "rejectDone": "请求已拒绝",
     "complete": "标记为完成",
@@ -154,7 +236,13 @@
     "discord_vote": "开启 Discord 投票",
     "discord_voteDone": "Discord 投票已开启",
     "retry_discord": "重试发帖",
-    "retry_discordDone": "已发帖至 Discord"
+    "retry_discordDone": "已发帖至 Discord",
+    "delete_discord": "Delete Discord post",
+    "delete_discordDone": "Discord post deleted",
+    "close_discord": "Close Discord thread",
+    "close_discordDone": "Discord thread closed",
+    "reopen_discord": "Reopen Discord thread",
+    "reopen_discordDone": "Discord thread reopened"
   },
   "statusPopup": {
     "title": "备注",
@@ -162,6 +250,103 @@
     "internalNote": "内部备注",
     "save": "保存",
     "saved": "已保存"
+  },
+  "helpPopup": {
+    "title": "Search Help",
+    "closeButton": "Close",
+    "v2": {
+      "subtitle": "Advanced search is a small query language. Use field tokens and operators to narrow requests.",
+      "examplesTitle": "Examples",
+      "groups": {
+        "basics": {
+          "title": "Basics (how queries are parsed)",
+          "intro": "Write conditions as field:value or field=value. Use commas for AND inside a group, and | to create OR groups.",
+          "examples": {
+            "and": "<b><code>song:hello, requester:v0w4n</code></b><br/>Both conditions must match (AND).",
+            "or": "<b><code>status=pending | status=accepted</code></b><br/>Either group can match (OR).",
+            "not": "<b><code>song:onus, \\!status:rejected</code></b><br/>Exclude matches (NOT)."
+          }
+        },
+        "fields": {
+          "title": "Request fields",
+          "intro": "These fields match request data. Use : for partial match and = for exact match. IDs are always exact.",
+          "examples": {
+            "level": "<b><code>#123</code></b> or <b><code>level=123</code></b> finds requests for that level. <b><code>id=45</code></b> finds a specific request.",
+            "requesterStatus": "<b><code>requester:v0w4n, status:pending</code></b><br/>Filter by username or nickname and status.",
+            "typeReason": "<b><code>type:info, reason:offset</code></b><br/>Type is most useful on My requests, where all types are listed together."
+          }
+        },
+        "tips": {
+          "title": "Tips",
+          "intro": "A few details that help avoid surprises.",
+          "bullets": {
+            "plainText": "A term without a field still searches song, artist, level id, request id, requester, status, reason, and (on My requests) type.",
+            "statusToggle": "Choosing a status in Filter, or using status: in the query, ignores the completed toggle.",
+            "caseInsensitive": "Search is case-insensitive: 'SONG' and 'song' behave the same.",
+            "spacesAllowed": "Spaces are allowed in values: song:Example Song works.",
+            "groupingMentalModel": "Think of it as (A AND B) OR (C AND D): commas build AND groups, | splits OR groups."
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "Partial match",
+          "desc": "Use : to match partial text (example: song:go)."
+        },
+        "operatorEquals": {
+          "title": "Exact match",
+          "desc": "Use = to match exactly (example: song=goTe)."
+        },
+        "operatorComma": {
+          "title": "AND inside a group",
+          "desc": "Separate terms with commas to require all conditions in the group."
+        },
+        "operatorPipe": {
+          "title": "OR between groups",
+          "desc": "Use | to split your query into OR groups. If any group matches, the request is included."
+        },
+        "operatorNot": {
+          "title": "NOT (exclude)",
+          "desc": "Prefix a term with \\! to exclude matches containing that term."
+        },
+        "id": {
+          "title": "Request id",
+          "desc": "Exact request id (example: id=45)."
+        },
+        "hashtag": {
+          "title": "Level id shortcut",
+          "desc": "#123 is the same as level=123."
+        },
+        "level": {
+          "title": "Level id",
+          "desc": "Exact level id. levelId is an alias (example: level:123)."
+        },
+        "song": {
+          "title": "Song",
+          "desc": "Matches the level song name."
+        },
+        "artist": {
+          "title": "Artist",
+          "desc": "Matches the level artist name."
+        },
+        "requester": {
+          "title": "Requester",
+          "desc": "Matches username or nickname. user and username are aliases."
+        },
+        "status": {
+          "title": "Status",
+          "desc": "pending, accepted, added_to_rating_page (aliases: rating, rating_page), discord_vote (aliases: discord, vote), rejected, withdrawn, completed, completed_changed, completed_unchanged."
+        },
+        "type": {
+          "title": "Request type",
+          "desc": "rerate, info_change (alias: info), tag, curation, curation_rerate. Most useful on My requests."
+        },
+        "reason": {
+          "title": "Reason",
+          "desc": "Matches the request reason text."
+        }
+      }
+    }
   },
   "list": {
     "empty": "无请求",
@@ -174,12 +359,51 @@
     "status": "状态",
     "anyStatus": "所有状态",
     "searchPlaceholder": "按歌曲，关卡，请求者或状态搜索",
+    "searchHelp": "Search Help",
     "completed": "已完成",
+    "statusIgnoresCompleted": "Completed is ignored while a status is selected or the search uses status:.",
+    "filterTitle": "Filter",
+    "sortTitle": "Sort",
+    "sortBy": "Sort by",
+    "sortCreated": "Created",
+    "sortUpdated": "Updated",
+    "sortOrder": "Order",
+    "tooltips": {
+      "search": "Learn how to use advanced search",
+      "filter": "Filter results",
+      "sort": "Sort results",
+      "reset": "Reset filters",
+      "orderAsc": "Ascending",
+      "orderDesc": "Descending"
+    },
     "type": "类型",
     "anyType": "所有",
     "page": "第 {{page}} 页，共 {{totalPages}} 页",
     "previous": "下一页",
-    "next": "上一页"
+    "next": "上一页",
+    "exportAs": "Export as",
+    "acceptAll": "Accept all",
+    "completeAll": "Complete all",
+    "acceptAllConfirm": "Accept every pending {{type}} request? Requesters will no longer be able to edit them.",
+    "completeAllConfirm": "Mark every accepted {{type}} request as completed?",
+    "acceptAllDone": "Accepted {{count}} requests",
+    "completeAllDone": "Completed {{count}} requests",
+    "bulkNone": "No matching requests to update",
+    "bulkPartial": "{{updated}} updated, {{failed}} failed",
+    "export": {
+      "title": "Export {{contextName}}",
+      "defaultContextName": "Requests",
+      "description": "Default exports the open queue for {{contextName}}. Use filters to export every request matching the search and filters on this page.",
+      "scope": "Rows",
+      "export": "Export",
+      "exporting": "Exporting…",
+      "unavailable": "Unavailable",
+      "progress": "Collected {{fetched}} of {{total}}…",
+      "errors": {
+        "exportFailed": "Failed to export requests. Please try again.",
+        "empty": "No requests to export"
+      }
+    }
   },
   "tabs": {
     "submissions": "提交",

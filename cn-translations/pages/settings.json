@@ -45,13 +45,23 @@
     "pushHint": "使用与收件箱相同的类型和分类开关。",
     "pushDenied": "此网站的通知已被阻止。请在浏览器设置中允许通知。",
     "pushUnsupported": "此浏览器不支持通知。",
+    "pushDevicesTitle": "Attached devices",
+    "pushAttach": "Attach this device",
+    "pushDevicesEmpty": "No browsers attached yet.",
+    "pushDeviceUnknown": "Unknown device",
+    "pushDeviceOn": "{{browser}} on {{os}}",
+    "pushDeviceBrowserOnly": "{{browser}}",
+    "pushDeviceOsOnly": "{{os}}",
+    "pushDeviceThis": "This device",
+    "pushDeviceLastSeen": "Last seen {{date}}",
     "hideOwnActivityTitle": "隐藏我的动态",
     "hideOwnActivityHint": "开启时你进行的操作将不会显示在通知中。如果你希望看到你的提交记录或编辑记录的确认信息，请保持关闭。",
     "categories": {
       "submissions": "提交",
       "chart": "谱面",
       "clears": "通关",
-      "following": "关注"
+      "following": "关注",
+      "notices": "Notices"
     }
   },
   "preferences": {
@@ -68,6 +78,13 @@
       "submissionMinimalMotion": {
         "label": "提交页面动效最小化",
         "description": "关闭提交页面上的装饰动画。鼠标悬停时发光效果保留，以辨别选中的提交项目。当系统要求减少动画效果时此设置自动开启。"
+      }
+    },
+    "performance": {
+      "title": "Performance",
+      "disableOptionalAnimations": {
+        "label": "Disable optional animations",
+        "description": "Turns off decorative looping animations. Short transitions and hover feedback stay. Also applied automatically when your system requests reduced motion."
       }
     },
     "display": {
