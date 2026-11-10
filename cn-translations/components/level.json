@@ -53,29 +53,29 @@
             "spacesAllowed": "值中允许空格：song:Example Song 有效。",
             "orderDoesNotMatter": "同组内条件顺序无关：artist:foo, song:bar 和 song:bar, artist:foo 效果相同。",
             "aliasesMayMatch": "歌曲名或曲师名可能会匹配已知别名，不只匹配显示名称。",
-            "groupingMentalModel": "A,B|C,D 可理解为 (A AND B) OR (C AND D)：逗号构造 AND 组，| 分割 OR 组。"
+            "groupingMentalModel": "A,B|C,D 可理解为 (A AND B) OR (C AND D)：逗号为 “与” ，| 用来分开两个 “或” 条件。"
           }
         }
       },
       "fields": {
         "operatorColon": {
           "title": "部分匹配",
-          "desc": "用 : 进行部分匹配（例：song:go）。"
+          "desc": "使用 “:” 进行部分匹配搜索，如：song:go。"
         },
         "operatorEquals": {
           "title": "完全匹配",
-          "desc": "用 = 进行完全匹配（例：song=goTe）。"
+          "desc": "使用 “=” 进行完全匹配搜索，如：song=goTe。"
         },
         "operatorComma": {
-          "title": "与 AND",
+          "title": "与（AND）",
           "desc": "所有条件都必须满足。"
         },
         "operatorPipe": {
-          "title": "或 OR",
+          "title": "或（OR）",
           "desc": "满足任一条件即可。"
         },
         "operatorNot": {
-          "title": "非 NOT",
+          "title": "非（NOT）",
           "desc": "用 \\! 排除包含某词语的结果。"
         },
         "song": {
