@@ -29,6 +29,7 @@
       "removeRating": "Remove Rating",
       "viewAdminRatings": "View Manager Ratings",
       "viewCommunityRatings": "View Community Ratings",
+      "copyNotes": "Copy notes",
       "discordThread": "Create Discord thread",
       "discordThreadClose": "Close Discord thread",
       "discordThreadReopen": "Reopen Discord thread",
@@ -42,7 +43,8 @@
       "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
       "deleteFailed": "Failed to delete rating",
       "autorateFailed": "Failed to autorate rating",
-      "discordThread": "Could not update the Discord thread"
+      "discordThread": "Could not update the Discord thread",
+      "notesCopyFailed": "Could not copy notes"
     },
     "tooltips": {
       "lastUpdated": "Last updated time",
@@ -79,7 +81,8 @@
       "discordThreadStarted": "Discord thread created",
       "discordThreadClosed": "Discord thread closed",
       "discordThreadReopened": "Discord thread reopened",
-      "autorateSuccess": "Rating autorated successfully"
+      "autorateSuccess": "Rating autorated successfully",
+      "notesCopied": "Notes copied"
     }
   },
   "ratingCard": {
@@ -109,7 +112,28 @@
       "viewDetails": "View Details",
       "editLevel": "Edit Level",
       "copied": "Copied!",
-      "copyLink": "Copy link"
+      "copyLink": "Copy link",
+      "settle": "Settle {{difficulty}}",
+      "block": "Block auto rank",
+      "unblock": "Unblock"
+    },
+    "marks": {
+      "rankable": "Rankable",
+      "ratingOff": "Rating Off",
+      "judgementLimit": "Judgement Limit",
+      "keyLimit": "Key Limit",
+      "blockedBy": "Blocked by"
+    },
+    "prompts": {
+      "blockReason": "Why block auto rank? Leave blank to skip a reason."
+    },
+    "messages": {
+      "settleSuccess": "Rank settled",
+      "settleFailed": "Could not settle this rank",
+      "blockSuccess": "Auto rank blocked",
+      "blockFailed": "Could not block auto rank",
+      "unblockSuccess": "Auto rank unblocked",
+      "unblockFailed": "Could not unblock auto rank"
     }
   },
   "helpPopup": {
@@ -165,10 +189,10 @@
         "title": "Available Filters",
         "myRated": "My Rated",
         "myRatedDesc": "Show, hide, or show only levels you have already rated",
-        "requestBands": "PGU request",
-        "requestBandsDesc": "Hide Planetary (P), Galactic (G), or Universal (U) requested ratings",
-        "fourVote": "4+ Rated",
-        "fourVoteDesc": "Filter levels that have 4 or more ratings"
+        "requestBands": "AutoRater PGU",
+        "requestBandsDesc": "Hide cards whose AutoRater average is Planetary (P), Galactic (G), or Universal (U)",
+        "rankState": "State",
+        "rankStateDesc": "Show every card, only Rankable cards, or only Rating off cards"
       },
       "requirements": {
         "title": "Requirements",

@@ -170,6 +170,9 @@
       }
     }
   },
+  "feelingExplanation": {
+    "label": "Feeling explanation"
+  },
   "details": {
     "label": "Details",
     "showMore": "Read More",
@@ -201,6 +204,9 @@
       "confirm": "Show Pass",
       "processing": "Showing..."
     }
+  },
+  "ownEdit": {
+    "title": "Edit your pass"
   },
   "feelingRating": {
     "title": "Edit Feeling Rating",

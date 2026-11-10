@@ -157,7 +157,8 @@
       "createButton": "Create",
       "cancelButton": "Cancel",
       "isCommunity": "Community tag (players can vote this onto levels)",
-      "passWarningEnabled": "Warn on pass submit when this tag is present"
+      "passWarningEnabled": "Warn on pass submit when this tag is present",
+      "charterManagable": "Charters can set this tag"
     },
     "edit": {
       "title": "Edit Tag",
@@ -176,7 +177,8 @@
       "cancelButton": "Cancel",
       "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
       "isCommunity": "Community tag (players can vote this onto levels)",
-      "passWarningEnabled": "Warn on pass submit when this tag is present"
+      "passWarningEnabled": "Warn on pass submit when this tag is present",
+      "charterManagable": "Charters can set this tag"
     },
     "delete": {
       "title": "Delete Tag",

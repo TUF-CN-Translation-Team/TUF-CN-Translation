@@ -6,7 +6,24 @@
     "email": "Must be a valid email address",
     "password": {
       "match": "Passwords must match",
-      "requirements": "Password must contain at least 8 characters"
+      "requirements": "Password must contain at least 8 characters",
+      "missingLength": "At least 8 characters",
+      "missingLower": "A lowercase letter",
+      "missingUpper": "An uppercase letter",
+      "missingDigit": "A number",
+      "missingSymbol": "A symbol",
+      "common": "Must not be a commonly used password",
+      "commonIdle": "Checked once the other requirements are met",
+      "rating": {
+        "weak": "Weak",
+        "fair": "Fair",
+        "strong": "Strong",
+        "common": "Too common"
+      },
+      "error": {
+        "requirements": "Password is missing: {{list}}",
+        "common": "This password is too common"
+      }
     }
   },
   "errors": {
@@ -49,6 +66,8 @@
     "upload": "Upload",
     "return": "Return",
     "reset": "Reset",
+    "undo": "Undo",
+    "redo": "Redo",
     "create": "Create",
     "createNew": "Create New",
     "yes": "Yes",
@@ -107,5 +126,21 @@
   },
   "imageSelector": {
     "rotationHintTooltip": "<p><strong>Mouse wheel</strong><br />Hold <kbd>Shift</kbd> and scroll <em>anywhere</em> on this dialog to rotate (the crop area is optional). Hold <kbd>Shift</kbd> + <kbd>Ctrl</kbd> for <em>finer</em> wheel steps.</p><p><strong>Arrow keys</strong><br /><kbd>←</kbd> / <kbd>➔</kbd>: 1° per tap; with <kbd>Shift</kbd>: 10°; with <kbd>Shift</kbd> + <kbd>Ctrl</kbd>: 1°.</p>"
+  },
+  "levelMention": {
+    "searchPlaceholder": "Search levels",
+    "empty": "No matching levels"
+  },
+  "youtubePicker": {
+    "linkChannel": "Link a YouTube channel to pick from your videos",
+    "yourVideos": "Your videos",
+    "hideVideos": "Hide videos",
+    "searchPlaceholder": "Search your videos",
+    "empty": "No matching videos",
+    "loadOlder": "Load older videos",
+    "unlisted": "Unlisted",
+    "unlistedNote": "Unlisted videos stay hidden.",
+    "allowAccess": "Allow channel access",
+    "loadFailed": "Couldn't load your YouTube videos"
   }
 } 

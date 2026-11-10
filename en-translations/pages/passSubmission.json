@@ -41,13 +41,6 @@
     "perfect": "Perfect",
     "perfectPlus": "Perfect+",
     "lPerfect": "LPerfect",
-    "short": {
-      "ePerfect": "EP",
-      "perfectMinus": "P−",
-      "perfect": "P",
-      "perfectPlus": "P+",
-      "lPerfect": "LP"
-    },
     "tooearly": "Too Early",
     "early": "Early",
     "late": "Late"
@@ -59,10 +52,10 @@
   "feelingTooltip": "How hard it felt for you personally. Valid examples: G1-G5, 17~18+, U1, etc.",
   "expectedTooltip": "What difficulty the level should be rated as (optional). Same format as feeling rating.",
   "adofaiV2Tooltip": "Check this if the clear was recorded on ADOFAI v2",
-  "adofaiVersionTooltip": "Game version used for this clear. Alpha is 3.4.0+. Autofilled from the video date; you can override it.",
+  "adofaiVersionTooltip": "Game version used for this clear. 3.4.0 is the current stable version for any v3 clear. Autofilled from the video date; you can override it.",
   "xPerfectTooltip": "Record Perfect− and Perfect+ counts from X-Perfect mode (3.4.0+ only).",
   "adofaiVersion": {
-    "latest": "Alpha",
+    "latest": "3.4.0",
     "pre340": "<3.4.0",
     "v2": "v2"
   },
@@ -120,7 +113,7 @@
     "submitAnyway": "Submit anyway",
     "wrongVersion": {
       "title": "Wrong game version",
-      "body": "Your total judgements seem to also include midspins (<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>). Those do not count since version <b>3.4.0</b> and need to be subtracted. Change the version to <pre340></pre340> to do that automatically?",
+      "body": "Your total judgements seem to also include midspins (<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>). Those do not count since version <b>3.4.0</b> and need to be subtracted.",
       "changeVersion": "Change to <3.4.0"
     }
   },
@@ -149,6 +142,18 @@
     "hpBar": "This level uses an HP bar. Confirm you played with the required HP bar setting.",
     "detailedJudgement": "This level requires detailed judgement. Confirm the judgement display matches the requirement.",
     "timingWindowScale": "This level uses a scaled timing window. Confirm you played with the required timing window."
+  },
+  "feelingExplanation": {
+    "title": "Explain your feeling rating",
+    "body": "Optionally explain why this clear felt like the rating you entered.",
+    "placeholder": "Explain the rating. Mention levels as #123.",
+    "submitExplanation": "Submit explanation",
+    "skip": "Skip",
+    "skipConfirm": "Submit without explanation? Extra info on this level from you as a clearer would help rating it more accurately.",
+    "suggestTitle": "Add a reference chart",
+    "suggestBody": "Adding a chart of similar difficulty as a reference (for example #123) helps raters. You can still submit without one.",
+    "addReference": "Add a reference",
+    "submitAnyway": "Submit anyway"
   },
   "calculator": {
     "title": "Pass Score Calculator",

@@ -45,7 +45,16 @@
     "moveItem": "Click to move, or drag",
     "editFolder": "Edit folder",
     "editNote": "Edit note",
-    "deleteNote": "Delete note"
+    "deleteNote": "Delete note",
+    "editItems": "Edit items"
+  },
+  "editItems": {
+    "saveSuccess": "Pack items saved",
+    "saveError": "Failed to save pack items",
+    "undoHint": "Undo (Ctrl+Z)",
+    "redoHint": "Redo (Ctrl+Y)",
+    "nameConflict": "An item named \"{{name}}\" already exists in this location",
+    "quotaExceeded": "This pack has reached its item limit"
   },
   "download": {
     "estimatedLong": "(estimated: {{count}} missing metadata)",

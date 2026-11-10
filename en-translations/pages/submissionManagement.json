@@ -16,6 +16,15 @@
     "placeholder": "Search by song, artist, creator, player, or submitter",
     "noMatches": "No matching submissions"
   },
+  "queue": {
+    "pending": "{{count}} pending",
+    "drift": "The queue changed while this list was open. Scrolling further still follows the list without skipping entries. Resync reloads from the top in the current order, which reloads the videos on screen.",
+    "resync": "Resync"
+  },
+  "hideDifficulty": {
+    "label": "Hide difficulty",
+    "hint": "Check a subtype to hide those passes. Click the label to select or clear all."
+  },
   "jobs": {
     "title": "Processing",
     "hide": "Hide queue",
