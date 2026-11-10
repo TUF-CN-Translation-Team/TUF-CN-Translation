@@ -180,6 +180,14 @@
         }
       }
     },
+    "admin": {
+      "notice": {
+        "title": "Staff notice",
+        "inboxTitle": "Notice from {{actorName}}",
+        "fallbackActor": "Admin",
+        "body": "{{message}}"
+      }
+    },
     "following": {
       "player": {
         "pass": {

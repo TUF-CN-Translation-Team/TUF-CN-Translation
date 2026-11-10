@@ -29,6 +29,7 @@
       "removeRating": "删除评级",
       "viewAdminRatings": "查看评级员评级",
       "viewCommunityRatings": "查看其他玩家评级",
+      "copyNotes": "Copy notes",
       "discordThread": "创建 Discord 子区",
       "discordThreadClose": "关闭 Discord 子区",
       "discordThreadReopen": "重开 Discord 子区",
@@ -42,7 +43,8 @@
       "unsavedChanges": "你有未保存的更改，确定要退出吗？",
       "deleteFailed": "评级删除失败",
       "autorateFailed": "自动评级失败",
-      "discordThread": "无法更新 Discord 子区"
+      "discordThread": "无法更新 Discord 子区",
+      "notesCopyFailed": "Could not copy notes"
     },
     "tooltips": {
       "lastUpdated": "上次更新时间",
@@ -76,7 +78,11 @@
       "ratingBanned": "你没有评级权限",
       "voteSettled": "评级已在投票讨论中确定。",
       "voteThread": "打开 Discord 子区",
-      "autorateSuccess": "自动评级成功"
+      "discordThreadStarted": "Discord thread created",
+      "discordThreadClosed": "Discord thread closed",
+      "discordThreadReopened": "Discord thread reopened",
+      "autorateSuccess": "自动评级成功",
+      "notesCopied": "Notes copied"
     }
   },
   "ratingCard": {
@@ -106,7 +112,28 @@
       "viewDetails": "查看详情",
       "editLevel": "编辑关卡",
       "copied": "已复制！",
-      "copyLink": "复制链接"
+      "copyLink": "复制链接",
+      "settle": "Settle {{difficulty}}",
+      "block": "Block auto rank",
+      "unblock": "Unblock"
+    },
+    "marks": {
+      "rankable": "Rankable",
+      "ratingOff": "Rating Off",
+      "judgementLimit": "Judgement Limit",
+      "keyLimit": "Key Limit",
+      "blockedBy": "Blocked by"
+    },
+    "prompts": {
+      "blockReason": "Why block auto rank? Leave blank to skip a reason."
+    },
+    "messages": {
+      "settleSuccess": "Rank settled",
+      "settleFailed": "Could not settle this rank",
+      "blockSuccess": "Auto rank blocked",
+      "blockFailed": "Could not block auto rank",
+      "unblockSuccess": "Auto rank unblocked",
+      "unblockFailed": "Could not unblock auto rank"
     }
   },
   "helpPopup": {
@@ -162,10 +189,12 @@
         "title": "可用筛选条件",
         "myRated": "我评过的",
         "myRatedDesc": "显示，隐藏，或仅显示你评过的关卡",
-        "requestBands": "申请等级",
-        "requestBandsDesc": "隐藏申请等级为P，G或U的评级",
+        "requestBands": "AutoRater PGU",
+        "requestBandsDesc": "Hide cards whose AutoRater average is Planetary (P), Galactic (G), or Universal (U)",
         "fourVote": "4+ 评级",
-        "fourVoteDesc": "筛选拥有超过4个评级的关卡"
+        "fourVoteDesc": "筛选拥有超过4个评级的关卡",
+        "rankState": "State",
+        "rankStateDesc": "Show every card, only Rankable cards, or only Rating off cards"
       },
       "requirements": {
         "title": "需求",

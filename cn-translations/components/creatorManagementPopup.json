@@ -157,7 +157,8 @@
       "update": "资料",
       "moderation": "管理",
       "link": "创作者",
-      "merge": "合并"
+      "merge": "合并",
+      "notice": "Notice"
     },
     "update": {
       "name": {
@@ -191,7 +192,8 @@
         "hours": "小时",
         "days": "天",
         "weeks": "周",
-        "months": "月"
+        "months": "月",
+        "forever": "Forever"
       },
       "pauseConfirm": "确定暂停该玩家的提交申请？",
       "resumeConfirm": "确定恢复该玩家的提交申请？",
@@ -231,6 +233,14 @@
       },
       "mergeButton": "合并玩家"
     },
+    "notice": {
+      "notes": {
+        "label": "Notes",
+        "placeholder": "What you want to tell this user"
+      },
+      "noAccount": "This player has no account to notify.",
+      "sendButton": "Send notification"
+    },
     "errors": {
       "updateFailed": "玩家更新失败",
       "banUpdate": "封禁状态更新失败",
@@ -239,12 +249,15 @@
       "ratingBanUpdate": "禁止评级状态更新失败",
       "tagVoteBanUpdate": "禁止社区标签投票状态更新失败",
       "mergeFailed": "玩家失合并败",
-      "mergeSelf": "不能将玩家与自己合并"
+      "mergeSelf": "不能将玩家与自己合并",
+      "noticeFailed": "Failed to send notification",
+      "noticeLength": "Notes must be 4000 characters or fewer"
     },
     "success": {
       "updated": "玩家更新成功",
       "moderation": "管理设置更新成功",
-      "merge": "玩家合并成功"
+      "merge": "玩家合并成功",
+      "notice": "Notification sent"
     }
   },
   "success": {

@@ -16,6 +16,15 @@
     "placeholder": "按音乐，曲师，创作者，玩家或提交者搜索",
     "noMatches": "无匹配结果"
   },
+  "queue": {
+    "pending": "{{count}} pending",
+    "drift": "The queue changed while this list was open. Scrolling further still follows the list without skipping entries. Resync reloads from the top in the current order, which reloads the videos on screen.",
+    "resync": "Resync"
+  },
+  "hideDifficulty": {
+    "label": "Hide difficulty",
+    "hint": "Check a subtype to hide those passes. Click the label to select or clear all."
+  },
   "jobs": {
     "title": "处理队列",
     "hide": "隐藏队列",
@@ -48,6 +57,7 @@
       "createLevel": "创建关卡",
       "notify": "通知",
       "chartStats": "谱面统计",
+      "requestedTags": "Requested tags",
       "autoTags": "自动标签",
       "autorate": "自动评级",
       "cleanup": "清理",

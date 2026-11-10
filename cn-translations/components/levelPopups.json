@@ -25,6 +25,7 @@
         "previousDifficulty": "先前评级"
       },
       "placeholders": {
+        "ppDiffId": "PP Difficulty",
         "baseScore": "基础分",
         "ppBaseScore": "无瑕基础分",
         "previousBaseScore": "先前基础分",
@@ -161,6 +162,7 @@
       "addTag": "添加标签",
       "communityTags": "社区标签",
       "communityTagsHint": "这些标签由社区投票产生。保存时不会固定它们，除非你把它们加到上方。",
+      "automaticTagsHint": "Length, VFX, DLC, and other tags read from the level file are set by the parser and cannot be requested.",
       "errors": {
         "fetchTags": "标签获取失败",
         "saveTags": "标签保存失败"
