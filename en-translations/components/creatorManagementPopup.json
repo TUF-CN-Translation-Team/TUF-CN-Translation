@@ -157,7 +157,8 @@
       "update": "Profile",
       "moderation": "Moderation",
       "link": "Creator",
-      "merge": "Merge"
+      "merge": "Merge",
+      "notice": "Notice"
     },
     "update": {
       "name": {
@@ -232,6 +233,14 @@
       },
       "mergeButton": "Merge players"
     },
+    "notice": {
+      "notes": {
+        "label": "Notes",
+        "placeholder": "What you want to tell this user"
+      },
+      "noAccount": "This player has no account to notify.",
+      "sendButton": "Send notification"
+    },
     "errors": {
       "updateFailed": "Failed to update player",
       "banUpdate": "Failed to update ban status",
@@ -240,12 +249,15 @@
       "ratingBanUpdate": "Failed to update rating ban",
       "tagVoteBanUpdate": "Failed to update community tag vote ban",
       "mergeFailed": "Failed to merge player",
-      "mergeSelf": "Cannot merge a player into itself"
+      "mergeSelf": "Cannot merge a player into itself",
+      "noticeFailed": "Failed to send notification",
+      "noticeLength": "Notes must be 4000 characters or fewer"
     },
     "success": {
       "updated": "Player updated successfully",
       "moderation": "Moderation settings updated",
-      "merge": "Players merged successfully"
+      "merge": "Players merged successfully",
+      "notice": "Notification sent"
     }
   },
   "success": {

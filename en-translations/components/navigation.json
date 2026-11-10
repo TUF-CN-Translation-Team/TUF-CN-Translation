@@ -48,7 +48,8 @@
         "allPacks": "All Packs"
       },
       "tools": {
-        "scoreCalculator": "Score calculator"
+        "scoreCalculator": "Score calculator",
+        "adofaiModManager": "ADOFAI Mod Manager"
       },
       "more": {
         "passes": "Passes",

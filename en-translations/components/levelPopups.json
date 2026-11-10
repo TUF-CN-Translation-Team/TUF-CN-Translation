@@ -25,6 +25,7 @@
         "previousDifficulty": "Previous Difficulty"
       },
       "placeholders": {
+        "ppDiffId": "PP Difficulty",
         "baseScore": "Base Score",
         "ppBaseScore": "PP Base Score",
         "previousBaseScore": "Previous Base Score",

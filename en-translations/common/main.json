@@ -66,6 +66,8 @@
     "upload": "Upload",
     "return": "Return",
     "reset": "Reset",
+    "undo": "Undo",
+    "redo": "Redo",
     "create": "Create",
     "createNew": "Create New",
     "yes": "Yes",

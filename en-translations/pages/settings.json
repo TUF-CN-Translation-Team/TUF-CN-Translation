@@ -42,16 +42,25 @@
     "inApp": "Show in inbox",
     "muteCategory": "Mute this category",
     "pushTitle": "Browser notifications",
-    "pushHint": "Uses the same type and category switches as your inbox.",
     "pushDenied": "Notifications are blocked for this site. Allow them in your browser settings to receive alerts.",
     "pushUnsupported": "This browser does not support notifications.",
+    "pushDevicesTitle": "Attached devices",
+    "pushAttach": "Attach this device",
+    "pushDevicesEmpty": "No browsers attached yet.",
+    "pushDeviceUnknown": "Unknown device",
+    "pushDeviceOn": "{{browser}} on {{os}}",
+    "pushDeviceBrowserOnly": "{{browser}}",
+    "pushDeviceOsOnly": "{{os}}",
+    "pushDeviceThis": "This device",
+    "pushDeviceLastSeen": "Last seen {{date}}",
     "hideOwnActivityTitle": "Hide my own activity",
     "hideOwnActivityHint": "When on, actions you take will not appear in your inbox. Leave this off if you want a confirmation that a submission or edit went through.",
     "categories": {
       "submissions": "Submissions",
       "chart": "Charts",
       "clears": "Clears",
-      "following": "Following"
+      "following": "Following",
+      "notices": "Notices"
     }
   },
   "preferences": {
