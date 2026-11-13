@@ -56,7 +56,7 @@
         "late": "太慢"
       },
       "adofaiVersion": {
-        "latest": "Alpha版本",
+        "latest": "3.4.0",
         "pre340": "3.4.0前",
         "v2": "v2"
       }
@@ -68,7 +68,7 @@
     "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
     "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
     "adofaiV2Tooltip": "如果本次通关使用的是v2版本的ADOFAI，请勾选此项。",
-    "adofaiVersionTooltip": "本次通关使用的游戏版本。“Alpha版本”为3.4.0及更新版本",
+    "adofaiVersionTooltip": "Game version used for this clear. 3.4.0 is the current stable version for any v3 clear.",
     "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
     "duplicateGuessHint": "根据相同关卡更高分通关记录推断。修改该复选框以保留修正。",
     "midspinWarning": {

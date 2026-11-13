@@ -8,6 +8,8 @@
     "speed": "飙速（选填，≥1.0）",
     "keyCount": "键数（选填）",
     "feelDiff": "体感难度",
+    "details": "Details (optional)",
+    "detailsPlaceholder": "Any additional info about this clear",
     "expectedDiff": "预期难度（选填）",
     "isAdofaiV2": "ADOFAI v2",
     "adofaiVersion": "游玩版本",
@@ -57,10 +59,10 @@
   "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
   "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
   "adofaiV2Tooltip": "如果本次通关是在v3更新前的游戏上完成的，请勾选此项。",
-  "adofaiVersionTooltip": "本次通关使用的游戏版本。“Alpha版本”为3.4.0及更新版本。根据视频时间自动选择；你可以手动更改。",
+  "adofaiVersionTooltip": "Game version used for this clear. 3.4.0 is the current stable version for any v3 clear. Autofilled from the video date; you can override it.",
   "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
   "adofaiVersion": {
-    "latest": "Alpha版本",
+    "latest": "3.4.0",
     "pre340": "3.4.0前",
     "v2": "v2"
   },
@@ -118,7 +120,7 @@
     "submitAnyway": "仍然提交",
     "wrongVersion": {
       "title": "游戏版本错误",
-      "body": "你的判定结果总数似乎包括了额外中旋完美数。（<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>）自<b>3.4.0</b>版本后判定结果中不再计算中旋数，该值需要被减去。需要修改游戏版本至 <pre340></pre340> 以自动执行此操作吗？",
+      "body": "Your total judgements seem to also include midspins (<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>). Those do not count since version <b>3.4.0</b> and need to be subtracted.",
       "changeVersion": "修改至 3.4.0前"
     }
   },
@@ -147,6 +149,18 @@
     "hpBar": "此关卡有血条机制。请确认你使用了所需的血条设置。",
     "detailedJudgement": "此关卡需要详细判定结果。请确认判定显示与要求匹配。",
     "timingWindowScale": "此关卡使用了判定区间。请确认你使用了所需的判定区间。"
+  },
+  "feelingExplanation": {
+    "title": "Explain your feeling rating",
+    "body": "Optionally explain why this clear felt like the rating you entered.",
+    "placeholder": "Explain the rating. Mention levels as #123.",
+    "submitExplanation": "Submit explanation",
+    "skip": "Skip",
+    "skipConfirm": "Submit without explanation? Extra info on this level from you as a clearer would help rating it more accurately.",
+    "suggestTitle": "Add a reference chart",
+    "suggestBody": "Adding a chart of similar difficulty as a reference (for example #123) helps raters. You can still submit without one.",
+    "addReference": "Add a reference",
+    "submitAnyway": "Submit anyway"
   },
   "calculator": {
 	"title": "分数计算器",

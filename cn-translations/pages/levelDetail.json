@@ -27,7 +27,8 @@
     "editDisabled": "此关卡有超过两个采音师。如果你认为自己应该是所有者，请联系管理员。",
     "muteChartClears": "关闭此谱面的通关通知",
     "unmuteChartClears": "开启此谱面的通关通知",
-    "purePerfectScore": "完美无瑕分数：{{score}}"
+    "purePerfectScore": "完美无瑕分数：{{score}}",
+    "referenceLevel": "This is a reference level for {{diffName}}"
   },
   "links": {
     "download": "下载关卡",
@@ -130,6 +131,12 @@
   "messages": {
     "liked": "已收藏！",
     "unliked": "已取消收藏"
+  },
+  "curationHistory": {
+    "header": "Curation History",
+    "open": "Show curation history",
+    "close": "Close curation history",
+    "empty": "None"
   },
   "rerateHistory": {
     "header": "重评历史",
