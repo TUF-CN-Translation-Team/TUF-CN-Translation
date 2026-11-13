@@ -48,7 +48,8 @@
         "allPacks": "所有地图包"
       },
       "tools": {
-        "scoreCalculator": "分数计算器"
+        "scoreCalculator": "分数计算器",
+        "adofaiModManager": "ADOFAI Mod Manager"
       },
       "more": {
         "passes": "通关记录列表",

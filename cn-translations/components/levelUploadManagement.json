@@ -1,6 +1,7 @@
 {
   "title": "管理已上传关卡",
   "dropToUpload": "松开以上传",
+  "pasteHint": "粘贴已复制的压缩包以上传",
   "errors": {
     "invalidZip": "压缩文件无效。支持如下格式：.zip、.rar、.7z、.tar、.tar.gz、.tgz。",
     "invalidZipSize": "压缩文件过大（最大 {{maxSize}} MB）",

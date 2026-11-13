@@ -10,6 +10,8 @@
         "speed": "飙速",
         "keyCount": "按键数目（选填）",
         "feelDiff": "体感难度",
+        "details": "补充说明（选填）",
+        "detailsPlaceholder": "本次通关的其他补充信息",
         "expectedDiff": "预期难度（选填）",
         "nohold": "非默认长按设置",
         "isAdofaiV2": "ADOFAI v2",

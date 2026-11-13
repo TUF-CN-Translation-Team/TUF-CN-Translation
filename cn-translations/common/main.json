@@ -6,7 +6,24 @@
     "email": "必须是有效的电子邮箱地址",
     "password": {
       "match": "密码必须匹配",
-      "requirements": "密码必须包含至少8个字符"
+      "requirements": "密码必须包含至少8个字符",
+      "missingLength": "至少8个字符",
+      "missingLower": "一个小写字母",
+      "missingUpper": "一个大写字母",
+      "missingDigit": "一个数字",
+      "missingSymbol": "一个符号",
+      "common": "不能是常见密码",
+      "commonIdle": "在其他要求满足后检查",
+      "rating": {
+        "weak": "弱",
+        "fair": "中等",
+        "strong": "强",
+        "common": "太常见"
+      },
+      "error": {
+        "requirements": "密码还需满足以下要求: {{list}}",
+        "common": "密码过于常见"
+      }
     }
   },
   "errors": {
@@ -49,6 +66,8 @@
     "upload": "上传",
     "return": "返回",
     "reset": "重置",
+    "undo": "撤销",
+    "redo": "重做",
     "create": "创建",
     "createNew": "新建",
     "yes": "是",
@@ -107,5 +126,21 @@
   },
   "imageSelector": {
     "rotationHintTooltip": "<p><strong>鼠标滚轮</strong><br />按住 <kbd>Shift</kbd> 并在本对话框 <em>任意位置</em> 滚动即可旋转（不必在裁剪区上）。按住 <kbd>Shift</kbd> + <kbd>Ctrl</kbd> 时滚轮步进 <em>更细</em>。</p><p><strong>方向键</strong><br /><kbd>←</kbd> / <kbd>➔</kbd>：每次 1°；加 <kbd>Shift</kbd>：10°；加 <kbd>Shift</kbd> + <kbd>Ctrl</kbd>：1°。</p>"
+  },
+  "levelMention": {
+    "searchPlaceholder": "搜索关卡",
+    "empty": "没有匹配的关卡"
+  },
+  "youtubePicker": {
+    "linkChannel": "连接到YouTube频道以选择你的视频",
+    "yourVideos": "你的视频",
+    "hideVideos": "隐藏视频",
+    "searchPlaceholder": "搜索你的视频",
+    "empty": "没有匹配的视频",
+    "loadOlder": "加载更早的视频",
+    "unlisted": "不公开列出",
+    "unlistedNote": "不公开列出的视频将保持隐藏。",
+    "allowAccess": "允许访问频道",
+    "loadFailed": "无法加载你的YouTube视频"
   }
 } 

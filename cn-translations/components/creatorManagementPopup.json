@@ -35,7 +35,7 @@
       "hint": "选择显示在资料卡片上的精选类型（最多五个）。更改会立即保存。",
       "selectorLabel": "显示的徽章类型",
       "loading": "正在加载徽章数据……",
-      "noPermission": "你无权编辑该创作者资料卡片徽章徽章。"
+      "noPermission": "你无权编辑该创作者资料卡片徽章。"
     }
   },
   "user": {
@@ -157,7 +157,8 @@
       "update": "资料",
       "moderation": "管理",
       "link": "创作者",
-      "merge": "合并"
+      "merge": "合并",
+      "notice": "提醒"
     },
     "update": {
       "name": {
@@ -191,7 +192,8 @@
         "hours": "小时",
         "days": "天",
         "weeks": "周",
-        "months": "月"
+        "months": "月",
+        "forever": "永久"
       },
       "pauseConfirm": "确定暂停该玩家的提交申请？",
       "resumeConfirm": "确定恢复该玩家的提交申请？",
@@ -231,6 +233,14 @@
       },
       "mergeButton": "合并玩家"
     },
+    "notice": {
+      "notes": {
+        "label": "备注",
+        "placeholder": "你想对Ta说些什么"
+      },
+      "noAccount": "此玩家没有可提醒的账号。",
+      "sendButton": "发送提醒"
+    },
     "errors": {
       "updateFailed": "玩家更新失败",
       "banUpdate": "封禁状态更新失败",
@@ -238,13 +248,16 @@
       "pauseUpdate": "暂停提交状态更新失败",
       "ratingBanUpdate": "禁止评级状态更新失败",
       "tagVoteBanUpdate": "禁止社区标签投票状态更新失败",
-      "mergeFailed": "玩家失合并败",
-      "mergeSelf": "不能将玩家与自己合并"
+      "mergeFailed": "玩家合并失败",
+      "mergeSelf": "不能将玩家与自己合并",
+      "noticeFailed": "发送提醒失败",
+      "noticeLength": "备注不能超过 4000 个字符"
     },
     "success": {
       "updated": "玩家更新成功",
       "moderation": "管理设置更新成功",
-      "merge": "玩家合并成功"
+      "merge": "玩家合并成功",
+      "notice": "提醒已发送"
     }
   },
   "success": {

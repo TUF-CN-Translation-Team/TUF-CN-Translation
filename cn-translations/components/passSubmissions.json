@@ -4,7 +4,9 @@
     "level": "关卡",
     "player": "玩家",
     "feelingDiff": "体感难度",
+    "feelingExplanation": "体感说明",
     "expectedDiff": "预期难度",
+    "passDetails": "补充说明",
     "speed": "飙速",
     "judgements": {
       "label": "判定结果信息",

@@ -29,6 +29,7 @@
       "removeRating": "删除评级",
       "viewAdminRatings": "查看评级员评级",
       "viewCommunityRatings": "查看其他玩家评级",
+      "copyNotes": "复制备注",
       "discordThread": "创建 Discord 子区",
       "discordThreadClose": "关闭 Discord 子区",
       "discordThreadReopen": "重开 Discord 子区",
@@ -42,7 +43,8 @@
       "unsavedChanges": "你有未保存的更改，确定要退出吗？",
       "deleteFailed": "评级删除失败",
       "autorateFailed": "自动评级失败",
-      "discordThread": "无法更新 Discord 子区"
+      "discordThread": "无法更新 Discord 子区",
+      "notesCopyFailed": "复制备注失败"
     },
     "tooltips": {
       "lastUpdated": "上次更新时间",
@@ -76,7 +78,11 @@
       "ratingBanned": "你没有评级权限",
       "voteSettled": "评级已在投票讨论中确定。",
       "voteThread": "打开 Discord 子区",
-      "autorateSuccess": "自动评级成功"
+      "discordThreadStarted": "Discord 子区已创建",
+      "discordThreadClosed": "Discord 子区已关闭",
+      "discordThreadReopened": "Discord 子区已重新开启",
+      "autorateSuccess": "自动评级成功",
+      "notesCopied": "备注已复制"
     }
   },
   "ratingCard": {
@@ -106,7 +112,28 @@
       "viewDetails": "查看详情",
       "editLevel": "编辑关卡",
       "copied": "已复制！",
-      "copyLink": "复制链接"
+      "copyLink": "复制链接",
+      "settle": "评级为 {{difficulty}}",
+      "block": "禁用自动评级",
+      "unblock": "恢复自动评级"
+    },
+    "marks": {
+      "rankable": "可评级",
+      "ratingOff": "评级已关闭",
+      "judgementLimit": "判定限制",
+      "keyLimit": "键数限制",
+      "blockedBy": "禁用者"
+    },
+    "prompts": {
+      "blockReason": "请填写禁用自动评级的原因，留空可跳过。"
+    },
+    "messages": {
+      "settleSuccess": "评级已确定",
+      "settleFailed": "无法确定评级",
+      "blockSuccess": "已禁用自动评级",
+      "blockFailed": "禁用自动评级失败",
+      "unblockSuccess": "已恢复自动评级",
+      "unblockFailed": "恢复自动评级失败"
     }
   },
   "helpPopup": {
@@ -165,7 +192,9 @@
         "requestBands": "申请等级",
         "requestBandsDesc": "隐藏申请等级为P，G或U的评级",
         "fourVote": "4+ 评级",
-        "fourVoteDesc": "筛选拥有超过4个评级的关卡"
+        "fourVoteDesc": "筛选拥有超过4个评级的关卡",
+        "rankState": "评级状态",
+        "rankStateDesc": "显示所有卡片，或仅显示“可评级”或“评级已关闭”的卡片。"
       },
       "requirements": {
         "title": "需求",
