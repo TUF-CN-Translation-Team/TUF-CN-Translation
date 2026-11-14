@@ -19,13 +19,13 @@
   },
   "stats": {
     "levels": "关卡",
-    "items": "项目",
+    "items": "条目",
     "created": "创建日期",
     "curationPanelDialog": "此地图包中的精选类型"
   },
   "items": {
     "title": "地图包内容",
-    "dragHint": "拖拽项目以重新排序或合并它们",
+    "dragHint": "拖拽条目以重新排序或合并它们",
     "empty": "此包为空。",
     "dragToReorder": "拖拽来重新排序"
   },
@@ -46,15 +46,15 @@
     "editFolder": "编辑文件夹",
     "editNote": "编辑备注",
     "deleteNote": "删除备注",
-    "editItems": "Edit items"
+    "editItems": "编辑条目"
   },
   "editItems": {
-    "saveSuccess": "Pack items saved",
-    "saveError": "Failed to save pack items",
-    "undoHint": "Undo (Ctrl+Z)",
-    "redoHint": "Redo (Ctrl+Y)",
-    "nameConflict": "An item named \"{{name}}\" already exists in this location",
-    "quotaExceeded": "This pack has reached its item limit"
+    "saveSuccess": "地图包条目已保存",
+    "saveError": "地图包条目保存失败",
+    "undoHint": "撤销（Ctrl+Z）",
+    "redoHint": "重做（Ctrl+Y）",
+    "nameConflict": "此位置已存在名为“{{name}}”的条目",
+    "quotaExceeded": "此地图包的条目数量已达上限"
   },
   "download": {
     "estimatedLong": "（预计：缺少 {{count}} 个大小元数据）",
@@ -93,11 +93,11 @@
     "error": "备注更新失败"
   },
   "deleteItem": {
-    "success": "项目删除成功",
-    "error": "项目删除失败"
+    "success": "条目删除成功",
+    "error": "条目删除失败"
   },
   "deleteFolder": {
-    "confirm": "你确定删除文件夹 \"{{name}}\" 吗？这将同时删除文件夹中的项目。"
+    "confirm": "你确定删除文件夹 \"{{name}}\" 吗？这将同时删除文件夹中的条目。"
   },
   "deleteNote": {
     "confirm": "你确定删除备注 \"{{name}}\" 吗？"
@@ -107,8 +107,8 @@
   },
   "move": {
     "cannotMoveIntoSelf": "你不能把文件夹移动到它自己里",
-    "success": "项目移动成功",
-    "error": "项目移动失败"
+    "success": "条目移动成功",
+    "error": "条目移动失败"
   },
   "edit": {
     "success": "地图包更新成功",

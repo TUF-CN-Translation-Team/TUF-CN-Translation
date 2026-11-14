@@ -182,9 +182,9 @@
     },
     "admin": {
       "notice": {
-        "title": "Staff notice",
-        "inboxTitle": "Notice from {{actorName}}",
-        "fallbackActor": "Admin",
+        "title": "Staff 提醒",
+        "inboxTitle": "来自 {{actorName}} 的提醒",
+        "fallbackActor": "管理员",
         "body": "{{message}}"
       }
     },

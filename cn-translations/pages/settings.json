@@ -45,15 +45,15 @@
     "pushHint": "使用与收件箱相同的类型和分类开关。",
     "pushDenied": "此网站的通知已被阻止。请在浏览器设置中允许通知。",
     "pushUnsupported": "此浏览器不支持通知。",
-    "pushDevicesTitle": "Attached devices",
-    "pushAttach": "Attach this device",
-    "pushDevicesEmpty": "No browsers attached yet.",
-    "pushDeviceUnknown": "Unknown device",
-    "pushDeviceOn": "{{browser}} on {{os}}",
+    "pushDevicesTitle": "已启用通知的设备",
+    "pushAttach": "在此设备上启用通知",
+    "pushDevicesEmpty": "尚未在任何浏览器上启用通知。",
+    "pushDeviceUnknown": "未知设备",
+    "pushDeviceOn": "{{os}} 上的 {{browser}}",
     "pushDeviceBrowserOnly": "{{browser}}",
     "pushDeviceOsOnly": "{{os}}",
-    "pushDeviceThis": "This device",
-    "pushDeviceLastSeen": "Last seen {{date}}",
+    "pushDeviceThis": "当前设备",
+    "pushDeviceLastSeen": "上次活跃于 {{date}}",
     "hideOwnActivityTitle": "隐藏我的动态",
     "hideOwnActivityHint": "开启时你进行的操作将不会显示在通知中。如果你希望看到你的提交记录或编辑记录的确认信息，请保持关闭。",
     "categories": {
@@ -61,7 +61,7 @@
       "chart": "谱面",
       "clears": "通关",
       "following": "关注",
-      "notices": "Notices"
+      "notices": "提醒"
     }
   },
   "preferences": {
@@ -81,10 +81,10 @@
       }
     },
     "performance": {
-      "title": "Performance",
+      "title": "性能",
       "disableOptionalAnimations": {
-        "label": "Disable optional animations",
-        "description": "Turns off decorative looping animations. Short transitions and hover feedback stay. Also applied automatically when your system requests reduced motion."
+        "label": "关闭非必要动画",
+        "description": "关闭装饰性的循环动画，保留短暂的过渡动画和鼠标悬停反馈。系统启用减少动态效果设置时，也会自动应用此选项。"
       }
     },
     "display": {

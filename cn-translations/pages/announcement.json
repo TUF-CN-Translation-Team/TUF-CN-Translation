@@ -6,7 +6,7 @@
   "header": {
     "title": "公告"
   },
-  "listCount": "{{count}} total",
+  "listCount": "共 {{count}} 项",
   "tabs": {
     "newLevels": "新关卡",
     "rerates": "关卡重评",

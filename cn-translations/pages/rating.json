@@ -22,23 +22,23 @@
       "label": "低难度"
     },
     "requestBands": {
-      "label": "Hide AutoRater",
-      "hint": "Check to hide that AutoRater band from the list"
+      "label": "排除关卡（按 AutoRater 评级）",
+      "hint": "勾选以隐藏指定 AutoRater 评级范围的关卡"
     },
     "fourVote": {
       "label": "4+ 评级"
     },
     "rankState": {
-      "label": "State"
+      "label": "评级状态"
     },
     "rankReady": {
       "label": "可定级"
     }
   },
   "flows": {
-    "flow1": "Flow 1",
-    "flow2": "Flow 2",
-    "flow3": "Flow 3"
+    "flow1": "流程 1",
+    "flow2": "流程 2",
+    "flow3": "流程 3"
   },
   "sort": {
     "byId": "关卡 ID",
@@ -81,7 +81,7 @@
     },
     "empty": {
       "title": "没有可定级关卡",
-      "subtitle": "Nothing here needs a super admin to settle by hand."
+      "subtitle": "暂无需要超级管理员手动确定评级的关卡。"
     }
   },
   "infiniteScroll": {
@@ -111,8 +111,8 @@
       "deckSize": "本次评级关卡数量",
       "deckSizeCustom": "自定义",
       "peekHint": "每 5 个关卡有 1 次查看机会",
-      "requestBands": "Hide AutoRater",
-      "requestBandsHint": "Check to leave that AutoRater band out of the deck",
+      "requestBands": "排除关卡（按 AutoRater 评级）",
+      "requestBandsHint": "勾选以排除指定 AutoRater 评级范围的关卡",
       "sort": "优先级",
       "sortLeast": "最新评级优先",
       "sortMost": "最多评级优先",

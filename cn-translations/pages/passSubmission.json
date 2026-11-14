@@ -8,8 +8,8 @@
     "speed": "飙速（选填，≥1.0）",
     "keyCount": "键数（选填）",
     "feelDiff": "体感难度",
-    "details": "Details (optional)",
-    "detailsPlaceholder": "Any additional info about this clear",
+    "details": "补充说明（选填）",
+    "detailsPlaceholder": "本次通关的其他补充信息",
     "expectedDiff": "预期难度（选填）",
     "isAdofaiV2": "ADOFAI v2",
     "adofaiVersion": "游玩版本",
@@ -59,7 +59,7 @@
   "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
   "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
   "adofaiV2Tooltip": "如果本次通关是在v3更新前的游戏上完成的，请勾选此项。",
-  "adofaiVersionTooltip": "Game version used for this clear. 3.4.0 is the current stable version for any v3 clear. Autofilled from the video date; you can override it.",
+  "adofaiVersionTooltip": "本次通关使用的游戏版本。对于 v3 版本的通关记录，3.4.0 是当前的稳定版本。根据视频日期自动填写，你也可以手动更改。",
   "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
   "adofaiVersion": {
     "latest": "3.4.0",
@@ -120,7 +120,7 @@
     "submitAnyway": "仍然提交",
     "wrongVersion": {
       "title": "游戏版本错误",
-      "body": "Your total judgements seem to also include midspins (<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>). Those do not count since version <b>3.4.0</b> and need to be subtracted.",
+      "body": "你的判定结果总数似乎包含了中旋（<b>{{hitSum}}</b> = <b>{{tilecount}}</b> + <b>{{midspins}}</b>）。自 <b>3.4.0</b> 版本起，中旋不再计入判定结果总数，需要将其减去。",
       "changeVersion": "修改至 3.4.0前"
     }
   },
@@ -151,16 +151,16 @@
     "timingWindowScale": "此关卡使用了判定区间。请确认你使用了所需的判定区间。"
   },
   "feelingExplanation": {
-    "title": "Explain your feeling rating",
-    "body": "Optionally explain why this clear felt like the rating you entered.",
-    "placeholder": "Explain the rating. Mention levels as #123.",
-    "submitExplanation": "Submit explanation",
-    "skip": "Skip",
-    "skipConfirm": "Submit without explanation? Extra info on this level from you as a clearer would help rating it more accurately.",
-    "suggestTitle": "Add a reference chart",
-    "suggestBody": "Adding a chart of similar difficulty as a reference (for example #123) helps raters. You can still submit without one.",
-    "addReference": "Add a reference",
-    "submitAnyway": "Submit anyway"
+    "title": "说明你的体感评级",
+    "body": "你可以说明为什么本次通关的体感难度与你填写的评级相符。",
+    "placeholder": "说明评级理由，可按 #123 的格式引用关卡。",
+    "submitExplanation": "提交说明",
+    "skip": "跳过",
+    "skipConfirm": "确定不填写说明直接提交？作为通关者，你提供的补充信息有助于更准确地评定此关卡的难度。",
+    "suggestTitle": "添加参考谱面",
+    "suggestBody": "添加难度相近的谱面作为参考（例如 #123），有助于评级员判断。不添加也可以提交。",
+    "addReference": "添加参考",
+    "submitAnyway": "直接提交"
   },
   "calculator": {
 	"title": "分数计算器",

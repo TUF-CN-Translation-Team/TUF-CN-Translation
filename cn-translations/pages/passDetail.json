@@ -171,12 +171,12 @@
     }
   },
   "feelingExplanation": {
-    "label": "Feeling explanation"
+    "label": "体感说明"
   },
   "details": {
-    "label": "Details",
-    "showMore": "Read More",
-    "showLess": "Show Less"
+    "label": "补充说明",
+    "showMore": "展开",
+    "showLess": "收起"
   },
   "video": {
     "notAvailable": {
@@ -206,7 +206,7 @@
     }
   },
   "ownEdit": {
-    "title": "Edit your pass"
+    "title": "编辑你的通关记录"
   },
   "feelingRating": {
     "title": "编辑体感难度",

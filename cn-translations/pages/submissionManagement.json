@@ -17,13 +17,13 @@
     "noMatches": "无匹配结果"
   },
   "queue": {
-    "pending": "{{count}} pending",
-    "drift": "The queue changed while this list was open. Scrolling further still follows the list without skipping entries. Resync reloads from the top in the current order, which reloads the videos on screen.",
-    "resync": "Resync"
+    "pending": "{{count}} 项待处理",
+    "drift": "查看列表期间，队列发生了变化。继续向下滚动仍会沿用当前列表，不会跳过条目。重新同步会按最新顺序从顶部重新加载列表，当前显示的视频也会随之重新加载。",
+    "resync": "重新同步"
   },
   "hideDifficulty": {
-    "label": "Hide difficulty",
-    "hint": "Check a subtype to hide those passes. Click the label to select or clear all."
+    "label": "隐藏难度",
+    "hint": "勾选难度以隐藏对应的通关记录。点击标签可全选或取消全选。"
   },
   "jobs": {
     "title": "处理队列",
@@ -57,7 +57,7 @@
       "createLevel": "创建关卡",
       "notify": "通知",
       "chartStats": "谱面统计",
-      "requestedTags": "Requested tags",
+      "requestedTags": "申请的标签",
       "autoTags": "自动标签",
       "autorate": "自动评级",
       "cleanup": "清理",

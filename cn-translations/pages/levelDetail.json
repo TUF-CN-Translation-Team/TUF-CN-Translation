@@ -28,7 +28,7 @@
     "muteChartClears": "关闭此谱面的通关通知",
     "unmuteChartClears": "开启此谱面的通关通知",
     "purePerfectScore": "完美无瑕分数：{{score}}",
-    "referenceLevel": "This is a reference level for {{diffName}}"
+    "referenceLevel": "此关卡为 {{diffName}} 难度参考关卡"
   },
   "links": {
     "download": "下载关卡",
@@ -133,10 +133,10 @@
     "unliked": "已取消收藏"
   },
   "curationHistory": {
-    "header": "Curation History",
-    "open": "Show curation history",
-    "close": "Close curation history",
-    "empty": "None"
+    "header": "精选历史",
+    "open": "查看精选历史",
+    "close": "关闭精选历史",
+    "empty": "暂无记录"
   },
   "rerateHistory": {
     "header": "重评历史",
