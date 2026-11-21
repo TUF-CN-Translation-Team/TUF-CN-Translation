@@ -30,6 +30,7 @@
     "type": "Type"
   },
   "row": {
+    "edit": "Edit",
     "openLevel": "Level",
     "openPass": "Pass",
     "watchVideo": "Video",
@@ -39,7 +40,8 @@
     "accuracy": "Accuracy",
     "speed": "Speed",
     "speedValue": "{{value}}×",
-    "difficulty": "Difficulty",
+    "feelingRating": "Feeling",
+    "expectedRating": "Expected",
     "charter": "Charter",
     "requestedDiff": "Requested",
     "rated": "Rated"
@@ -53,5 +55,11 @@
   },
   "empty": "No submissions found.",
   "loading": "Loading submissions…",
-  "error": "Couldn't load your submissions. Try again."
+  "error": "Couldn't load your submissions. Try again.",
+  "edit": {
+    "loading": "Loading submission…",
+    "loadFailed": "Couldn't load this submission.",
+    "notPending": "This submission is no longer pending.",
+    "saveFailed": "Couldn't save this submission."
+  }
 }

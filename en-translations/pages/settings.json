@@ -60,7 +60,8 @@
       "chart": "Charts",
       "clears": "Clears",
       "following": "Following",
-      "notices": "Notices"
+      "notices": "Notices",
+      "references": "References"
     }
   },
   "preferences": {
@@ -70,7 +71,12 @@
       "title": "Language",
       "label": "Preferred language",
       "description": "Used across the site. Follow country uses the country on your player profile.",
-      "followCountry": "Follow country ({{language}})"
+      "followCountry": "Follow country ({{language}})",
+      "font": {
+        "label": "Site font",
+        "description": "Used across the site. Each option is shown in its own typeface.",
+        "system": "System"
+      }
     },
     "motion": {
       "title": "Motion",
@@ -501,7 +507,57 @@
     "loadErrorBody": "Try again later or open your public profile."
   },
   "security": {
-    "title": "Security"
+    "title": "Security",
+    "authenticator": {
+      "title": "Authenticator app",
+      "description": "Add a time-based code from an app such as Google Authenticator when you sign in with a password.",
+      "statusOn": "On",
+      "statusOff": "Off",
+      "setup": "Set up",
+      "manage": "Manage",
+      "popupTitle": "Authenticator app",
+      "intro": "Scan a QR code with Google Authenticator, 1Password, or another TOTP app. You will need a code from the app to finish setup, then save one-time recovery codes.",
+      "startSetup": "Continue",
+      "starting": "Starting…",
+      "scanQr": "Scan this QR code with your authenticator app, or enter the key manually.",
+      "qrAlt": "Authenticator QR code",
+      "qrWait": "Preparing QR code…",
+      "manualKey": "Manual key",
+      "copyKey": "Copy key",
+      "copied": "Key copied",
+      "codeLabel": "6-digit code",
+      "confirm": "Confirm",
+      "enabling": "Enabling…",
+      "recoveryBody": "Save these recovery codes in a safe place. Each code can be used once if you lose access to your authenticator.",
+      "copyCodes": "Copy codes",
+      "copiedCodes": "Recovery codes copied",
+      "downloadCodes": "Download as text",
+      "downloadedCodes": "Recovery codes downloaded",
+      "savedConfirm": "I have saved these recovery codes",
+      "done": "Done",
+      "saveBeforeClose": "Confirm that you saved the recovery codes before closing",
+      "manageBody": "Regenerate recovery codes, replace the authenticator, or turn this off. Each action needs a current authenticator or unused recovery code.",
+      "regenerate": "Regenerate recovery codes",
+      "replace": "Replace authenticator",
+      "disable": "Turn off authenticator",
+      "verifyTitleRegenerate": "Regenerate recovery codes",
+      "verifyTitleReplace": "Replace authenticator",
+      "verifyTitleDisable": "Turn off authenticator",
+      "verifyBody": "Enter a 6-digit authenticator code or an unused recovery code.",
+      "verifyLabel": "Authenticator or recovery code",
+      "verifySubmit": "Continue",
+      "verifying": "Verifying…",
+      "back": "Back",
+      "enabledToast": "Authenticator enabled",
+      "disabledToast": "Authenticator turned off",
+      "codesRegeneratedToast": "New recovery codes created",
+      "failed": "Authenticator request failed",
+      "setupFailed": "Could not start authenticator setup",
+      "confirmFailed": "Could not confirm the authenticator code",
+      "disableFailed": "Could not turn off the authenticator",
+      "regenerateFailed": "Could not regenerate recovery codes",
+      "codeRequired": "Enter an authenticator or recovery code"
+    }
   },
   "modules": {
     "label": "Profile modules",

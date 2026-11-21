@@ -1,0 +1,17 @@
+{
+  "noCurations": "No curations to announce",
+  "noRerates": "No curation rerates to announce",
+  "errors": {
+    "removeLevel": "Failed to remove {{song}}. Please try again."
+  },
+  "card": {
+    "title": "{{song}} - {{artist}}",
+    "change": "{{before}} → {{after}}",
+    "team": " • {{team}}"
+  },
+  "buttons": {
+    "edit": "Edit level",
+    "remove": "Remove without announcing",
+    "removeTooltip": "Remove without announcing"
+  }
+}

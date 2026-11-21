@@ -46,7 +46,11 @@
         "lPerfect": "LPerfect",
         "tooearly": "Too Early",
         "early": "Early",
-        "late": "Late"
+        "late": "Late",
+        "fillRemainder": "Fill remaining {{count}}",
+        "fillRemainingZero": "Set remaining judgements to 0",
+        "purePerfect": "Pure Perfect",
+        "purePerfectTooltip": "Set Perfect to {{count}} and every other judgement to 0"
       },
       "adofaiVersion": {
         "latest": "3.4.0",
@@ -66,7 +70,6 @@
     "duplicateGuessHint": "Guessed from a higher-scoring clear of the same chart. Changing this checkbox keeps the correction.",
     "midspinWarning": {
       "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you save.",
-      "alreadyApplied": "Midspin Perfects have already been removed from this pass.",
       "missing": "This level has no midspin count yet, so Perfect will not be adjusted.",
       "perfectLt": "Perfect is lower than the midspin count, so Perfect will not be adjusted."
     },

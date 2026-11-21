@@ -49,7 +49,9 @@
       },
       "tools": {
         "scoreCalculator": "Score calculator",
-        "adofaiModManager": "ADOFAI Mod Manager"
+        "adofaiModManager": "ADOFAI Mod Manager",
+        "tufReplay": "TUFReplay",
+        "tufReplayDownload": "Download TUFReplay"
       },
       "more": {
         "passes": "Passes",
@@ -89,7 +91,8 @@
         "songs": "Songs",
         "artists": "Artists",
         "keyboards": "Keyboards",
-        "resources": "Resources"
+        "resources": "Resources",
+        "badges": "Badges"
       }
     },
     "badges": {

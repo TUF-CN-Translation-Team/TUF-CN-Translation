@@ -251,7 +251,7 @@
       "mergeFailed": "Failed to merge player",
       "mergeSelf": "Cannot merge a player into itself",
       "noticeFailed": "Failed to send notification",
-      "noticeLength": "Notes must be 4000 characters or fewer"
+      "noticeLength": "Notes must be {{max}} characters or fewer"
     },
     "success": {
       "updated": "Player updated successfully",

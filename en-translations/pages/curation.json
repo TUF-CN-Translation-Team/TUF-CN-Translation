@@ -5,6 +5,7 @@
   },
   "title": "Curation Management",
   "description": "Assign quality tiers to levels and manage curation schedules",
+  "switchToQueue": "Curation rating",
   "filters": {
     "type": "Curation Type",
     "types": "Curation types",

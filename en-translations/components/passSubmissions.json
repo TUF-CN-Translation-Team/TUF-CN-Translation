@@ -55,7 +55,6 @@
   },
   "midspinWarning": {
     "willApply": "This chart has {{count}} midspin tiles. They will be subtracted from Perfect when you save.",
-    "alreadyApplied": "Midspin Perfects have already been removed from this pass.",
     "missing": "This level has no midspin count yet, so Perfect will not be adjusted.",
     "perfectLt": "Perfect is lower than the midspin count, so Perfect will not be adjusted."
   },

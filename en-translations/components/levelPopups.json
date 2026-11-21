@@ -31,6 +31,8 @@
         "previousBaseScore": "Previous Base Score",
         "rerateNumber": "Rerate Number",
         "rerateReason": "Rerate Reason",
+        "curationRerateNumber": "Curation number",
+        "curationRerateReason": "Curation reason",
         "selectSong": "Click to select song",
         "suffix": "Optional suffix (e.g., \"Nerfed\")"
       },
@@ -38,7 +40,8 @@
         "selected": "Selected"
       },
       "checkboxes": {
-        "toRate": "To Rate"
+        "toRate": "To Rate",
+        "toCuration": "To Curation"
       },
       "buttons": {
         "save": {
@@ -59,7 +62,10 @@
           "default": "Delete permanently",
           "deleting": "Deleting..."
         },
-        "manageTags": "Manage Tags"
+        "manageTags": "Manage Tags",
+        "manageCurations": "Manage curations",
+        "manageCurationsDisabled": "This level has no curation rating to manage",
+        "bulk": "Bulk"
       }
     },
     "confirmations": {
@@ -211,6 +217,7 @@
     "close": "Close",
     "closePopup": "Close popup",
     "oversizedNotice": "This level file is too large to support conversion. Only the original zip is available for download.",
+    "missingSong": "This level does not have a song!",
     "step1": {
       "prompt": "Choose download format:",
       "downloadOriginal": "Download Original",

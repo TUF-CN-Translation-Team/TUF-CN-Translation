@@ -71,7 +71,8 @@
     "create": "Create",
     "createNew": "Create New",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "clearSearch": "Clear search"
   },
   "like": {
     "like": "Like",
@@ -139,7 +140,7 @@
     "empty": "No matching videos",
     "loadOlder": "Load older videos",
     "unlisted": "Unlisted",
-    "unlistedNote": "Unlisted videos stay hidden.",
+    "unlistedNote": "Unable to view unlisted videos.",
     "allowAccess": "Allow channel access",
     "loadFailed": "Couldn't load your YouTube videos"
   }

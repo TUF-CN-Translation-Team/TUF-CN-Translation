@@ -162,6 +162,8 @@
     "tooltipEPerfect": "E/L perfect",
     "tooltipEarly": "Early/Late",
     "disablePP": "Disable PP",
+    "legendThisLevel": "this level",
+    "legendDefault": "default",
     "judgementsAria": "Judgement breakdown",
     "judgementMiss": "MISS",
     "judgementEarly": "EARLY",

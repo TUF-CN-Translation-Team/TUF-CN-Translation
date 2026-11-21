@@ -16,10 +16,18 @@
       "switchToExtended": "Switch to extended view",
       "switchToCompact": "Switch to compact view"
     },
+    "watch": {
+      "watchDifficulty": "Watch {{name}} references",
+      "unwatchDifficulty": "Stop watching {{name}} references",
+      "watchGroup": "Watch all {{group}} difficulties",
+      "unwatchGroup": "Stop watching all {{group}} difficulties",
+      "saveFailed": "Failed to update reference watches"
+    },
     "loading": "Loading references...",
     "errors": {
       "loadFailed": "Failed to load references",
       "saveFailed": "Failed to save changes",
+      "missingLevels": "Level ID(s) not found: {{ids}}",
       "invalidType": "Invalid reference type: {{type}}"
     },
     "messages": {

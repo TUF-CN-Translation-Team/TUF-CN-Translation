@@ -32,7 +32,9 @@
     "keyboards": "Keyboards",
     "keyboardsDesc": "Staff catalog of board shapes, products, and switches",
     "resources": "Resources",
-    "resourcesDesc": "Add, edit, and reorder useful Notion and documentation links"
+    "resourcesDesc": "Add, edit, and reorder useful Notion and documentation links",
+    "badges": "Badges",
+    "badgesDesc": "Define collectable player and creator badges"
   },
   "oauthClients": {
     "meta": {
@@ -130,4 +132,3 @@
     "reorderError": "Could not reorder form factors"
   }
 }
- 

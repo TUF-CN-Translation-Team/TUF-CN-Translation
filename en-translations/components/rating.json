@@ -36,7 +36,7 @@
       "discordThreadClosed": "Closed Discord thread"
     },
     "errors": {
-      "commentLength": "Comment must be less than 1000 characters",
+      "commentLength": "Comment must be at most {{max}} characters",
       "commentRequired": "Comment is required for -2 ratings",
       "saveFailed": "Failed to save changes",
       "updateFailed": "Failed to update rating",
@@ -73,6 +73,31 @@
         "save": "Save draft",
         "discard": "Discard"
       }
+    },
+    "curation": {
+      "chart": "Chart (C/O)",
+      "vfx": "VFX (V)",
+      "misc": "Misc",
+      "chartPlaceholder": "C2 or C0-1",
+      "chartHighPlaceholder": "Range top (optional)",
+      "vfxPlaceholder": "V2 or V0-1",
+      "vfxHighPlaceholder": "Range top (optional)",
+      "commentPlaceholder": "Comment (optional)",
+      "otherPicks": "Other picks",
+      "currentTypes": "Current types:",
+      "notRequested": "Not requested",
+      "columnChart": "Chart",
+      "columnVfx": "VFX",
+      "columnMisc": "Misc",
+      "average": "Average:",
+      "noAverage": "None",
+      "noCurrentTypes": "None",
+      "noPicks": "No picks yet",
+      "settle": "Settle",
+      "saved": "Picks saved",
+      "settled": "Curation types settled",
+      "settleRequired": "Settle needs at least one type",
+      "settleFailed": "Failed to settle curation types"
     },
     "messages": {
       "ratingBanned": "You are not allowed to rate",

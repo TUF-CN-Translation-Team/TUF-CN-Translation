@@ -374,6 +374,11 @@
     "bindField": "Keyboard layout",
     "clickLayout": "Click a key to toggle it. Hold Shift and drag to flip every key inside.",
     "clickSelect": "Click a key to toggle it. Hold Shift and drag to flip every key inside.",
+    "legend": {
+      "toggle": "Toggle key",
+      "multiple": "Select multiple",
+      "ghost": "Toggle ghost key"
+    },
     "selectAll": "Select all",
     "deselectAll": "Deselect all",
     "selectKeys": "Select keys to edit.",

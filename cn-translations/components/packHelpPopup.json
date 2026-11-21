@@ -42,7 +42,7 @@
           "spacesAllowed": "搜索词中允许使用空格 —— “name:my cool pack” 有效。",
           "orderDoesNotMatter": "每个组合中的条件顺序不重要。",
           "boolean": "形如 “pinned:true” 或 “pinned:false” 的布尔值适用于 true 或 false 字段。",
-          "groupingMentalModel": "可理解为 (A AND B) OR (C AND D)：逗号为 “与” ，| 用来分开两个 “或” 条件。"
+          "groupingMentalModel": "可理解为 (A AND B) OR (C AND D)：逗号为 “与” ，竖线用来分开两个 “或” 条件。"
         }
       }
     },
@@ -61,19 +61,19 @@
       },
       "operatorPipe": {
         "title": "或（OR）",
-        "desc": "使用 “|”to split your query into OR groups. 满足任一条件即可。"
+        "desc": "使用 “|” 使搜索条件按 “或” 规则搜索。满足任一条件即可。"
       },
       "operatorNot": {
-        "title": "NOT (exclude)",
-        "desc": "Prefix a term with \\! to exclude matches containing that term."
+        "title": "非（NOT）",
+        "desc": "在某个词前加上 \\! 以排除匹配该词的结果。"
       },
       "id": {
-        "title": "Pack id",
+        "title": "地图包ID",
         "desc": "Exact pack id or public code (example: id=123)."
       },
       "hashtag": {
         "title": "Public code shortcut",
-        "desc": "#ABC is the same as id:ABC."
+        "desc": "#ABC 和 id:ABC 相同。"
       },
       "name": {
         "title": "Name",

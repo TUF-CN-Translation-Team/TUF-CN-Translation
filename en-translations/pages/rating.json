@@ -3,13 +3,45 @@
     "title": "Rating Management",
     "description": "Manage ratings for levels"
   },
+  "curationRating": {
+    "meta": {
+      "title": "Curation Rating",
+      "description": "Assign curation types from the rating queue"
+    },
+    "title": "Curation Rating",
+    "description": "Pick Chart, VFX, and Misc types, then settle them onto the level",
+    "switchToLegacy": "Curation list",
+    "total": "{{count}} in queue",
+    "messages": {
+      "empty": {
+        "title": "Curation queue is empty",
+        "subtitle": "Toggle the checkbox on a level to add it here"
+      }
+    },
+    "zenLocked": "Finish or discard Curation Zen Mode before using the curation queue",
+    "flows": {
+      "recent": "Recent",
+      "rerate": "Rerates",
+      "bulk": "Bulk"
+    },
+    "zen": {
+      "meta": {
+        "title": "Curation Zen Mode",
+        "description": "Focused conveyor curation session"
+      },
+      "setupTitle": "Curation Zen Mode",
+      "pools": "Hide pools",
+      "poolsHint": "Check to leave that pool out of the deck"
+    }
+  },
   "buttons": {
     "references": "Reference Levels",
     "manageRaters": "Manage Raters",
     "help": "Rating Guide",
     "topRaters": "Top Raters",
     "zenMode": "Zen Mode",
-    "resumeZenMode": "Resume Zen Mode"
+    "resumeZenMode": "Resume Zen Mode",
+    "announcements": "Announcements"
   },
   "toggles": {
     "detailedView": {
@@ -41,7 +73,8 @@
     "byId": "Level ID",
     "byRatings": "Rating Count",
     "byRatingsFull": "Sort by Number of Ratings",
-    "byDate": "Last Updated"
+    "byDate": "Last Updated",
+    "byAdded": "Date added"
   },
   "search": {
     "placeholder": "Search by level name, creator, or difficulty"
@@ -90,7 +123,7 @@
       "description": "Focused conveyor rating session"
     },
     "confirmPeek": "Reveal other raters' ratings and comments? This uses 1 peek.",
-    "reportPrompt": "Report note (optional) — describe the media issue:",
+    "reportPrompt": "Describe the media issue:",
     "report": "Report media issue",
     "exit": "Pause session",
     "noVideo": "No video available",
@@ -115,6 +148,7 @@
       "sortMost": "Most rated first",
       "sortId": "By level id",
       "sortRecent": "Recently updated",
+      "sortAdded": "Date added",
       "randomness": "Mix",
       "randomnessValue": "{{n}}",
       "randomnessHint": "Low sticks to priority order; high picks more randomly",
@@ -160,8 +194,10 @@
       "dealFailed": "Failed to deal deck",
       "invalidDeckSize": "Enter a deck size from 1 to 200",
       "reportFailed": "Failed to send report",
+      "reportNoteRequired": "A note is required to send a report",
       "ratingRequired": "Enter a rating",
       "commentRequired": "Comment is required",
+      "picksRequired": "Pick at least one curation type",
       "submitFailed": "Submit failed",
       "alreadyRated": "This level is already rated in Zen Mode",
       "normalRatingLocked": "Finish or discard Zen Mode before using the rating queue"
