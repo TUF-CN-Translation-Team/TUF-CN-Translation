@@ -1,9 +1,5 @@
 {
   "title": "用户管理",
-  "modeToggle": {
-    "rater": "评级员",
-    "curator": "精选委员"
-  },
   "loading": "正在加载用户……",
   "search": {
     "placeholder": "按用户名或ID搜索……"
@@ -15,10 +11,13 @@
   },
   "addUser": {
     "placeholder": "输入用户名",
-    "button": "添加用户"
+    "button": "添加用户",
+    "rolePlaceholder": "身份组",
+    "change": "更改"
   },
   "userEntry": {
     "unknown": "未知",
+    "protected": "受保护",
     "buttons": {
       "remove": "删除"
     }
@@ -27,24 +26,20 @@
     "rater": "评级员",
     "superadmin": "管理员",
     "curator": "精选委员",
-    "headCurator": "精选委员长"
+    "headCurator": "精选委员长",
+    "submissionManager": "提交管理员"
   },
-  "buttons": {
-    "promote": "升职",
-    "demote": "降职",
-    "promoteTo": "升职至 {{role}}",
-    "demoteTo": "降职至 {{role}}"
-  },
-
   "errors": {
     "passwordRequired": "需要密码",
     "invalidPassword": "超管密码无效",
-    "deleteConfirm": "你确定删除此用户？",
     "updateRoleFailed": "更新身份组失败",
-    "deleteFailed": "删除用户失败",
     "loadFailed": "加载用户失败",
     "addFailed": "添加用户失败",
+    "selectUser": "请先选择一个用户",
+    "cannotRemoveOwnRole": "不能移除你自己的管理身份组",
     "userNotFound": "未找到用户",
+    "deleteConfirm": "你确定删除此用户？",
+    "deleteFailed": "删除用户失败",
     "alreadyHighestRole": "该用户已有最高身份组",
     "alreadyLowestRole": "该用户已有最低身份组",
     "noRoleToRemove": "该用户没有可删除的身份组",
@@ -53,6 +48,16 @@
     "scheduleWithCreatorConfirm": "安排账户注销，并在执行时清理其绑定的创作者资料？仅由其制作的关卡将永久删除，合作谱面将删除其参与信息。",
     "scheduleOwnConfirm": "你正在为自己的管理员账户安排注销，是否继续？",
     "scheduleDeletionFailed": "无法安排账户注销。"
+  },
+  "modeToggle": {
+    "rater": "评级员",
+    "curator": "精选委员"
+  },
+  "buttons": {
+    "promote": "升职",
+    "demote": "降职",
+    "promoteTo": "升职至 {{role}}",
+    "demoteTo": "降职至 {{role}}"
   },
   "adminDeletion": {
     "regionLabel": "账户注销（超管）",

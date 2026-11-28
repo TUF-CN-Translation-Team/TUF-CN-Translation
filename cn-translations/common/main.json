@@ -71,7 +71,8 @@
     "create": "创建",
     "createNew": "新建",
     "yes": "是",
-    "no": "否"
+    "no": "否",
+    "clearSearch": "清除搜索"
   },
   "like": {
     "like": "收藏",
@@ -143,4 +144,4 @@
     "allowAccess": "允许访问频道",
     "loadFailed": "无法加载你的YouTube视频"
   }
-} 
+}

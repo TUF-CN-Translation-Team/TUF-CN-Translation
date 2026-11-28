@@ -5,6 +5,7 @@
   },
   "title": "管理精选关卡",
   "description": "为关卡分配质量等级并管理每周精选",
+  "switchToQueue": "精选评级",
   "filters": {
     "type": "精选关卡类型",
     "types": "精选类型",

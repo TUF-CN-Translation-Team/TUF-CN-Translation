@@ -49,7 +49,9 @@
       },
       "tools": {
         "scoreCalculator": "分数计算器",
-        "adofaiModManager": "ADOFAI Mod Manager"
+        "adofaiModManager": "ADOFAI Mod Manager",
+        "tufReplay": "TUFReplay",
+        "tufReplayDownload": "下载 TUFReplay"
       },
       "more": {
         "passes": "通关记录列表",
@@ -89,7 +91,8 @@
         "songs": "歌曲",
         "artists": "艺术家",
         "keyboards": "键盘信息",
-        "resources": "资料"
+        "resources": "资料",
+        "badges": "徽章"
       }
     },
     "badges": {

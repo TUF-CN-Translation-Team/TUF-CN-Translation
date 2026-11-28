@@ -36,7 +36,7 @@
       "discordThreadClosed": "已关闭 Discord 子区"
     },
     "errors": {
-      "commentLength": "理由必须少于 1000 个字符",
+      "commentLength": "理由最多 {{max}} 个字符",
       "commentRequired": "对于 Censored 评级需要理由",
       "saveFailed": "更改保存失败",
       "updateFailed": "评级更新失败",
@@ -73,6 +73,31 @@
         "save": "保存草稿",
         "discard": "放弃"
       }
+    },
+    "curation": {
+      "chart": "谱面 (C/O)",
+      "vfx": "特效 (V)",
+      "misc": "杂项",
+      "chartPlaceholder": "C2 或 C0-1",
+      "chartHighPlaceholder": "范围上限（可选）",
+      "vfxPlaceholder": "V2 或 V0-1",
+      "vfxHighPlaceholder": "范围上限（可选）",
+      "commentPlaceholder": "备注（可选）",
+      "otherPicks": "其他选择",
+      "currentTypes": "当前类型：",
+      "notRequested": "未请求",
+      "columnChart": "谱面",
+      "columnVfx": "特效",
+      "columnMisc": "杂项",
+      "average": "平均值：",
+      "noAverage": "无",
+      "noCurrentTypes": "无",
+      "noPicks": "暂无选择",
+      "settle": "定级",
+      "saved": "选择已保存",
+      "settled": "精选类型已确定",
+      "settleRequired": "至少需要一个类型才能定级",
+      "settleFailed": "无法确定精选类型"
     },
     "messages": {
       "ratingBanned": "你没有评级权限",
@@ -189,12 +214,12 @@
         "title": "可用筛选条件",
         "myRated": "我评过的",
         "myRatedDesc": "显示，隐藏，或仅显示你评过的关卡",
-        "requestBands": "AutoRater PGU",
-        "requestBandsDesc": "Hide cards whose AutoRater average is Planetary (P), Galactic (G), or Universal (U)",
-        "fourVote": "4+ 评级",
-        "fourVoteDesc": "筛选拥有超过4个评级的关卡",
+        "requestBands": "自动评级 PGU",
+        "requestBandsDesc": "隐藏自动评级为 P 级、G 级或 U 级的关卡",
         "rankState": "评级状态",
-        "rankStateDesc": "显示所有卡片，或仅显示“可评级”或“评级已关闭”的卡片。"
+        "rankStateDesc": "显示所有卡片，或仅显示“可评级”或“评级已关闭”的卡片。",
+        "fourVote": "4+ 评级",
+        "fourVoteDesc": "筛选拥有超过4个评级的关卡"
       },
       "requirements": {
         "title": "需求",

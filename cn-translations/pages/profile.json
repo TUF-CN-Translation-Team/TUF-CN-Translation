@@ -375,6 +375,11 @@
     "bindField": "键盘布局",
     "clickLayout": "点击按键可切换其选中状态。按住 Shift 拖动，可反转框选范围内所有按键的选中状态。",
     "clickSelect": "点击按键可切换其选中状态。按住 Shift 拖动，可反转框选范围内所有按键的选中状态。",
+    "legend": {
+      "toggle": "切换按键",
+      "multiple": "多选",
+      "ghost": "切换鬼键"
+    },
     "selectAll": "全选",
     "deselectAll": "取消全选",
     "selectKeys": "请选择要编辑的按键。",
@@ -432,4 +437,4 @@
       "tooManyRequests": "请求过多。请稍后再试。（{{retryAfter}}）"
     }
   }
-} 
+}

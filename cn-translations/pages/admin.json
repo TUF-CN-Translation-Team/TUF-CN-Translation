@@ -32,7 +32,9 @@
     "keyboards": "键盘名录",
     "keyboardsDesc": "管理配列、键盘型号和轴体",
     "resources": "资料",
-    "resourcesDesc": "添加、编辑并调整实用 Notion 与文档链接的顺序"
+    "resourcesDesc": "添加、编辑并调整实用 Notion 与文档链接的顺序",
+    "badges": "徽章",
+    "badgesDesc": "定义可收集的玩家和创作者徽章"
   },
   "oauthClients": {
     "meta": {
@@ -130,4 +132,3 @@
     "reorderError": "无法重排规格顺序"
   }
 }
- 

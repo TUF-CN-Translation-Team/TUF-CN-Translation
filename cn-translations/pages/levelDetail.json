@@ -162,6 +162,8 @@
     "tooltipEPerfect": "稍快/慢",
     "tooltipEarly": "太快/慢",
     "disablePP": "隐藏完美无瑕",
+    "legendThisLevel": "本关卡",
+    "legendDefault": "默认",
     "judgementsAria": "判定分布",
     "judgementMiss": "提前",
     "judgementEarly": "太快",

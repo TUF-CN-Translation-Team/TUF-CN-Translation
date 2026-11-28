@@ -30,6 +30,7 @@
     "type": "类型"
   },
   "row": {
+    "edit": "编辑",
     "openLevel": "关卡页面",
     "openPass": "通关记录页面",
     "watchVideo": "视频链接",
@@ -39,10 +40,12 @@
     "accuracy": "精准度",
     "speed": "飙速",
     "speedValue": "{{value}}×",
-    "difficulty": "难度",
+    "feelingRating": "体感难度",
+    "expectedRating": "预期难度",
     "charter": "采音师",
     "requestedDiff": "请求难度",
-    "rated": "已评为"
+    "rated": "已评为",
+    "difficulty": "难度"
   },
   "pagination": {
     "prev": "上一页",
@@ -53,5 +56,11 @@
   },
   "empty": "没有提交历史记录。",
   "loading": "加载中……",
-  "error": "无法加载提交历史记录。请重试。"
+  "error": "无法加载提交历史记录。请重试。",
+  "edit": {
+    "loading": "正在加载提交……",
+    "loadFailed": "无法加载此提交。",
+    "notPending": "此提交已不再处于待审核状态。",
+    "saveFailed": "无法保存此提交。"
+  }
 }
