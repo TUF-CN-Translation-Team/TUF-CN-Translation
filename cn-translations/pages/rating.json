@@ -22,8 +22,8 @@
       "label": "低难度"
     },
     "requestBands": {
-      "label": "排除关卡（按 AutoRater 评级）",
-      "hint": "勾选以隐藏指定 AutoRater 评级范围的关卡"
+      "label": "排除关卡（按自动评级）",
+      "hint": "勾选以隐藏指定自动评级范围的关卡"
     },
     "fourVote": {
       "label": "4+ 评级"

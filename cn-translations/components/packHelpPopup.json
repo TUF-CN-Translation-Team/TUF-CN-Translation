@@ -49,11 +49,11 @@
     "fields": {
       "operatorColon": {
         "title": "部分匹配",
-        "desc": "使用 “:” 进行部分匹配搜索，如：name:cool。"
+        "desc": "使用 “:” 进行部分匹配搜索，例如：name:cool。"
       },
       "operatorEquals": {
         "title": "完全匹配",
-        "desc": "使用 “=” 进行完全匹配搜索，如：name=My Cool Pack。"
+        "desc": "使用 “=” 进行完全匹配搜索，例如：name=My Cool Pack。"
       },
       "operatorComma": {
         "title": "与（AND）",
@@ -69,22 +69,22 @@
       },
       "id": {
         "title": "地图包ID",
-        "desc": "Exact pack id or public code (example: id=123)."
+        "desc": "确切ID或公开代码，例如：id=123。"
       },
       "hashtag": {
-        "title": "Public code shortcut",
+        "title": "ID简写",
         "desc": "#ABC 和 id:ABC 相同。"
       },
       "name": {
-        "title": "Name",
-        "desc": "Matches the pack name (example: name:my pack)."
+        "title": "名称",
+        "desc": "匹配地图包名称，例如：name:my pack。"
       },
       "owner": {
-        "title": "Owner",
-        "desc": "Matches the pack owner username (example: owner:v0w4n)."
+        "title": "所有者",
+        "desc": "匹配地图包所有者用户名，例如：owner:v0w4n。"
       },
       "levelId": {
-        "title": "Contained level",
+        "title": "包含关卡",
         "desc": "Finds packs that contain this level id (example: levelId=456)."
       },
       "viewMode": {
@@ -93,7 +93,7 @@
       },
       "pinned": {
         "title": "置顶信息",
-        "desc": "有效值为 true（是） 和 false（否）。（例如：pinned:true）"
+        "desc": "有效值为 true（是） 和 false（否），例如：pinned:true。"
       }
     },
     "sections": {

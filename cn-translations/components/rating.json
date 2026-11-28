@@ -114,7 +114,7 @@
       "copied": "已复制！",
       "copyLink": "复制链接",
       "settle": "评级为 {{difficulty}}",
-      "block": "禁用自动评级",
+      "block": "停用自动评级",
       "unblock": "恢复自动评级"
     },
     "marks": {
@@ -122,7 +122,7 @@
       "ratingOff": "评级已关闭",
       "judgementLimit": "判定限制",
       "keyLimit": "键数限制",
-      "blockedBy": "禁用者"
+      "blockedBy": "操作者"
     },
     "prompts": {
       "blockReason": "请填写禁用自动评级的原因，留空可跳过。"
