@@ -10,6 +10,8 @@
   "tabs": {
     "newLevels": "新关卡",
     "rerates": "关卡重评",
+    "curations": "精选关卡",
+    "curationRerates": "精选重评",
     "passes": "通关记录"
   },
   "buttons": {

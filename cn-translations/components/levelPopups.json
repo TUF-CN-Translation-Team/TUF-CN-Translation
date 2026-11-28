@@ -31,6 +31,8 @@
         "previousBaseScore": "先前基础分",
         "rerateNumber": "重评评级",
         "rerateReason": "重评原因",
+        "curationRerateNumber": "精选评级",
+        "curationRerateReason": "精选重评原因",
         "selectSong": "点击选择歌曲",
         "suffix": "可选后缀（例如，\"Nerfed\"）"
       },
@@ -38,7 +40,8 @@
         "selected": "已选择"
       },
       "checkboxes": {
-        "toRate": "标记为待评级"
+        "toRate": "标记为待评级",
+        "toCuration": "标记为待精选"
       },
       "buttons": {
         "save": {
@@ -59,7 +62,10 @@
           "default": "永久删除",
           "deleting": "删除中……"
         },
-        "manageTags": "管理标签"
+        "manageTags": "管理标签",
+        "manageCurations": "管理精选",
+        "manageCurationsDisabled": "此关卡没有可管理的精选评级",
+        "bulk": "批量"
       }
     },
     "confirmations": {
@@ -141,11 +147,11 @@
       },
       "perfectsDifference": {
         "title": "更新通关记录完美数？",
-        "message": "中旋数已由 {{from}} 改为 {{to}}。每个通关记录的完美数将变动{{delta}}。",
+        "message": "中旋数已由 {{from}} 改为 {{to}}。判定总数恰好等于有效物量数（{{tilecount}}）的旧通关记录，其完美数将变动 {{delta}}。",
         "unset": "未设置",
         "question": "将此变动应用到该关卡的所有通关记录？",
         "toastSavedWithPasses": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。",
-        "toastSavedWithPassesSkipped": "谱面数据已保存。{{count}} 个通关记录的完美数已更新。{{skipped}} 个通关记录由于完美数将低于 0 而已跳过。",
+        "toastSavedWithPassesSkipped": "谱面数据已保存。{{updated}} 个通关记录的完美数已更新。{{skipped}} 个通关记录未做更改。",
         "toastSavedNoneUpdated": "谱面数据已保存。未更新任何通关记录。（未更改 {{skipped}} 个）"
       }
     },
@@ -211,6 +217,7 @@
     "close": "关闭",
     "closePopup": "关闭窗口",
     "oversizedNotice": "此关卡文件过大，无法进行转换。仅提供原始压缩文件下载。",
+    "missingSong": "此关卡没有音乐！",
     "step1": {
       "prompt": "选择下载方式：",
       "downloadOriginal": "下载原始文件",

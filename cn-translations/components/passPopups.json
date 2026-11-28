@@ -44,16 +44,20 @@
         "perfect": "完美",
         "perfectPlus": "完美+",
         "lPerfect": "稍慢",
+        "tooearly": "提前",
+        "early": "太快",
+        "late": "太慢",
+        "fillRemainder": "填充剩余 {{count}}",
+        "fillRemainingZero": "将剩余判定设为 0",
+        "purePerfect": "完美无瑕",
+        "purePerfectTooltip": "将“完美”设为 {{count}}，其余判定设为 0",
         "short": {
           "ePerfect": "EP",
           "perfectMinus": "P−",
           "perfect": "P",
           "perfectPlus": "P+",
           "lPerfect": "LP"
-        },
-        "tooearly": "提前",
-        "early": "太快",
-        "late": "太慢"
+        }
       },
       "adofaiVersion": {
         "latest": "3.4.0",
@@ -68,14 +72,14 @@
     "feelingTooltip": "你的体感难度，例如 G1-G5、17~18+、U1 等。",
     "expectedTooltip": "你认为本关卡应评级的难度（选填），格式与体感难度相同。",
     "adofaiV2Tooltip": "如果本次通关使用的是v2版本的ADOFAI，请勾选此项。",
-    "adofaiVersionTooltip": "Game version used for this clear. 3.4.0 is the current stable version for any v3 clear.",
+    "adofaiVersionTooltip": "本次通关使用的游戏版本。对于 v3 版本的通关记录，3.4.0 是当前的稳定版本。",
     "xPerfectTooltip": "开启了X完美时的“-完美！”和“完美！+”判定数量。（仅限3.4.0及更新版本）",
     "duplicateGuessHint": "根据相同关卡更高分通关记录推断。修改该复选框以保留修正。",
     "midspinWarning": {
       "willApply": "此关卡有{{count}}个中旋砖块。保存时将从完美数量中减去。",
-      "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。",
       "missing": "此关卡没有中旋砖块，因此完美数不会被调整。",
-      "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。"
+      "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。",
+      "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。"
     },
     "keyboard": {
       "label": "键位布局",

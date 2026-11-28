@@ -41,16 +41,20 @@
     "perfect": "完美",
     "perfectPlus": "完美+",
     "lPerfect": "稍慢",
+    "tooearly": "提前",
+    "early": "太快",
+    "late": "太慢",
+    "fillRemainder": "填充剩余 {{count}}",
+    "fillRemainingZero": "将剩余判定设为 0",
+    "purePerfect": "完美无瑕",
+    "purePerfectTooltip": "将“完美”设为 {{count}}，其余判定设为 0",
     "short": {
       "ePerfect": "EP",
       "perfectMinus": "P−",
       "perfect": "P",
       "perfectPlus": "P+",
       "lPerfect": "LP"
-    },
-    "tooearly": "提前",
-    "early": "太快",
-    "late": "太慢"
+    }
   },
   "acc": "精准度：",
   "scoreCalc": "分数：",
@@ -68,9 +72,9 @@
   },
   "midspinWarning": {
     "willApply": "此关卡有{{count}}个中旋砖块。保存时将从完美数量中减去。",
-    "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。",
     "missing": "此关卡没有中旋砖块，因此完美数不会被调整。",
-    "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。"
+    "perfectLt": "完美数比中旋格数少，因此完美数不会被调整。",
+    "alreadyApplied": "由中旋造成的额外完美判定数已从该通关记录中减去。"
   },
   "alert": {
     "success": "通关记录提交成功！",
@@ -113,9 +117,9 @@
   "tilecountMismatch": {
     "title": "判定总数与物量数量不一致",
     "body": "该谱面物量总数为<b>{{tilecount}}</b>，而你的判定总数为 <b>{{hitSum}}</b>。输入的判定数据可能有误。",
-    "bodyWithAuto": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
-    "bodyWithMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中{{midspinCount}}个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
-    "bodyWithAutoAndMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块，{{midspinCount}}个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
+    "bodyWithAuto": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
+    "bodyWithMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{midspinCount}}</b>个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
+    "bodyWithAutoAndMidspin": "该谱面物量总数为<b>{{rawTilecount}}</b>（其中<b>{{autoTileCount}}</b>个为自动砖块，<b>{{midspinCount}}</b>个为中旋方块），因此应有<b>{{tilecount}}</b>个判定结果。你的判定总数为<b>{{hitSum}}</b>，输入的判定数据可能有误。",
     "reviewInputs": "取消",
     "submitAnyway": "仍然提交",
     "wrongVersion": {
@@ -163,13 +167,13 @@
     "submitAnyway": "直接提交"
   },
   "calculator": {
-	"title": "分数计算器",
+    "title": "分数计算器",
     "thumbnailInfo": "计算器模式——无需视频",
     "meta": {
       "title": "分数计算器",
-      "description": "Simulate ScoreV2 for passes with optional scoring overrides"
+      "description": "使用可选的分数覆写模拟通关的 ScoreV2 分数"
     },
-	"modeSubmit": "提交",
+    "modeSubmit": "提交",
     "modeCalculator": "计算器",
     "openCalculator": "打开分数计算器",
     "backToSubmit": "回到提交页面",
@@ -177,8 +181,8 @@
     "calculating": "计算中……",
     "copyLink": "复制链接",
     "linkCopied": "计算器链接已复制",
-	"hubLink": "分数计算器",
-  "overrides": {
+    "hubLink": "分数计算器",
+    "overrides": {
       "title": "分数覆写",
       "baseScore": "基础分",
       "ppBaseScore": "完美无瑕基础分",
@@ -192,19 +196,19 @@
       "reset": "重置",
       "hint": "覆写仅应用于该计算器。通关位置需要未修改的分数曲线。"
     },
-	"loadPass": {
-		  "title": "加载通关记录",
-		  "placeholder": "搜索通关记录或输入ID",
-		  "import": "导入",
-		  "loaded": "通关记录已加载到表单中",
-		  "failed": "加载通关记录失败",
-		  "fetching": "获取中……",
-		  "notFound": "未找到通关记录",
-		  "previewEmpty": "通关记录预览会显示在此处",
-		  "unknownLevel": "未知关卡",
-		  "unknownPlayer": "未知玩家"
-	  },
-	  "targetScore": "目标分数（反向）",
+    "loadPass": {
+      "title": "加载通关记录",
+      "placeholder": "搜索通关记录或输入ID",
+      "import": "导入",
+      "loaded": "通关记录已加载到表单中",
+      "failed": "加载通关记录失败",
+      "fetching": "获取中……",
+      "notFound": "未找到通关记录",
+      "previewEmpty": "通关记录预览会显示在此处",
+      "unknownLevel": "未知关卡",
+      "unknownPlayer": "未知玩家"
+    },
+    "targetScore": "目标分数（反向）",
     "compareInputs": {
       "title": "比较结果",
       "hint": "在下面填写判定信息，然后计算。",
@@ -217,8 +221,8 @@
     "panels": {
       "primary": "原始分数",
       "missBudget": "允许失误次数",
+      "inverse": "反向（目标分数）",
       "speedGrid": "飙速 × 精准度",
-	    "inverse": "反向（目标分数）",
       "compare": "比较",
       "reclear": "重击破检查",
       "placement": "通关位置",
@@ -235,45 +239,45 @@
       "misses": "空敲数",
       "speed": "飙速"
     },
-	  "speedGrid": {
+    "speedGrid": {
       "hint": "各飙速速度下无空得分。只有真正的100%精准度使用绿色的无瑕刻度，其他所有准度均使用蓝色刻度。以最佳非无瑕分数为准。",
-		  "legendNonPp": "非完美无瑕",
-		  "legendPp": "完美无瑕"
-	  },
-	  "inverse": {
-		  "hint": "在侧边栏设置一个目标分数，然后点击计算。",
-		  "unreachable": "目标分数可能高于此设置下的最大分数。"
-	  },
-	  "compare": {
-		  "hint": "在侧边栏中输入第二组判定，然后点击计算。",
-		  "primary": "当前分数",
-		  "secondary": "比较分数",
-		  "delta": "差值"
-	  },
-	  "reclear": {
-		  "needPlayer": "选择一名玩家并点击计算，以对比其在该关卡的最佳成绩。",
-		  "noPrior": "该玩家在此关卡无先前通关记录。",
-		  "best": "当前最佳",
-		  "status": "状态",
-		  "beats": "超过最佳成绩",
-		  "equal": "与最佳成绩相等",
-		  "worse": "没有超过最佳成绩"
-	  },
-	  "placement": {
-		  "needLevel": "选择一个真实关卡（无评分覆盖）并计算。",
-		  "customScoring": "使用自定义评分覆盖时无法显示排名。",
-		  "rankOf": "#{{rank}} / {{total}}",
-		  "tied": "{{count}} 名玩家在此分数并列"
-	  },
-	  "ranked": {
-		  "needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/无瑕分影响。",
-		  "before": "先前排位分",
-		  "after": "新排位分",
-		  "delta": "分数变化",
-		  "generalDelta": "全局分变化",
-		  "ppDelta": "完美无瑕分变化",
-		  "slot": "前20名中的位置",
+      "legendNonPp": "非完美无瑕",
+      "legendPp": "完美无瑕"
+    },
+    "inverse": {
+      "hint": "在侧边栏设置一个目标分数，然后点击计算。",
+      "unreachable": "目标分数可能高于此设置下的最大分数。"
+    },
+    "compare": {
+      "hint": "在侧边栏中输入第二组判定，然后点击计算。",
+      "primary": "当前分数",
+      "secondary": "比较分数",
+      "delta": "差值"
+    },
+    "reclear": {
+      "needPlayer": "选择一名玩家并点击计算，以对比其在该关卡的最佳成绩。",
+      "noPrior": "该玩家在此关卡无先前通关记录。",
+      "best": "当前最佳",
+      "status": "状态",
+      "beats": "超过最佳成绩",
+      "equal": "与最佳成绩相等",
+      "worse": "没有超过最佳成绩"
+    },
+    "placement": {
+      "needLevel": "选择一个真实关卡（无评分覆盖）并计算。",
+      "customScoring": "使用自定义评分覆盖时无法显示排名。",
+      "rankOf": "#{{rank}} / {{total}}",
+      "tied": "{{count}} 名玩家在此分数并列"
+    },
+    "ranked": {
+      "needPlayer": "选择一名玩家并点击计算，以查看排位分/全局分/无瑕分影响。",
+      "before": "先前排位分",
+      "after": "新排位分",
+      "delta": "分数变化",
+      "generalDelta": "全局分变化",
+      "ppDelta": "完美无瑕分变化",
+      "slot": "前20名中的位置",
       "missingCdn": "此关卡文件不在CDN上，因此预计通关不会计入排位分中。"
-	  }
+    }
   }
 }

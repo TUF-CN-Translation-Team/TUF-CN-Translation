@@ -1,8 +1,8 @@
 {
-  "noCurations": "No curations to announce",
-  "noRerates": "No curation rerates to announce",
+  "noCurations": "暂无需要公告的精选关卡",
+  "noRerates": "暂无需要公告的精选重评",
   "errors": {
-    "removeLevel": "Failed to remove {{song}}. Please try again."
+    "removeLevel": "移除 {{song}} 失败，请重试。"
   },
   "card": {
     "title": "{{song}} - {{artist}}",
@@ -10,8 +10,8 @@
     "team": " • {{team}}"
   },
   "buttons": {
-    "edit": "Edit level",
-    "remove": "Remove without announcing",
-    "removeTooltip": "Remove without announcing"
+    "edit": "编辑关卡",
+    "remove": "不发公告并移除",
+    "removeTooltip": "不发公告并移除"
   }
 }

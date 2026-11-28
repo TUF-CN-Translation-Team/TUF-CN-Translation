@@ -16,10 +16,18 @@
       "switchToExtended": "切换到扩展视图",
       "switchToCompact": "切换到紧凑视图"
     },
+    "watch": {
+      "watchDifficulty": "关注 {{name}} 参考关卡",
+      "unwatchDifficulty": "取消关注 {{name}} 参考关卡",
+      "watchGroup": "关注所有 {{group}} 难度",
+      "unwatchGroup": "取消关注所有 {{group}} 难度",
+      "saveFailed": "更新参考关卡关注失败"
+    },
     "loading": "正在加载参考列表……",
     "errors": {
       "loadFailed": "加载参考列表失败",
       "saveFailed": "保存更改失败",
+      "missingLevels": "未找到关卡 ID：{{ids}}",
       "invalidType": "参考列表类型无效：{{type}}"
     },
     "messages": {
@@ -43,7 +51,7 @@
         "K+": "Keycount+ - 包含极高按键数（16K+）游戏或复杂按键数模式的关卡。"
       }
     },
-      "editMode": {
+    "editMode": {
       "placeholder": "输入关卡 ID，使用逗号分隔",
       "help": {
         "title": "参考列表系统",
@@ -55,8 +63,8 @@
           "T": "Tech - 需要独特或非传统击打模式方法的关卡，通常是由于复杂的复节奏、长时间加速/减速或非直观的节奏。该类型通常被称为“不规则” “复杂节奏”等。",
           "K": "Keycount - 包含大量高按键数（12K 和 16K）游戏的关卡。通常与其他标签结合使用。",
           "K+": "Keycount+ - 包含极高按键数（16K+）游戏或复杂按键数模式的关卡。"
-      },
-      "format": {
+        },
+        "format": {
           "title": "格式",
           "single": "单一类型：R：123, 456",
           "multiple": "多种类型：RI：789, 101",
@@ -95,4 +103,4 @@
     "total": "总计",
     "plural": "{{count}} 个关卡"
   }
-} 
+}

@@ -58,6 +58,12 @@
       "restored": {
         "title": "通关记录已恢复",
         "body": "你的通关记录 {{artist}} - {{song}} 已恢复。"
+      },
+      "level": {
+        "rerated": {
+          "title": "已通关关卡重评",
+          "body": "你通关的关卡 {{artist}} - {{song}} 已从 {{previousDifficultyName}} 重评为 {{difficultyName}}。"
+        }
       }
     },
     "chart": {
@@ -100,6 +106,10 @@
       "rated": {
         "title": "关卡已评级",
         "body": "你的关卡 {{artist}} - {{song}} 已被评级为{{difficultyName}}。"
+      },
+      "rerated": {
+        "title": "关卡已重评",
+        "body": "{{artist}} - {{song}} 已从 {{previousDifficultyName}} 重评为 {{difficultyName}}。"
       },
       "curated": {
         "title": "关卡被精选",
@@ -171,7 +181,7 @@
           "body": "你发送的 {{artist}} - {{song}} 的重评请求将被在 Discord 投票中确定。"
         },
         "note": {
-          "title": "Request note",
+          "title": "请求备注",
           "body": "一条备注已被添加至你发送的 {{artist}} - {{song}} 的{{requestTypeLabel}}请求：\"{{publicNote}}\"。"
         },
         "noteWithActor": {
@@ -199,6 +209,40 @@
         "level": {
           "title": "新关卡",
           "body": "{{creatorName}} 上传了关卡 {{artist}} - {{song}}。"
+        }
+      }
+    },
+    "reference": {
+      "changed": {
+        "title": "参考关卡已更改",
+        "body": "{{artist}} - {{song}} 已更改。它是 {{difficultyNames}} 的参考关卡。",
+        "added": {
+          "title": "已添加为参考关卡",
+          "body": "{{artist}} - {{song}} 已被添加为 {{difficultyNames}} 的参考关卡。"
+        },
+        "removed": {
+          "title": "已从参考关卡中移除",
+          "body": "{{artist}} - {{song}} 已从 {{difficultyNames}} 的参考关卡中移除。"
+        },
+        "type": {
+          "title": "参考关卡类型已更改",
+          "body": "{{artist}} - {{song}} 现已设为 {{difficultyNames}} 的 {{type}} 参考关卡。"
+        },
+        "file": {
+          "title": "参考关卡文件已更改",
+          "body": "{{artist}} - {{song}} 已更改。它是 {{difficultyNames}} 的参考关卡。"
+        },
+        "rerated": {
+          "title": "参考关卡已重评",
+          "body": "{{artist}} - {{song}} 已被重评。它是 {{difficultyNames}} 的参考关卡。"
+        },
+        "hidden": {
+          "title": "参考关卡可见性已更改",
+          "body": "{{artist}} - {{song}} 的可见性已更改。它是 {{difficultyNames}} 的参考关卡。"
+        },
+        "deleted": {
+          "title": "参考关卡已删除",
+          "body": "{{artist}} - {{song}} 已被删除。它是 {{difficultyNames}} 的参考关卡。"
         }
       }
     }

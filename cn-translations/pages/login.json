@@ -39,7 +39,23 @@
     "rememberDevice": "记住此设备120天",
     "back": "返回登录",
     "usePasskey": "使用通行密钥",
-    "passkeyFailed": "通行密钥验证失败。请重试。"
+    "passkeyFailed": "通行密钥验证失败。请重试。",
+    "chooseTitle": "验证你的登录",
+    "choosePrompt": "选择你要如何验证此次登录。",
+    "useAuthenticator": "身份验证器应用",
+    "useEmail": "邮箱验证码",
+    "useRecovery": "恢复代码",
+    "chooseBack": "选择其他方式",
+    "totpTitle": "身份验证器应用",
+    "totpPrompt": "请输入你的身份验证器应用中的 6 位验证码。",
+    "totpLabel": "身份验证器验证码",
+    "totpRequired": "请输入 6 位身份验证器验证码",
+    "totpInvalid": "身份验证器验证码无效",
+    "recoveryTitle": "恢复代码",
+    "recoveryPrompt": "请输入设置身份验证器时保存的未使用的恢复代码。",
+    "recoveryLabel": "恢复代码",
+    "recoveryRequired": "请输入恢复代码",
+    "recoveryInvalid": "恢复代码无效或已被使用"
   },
   "passkey": {
     "button": "用通行密钥登录",
@@ -48,15 +64,15 @@
   "errors": {
     "generic": "未知错误。请稍后再试。",
     "network": "网络连接错误。请稍后再试。",
+    "discordFailed": "无法启动 Discord 登录。请重试。如果问题仍然存在，请联系管理员。",
+    "googleFailed": "无法启动 Google 登录。请重试。如果问题仍然存在，请联系管理员。",
     "invalidCredentials": "邮箱、用户名或密码无效。",
     "emailNotVerified": "登录前请验证邮箱。",
     "rateLimit": "请求过多。请稍后重试",
-    "discordFailed": "无法启动 Discord 登录。请重试。如果问题仍然存在，请联系管理员。",
-    "googleFailed": "无法启动 Google 登录。请重试。如果问题仍然存在，请联系管理员。",
     "captcha": {
       "notLoaded": "reCAPTCHA 未加载",
       "incomplete": "请完成 reCAPTCHA 验证",
       "failed": "reCAPTCHA 验证失败。请重试。"
     }
   }
-} 
+}
